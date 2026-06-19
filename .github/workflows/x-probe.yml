@@ -1,0 +1,44 @@
+name: X-feed probe (Step 1 measurement)
+
+# Manual-only. Measures, per company handle, the syndication HTTP status + post count
+# and the nitter result FROM THE GITHUB-RUNNER IP, so we can compare against local
+# residential runs and decide whether the runner IP is the throttle source (plan Step 1,
+# the gate on Decision #1). Appends to x-probe-log.csv and commits it so the rows can be
+# read back via the raw URL without pulling into the working copy.
+on:
+  workflow_dispatch:
+
+# Own group so this never collides with the live-market-feed cron's commits.
+concurrency:
+  group: x-probe
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run X-feed probe
+        run: |
+          node x-probe.js | tee probe-stdout.txt
+          echo '### X-feed probe (runner IP)' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          grep 'X-PROBE-RESULT' probe-stdout.txt >> "$GITHUB_STEP_SUMMARY" || true
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit the probe log
+        run: |
+          git config user.name "x-probe-bot"
+          git config user.email "x-probe-bot@users.noreply.github.com"
+          git add "x-probe-log.csv"
+          if git diff --cached --quiet; then
+            echo "no log change"
+          else
+            git commit -m "x-probe log [skip ci]"
+            git push
+          fi

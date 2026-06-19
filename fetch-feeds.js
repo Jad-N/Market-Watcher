@@ -944,4 +944,9 @@ async function main() {
   }
 }
 
-main().catch((e) => { console.error('Fatal:', e); process.exit(1); });
+if (require.main === module) {
+  main().catch((e) => { console.error('Fatal:', e); process.exit(1); });
+}
+
+// Exported so the X-feed probe (x-probe.js) measures the REAL pipeline, not a copy.
+module.exports = { fetchCompanyPostsSyndication, fetchCompanyPostsNitter, identityMatches, loadSymbols, hoursSinceLastClose, statusFor };

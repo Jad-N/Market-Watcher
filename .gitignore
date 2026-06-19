@@ -15,3 +15,7 @@ _c_*.png
 # Local environment certs
 *.cer
 Certificate.cer
+
+# X-feed probe (Step 1 measurement): the residential-IP log stays local; only the
+# runner-IP log (x-probe-log.csv, committed by the x-probe workflow) is tracked.
+*.local.csv
