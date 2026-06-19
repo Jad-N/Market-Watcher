@@ -43,7 +43,7 @@
   /* ---------- masthead ---------- */
   header { position: sticky; top: 0; z-index: 30; background: rgba(247,248,250,0.82); backdrop-filter: saturate(1.1) blur(8px); border-bottom: 1px solid var(--rule); }
   .masthead {
-    max-width: 1300px; margin: 0 auto; padding: 16px 28px 13px;
+    max-width: 1760px; margin: 0 auto; padding: 11px 32px 10px;
     display: flex; align-items: flex-end; gap: 20px;
     border-bottom: 1px solid var(--rule);
   }
@@ -77,21 +77,21 @@
 
   /* ---------- ticker tape ---------- */
   .tape {
-    max-width: 1300px; margin: 0 auto; display: flex; align-items: stretch;
+    max-width: 1760px; margin: 0 auto; display: flex; align-items: stretch;
     overflow-x: auto; scrollbar-width: none;
   }
   .tape::-webkit-scrollbar { display: none; }
   .tape .stat {
-    flex: 0 0 auto; padding: 8px 18px; border-right: 1px solid var(--rule-2);
+    flex: 0 0 auto; padding: 6px 18px; border-right: 1px solid var(--rule-2);
     display: flex; align-items: baseline; gap: 9px; white-space: nowrap;
   }
-  .tape .stat:first-child { padding-left: 28px; }
+  .tape .stat:first-child { padding-left: 32px; }
   .tape .stat .sl { font-size: 10.5px; font-weight: 650; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
   .tape .stat .sv { font-family: var(--mono); font-size: 13px; font-weight: 550; color: var(--ink); letter-spacing: -0.01em; }
   .tape .stat .sc { font-family: var(--mono); font-size: 12px; font-weight: 600; }
 
   /* ---------- layout ---------- */
-  main { max-width: 1300px; margin: 0 auto; padding: 22px 28px 64px; }
+  main { max-width: 1760px; margin: 0 auto; padding: 16px 32px 18px; }
   .degraded {
     display: none; margin-bottom: 18px; padding: 10px 14px; border-radius: var(--r);
     background: var(--amber-soft); border: 1px solid rgba(151,89,10,0.28); color: var(--amber);
@@ -104,7 +104,7 @@
 
   .panel { background: var(--panel); border: 1px solid var(--rule); border-radius: var(--r); }
   .kick {
-    display: flex; align-items: center; gap: 9px; padding: 12px 16px 11px;
+    display: flex; align-items: center; gap: 9px; padding: 9px 16px 8px;
     border-bottom: 1px solid var(--rule-2);
     font-size: 10.5px; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-2);
   }
@@ -113,7 +113,7 @@
   .kick .kico { width: 14px; height: 14px; fill: none; stroke: var(--brand); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
 
   /* ---------- mood ---------- */
-  .mood { padding: 14px 16px 18px; display: grid; grid-template-columns: 172px 1fr; gap: 8px; align-items: center; }
+  .mood { padding: 11px 16px 13px; display: grid; grid-template-columns: 172px 1fr; gap: 8px; align-items: center; }
   .gauge-wrap { position: relative; width: 172px; height: 110px; cursor: help; }
   .gauge-val { position: absolute; left: 0; right: 0; bottom: 2px; text-align: center; }
   .gauge-val .num { font-family: var(--mono); font-size: 39px; font-weight: 600; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; }
@@ -126,8 +126,8 @@
   .comp .bar > span { display: block; height: 100%; }
 
   /* ---------- regime ---------- */
-  .regime { padding: 14px 16px 16px; }
-  .regime-top { display: flex; align-items: center; gap: 12px; margin-bottom: 13px; }
+  .regime { padding: 11px 16px 13px; }
+  .regime-top { display: flex; align-items: center; gap: 12px; margin-bottom: 11px; }
   .regime-badge { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 12px; border-radius: 2px; }
   .regime-badge.on  { color: var(--up); background: var(--up-soft); border: 1px solid rgba(21,128,61,0.22); }
   .regime-badge.off { color: var(--down); background: var(--down-soft); border: 1px solid rgba(220,38,38,0.22); }
@@ -140,7 +140,7 @@
   .voter .vs { margin-left: auto; font-size: 10.5px; font-weight: 600; text-align: right; }
   .voter .vs.on { color: var(--up); } .voter .vs.off { color: var(--down); }
   /* ---------- sentiment signals ---------- */
-  .signals { padding: 12px 16px 16px; display: grid; grid-template-columns: 1fr; gap: 14px; }
+  .signals { padding: 10px 16px 13px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; }
   .sg-group { display: flex; flex-direction: column; gap: 7px; }
   .sg-head { font-size: 10.5px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); }
   .sg-q { font-size: 11.5px; color: var(--ink-3); font-weight: 500; margin: -3px 0 3px; }
@@ -155,12 +155,13 @@
   /* ---------- full-width stacked sections ---------- */
   .mb { margin-bottom: 18px; }
   /* feed + sentiment side by side so both sit in view without scrolling */
-  .cols { display: grid; grid-template-columns: 1fr 470px; gap: 18px; align-items: start; margin-bottom: 18px; }
-  .side { display: flex; flex-direction: column; gap: 18px; }
+  .cols { display: grid; grid-template-columns: 1fr 520px; gap: 16px; align-items: stretch; height: calc(100vh - 196px); min-height: 440px; }
+  .cols > .panel { display: flex; flex-direction: column; min-height: 0; }
+  .side { display: flex; flex-direction: column; gap: 14px; min-height: 0; overflow-y: auto; scrollbar-width: thin; }
 
   /* ---------- event tape ---------- */
-  .filterbar { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--rule-2); align-items: center; }
-  .filterbar.sub { padding-top: 0; border-top: none; }
+  .filterbar { display: flex; flex-wrap: wrap; gap: 7px; padding: 9px 16px; border-bottom: 1px solid var(--rule-2); align-items: center; }
+  .vsep { width: 1px; align-self: stretch; margin: 1px 5px; background: var(--rule); }
   .search { flex: 1; min-width: 160px; border: 1px solid var(--rule); border-radius: 2px; padding: 7px 11px; font: inherit; font-size: 13px; color: var(--ink); background: var(--paper); }
   .search::placeholder { color: var(--ink-3); }
   .search:focus { outline: none; border-color: var(--brand); background: #fff; box-shadow: 0 0 0 3px var(--brand-soft); }
@@ -172,8 +173,8 @@
   .sortwrap { margin-left: auto; display: inline-flex; align-items: center; gap: 7px; }
   .sortsel { font: inherit; font-size: 11px; font-weight: 600; color: var(--ink-2); border: 1px solid var(--rule); border-radius: 2px; background: var(--panel); padding: 4px 24px 4px 9px; cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%23646b76' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 8px center; }
   .sortsel:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-soft); }
-  .feed { max-height: 968px; overflow-y: auto; padding-bottom: 22px; }
-  .ev { display: grid; grid-template-columns: 62px 1fr; gap: 13px; padding: 12px 16px; border-bottom: 1px solid var(--rule-2); position: relative; }
+  .feed { flex: 1; min-height: 0; overflow-y: auto; padding-bottom: 14px; }
+  .ev { display: grid; grid-template-columns: 60px 1fr; gap: 13px; padding: 9px 16px; border-bottom: 1px solid var(--rule-2); position: relative; }
   .ev:last-child { border-bottom: none; }
   .ev::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: transparent; }
   .ev:hover { background: var(--panel-2); }
@@ -206,10 +207,11 @@
   .np-inline.up { background: var(--up-soft); } .np-inline.down { background: var(--down-soft); } .np-inline.flat { background: var(--rule-2); }
   .up { color: var(--up); } .down { color: var(--down); } .flat { color: var(--ink-3); }
 
-  .foot { text-align: center; color: var(--ink-3); font-size: 11px; margin-top: 30px; line-height: 1.8; letter-spacing: 0.01em; }
+  .foot { text-align: center; color: var(--ink-3); font-size: 11px; margin-top: 14px; line-height: 1.7; letter-spacing: 0.01em; }
 
   /* ---------- hover help + tooltip ---------- */
-  .help { border-bottom: 1px dotted var(--ink-3); cursor: help; }
+  .help { cursor: help; box-shadow: inset 0 -1px 0 rgba(100,107,118,0.30); transition: box-shadow .16s ease, color .16s ease; }
+  .help:hover { box-shadow: inset 0 -1px 0 var(--brand); color: var(--ink); }
   #tooltip {
     position: fixed; left: 0; top: 0; z-index: 100; max-width: 270px; pointer-events: none;
     background: var(--ink); color: #fff; font-size: 11.5px; line-height: 1.5; font-weight: 450;
@@ -227,7 +229,9 @@
 
   @media (max-width: 1080px) {
     .topgrid { grid-template-columns: 1fr; }
-    .cols { grid-template-columns: 1fr; }
+    .cols { grid-template-columns: 1fr; height: auto; }
+    .side { overflow-y: visible; }
+    .feed { max-height: 70vh; flex: none; }
     .signals { grid-template-columns: 1fr; }
   }
   @media (max-width: 560px) {
@@ -266,9 +270,7 @@
       <div class="filterbar">
         <input class="search" id="search" placeholder="Search events, symbols, headlines…">
         <div class="chips" id="typechips"></div>
-      </div>
-      <div class="filterbar sub">
-        <span class="seclabel">Section</span>
+        <span class="vsep"></span>
         <div class="chips" id="sectionchips"></div>
         <label class="sortwrap"><span class="seclabel">Sort</span>
           <select id="sortsel" class="sortsel">
