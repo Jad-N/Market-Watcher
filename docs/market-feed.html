@@ -133,17 +133,9 @@
   .voter { display: flex; align-items: center; gap: 8px; font-size: 12px; padding: 8px 11px; background: var(--panel-2); border: 1px solid var(--rule-2); border-radius: 2px; cursor: help; }
   .voter .vd { width: 6px; height: 6px; border-radius: 50%; flex: none; }
   .voter .vd.on { background: var(--up); } .voter .vd.off { background: var(--down); }
-  .voter .vn { font-weight: 650; text-transform: capitalize; letter-spacing: -0.005em; }
-  .voter .vs { color: var(--ink-3); margin-left: auto; font-size: 10.5px; text-align: right; font-family: var(--mono); }
-  /* ---------- data check ---------- */
-  .dataq .dqstats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 12px; }
-  .dqstats .s { border: 1px solid var(--rule-2); border-radius: 3px; padding: 13px 15px; background: var(--panel-2); }
-  .dqstats .sv { font-family: var(--mono); font-size: 25px; font-weight: 700; line-height: 1; letter-spacing: -0.01em; }
-  .dqstats .sv.good { color: var(--up); }
-  .dqstats .sk { font-size: 11px; color: var(--ink-2); margin-top: 8px; line-height: 1.38; }
-  .dqnote { font-size: 12px; color: var(--ink-3); line-height: 1.5; }
-  @media (max-width: 680px) { .dataq .dqstats { grid-template-columns: 1fr; } }
-
+  .voter .vn { font-weight: 650; letter-spacing: -0.005em; }
+  .voter .vs { margin-left: auto; font-size: 10.5px; font-weight: 600; text-align: right; }
+  .voter .vs.on { color: var(--up); } .voter .vs.off { color: var(--down); }
   /* ---------- sentiment signals ---------- */
   .signals { padding: 12px 16px 16px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
   .sg-group { display: flex; flex-direction: column; gap: 7px; }
@@ -191,6 +183,7 @@
   .tag.gauge  { color: #be123c; background: rgba(190,18,60,0.09); }
   .sym { font-family: var(--mono); font-size: 12px; font-weight: 650; letter-spacing: 0; }
   .sym .at { color: var(--ink-3); font-weight: 500; }
+  .src { font-size: 10px; font-weight: 600; color: var(--ink-3); letter-spacing: 0.01em; padding: 2px 6px; border: 1px solid var(--rule-2); border-radius: 2px; background: var(--panel-2); }
   .ev .txt { font-size: 13px; color: var(--ink); line-height: 1.45; }
   .ev .txt a:hover { color: var(--brand); text-decoration: underline; text-underline-offset: 2px; text-decoration-color: rgba(37,99,255,0.4); }
   .empty { padding: 40px 16px; text-align: center; color: var(--ink-3); font-size: 13px; }
@@ -263,7 +256,7 @@
       </div>
     </section>
     <section class="panel reveal d2">
-      <div class="kick">Macro Regime<span class="hint" id="regimehint"></span></div>
+      <div class="kick">Market Backdrop<span class="hint" id="regimehint"></span></div>
       <div class="regime">
         <div class="regime-top">
           <span class="regime-badge" id="regimebadge">—</span>
@@ -273,12 +266,6 @@
       </div>
     </section>
   </div>
-
-  <section class="panel reveal d2 dataq" id="dataqpanel" style="display:none">
-    <div class="kick">Data Check<span class="hint">new — how the numbers are sourced</span></div>
-    <div class="dqstats" id="dqstats"></div>
-    <div class="dqnote">The mood score is now built only from market data we can verify, and every price is double-checked against a second, independent source. Crowd chatter (StockTwits, Reddit, X) and CNN's gauge are shown as context only — they no longer move the score.</div>
-  </section>
 
   <section class="panel reveal d2" id="signalspanel" style="margin-bottom:18px">
     <div class="kick">Sentiment Signals<span class="hint" id="signalshint"></span></div>
@@ -325,10 +312,10 @@ const state = { data: null, q: '', types: new Set(), sections: new Set() };
 
 // plain-English, no-jargon explanations shown on hover
 const TIPS = {
-  mood: 'Overall market mood from 0 to 100. Low means scared, high means greedy. Built from the transparent Macro Regime read (and crypto mood when crypto is on the list) — the gauges listed to the right. CNN Fear & Greed is shown only as a cross-reference; it is not part of this score.',
+  mood: 'Overall market mood from 0 to 100. Low means scared, high means greedy. Built from the Market Backdrop read (and crypto mood when crypto is on the list) — the gauges listed to the right. CNN Fear & Greed is shown only as a cross-reference; it is not part of this score.',
   'CNN Fear & Greed': "CNN's read on stock-market mood (reference only — not part of the mood score above). Near 0 = very scared, near 100 = very greedy.",
   'Crypto Fear & Greed': 'The same mood read, but for crypto. Low = scared, high = greedy.',
-  'Regime (% voters risk-on)': 'Of the market checks in the Macro Regime panel, the share saying conditions are calm enough to take risk.',
+  'Regime (% voters risk-on)': 'Of the market checks in the Market Backdrop panel, the share saying conditions are calm enough to take risk.',
   curve: 'The gap between long and short interest rates. Normal is healthy; when it flips (inverts) it often warns a slowdown is coming.',
   dollar: 'How strong the US dollar is. A rising dollar usually works against stocks.',
   vol: "How much price swinging the market expects (the 'fear index', VIX). Calm is good for stocks.",
@@ -386,32 +373,23 @@ function renderMood(d) {
   }).join('') || '<div class="cname" style="color:var(--ink-3)">no components this run</div>';
 }
 
-// plain-English display names for the regime voters (tooltips still key off the raw name)
-const VLABEL = { curve: 'yield curve', vol: 'volatility', skew: 'crash hedging' };
+// plain-English display names for the backdrop checks (tooltips still key off the raw name)
+const VLABEL = {
+  curve: 'Bond market', dollar: 'US dollar', vol: 'Volatility (VIX)', credit: 'Credit stress',
+  rotation: 'Sector rotation', breadth: 'Market breadth', skew: 'Crash hedging',
+};
 function renderRegime(d) {
   const r = d.regime;
   if (!r) { $('regimebadge').textContent = 'unavailable'; return; }
   const on = r.label && r.label.indexOf('on') >= 0;
-  const b = $('regimebadge'); b.textContent = r.label; b.className = 'regime-badge ' + (on ? 'on' : 'off');
-  $('regimetally').textContent = `${r.tally} voters · ${fmt1(r.score)}% risk-on`;
-  $('regimehint').textContent = (r.drivers || []).slice(0, 2).join(' · ');
+  const b = $('regimebadge'); b.textContent = on ? 'Calm' : 'Cautious'; b.className = 'regime-badge ' + (on ? 'on' : 'off');
+  const total = (r.components || []).length || ((r.on || 0) + (r.off || 0));
+  $('regimetally').textContent = `${r.on} of ${total} market checks favor taking risk`;
+  $('regimehint').textContent = on ? 'conditions lean risk-friendly' : 'conditions lean defensive';
   $('voters').innerHTML = (r.components || []).map((c) => {
     const von = c.vote === 'on';
-    return `<div class="voter" title="${esc(TIPS[c.name] || c.detail || '')}"><span class="vd ${von ? 'on' : 'off'}"></span><span class="vn">${esc(VLABEL[c.name] || c.name)}</span><span class="vs">${esc(c.state)}</span></div>`;
+    return `<div class="voter" title="${esc(TIPS[c.name] || c.detail || '')}"><span class="vd ${von ? 'on' : 'off'}"></span><span class="vn">${esc(VLABEL[c.name] || c.name)}</span><span class="vs ${von ? 'on' : 'off'}">${von ? 'favors risk' : 'caution'}</span></div>`;
   }).join('');
-}
-
-function renderDataQuality(d) {
-  const q = d.sourceQuality, panel = $('dataqpanel');
-  if (!q) { if (panel) panel.style.display = 'none'; return; }
-  if (panel) panel.style.display = '';
-  const down = (d.degraded || []).length;
-  const cards = [
-    { v: q.crossChecked != null ? q.crossChecked : '—', good: q.crossChecked > 0, k: 'prices double-checked against a second source' },
-    { v: q.divMax == null ? '—' : fmt1(q.divMax) + '%', good: q.divMax != null && q.divMax < 1, k: 'biggest gap between the two sources' },
-    { v: down, good: down === 0, k: down === 1 ? 'source down this run' : 'sources down this run' },
-  ];
-  $('dqstats').innerHTML = cards.map((c) => `<div class="s"><div class="sv ${c.good ? 'good' : ''}">${esc(String(c.v))}</div><div class="sk">${esc(c.k)}</div></div>`).join('');
 }
 
 function leanColor(lean) { return lean === 'risk-on' ? 'var(--up)' : lean === 'risk-off' ? 'var(--down)' : 'var(--ink-3)'; }
@@ -461,6 +439,15 @@ function dayLabel(ms) {
   return new Date(ms).toLocaleDateString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric' });
 }
 
+// Google News headlines end with " - Publisher". Pull the publisher out so it can
+// show next to the ticker, and strip it from the headline so it isn't shown twice.
+function splitSource(text) {
+  if (!text) return { title: '', source: '' };
+  const i = text.lastIndexOf(' - ');
+  if (i > 0 && i > text.length - 42) return { title: text.slice(0, i), source: text.slice(i + 3) };
+  return { title: text, source: '' };
+}
+
 function renderFeed() {
   const evs = (state.data.events || []).filter(eventMatches);
   $('evcount').textContent = `${evs.length} event${evs.length === 1 ? '' : 's'}`;
@@ -468,11 +455,14 @@ function renderFeed() {
   $('feed').innerHTML = evs.map((e) => {
     const head = e.type === 'theme' ? esc(e.theme) : (e.symbol ? esc(e.symbol) : '');
     const at = e.handle ? ` <span class="at">${esc(e.handle)}</span>` : '';
-    let txt = esc(e.text);
+    let body = e.text, src = e.source || '';
+    if (e.type === 'news') { const s = splitSource(e.text); body = s.title; if (!src) src = s.source; }
+    const srcTag = src ? `<span class="src">${esc(src)}</span>` : '';
+    let txt = esc(body);
     if (e.url) txt = `<a href="${esc(e.url)}" target="_blank" rel="noopener">${txt} ↗</a>`;
     const tagLabel = e.type === 'filing' && e.filingType ? esc(e.filingType) : e.type;
     return `<div class="ev"><div class="when">${esc(e.timeLabel)}<span class="d">${dayLabel(e.time)}</span></div>`
-      + `<div class="body"><div class="row1"><span class="tag ${e.type}">${tagLabel}</span>${head ? `<span class="sym">${head}${at}</span>` : ''}</div>`
+      + `<div class="body"><div class="row1"><span class="tag ${e.type}">${tagLabel}</span>${head ? `<span class="sym">${head}${at}</span>` : ''}${srcTag}</div>`
       + `<div class="txt">${txt}</div></div></div>`;
   }).join('');
 }
@@ -562,7 +552,7 @@ function renderChips() {
 
 function render() {
   const d = state.data; if (!d) return;
-  renderHeader(d); renderDegraded(d); renderMood(d); renderRegime(d); renderDataQuality(d); renderSignals(d);
+  renderHeader(d); renderDegraded(d); renderMood(d); renderRegime(d); renderSignals(d);
   renderStrip(d); renderChips(); renderFeed(); renderTimeline(d); renderNames(d);
   $('foot').innerHTML = `Deterministic feed. No AI in the cron path. ${esc(d.generatedAt || '')}<br>Mood is the unweighted mean of present gauges. Prices, news, gauges, and filings from free public feeds.`;
 }
