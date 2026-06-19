@@ -155,9 +155,9 @@
   /* ---------- full-width stacked sections ---------- */
   .mb { margin-bottom: 18px; }
   /* feed + sentiment side by side so both sit in view without scrolling */
-  .cols { display: grid; grid-template-columns: 1fr 520px; gap: 16px; align-items: stretch; height: calc(100vh - 196px); min-height: 440px; }
-  .cols > .panel { display: flex; flex-direction: column; min-height: 0; }
-  .side { display: flex; flex-direction: column; gap: 14px; min-height: 0; overflow-y: auto; scrollbar-width: thin; }
+  .cols { display: grid; grid-template-columns: 520px 1fr; gap: 16px; align-items: stretch; height: calc(100vh - 196px); min-height: 440px; }
+  .cols > .panel { display: flex; flex-direction: column; min-height: 0; order: 2; }
+  .side { display: flex; flex-direction: column; gap: 14px; min-height: 0; overflow-y: auto; overflow-x: hidden; scrollbar-width: thin; order: 1; padding-bottom: 16px; }
 
   /* ---------- event tape ---------- */
   .filterbar { display: flex; flex-wrap: wrap; gap: 7px; padding: 9px 16px; border-bottom: 1px solid var(--rule-2); align-items: center; }
@@ -173,7 +173,7 @@
   .sortwrap { margin-left: auto; display: inline-flex; align-items: center; gap: 7px; }
   .sortsel { font: inherit; font-size: 11px; font-weight: 600; color: var(--ink-2); border: 1px solid var(--rule); border-radius: 2px; background: var(--panel); padding: 4px 24px 4px 9px; cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 24 24' fill='none' stroke='%23646b76' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 8px center; }
   .sortsel:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand-soft); }
-  .feed { flex: 1; min-height: 0; overflow-y: auto; padding-bottom: 14px; }
+  .feed { flex: 1; min-height: 0; overflow-y: auto; padding-bottom: 20px; }
   .ev { display: grid; grid-template-columns: 60px 1fr; gap: 13px; padding: 9px 16px; border-bottom: 1px solid var(--rule-2); position: relative; }
   .ev:last-child { border-bottom: none; }
   .ev::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: transparent; }
@@ -230,7 +230,8 @@
   @media (max-width: 1080px) {
     .topgrid { grid-template-columns: 1fr; }
     .cols { grid-template-columns: 1fr; height: auto; }
-    .side { overflow-y: visible; }
+    .cols > .panel { order: 0; }
+    .side { overflow-y: visible; order: 0; padding-bottom: 0; }
     .feed { max-height: 70vh; flex: none; }
     .signals { grid-template-columns: 1fr; }
   }
