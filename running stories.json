@@ -1,0 +1,37 @@
+{
+  "note": "Multi-day stories the briefs are tracking, so a big story from Monday is still visible Wednesday. Maintained by the morning-brief / evening-recap skills each run. Each story: { title, startedDate (YYYY-MM-DD, when we first tracked it), lastUpdate, status, latest (one-line current state), tickers (optional) }. status: 'live' = still developing; 'closing' = resolved/faded, renders one final time then the NEXT run deletes it. No fixed day count — a story drops when the skill judges it resolved or no longer moving the watchlist. Start empty; the skill fills it.",
+  "stories": [
+    {
+      "title": "SpaceX IPO debut",
+      "startedDate": "2026-06-12",
+      "lastUpdate": "2026-06-12",
+      "status": "live",
+      "latest": "Trades today; retail piled in despite 'stupid valuation' calls. Space names bid as proxies to 'get long SpaceX'.",
+      "tickers": ["RKLB"]
+    },
+    {
+      "title": "Iran-US peace deal / Hormuz reopening",
+      "startedDate": "2026-06-12",
+      "lastUpdate": "2026-06-12",
+      "status": "live",
+      "latest": "Trump signals the war is ending; proposed deal reopens the Strait of Hormuz and lifts oil sanctions. Crude down ~3%, broad risk bid.",
+      "tickers": ["BRENT", "USOIL"]
+    },
+    {
+      "title": "Nasdaq-100 June quarterly adds",
+      "startedDate": "2026-06-12",
+      "lastUpdate": "2026-06-12",
+      "status": "live",
+      "latest": "RKLB, NBIS, CoreWeave, Astera Labs and Teradyne added in the reshuffle; index-inclusion buying lifting the names.",
+      "tickers": ["RKLB", "NBIS"]
+    },
+    {
+      "title": "Bitcoin demand softness",
+      "startedDate": "2026-06-12",
+      "lastUpdate": "2026-06-12",
+      "status": "live",
+      "latest": "BTC stuck near $63k, crypto fear gauge at extreme fear (12). Analysts flag 'AI buildout weighs on BTC demand' and a $48k max-pain case.",
+      "tickers": ["BTC"]
+    }
+  ]
+}

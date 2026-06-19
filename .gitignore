@@ -1,0 +1,19 @@
+# Operational noise — regenerated each run, not needed in version control.
+# (build feed data.js still writes/reads Briefs/<today>/intraday raw.json during the
+#  job; gitignore only stops it being committed, not from existing on disk.)
+Briefs/
+*.log
+node_modules/
+
+# Local dev / preview throwaways (not part of the cloud build)
+docs/_serve.js
+docs/_seed-fixture.js
+docs/_preview-static.html
+_seed-fixture.js
+_review*.png
+_crop*.png
+_c_*.png
+
+# Local environment certs
+*.cer
+Certificate.cer

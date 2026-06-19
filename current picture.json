@@ -1,0 +1,249 @@
+{
+  "asOf": "2026-06-12T12:18:00.000Z",
+  "source": {
+    "rawPulls": "Briefs/2026-06-12/raw pulls (morning).json",
+    "regimeUpdated": "2026-06-12T12:17:43.745Z",
+    "sectorDeskGenerated": "2026-06-12T12:17:55.184Z"
+  },
+  "macro": {
+    "regime": {
+      "label": "risk-off",
+      "tally": "4-3",
+      "drivers": [
+        "dollar strong",
+        "credit spreads widening",
+        "defensives leading",
+        "sentiment fear"
+      ]
+    },
+    "stress": {
+      "vixBackwardation": false,
+      "curveInverted": false,
+      "hySpreadNew20High": false
+    },
+    "gauges": [
+      {
+        "name": "Fear&Greed",
+        "score": 31,
+        "rating": "fear"
+      },
+      {
+        "name": "CryptoF&G",
+        "rating": "Extreme Fear"
+      }
+    ],
+    "sectorDesk": {
+      "leader": "WULF",
+      "laggard": "NBIS",
+      "avgCorr": 0.71
+    }
+  },
+  "names": [
+    {
+      "ticker": "CIFR",
+      "price": {
+        "last": 22.63,
+        "pct": 7.7,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 1,
+        "sampleSize": 5,
+        "velocity": 0.6,
+        "newsCount": 0
+      },
+      "firedToday": [
+        "FILING"
+      ]
+    },
+    {
+      "ticker": "IREN",
+      "price": {
+        "last": 56.71,
+        "pct": 10.1,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 1,
+        "sampleSize": 29,
+        "velocity": 3.8,
+        "newsCount": 5
+      },
+      "latestCatalyst": {
+        "type": "financing/dilution",
+        "label": "Material agreement + New debt / obligation",
+        "form": "8-K",
+        "filedAt": "2026-06-01T11:06:02.000Z",
+        "url": "https://www.sec.gov/Archives/edgar/data/1878848/000114036126023427/ef20075181_8k.htm"
+      },
+      "firedToday": [
+        "FILING"
+      ]
+    },
+    {
+      "ticker": "NBIS",
+      "price": {
+        "last": 222.24,
+        "pct": 5,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 0.98,
+        "sampleSize": 49,
+        "velocity": 5.6,
+        "newsCount": 9
+      },
+      "firedToday": [
+        "POST @nebiusai"
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "price": {
+        "last": 488.45,
+        "pct": 8,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 0.903,
+        "sampleSize": 31,
+        "velocity": 5.6,
+        "newsCount": 14
+      },
+      "firedToday": [
+        "POST @AMD"
+      ]
+    },
+    {
+      "ticker": "APLD",
+      "price": {
+        "last": 41.47,
+        "pct": 6.6,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 0.925,
+        "sampleSize": 67,
+        "velocity": 5.6,
+        "newsCount": 3
+      },
+      "firedToday": [
+        "POST @APLDdigital",
+        "FILING"
+      ]
+    },
+    {
+      "ticker": "WULF",
+      "price": {
+        "last": 25.35,
+        "pct": 9.3,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 0.81,
+        "sampleSize": 21,
+        "velocity": 2.3,
+        "newsCount": 4
+      },
+      "firedToday": [
+        "FILING"
+      ]
+    },
+    {
+      "ticker": "IBRX",
+      "price": {
+        "last": 7.2,
+        "pct": 3.2,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 0.966,
+        "sampleSize": 29,
+        "velocity": 4.1,
+        "newsCount": 1
+      }
+    },
+    {
+      "ticker": "NUAI",
+      "price": {
+        "last": 5.46,
+        "pct": 21.9,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 0.933,
+        "sampleSize": 15,
+        "velocity": 1.5,
+        "newsCount": 0
+      },
+      "latestCatalyst": {
+        "type": "financing/dilution",
+        "label": "Stock offering (prospectus)",
+        "form": "424B3",
+        "filedAt": "2026-05-22T20:42:43.000Z",
+        "url": "https://www.sec.gov/Archives/edgar/data/2028336/000121390026060628/ea0292071-424b3_newera.htm"
+      },
+      "firedToday": [
+        "FILING"
+      ]
+    },
+    {
+      "ticker": "CLSK",
+      "price": {
+        "last": 16.17,
+        "pct": 8.5,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 1,
+        "sampleSize": 6,
+        "velocity": 0.6,
+        "newsCount": 1
+      },
+      "firedToday": [
+        "FILING"
+      ]
+    },
+    {
+      "ticker": "ASST",
+      "price": {
+        "last": 14.58,
+        "pct": 1,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 0.9,
+        "sampleSize": 10,
+        "velocity": 0.6,
+        "newsCount": 0
+      }
+    },
+    {
+      "ticker": "ABVX",
+      "price": {
+        "last": 100.87,
+        "pct": 2.9,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "bullRatio": 1,
+        "sampleSize": 3,
+        "velocity": 0.3,
+        "newsCount": 0
+      }
+    },
+    {
+      "ticker": "MLYS",
+      "price": {
+        "last": 23.94,
+        "pct": 0.8,
+        "asOf": "2026-06-12 08:00 ET"
+      },
+      "sentiment": {
+        "sampleSize": 0,
+        "velocity": 0,
+        "newsCount": 0
+      }
+    }
+  ]
+}

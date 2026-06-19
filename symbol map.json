@@ -1,0 +1,37 @@
+{
+  "note": "Routing table: each watchlist instrument -> how to look it up on each free source. Maintained by the morning-brief / evening-recap skills when the watchlist changes. class drives source defaults (equity gets ' stock' news + finance subs; crypto/commodity get a plain news query and, for crypto, crypto subs; commodities have no StockTwits stream, stocktwits=null skips it). section mirrors the TradingView watchlist's ### headers and drives EMPHASIS, not source choice: 'trading' = Jad's actual basket (cards on anything real, watched intraday), 'macro' = context names (only big news/moves earn a card, quiet intraday), 'crypto' = the crypto block. Symbols are kept in watchlist order. Leveraged wrappers are intentionally NOT listed (IRE/IREZ are vehicles on IREN; NEBX on NBIS) — separate news/price rows would just duplicate the underlying; the reconcile step skips wrappers of a name already present. x = the company's official X (Twitter) account: { handle, name, verified }, where name is the profile display name the fetcher re-checks each run (a mismatch drops the posts and flags the footer). x=null (or absent) = no verified handle: NEVER guess one. themes (below) = Jad's exposure (data centers, miners, AI); each theme's Google-News query feeds the brief's 'Your themes' section and its keywords scope the intraday news watch.",
+  "generatedFrom": "TradingView watchlist 'Watchlist' (2026-06-11), sections CRYPTO / Stock / Macro",
+  "financeSubs": ["stocks", "wallstreetbets", "investing"],
+  "cryptoSubs": ["CryptoCurrency", "Bitcoin"],
+  "themes": [
+    { "name": "AI data centers", "query": "\"data center\" AI power capacity buildout", "keywords": ["data center", "datacenter", "data centre", "hyperscaler", "AI infrastructure", "compute", "power capacity"] },
+    { "name": "Miners to HPC/AI", "query": "bitcoin miner AI HPC data center deal", "keywords": ["bitcoin miner", "miner", "mining", "HPC", "hashrate", "hosting", "megawatt"] },
+    { "name": "AI chips", "query": "AI chips GPU semiconductor demand", "keywords": ["GPU", "AI chip", "semiconductor", "accelerator", "Blackwell", "foundry", "TSMC"] }
+  ],
+  "symbols": [
+    { "tv": "BITSTAMP:BTCUSD", "ticker": "BTC", "yahoo": "BTC-USD", "stocktwits": "BTC.X", "newsQuery": "bitcoin", "class": "crypto", "section": "crypto" },
+    { "tv": "NASDAQ:CIFR", "ticker": "CIFR", "yahoo": "CIFR", "stocktwits": "CIFR", "newsQuery": "CIFR stock", "class": "equity", "section": "trading", "x": null },
+    { "tv": "NASDAQ:IREN", "ticker": "IREN", "yahoo": "IREN", "stocktwits": "IREN", "newsQuery": "IREN stock", "class": "equity", "section": "trading", "x": null },
+    { "tv": "NASDAQ:NBIS", "ticker": "NBIS", "yahoo": "NBIS", "stocktwits": "NBIS", "newsQuery": "NBIS Nebius stock", "class": "equity", "section": "trading", "x": { "handle": "nebiusai", "name": "Nebius", "verified": "2026-06-11" } },
+    { "tv": "NASDAQ:AMD", "ticker": "AMD", "yahoo": "AMD", "stocktwits": "AMD", "newsQuery": "AMD stock", "class": "equity", "section": "trading", "x": { "handle": "AMD", "name": "AMD", "verified": "2026-06-11" } },
+    { "tv": "NASDAQ:APLD", "ticker": "APLD", "yahoo": "APLD", "stocktwits": "APLD", "newsQuery": "APLD Applied Digital stock", "class": "equity", "section": "trading", "x": { "handle": "APLDdigital", "name": "Applied Digital", "verified": "2026-06-11" } },
+    { "tv": "NASDAQ:WULF", "ticker": "WULF", "yahoo": "WULF", "stocktwits": "WULF", "newsQuery": "WULF TeraWulf stock", "class": "equity", "section": "trading", "x": { "handle": "TeraWulfInc", "name": "TeraWulf", "verified": "2026-06-11" } },
+    { "tv": "NASDAQ:IBRX", "ticker": "IBRX", "yahoo": "IBRX", "stocktwits": "IBRX", "newsQuery": "IBRX ImmunityBio stock", "class": "equity", "section": "trading", "x": { "handle": "ImmunityBio", "name": "ImmunityBio", "verified": "2026-06-11" } },
+    { "tv": "NASDAQ:NUAI", "ticker": "NUAI", "yahoo": "NUAI", "stocktwits": "NUAI", "newsQuery": "NUAI stock", "class": "equity", "section": "trading", "x": null },
+    { "tv": "NASDAQ:CLSK", "ticker": "CLSK", "yahoo": "CLSK", "stocktwits": "CLSK", "newsQuery": "CLSK CleanSpark stock", "class": "equity", "section": "trading", "x": { "handle": "CleanSpark_Inc", "name": "CleanSpark", "verified": "2026-06-11" } },
+    { "tv": "NASDAQ:ASST", "ticker": "ASST", "yahoo": "ASST", "stocktwits": "ASST", "newsQuery": "ASST Asset Entities stock", "class": "equity", "section": "trading", "x": null },
+    { "tv": "NASDAQ:ABVX", "ticker": "ABVX", "yahoo": "ABVX", "stocktwits": "ABVX", "newsQuery": "ABVX Abivax stock", "class": "equity", "section": "trading", "x": null },
+    { "tv": "NASDAQ:MLYS", "ticker": "MLYS", "yahoo": "MLYS", "stocktwits": "MLYS", "newsQuery": "MLYS Mineralys stock", "class": "equity", "section": "trading", "x": null },
+    { "tv": "NASDAQ:NVDA", "ticker": "NVDA", "yahoo": "NVDA", "stocktwits": "NVDA", "newsQuery": "NVDA Nvidia stock", "class": "equity", "section": "macro", "x": { "handle": "nvidia", "name": "NVIDIA", "verified": "2026-06-11" } },
+    { "tv": "CRYPTOCAP:XRP", "ticker": "XRP", "yahoo": "XRP-USD", "stocktwits": "XRP.X", "newsQuery": "XRP ripple", "class": "crypto", "section": "macro" },
+    { "tv": "NASDAQ:TSSI", "ticker": "TSSI", "yahoo": "TSSI", "stocktwits": "TSSI", "newsQuery": "TSSI TSS Inc stock", "class": "equity", "section": "macro", "x": null },
+    { "tv": "NASDAQ:RKLB", "ticker": "RKLB", "yahoo": "RKLB", "stocktwits": "RKLB", "newsQuery": "RKLB Rocket Lab stock", "class": "equity", "section": "macro", "x": { "handle": "RocketLab", "name": "Rocket Lab", "verified": "2026-06-11" } },
+    { "tv": "NASDAQ:PLTR", "ticker": "PLTR", "yahoo": "PLTR", "stocktwits": "PLTR", "newsQuery": "PLTR Palantir stock", "class": "equity", "section": "macro", "x": { "handle": "PalantirTech", "name": "Palantir", "verified": "2026-06-11" } },
+    { "tv": "NASDAQ:MSFT", "ticker": "MSFT", "yahoo": "MSFT", "stocktwits": "MSFT", "newsQuery": "MSFT Microsoft stock", "class": "equity", "section": "macro", "x": { "handle": "Microsoft", "name": "Microsoft", "verified": "2026-06-11" } },
+    { "tv": "NYSE:HIMS", "ticker": "HIMS", "yahoo": "HIMS", "stocktwits": "HIMS", "newsQuery": "HIMS Hims Hers stock", "class": "equity", "section": "macro", "x": null },
+    { "tv": "NASDAQ:GOOGL", "ticker": "GOOGL", "yahoo": "GOOGL", "stocktwits": "GOOGL", "newsQuery": "GOOGL Alphabet stock", "class": "equity", "section": "macro", "x": { "handle": "Google", "name": "Google", "verified": "2026-06-11" } },
+    { "tv": "TVC:GOLD", "ticker": "GOLD", "yahoo": "GC=F", "stocktwits": null, "newsQuery": "gold price", "class": "commodity", "section": "macro" },
+    { "tv": "VELOCITY:BRENT", "ticker": "BRENT", "yahoo": "BZ=F", "stocktwits": null, "newsQuery": "brent crude oil price", "class": "commodity", "section": "macro" },
+    { "tv": "TVC:USOIL", "ticker": "USOIL", "yahoo": "CL=F", "stocktwits": null, "newsQuery": "WTI crude oil price", "class": "commodity", "section": "macro" }
+  ]
+}

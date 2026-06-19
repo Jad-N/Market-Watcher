@@ -1,0 +1,11 @@
+{
+  "note": "Settings for intraday-watch.js, the live between-briefs watcher. It notifies only on material change while a Claude session is open + the PC is on (or via the scheduled toast task when Claude is closed). Edit and the watcher picks it up on the next poll (no restart). movePctThreshold null = price-move alerts OFF until you pick a number (the post/news/gauge/theme triggers work without one). Set it to e.g. 4 to fire when a watchlist name moves +/-4% or more. newsScope controls the NEWS trigger: 'trading+themes' (default) only toasts headlines on your trading-section names OR headlines matching a theme keyword (data centers / miners / AI), plus standalone theme-feed headlines as THEME events; macro names (NVDA/MSFT/GOOGL/etc.) go quiet intraday but stay fully covered in the 8 AM / 5 PM briefs. Set 'all' to toast every watchlist name's headline (the old, chattier behavior). triggers.filings watches SEC EDGAR for new material filings on the sector-desk names (see Sector Desk/ticker-to-sec-id.json) and toasts only the loud catalyst types — deals (8-K 1.01/7.01/8.01), dilution/financing (S-3, 424B, 8-K 3.02/2.03), and control stakes (13D/G); insider Form 4s and routine filings are kept off the alert to avoid noise.",
+  "pollMinutes": 15,
+  "windowHours": 24,
+  "marketHours": { "startHourET": 7, "endHourET": 18 },
+  "weekdaysOnly": true,
+  "triggers": { "posts": true, "news": true, "gauges": true, "price": true, "filings": true },
+  "newsScope": "trading+themes",
+  "movePctThreshold": null,
+  "reArmStepPct": 2
+}

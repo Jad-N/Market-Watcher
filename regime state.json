@@ -1,0 +1,210 @@
+{
+  "regime": {
+    "label": "risk-on",
+    "tally": "5-2",
+    "drivers": [
+      "curve positive",
+      "VIX in contango",
+      "credit spreads tight",
+      "cyclicals leading",
+      "breadth broad"
+    ],
+    "on": 5,
+    "off": 2
+  },
+  "components": {
+    "curve": {
+      "state": "normal",
+      "vote": "on",
+      "detail": "10y-2y 0.27pp (2y 4.19, 10y 4.46)",
+      "asOfMs": 1781755200000,
+      "status": "ok",
+      "raw": {
+        "spread": 0.27,
+        "y2": 4.19,
+        "y10": 4.46
+      }
+    },
+    "dollar": {
+      "state": "above 20d avg",
+      "vote": "off",
+      "detail": "DXY 100.85 vs 20d avg 99.68",
+      "asOfMs": 1781837811000,
+      "status": "ok",
+      "raw": {
+        "last": 100.85,
+        "avg": 99.68,
+        "gap": 1.17
+      }
+    },
+    "vol": {
+      "state": "contango",
+      "vote": "on",
+      "detail": "VIX 16.4 vs VIX3M 19.57",
+      "asOfMs": 1781789400000,
+      "status": "ok",
+      "raw": {
+        "vix": 16.4,
+        "vix3m": 19.57,
+        "diff": -3.17
+      }
+    },
+    "credit": {
+      "state": "below 20-obs avg",
+      "vote": "on",
+      "detail": "HY spread 2.63pp vs 20-obs avg 2.73pp (as of 2026-06-17)",
+      "asOfMs": 1781654400000,
+      "status": "ok",
+      "raw": {
+        "spread": 2.63,
+        "avg": 2.73,
+        "newHigh": false
+      }
+    },
+    "rotation": {
+      "state": "cyclicals leading",
+      "vote": "on",
+      "detail": "defensives 5d -2.3% vs others 0.9%",
+      "asOfMs": 1781789400000,
+      "status": "ok",
+      "raw": {
+        "defMedPct": -2.3,
+        "othMedPct": 0.9,
+        "diffPct": -3.3
+      }
+    },
+    "breadth": {
+      "state": "above 20d avg",
+      "vote": "on",
+      "detail": "RSP/SPY 0.2812 vs 20d avg 0.2797",
+      "asOfMs": 1781789400000,
+      "status": "ok",
+      "raw": {
+        "ratio": 0.2812,
+        "avg": 0.2797,
+        "gap": 0.0014
+      }
+    },
+    "sentiment": {
+      "state": "fear",
+      "vote": "off",
+      "detail": "Fear&Greed 38 (fear)",
+      "asOfMs": 1781827187000,
+      "status": "ok",
+      "raw": {
+        "score": 38,
+        "rating": "fear"
+      }
+    }
+  },
+  "context": {
+    "overnight": [
+      {
+        "name": "Hang Seng",
+        "pct": -1.6,
+        "asOfMs": 1781746200000
+      },
+      {
+        "name": "DAX",
+        "pct": 0.4,
+        "asOfMs": 1781766000000
+      },
+      {
+        "name": "Nikkei",
+        "pct": 0.4,
+        "asOfMs": 1781827200000
+      }
+    ],
+    "rates": {
+      "impliedRate": 3.73,
+      "changeBp": -10.5,
+      "asOfMs": 1781837340000
+    }
+  },
+  "stress": {
+    "vixBackwardation": false,
+    "curveInverted": false,
+    "hySpreadNew20High": false
+  },
+  "macroSeen": [],
+  "changeLog": [
+    {
+      "ts": 1781271020804,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
+    },
+    {
+      "ts": 1781271020804,
+      "kind": "REGIME-FLIP",
+      "line": "REGIME-FLIP risk-off -> risk-on · 4-3 · drivers: curve positive, VIX in contango, cyclicals leading, breadth broad"
+    },
+    {
+      "ts": 1781535568253,
+      "kind": "REGIME",
+      "line": "REGIME credit above 20-obs avg -> below 20-obs avg"
+    },
+    {
+      "ts": 1781542764467,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1781544569261,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
+    },
+    {
+      "ts": 1781551825716,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1781552664968,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
+    },
+    {
+      "ts": 1781553569831,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1781554465047,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
+    },
+    {
+      "ts": 1781617016551,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1781617528100,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
+    },
+    {
+      "ts": 1781619715107,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1781622416262,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
+    },
+    {
+      "ts": 1781622928555,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1781630122375,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
+    }
+  ],
+  "lastDigestMs": 1781235171800,
+  "primed": true,
+  "updatedMs": 1781838411615
+}

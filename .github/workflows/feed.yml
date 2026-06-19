@@ -1,0 +1,49 @@
+name: Live market feed
+
+# Free GitHub-Actions cron that rebuilds the deterministic market feed and commits it.
+# No Anthropic API, no npm install — preinstalled Node 20 + the dependency-free scripts only.
+on:
+  schedule:
+    # every 15 min, 11:00–22:00 UTC, Mon–Fri  (~7am–6pm ET; UTC drifts ±5–15 min, fine —
+    # build feed data.js self-gates to market hours and no-ops off-hours).
+    - cron: '*/15 11-22 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      force_fetch:
+        description: 'Force a real fetch even outside market hours (use for the cloud-fetch proof run)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# never run two builds at once; let an in-flight run finish so commits don't race
+concurrency:
+  group: live-market-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build feed data
+        env:
+          # '1' only on a manual dispatch with force_fetch checked; empty otherwise (then the
+          # script's own market-hours gate decides whether to fetch).
+          FEED_FORCE: ${{ (github.event_name == 'workflow_dispatch' && inputs.force_fetch) && '1' || '' }}
+        run: node "build feed data.js"
+      - name: Commit feed if it changed
+        run: |
+          git config user.name "feed-bot"
+          git config user.email "feed-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no changes this run"
+          else
+            git commit -m "feed update [skip ci]"
+            git push
+          fi
