@@ -1,9 +1,9 @@
 {
   "computedET": "2026-06-19",
-  "computedMs": 1781844818555,
+  "computedMs": 1781883433260,
   "block": {
     "asOfET": "Jun 19, 2026",
-    "asOfMs": 1781844818000,
+    "asOfMs": 1781883431000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -30,7 +30,7 @@
             "detail": "money rotating to safer bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7336,
+              "ratio": 0.731,
               "avg": 0.7345
             }
           }
@@ -56,18 +56,18 @@
           {
             "key": "safeHaven",
             "label": "Safe-haven scorecard",
-            "state": "2 of 4 safe havens bid",
+            "state": "1 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "bonds, dollar rising",
+            "detail": "bonds rising",
             "status": "ok",
             "raw": {
-              "bid": 2,
+              "bid": 1,
               "total": 4,
               "changes": {
-                "gold": -1.68,
+                "gold": -1.28,
                 "bonds": 0.49,
-                "yen": 0.47,
-                "dollar": 0.15
+                "yen": 0.41,
+                "dollar": -0.08
               }
             }
           }
