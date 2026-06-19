@@ -4,7 +4,9 @@
  *
  * Synthesizes 7 self-referential macro voters into one risk-on / risk-off read with named
  * drivers. Same trust model as the brief scripts: pulls free public data at runtime (Yahoo
- * chart API, treasury.gov CSV, FRED keyless CSV, CNN Fear&Greed) — no app, no login, no install.
+ * chart API, treasury.gov CSV, FRED keyless CSV) — no app, no login, no install. Every voter is
+ * built from hard market data; no black-box gauge (the CNN Fear&Greed voter was retired
+ * 2026-06-19 — flaky here and redundant with these voters; CNN is now display-only in the feed).
  *
  * The 7 voters (each votes on / off / abstain — NO weights, NO invented cutoffs):
  *   curve     10y-2y < 0 (inverted)                    inverted   -> off    treasury.gov daily CSV
@@ -13,7 +15,7 @@
  *   credit    HY spread vs its own trailing 20-obs avg above avg  -> off    FRED BAMLH0A0HYM2
  *   rotation  defensives (XLP/XLU/XLV) 5d vs other 8   def. lead  -> off    Yahoo sector SPDRs
  *   breadth   RSP/SPY ratio vs its own 20-day avg      below avg  -> off    Yahoo RSP SPY
- *   sentiment CNN Fear&Greed zone                      fear off / greed on  CNN dataviz
+ *   skew      ^SKEW vs its own 20-day avg (tail-fear)  elevated   -> off    Yahoo ^SKEW
  *
  * Regime label = plurality of on vs off votes; "Mixed" on a tie / all-abstain. Drivers = the
  * components voting the winning side. A feed that fails makes its voter abstain (status carried),
@@ -212,18 +214,20 @@ async function voteBreadth() {
   } catch (e) { return abstain('breadth', e); }
 }
 
-async function voteSentiment() {
+// Tail-fear voter: ^SKEW vs its own 20-day average. Higher SKEW = more crash-insurance
+// demand = more fear = risk-off. Self-referential (no invented cutoff), built from hard data —
+// the transparent replacement for the retired CNN Fear&Greed voter. (mood-signals.js computes
+// the same SKEW read for display; this is the regime-voting copy off the 2mo series.)
+async function voteSkew() {
   try {
-    const j = await getJson('https://production.dataviz.cnn.io/index/fearandgreed/graphdata', { headers: CNN_FNG_HEADERS });
-    const fg = j.fear_and_greed;
-    if (!fg) throw new Error('empty fear_and_greed');
-    const rating = String(fg.rating || '');
-    const r = rating.toLowerCase();
-    const vote = r.includes('fear') ? 'off' : r.includes('greed') ? 'on' : 'abstain';
-    return { state: rating, vote, detail: 'Fear&Greed ' + Math.round(fg.score) + ' (' + rating + ')',
-      asOfMs: typeof fg.timestamp === 'number' ? fg.timestamp : Date.parse(fg.timestamp) || null,
-      status: 'ok', raw: { score: Math.round(fg.score), rating } };
-  } catch (e) { return abstain('sentiment', e); }
+    const { closes, asOfMs } = await yahooDaily('^SKEW');
+    const last = closes[closes.length - 1];
+    const avg = mean(closes.slice(-20));
+    const elevated = last > avg;
+    return { state: elevated ? 'elevated' : 'subdued', vote: elevated ? 'off' : 'on',
+      detail: 'SKEW ' + round(last, 1) + ' vs 20d avg ' + round(avg, 1),
+      asOfMs, status: 'ok', raw: { skew: round(last, 2), avg: round(avg, 2), gap: round(last - avg, 2) } };
+  } catch (e) { return abstain('skew', e); }
 }
 
 function abstain(name, e) {
@@ -252,7 +256,7 @@ async function getContext() {
 }
 
 // ---- synthesis --------------------------------------------------------------
-const VOTER_ORDER = ['curve', 'dollar', 'vol', 'credit', 'rotation', 'breadth', 'sentiment'];
+const VOTER_ORDER = ['curve', 'dollar', 'vol', 'credit', 'rotation', 'breadth', 'skew'];
 // plain-words driver label per voter, used in the REGIME-FLIP drivers list
 const DRIVER_WORD = {
   curve: (c) => 'curve ' + (c.state === 'inverted' ? 'inverted' : 'positive'),
@@ -261,7 +265,7 @@ const DRIVER_WORD = {
   credit: (c) => 'credit spreads ' + (c.vote === 'off' ? 'widening' : 'tight'),
   rotation: (c) => (c.vote === 'off' ? 'defensives leading' : 'cyclicals leading'),
   breadth: (c) => 'breadth ' + (c.vote === 'on' ? 'broad' : 'narrow'),
-  sentiment: (c) => 'sentiment ' + (c.state || '').toLowerCase(),
+  skew: (c) => 'crash-hedging ' + (c.vote === 'off' ? 'elevated' : 'subdued'),
 };
 
 function synthesize(components) {
@@ -305,7 +309,7 @@ const HISTORY_HEADER = [
   'credit_state', 'hy_spread', 'hy_avg',
   'rotation_state', 'def_5d_pct', 'oth_5d_pct', 'rotation_diff_pct',
   'breadth_state', 'rsp_spy', 'breadth_avg',
-  'sentiment_state', 'fng_score',
+  'skew_state', 'skew', 'skew_avg',
 ].join(',');
 
 function appendHistory(nowIso, regime, c) {
@@ -318,9 +322,16 @@ function appendHistory(nowIso, regime, c) {
     c.credit.state, g(c.credit.raw, 'spread'), g(c.credit.raw, 'avg'),
     c.rotation.state, g(c.rotation.raw, 'defMedPct'), g(c.rotation.raw, 'othMedPct'), g(c.rotation.raw, 'diffPct'),
     c.breadth.state, g(c.breadth.raw, 'ratio'), g(c.breadth.raw, 'avg'),
-    c.sentiment.state, g(c.sentiment.raw, 'score'),
+    c.skew.state, g(c.skew.raw, 'skew'), g(c.skew.raw, 'avg'),
   ].map((v) => (typeof v === 'string' && v.includes(',') ? '"' + v + '"' : v)).join(',');
   try {
+    // schema changed 2026-06-19 (sentiment->skew voter): if an existing file carries the old
+    // header, archive it once so new rows don't drift under stale column names.
+    if (fs.existsSync(HISTORY_FILE)) {
+      const firstLine = fs.readFileSync(HISTORY_FILE, 'utf8').split(/\r?\n/)[0];
+      const archived = HISTORY_FILE.replace(/\.csv$/, ' (pre-skew).csv');
+      if (firstLine !== HISTORY_HEADER && !fs.existsSync(archived)) fs.renameSync(HISTORY_FILE, archived);
+    }
     if (!fs.existsSync(HISTORY_FILE)) fs.writeFileSync(HISTORY_FILE, HISTORY_HEADER + '\n', 'utf8');
     fs.appendFileSync(HISTORY_FILE, row + '\n', 'utf8');
   } catch (e) { /* best-effort */ }
@@ -329,10 +340,10 @@ function appendHistory(nowIso, regime, c) {
 // ---- main -------------------------------------------------------------------
 (async () => {
   const components = {};
-  const [curve, dollar, vol, credit, rotation, breadth, sentiment] = await Promise.all([
-    voteCurve(), voteDollar(), voteVol(), voteCredit(), voteRotation(), voteBreadth(), voteSentiment(),
+  const [curve, dollar, vol, credit, rotation, breadth, skew] = await Promise.all([
+    voteCurve(), voteDollar(), voteVol(), voteCredit(), voteRotation(), voteBreadth(), voteSkew(),
   ]);
-  Object.assign(components, { curve, dollar, vol, credit, rotation, breadth, sentiment });
+  Object.assign(components, { curve, dollar, vol, credit, rotation, breadth, skew });
   const context = await getContext();
 
   const regime = synthesize(components);

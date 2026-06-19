@@ -60,6 +60,15 @@ const NEWS_TITLE_BLOCK = [
   /\bhas\s+\$[\d.]+\s+(million|billion)\s+(stock\s+)?(holdings|position|stake)\b/i,
 ];
 
+// ---- source registry (sources.json: trust tiers + the news feed lists) ------
+// Single place trust decisions live. Optional — falls back to inline defaults if absent.
+const TIER_RANK = { T1: 0, T2: 1, T3: 2 };
+function loadSourceRegistry() {
+  try { return JSON.parse(fs.readFileSync(path.join(__dirname, 'sources.json'), 'utf8').replace(/^﻿/, '')); }
+  catch (e) { return null; }
+}
+const SOURCES = loadSourceRegistry();
+
 // ---- arg parsing ------------------------------------------------------------
 
 function parseArgs(argv) {
@@ -266,24 +275,28 @@ async function fetchFeedList(feeds, windowHours) {
       const r = await getText(f.url, f.headers ? { headers: f.headers } : undefined);
       if (!r.ok) throw Object.assign(new Error(`HTTP ${r.status}`), { status: r.status });
       const items = parseRss(r.text, windowHours).slice(0, 8);
-      result.push({ source: f.name, status: items.length ? 'ok' : 'empty', items });
+      result.push({ source: f.name, tier: f.tier || null, status: items.length ? 'ok' : 'empty', items });
     } catch (e) {
-      result.push({ source: f.name, status: statusFor(e), items: [] });
+      result.push({ source: f.name, tier: f.tier || null, status: statusFor(e), items: [] });
     }
   }
+  // trusted wires (T2) ahead of aggregators (T3), so the brief reads the better sources first
+  result.sort((a, b) => (TIER_RANK[a.tier] ?? 9) - (TIER_RANK[b.tier] ?? 9));
   return result;
 }
 
-const fetchBroadMarket = (windowHours) => fetchFeedList([
-  { name: 'CNBC top news', url: 'https://www.cnbc.com/id/100003114/device/rss/rss.html' },
-  { name: 'MarketWatch top', url: 'https://feeds.content.dowjones.io/public/rss/mw_topstories' },
-  { name: 'Google News — stock market', url: 'https://news.google.com/rss/search?q=stock%20market&hl=en-US&gl=US&ceid=US:en' },
-], windowHours);
-
-const fetchCryptoNews = (windowHours) => fetchFeedList([
-  { name: 'CoinDesk', url: 'https://www.coindesk.com/arc/outboundfeeds/rss/' },
-  { name: 'The Block', url: 'https://www.theblock.co/rss.xml' },
-], windowHours);
+// Feed lists come from sources.json when present (the trust registry); inline defaults otherwise.
+const BROAD_MARKET_FEEDS = (SOURCES && SOURCES.news && SOURCES.news.broadMarket) || [
+  { name: 'CNBC top news', url: 'https://www.cnbc.com/id/100003114/device/rss/rss.html', tier: 'T2' },
+  { name: 'MarketWatch top', url: 'https://feeds.content.dowjones.io/public/rss/mw_topstories', tier: 'T2' },
+  { name: 'Google News — stock market', url: 'https://news.google.com/rss/search?q=stock%20market&hl=en-US&gl=US&ceid=US:en', tier: 'T3' },
+];
+const CRYPTO_NEWS_FEEDS = (SOURCES && SOURCES.news && SOURCES.news.crypto) || [
+  { name: 'CoinDesk', url: 'https://www.coindesk.com/arc/outboundfeeds/rss/', tier: 'T2' },
+  { name: 'The Block', url: 'https://www.theblock.co/rss.xml', tier: 'T2' },
+];
+const fetchBroadMarket = (windowHours) => fetchFeedList(BROAD_MARKET_FEEDS, windowHours);
+const fetchCryptoNews = (windowHours) => fetchFeedList(CRYPTO_NEWS_FEEDS, windowHours);
 
 // ---- theme news (Jad's exposure: data centers, miners, AI) ------------------
 // One Google-News query per theme from symbol map.json. Cheap (one RSS call each),
@@ -454,14 +467,55 @@ async function fetchOneQuote(yahooSymbol) {
   return { yahoo: yahooSymbol, prevClose: prev, regular: reg, last, pct, marketState: m.marketState || null, asOfMs };
 }
 
+// CNBC quote service — no-key, independent of Yahoo, live (not delayed). Used as a
+// price FALLBACK when Yahoo fails and a CROSS-CHECK when both answer. Scoped to equity/ETF
+// tickers, where the CNBC symbol == the ticker; crypto/commodity/index symbology differs at
+// CNBC, so those stay Yahoo-only (the one exception, '.VIX', is cross-checked in fetchMarketState).
+// One batched request (pipe-separated) covers the whole equity set.
+async function fetchCnbcQuotes(symbols) {
+  if (!symbols.length) return {};
+  const url = 'https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols='
+    + symbols.map(encodeURIComponent).join('%7C') + '&requestMethod=itv&output=json';
+  const json = await getJson(url, { headers: { 'User-Agent': BROWSER_UA, Accept: 'application/json' } });
+  let q = (json && json.FormattedQuoteResult && json.FormattedQuoteResult.FormattedQuote) || [];
+  if (!Array.isArray(q)) q = [q];
+  const num = (v) => { const n = Number(String(v == null ? '' : v).replace(/,/g, '')); return isNaN(n) ? null : n; };
+  const out = {};
+  for (const x of q) {
+    const last = num(x.last);
+    if (x.symbol && last != null) out[x.symbol] = { last, prevClose: num(x.previous_day_closing), marketStatus: x.curmktstatus || null };
+  }
+  return out;
+}
+
 async function fetchQuotes(entries) {
   const out = { byTicker: {}, status: 'ok' };
   let anyError = false;
   const results = await Promise.all(entries.map(async (e) => {
-    try { return [e.ticker, await fetchOneQuote(e.yahoo || e.ticker)]; }
-    catch (err) { anyError = true; return [e.ticker, { status: statusFor(err), pct: null }]; }
+    try { return [e.ticker, await fetchOneQuote(e.yahoo || e.ticker), e]; }
+    catch (err) { return [e.ticker, { status: statusFor(err), pct: null }, e]; }
   }));
-  for (const [t, q] of results) out.byTicker[t] = q;
+  // CNBC fallback / cross-check for equity tickers (CNBC symbol == ticker). Best-effort.
+  const xcheckTickers = entries.filter((e) => e.class === 'equity').map((e) => e.ticker);
+  let cnbc = {};
+  try { cnbc = await fetchCnbcQuotes(xcheckTickers); } catch (e) { /* cross-check is non-load-bearing */ }
+  for (const [t, q, e] of results) {
+    const c = cnbc[t];
+    if (q && q.last != null) {
+      // Yahoo good — cross-check the latest price against CNBC's independent read when present
+      if (c && c.last != null) {
+        q.crossCheck = { source: 'cnbc', cnbcLast: c.last, divergencePct: Math.round(Math.abs((q.last - c.last) / c.last) * 10000) / 100 };
+      }
+      out.byTicker[t] = q;
+    } else if (c && c.last != null) {
+      // Yahoo failed — fall back to CNBC's live quote rather than reporting no price
+      const pct = (c.prevClose && c.last) ? Math.round(((c.last - c.prevClose) / c.prevClose) * 1000) / 10 : null;
+      out.byTicker[t] = { yahoo: (e && e.yahoo) || t, prevClose: c.prevClose, regular: c.last, last: c.last, pct, marketState: c.marketStatus, asOfMs: null, source: 'cnbc', fallback: true };
+    } else {
+      anyError = true; // both sources failed (or non-equity with no CNBC fallback)
+      out.byTicker[t] = q;
+    }
+  }
   if (anyError) out.status = 'degraded';
   return out;
 }
@@ -483,6 +537,15 @@ async function fetchMarketState() {
     try { const q = await fetchOneQuote(b.yahoo); benchmarks.push({ ticker: b.ticker, pct: q.pct }); }
     catch (e) { benchmarks.push({ ticker: b.ticker, pct: null, status: statusFor(e) }); }
   }
+  // CNBC cross-check on VIX (independent of Yahoo) — VIX feeds the regime vol voter
+  try {
+    const cv = await fetchCnbcQuotes(['.VIX']);
+    const v = cv['.VIX'];
+    const vixEntry = futures.find((f) => f.name === 'VIX');
+    if (v && v.last != null && vixEntry && vixEntry.value != null) {
+      vixEntry.crossCheck = { source: 'cnbc', cnbcLast: v.last, divergencePct: Math.round(Math.abs((vixEntry.value - v.last) / v.last) * 10000) / 100 };
+    }
+  } catch (e) { /* best-effort */ }
   return { futures, benchmarks, putCall: null }; // putCall deferred: CBOE 403s from this network
 }
 

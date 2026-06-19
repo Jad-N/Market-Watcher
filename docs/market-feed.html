@@ -311,8 +311,8 @@ const state = { data: null, q: '', types: new Set(), sections: new Set() };
 
 // plain-English, no-jargon explanations shown on hover
 const TIPS = {
-  mood: 'Overall market mood from 0 to 100. Low means investors are scared, high means they are greedy. It is the average of the gauges listed to the right.',
-  'CNN Fear & Greed': "CNN's read on stock-market mood. Near 0 = very scared, near 100 = very greedy.",
+  mood: 'Overall market mood from 0 to 100. Low means scared, high means greedy. Built from the transparent Macro Regime read (and crypto mood when crypto is on the list) — the gauges listed to the right. CNN Fear & Greed is shown only as a cross-reference; it is not part of this score.',
+  'CNN Fear & Greed': "CNN's read on stock-market mood (reference only — not part of the mood score above). Near 0 = very scared, near 100 = very greedy.",
   'Crypto Fear & Greed': 'The same mood read, but for crypto. Low = scared, high = greedy.',
   'Regime (% voters risk-on)': 'Of the market checks in the Macro Regime panel, the share saying conditions are calm enough to take risk.',
   curve: 'The gap between long and short interest rates. Normal is healthy; when it flips (inverts) it often warns a slowdown is coming.',
@@ -321,7 +321,7 @@ const TIPS = {
   credit: 'How worried bond investors are about companies repaying their debt. Calm is good.',
   rotation: 'Which kind of stocks are leading. Economy-sensitive names leading signals confidence; safe-haven names leading signals caution.',
   breadth: 'Whether most stocks are rising, not just a few giants. Broad gains are healthier.',
-  sentiment: 'The overall fear-vs-greed read that feeds into the mood score.',
+  skew: 'How hard investors are paying up for crash protection (the SKEW index). Elevated demand for crash insurance signals fear; subdued signals calm.',
 };
 const $ = (id) => document.getElementById(id);
 const esc = (s) => (s == null ? '' : String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])));

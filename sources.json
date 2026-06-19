@@ -1,0 +1,35 @@
+{
+  "_doc": "Source-of-truth registry for the market brief / live feed. One place where trust decisions live. Tiers: T1 authoritative/official, T2 reliable market data (unofficial), T3 context/color (never a signal). The 'news' block below is ACTIVE CONFIG read by fetch-feeds.js (fetchBroadMarket / fetchCryptoNews); the 'signals' block is the documented mapping of best-source-per-signal (the code paths are hardwired in regime engine.js / mood-signals.js / fetch-feeds.js — this table records the decisions). Updated 2026-06-19.",
+  "tiers": {
+    "T1": "Authoritative / official. Government, exchange, or canonical publisher. Trust the value.",
+    "T2": "Reliable market data, unofficial endpoint. Cross-check where single-threaded.",
+    "T3": "Context / color only. Noisy, gameable, or aggregator. Never drives a read."
+  },
+  "signals": [
+    { "signal": "Yields (2y/10y curve)", "canonical": "US Treasury daily CSV", "tier": "T1", "fallback": null },
+    { "signal": "Credit (HY OAS)", "canonical": "FRED BAMLH0A0HYM2", "tier": "T1", "fallback": null, "note": "1-day lag; carries as-of date" },
+    { "signal": "SEC filings", "canonical": "SEC EDGAR submissions", "tier": "T1", "fallback": null },
+    { "signal": "Earnings calendar", "canonical": "Nasdaq API", "tier": "T1", "fallback": null },
+    { "signal": "Economic calendar", "canonical": "Fair Economy JSON", "tier": "T2", "fallback": null },
+    { "signal": "Crypto fear/greed", "canonical": "alternative.me", "tier": "T1", "fallback": null, "note": "canonical crypto gauge" },
+    { "signal": "Watchlist prices", "canonical": "Yahoo chart API", "tier": "T2", "fallback": "CNBC quote service", "note": "CNBC fallback + cross-check for equity/ETF tickers only; crypto/commodity stay Yahoo-only (CNBC symbology differs)" },
+    { "signal": "Index/sector voters (VIX, DXY, sectors, RSP/SPY)", "canonical": "Yahoo daily", "tier": "T2", "fallback": "CNBC latest-value cross-check (VIX, ETFs)", "note": "voter abstains if Yahoo fully down — single-value source can't rebuild a 20-day series" },
+    { "signal": "Mood signals (HYG/LQD, SPHB/SPLV, SKEW, havens)", "canonical": "Yahoo 1y daily", "tier": "T2", "fallback": null },
+    { "signal": "Equity fear/greed (headline)", "canonical": "Regime engine composite (transparent, hard-data)", "tier": "T2", "fallback": null, "note": "was CNN; CNN demoted to T3 display-only reference" },
+    { "signal": "Broad-market news", "canonical": "CNBC + MarketWatch (T2)", "tier": "T2", "fallback": "Google News aggregator (T3)", "note": "Reuters/AP/FT/WSJ public RSS all checked 2026-06-19 — dead or paywalled or stale; none added. Quality gain here is tiering: trusted sources rank ahead of the aggregator." },
+    { "signal": "Per-ticker news", "canonical": "Google News + Yahoo RSS (deduped)", "tier": "T3", "fallback": null, "note": "aggregator; junk-blocklisted + token-deduped" },
+    { "signal": "Retail sentiment (StockTwits / Reddit / X posts)", "canonical": "as-is", "tier": "T3", "fallback": null, "note": "context-only — removed from the mood composite 2026-06-19; gameable/noisy" },
+    { "signal": "CNN fear/greed", "canonical": "CNN dataviz", "tier": "T3", "fallback": null, "note": "demoted from regime voter to display-only reference 2026-06-19; black box, flaky here" }
+  ],
+  "news": {
+    "broadMarket": [
+      { "name": "CNBC top news", "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html", "tier": "T2" },
+      { "name": "MarketWatch top", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories", "tier": "T2" },
+      { "name": "Google News — stock market", "url": "https://news.google.com/rss/search?q=stock%20market&hl=en-US&gl=US&ceid=US:en", "tier": "T3" }
+    ],
+    "crypto": [
+      { "name": "CoinDesk", "url": "https://www.coindesk.com/arc/outboundfeeds/rss/", "tier": "T2" },
+      { "name": "The Block", "url": "https://www.theblock.co/rss.xml", "tier": "T2" }
+    ]
+  }
+}

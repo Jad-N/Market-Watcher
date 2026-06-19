@@ -32,6 +32,7 @@ const DOCS = path.join(DIR, 'docs');
 const EVENTS_FILE = path.join(DOCS, 'feed-events.json');
 const MOOD_CSV = path.join(DOCS, 'mood-history.csv');
 const DATA_FILE = path.join(DOCS, 'feed-data.json');
+const SCORECARD_CSV = path.join(DIR, 'source-quality history.csv');
 const WATCH_SCRIPT = path.join(DIR, 'intraday-watch.js');
 const REGIME_SCRIPT = path.join(DIR, 'regime engine.js');
 const MOOD_SIGNALS_SCRIPT = path.join(DIR, 'mood-signals.js');
@@ -149,25 +150,19 @@ function buildUrlIndex(raw) {
 }
 
 // ---- step 5: mood composite ------------------------------------------------
-// Each component normalized 0-100, higher = greedier / more risk-on.
-// Composite = simple unweighted mean of whichever components are present.
-// NO invented weights (plan §6b). StockTwits is absent on the --light cron path.
+// Canonical equity fear/greed = the transparent regime composite (% voters risk-on, all hard data).
+// CNN Fear & Greed and StockTwits are DISPLAY-ONLY context and are deliberately NOT averaged in
+// (decided 2026-06-19): CNN is a flaky black box, StockTwits is gameable retail noise. Crypto
+// Fear & Greed (a canonical gauge) is kept only when the watchlist holds crypto. Each component is
+// 0-100, higher = greedier; composite = simple unweighted mean of present components (no weights).
 function computeMood(raw, regime) {
   const g = raw.sources && raw.sources.sentimentGauges;
   const comps = [];
-  if (g && g.fearGreed && typeof g.fearGreed.score === 'number') comps.push({ name: 'CNN Fear & Greed', value: g.fearGreed.score });
-  const hasCrypto = (raw.symbols || []).some((s) => s.class === 'crypto');
-  if (hasCrypto && g && g.cryptoFearGreed && typeof g.cryptoFearGreed.value === 'number') comps.push({ name: 'Crypto Fear & Greed', value: g.cryptoFearGreed.value });
-  // StockTwits aggregate bull% — only present if a non-light run ever populated it.
-  const st = raw.sources && raw.sources.stocktwits && raw.sources.stocktwits.byTicker;
-  if (st) {
-    let bull = 0, tag = 0;
-    for (const k of Object.keys(st)) { const e = st[k]; if (e && typeof e.bullish === 'number') { bull += e.bullish; tag += e.tagged || 0; } }
-    if (tag > 0) comps.push({ name: 'StockTwits bull %', value: (bull / tag) * 100 });
-  }
   if (regime && typeof regime.on === 'number' && (regime.on + regime.off) > 0) {
     comps.push({ name: 'Regime (% voters risk-on)', value: (regime.on / (regime.on + regime.off)) * 100 });
   }
+  const hasCrypto = (raw.symbols || []).some((s) => s.class === 'crypto');
+  if (hasCrypto && g && g.cryptoFearGreed && typeof g.cryptoFearGreed.value === 'number') comps.push({ name: 'Crypto Fear & Greed', value: g.cryptoFearGreed.value });
   const composite = comps.length ? comps.reduce((a, c) => a + c.value, 0) / comps.length : null;
   return { composite: round1(composite), components: comps.map((c) => ({ name: c.name, value: round1(c.value) })) };
 }
@@ -279,6 +274,52 @@ function appendMoodRow(mood, regime, raw) {
   fs.appendFileSync(MOOD_CSV, row + '\n', 'utf8');
 }
 
+// ---- source quality scorecard ----------------------------------------------
+// One row per source per run: status, data freshness (minutes old), and cross-source
+// divergence where a second source exists (prices vs CNBC, VIX vs CNBC). LOGGING ONLY — no
+// alert threshold yet. The point is to accumulate the distribution so Jad can set cutoffs
+// later (same discipline as movePctThreshold sitting null until the shape is known).
+function writeScorecard(raw) {
+  const ss = raw.sourceStatus || {};
+  const g = (raw.sources && raw.sources.sentimentGauges) || {};
+  const ageMin = (ms) => (ms ? Math.round((NOW - ms) / 60000) : '');
+  const rows = [];
+  const add = (source, status, freshMs, divPct, note) => rows.push([source, status || '', ageMin(freshMs), divPct == null ? '' : divPct, note || '']);
+
+  // prices: overall status + freshness + worst cross-check divergence vs CNBC + fallback count
+  const quotes = raw.quotes || {};
+  let maxDiv = null, crossChecked = 0, fallbacks = 0;
+  for (const t of Object.keys(quotes)) {
+    const q = quotes[t];
+    if (q && q.crossCheck && typeof q.crossCheck.divergencePct === 'number') { crossChecked++; maxDiv = Math.max(maxDiv == null ? 0 : maxDiv, q.crossCheck.divergencePct); }
+    if (q && q.source === 'cnbc') fallbacks++;
+  }
+  add('prices (Yahoo)', ss.quotes, raw.pricesAsOf, maxDiv, `${crossChecked} cross-checked vs CNBC${fallbacks ? ', ' + fallbacks + ' on CNBC fallback' : ''}`);
+
+  const vix = ((raw.marketState && raw.marketState.futures) || []).find((f) => f.name === 'VIX');
+  if (vix && vix.crossCheck) add('VIX (Yahoo)', vix.status || 'ok', null, vix.crossCheck.divergencePct, 'vs CNBC .VIX');
+
+  add('CNN Fear & Greed', g.fearGreedStatus, g.fearGreed && g.fearGreed.asOfMs, null, 'display-only (T3)');
+  add('Crypto Fear & Greed', g.cryptoStatus, g.cryptoFearGreed && g.cryptoFearGreed.asOfMs, null, '');
+  add('SEC filings', ss.secFilings, null, null, '');
+  add('Company posts (X)', ss.companyPosts, null, null, '');
+  add('Reddit', ss.reddit, null, null, 'context-only (T3)');
+  add('StockTwits', ss.stocktwits, null, null, 'context-only (T3)');
+  add('Econ calendar', ss.econCalendar, null, null, '');
+  add('Earnings', ss.earnings, null, null, '');
+  for (const b of ss.broadMarket || []) { const i = b.indexOf(': '); add('news: ' + b.slice(0, i), b.slice(i + 2), null, null, ''); }
+
+  try {
+    const header = 'tMs,etLabel,source,status,freshnessMin,divergencePct,note';
+    if (!fs.existsSync(SCORECARD_CSV)) fs.writeFileSync(SCORECARD_CSV, header + '\n', 'utf8');
+    const label = etStamp(NOW).replace(/,/g, '');
+    const esc = (v) => { const s = String(v); return s.includes(',') ? '"' + s + '"' : s; };
+    const out = rows.map((r) => [NOW, label, ...r].map(esc).join(',')).join('\n');
+    fs.appendFileSync(SCORECARD_CSV, out + '\n', 'utf8');
+  } catch (e) { /* best-effort, never crash the build */ }
+  return { crossChecked, divMax: maxDiv, fallbacks };
+}
+
 // ---- event merge + rolling window (last 3 trading days) --------------------
 function mergeEvents(fresh) {
   const prev = readJson(EVENTS_FILE, []);
@@ -382,6 +423,7 @@ function main() {
   const moodSignals = runMoodSignals(readJson(DATA_FILE, null));
 
   appendMoodRow(mood, regime, raw);
+  const sourceQuality = writeScorecard(raw);
 
   const data = {
     generatedAt: etStamp(NOW),
@@ -395,9 +437,10 @@ function main() {
     events,
     timeline: readTimeline(),
     degraded: collectDegraded(raw, rg.ok, false),
+    sourceQuality,
   };
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 1), 'utf8');
-  console.log(`[build] ok — ${fresh.length} new events, ${events.length} in window, mood ${mood.composite} (${data.mood.rating}), ${data.degraded.length} degraded`);
+  console.log(`[build] ok — ${fresh.length} new events, ${events.length} in window, mood ${mood.composite} (${data.mood.rating}), ${data.degraded.length} degraded, ${sourceQuality.crossChecked} prices cross-checked (max div ${sourceQuality.divMax ?? 'n/a'}%)`);
 }
 
 if (require.main === module) main();
