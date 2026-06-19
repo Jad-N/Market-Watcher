@@ -135,6 +135,14 @@
   .voter .vd.on { background: var(--up); } .voter .vd.off { background: var(--down); }
   .voter .vn { font-weight: 650; text-transform: capitalize; letter-spacing: -0.005em; }
   .voter .vs { color: var(--ink-3); margin-left: auto; font-size: 10.5px; text-align: right; font-family: var(--mono); }
+  /* ---------- data check ---------- */
+  .dataq .dqstats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 12px; }
+  .dqstats .s { border: 1px solid var(--rule-2); border-radius: 3px; padding: 13px 15px; background: var(--panel-2); }
+  .dqstats .sv { font-family: var(--mono); font-size: 25px; font-weight: 700; line-height: 1; letter-spacing: -0.01em; }
+  .dqstats .sv.good { color: var(--up); }
+  .dqstats .sk { font-size: 11px; color: var(--ink-2); margin-top: 8px; line-height: 1.38; }
+  .dqnote { font-size: 12px; color: var(--ink-3); line-height: 1.5; }
+  @media (max-width: 680px) { .dataq .dqstats { grid-template-columns: 1fr; } }
 
   /* ---------- sentiment signals ---------- */
   .signals { padding: 12px 16px 16px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
@@ -266,6 +274,12 @@
     </section>
   </div>
 
+  <section class="panel reveal d2 dataq" id="dataqpanel" style="display:none">
+    <div class="kick">Data Check<span class="hint">new — how the numbers are sourced</span></div>
+    <div class="dqstats" id="dqstats"></div>
+    <div class="dqnote">The mood score is now built only from market data we can verify, and every price is double-checked against a second, independent source. Crowd chatter (StockTwits, Reddit, X) and CNN's gauge are shown as context only — they no longer move the score.</div>
+  </section>
+
   <section class="panel reveal d2" id="signalspanel" style="margin-bottom:18px">
     <div class="kick">Sentiment Signals<span class="hint" id="signalshint"></span></div>
     <div class="signals" id="signals"></div>
@@ -372,6 +386,8 @@ function renderMood(d) {
   }).join('') || '<div class="cname" style="color:var(--ink-3)">no components this run</div>';
 }
 
+// plain-English display names for the regime voters (tooltips still key off the raw name)
+const VLABEL = { curve: 'yield curve', vol: 'volatility', skew: 'crash hedging' };
 function renderRegime(d) {
   const r = d.regime;
   if (!r) { $('regimebadge').textContent = 'unavailable'; return; }
@@ -381,8 +397,21 @@ function renderRegime(d) {
   $('regimehint').textContent = (r.drivers || []).slice(0, 2).join(' · ');
   $('voters').innerHTML = (r.components || []).map((c) => {
     const von = c.vote === 'on';
-    return `<div class="voter" title="${esc(TIPS[c.name] || c.detail || '')}"><span class="vd ${von ? 'on' : 'off'}"></span><span class="vn">${esc(c.name)}</span><span class="vs">${esc(c.state)}</span></div>`;
+    return `<div class="voter" title="${esc(TIPS[c.name] || c.detail || '')}"><span class="vd ${von ? 'on' : 'off'}"></span><span class="vn">${esc(VLABEL[c.name] || c.name)}</span><span class="vs">${esc(c.state)}</span></div>`;
   }).join('');
+}
+
+function renderDataQuality(d) {
+  const q = d.sourceQuality, panel = $('dataqpanel');
+  if (!q) { if (panel) panel.style.display = 'none'; return; }
+  if (panel) panel.style.display = '';
+  const down = (d.degraded || []).length;
+  const cards = [
+    { v: q.crossChecked != null ? q.crossChecked : '—', good: q.crossChecked > 0, k: 'prices double-checked against a second source' },
+    { v: q.divMax == null ? '—' : fmt1(q.divMax) + '%', good: q.divMax != null && q.divMax < 1, k: 'biggest gap between the two sources' },
+    { v: down, good: down === 0, k: down === 1 ? 'source down this run' : 'sources down this run' },
+  ];
+  $('dqstats').innerHTML = cards.map((c) => `<div class="s"><div class="sv ${c.good ? 'good' : ''}">${esc(String(c.v))}</div><div class="sk">${esc(c.k)}</div></div>`).join('');
 }
 
 function leanColor(lean) { return lean === 'risk-on' ? 'var(--up)' : lean === 'risk-off' ? 'var(--down)' : 'var(--ink-3)'; }
@@ -533,7 +562,7 @@ function renderChips() {
 
 function render() {
   const d = state.data; if (!d) return;
-  renderHeader(d); renderDegraded(d); renderMood(d); renderRegime(d); renderSignals(d);
+  renderHeader(d); renderDegraded(d); renderMood(d); renderRegime(d); renderDataQuality(d); renderSignals(d);
   renderStrip(d); renderChips(); renderFeed(); renderTimeline(d); renderNames(d);
   $('foot').innerHTML = `Deterministic feed. No AI in the cron path. ${esc(d.generatedAt || '')}<br>Mood is the unweighted mean of present gauges. Prices, news, gauges, and filings from free public feeds.`;
 }
