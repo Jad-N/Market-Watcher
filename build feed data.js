@@ -70,6 +70,15 @@ function etClockToMs(dateYMD, clock) {
   return asUTC - etOffsetMs(asUTC);
 }
 
+// The watcher emits a clock-only time (no date), so etClockToMs glues it onto
+// the run's date. News/posts/filings/themes are past-only: if that lands in the
+// future (an overnight run re-dating yesterday's items), roll back whole days.
+function etPastClockToMs(dateYMD, clock) {
+  let t = etClockToMs(dateYMD, clock);
+  while (t > NOW + 120000) t -= 86400000;
+  return t;
+}
+
 function readJson(file, fallback) {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')); } catch (e) { return fallback; }
 }
@@ -102,16 +111,16 @@ function parseEvents(lines, dateYMD, sectionOf, urlIndex) {
     if ((m = new RegExp(`^MOVE (\\S+) ([+-]?[\\d.]+)% · (.*)$`).exec(line))) {
       events.push({ type: 'move', symbol: m[1], section: sectionOf[m[1]] || null, time: NOW, timeLabel: etClock(NOW), text: `${m[2]}% · ${m[3]}` });
     } else if ((m = new RegExp(`^POST (\\S+) (@\\S+) ${CLK} \\| (.*)$`).exec(line))) {
-      const t = etClockToMs(dateYMD, m[3]);
+      const t = etPastClockToMs(dateYMD, m[3]);
       events.push({ type: 'post', symbol: m[1], section: sectionOf[m[1]] || null, time: t, timeLabel: m[3], handle: m[2], text: m[4], url: urlIndex.post(m[1], m[4]) });
     } else if ((m = new RegExp(`^NEWS (\\S+) (.*?) ${CLK} \\| (.*)$`).exec(line))) {
-      const t = etClockToMs(dateYMD, m[3]);
+      const t = etPastClockToMs(dateYMD, m[3]);
       events.push({ type: 'news', symbol: m[1], section: sectionOf[m[1]] || null, time: t, timeLabel: m[3], source: m[2].trim(), text: m[4], url: urlIndex.news(m[1], m[4]) });
     } else if ((m = new RegExp(`^THEME (.*?) ${CLK} \\| (.*)$`).exec(line))) {
-      const t = etClockToMs(dateYMD, m[2]);
+      const t = etPastClockToMs(dateYMD, m[2]);
       events.push({ type: 'theme', symbol: null, section: 'theme', theme: m[1].trim(), time: t, timeLabel: m[2], text: m[3], url: urlIndex.theme(m[3]) });
     } else if ((m = new RegExp(`^FILING (\\S+) (\\S+) ${CLK} \\| (.*)$`).exec(line))) {
-      const t = etClockToMs(dateYMD, m[3]);
+      const t = etPastClockToMs(dateYMD, m[3]);
       events.push({ type: 'filing', symbol: m[1], section: sectionOf[m[1]] || null, time: t, timeLabel: m[3], filingType: m[2], text: m[4], url: urlIndex.filing(m[1]) });
     } else if ((m = /^GAUGE (.+?) (.+) -> (.+) \((\d+)\)$/.exec(line))) {
       events.push({ type: 'gauge', symbol: null, section: 'macro', time: NOW, timeLabel: etClock(NOW), text: `${m[1].trim()}: ${m[2].trim()} → ${m[3].trim()} (${m[4]})` });
@@ -277,6 +286,11 @@ function mergeEvents(fresh) {
   const idOf = (e) => crypto.createHash('sha1').update(`${e.type}|${e.symbol || e.theme || ''}|${e.timeLabel}|${(e.text || '').slice(0, 80)}`).digest('hex').slice(0, 12);
   for (const e of prev) byId.set(e.id || idOf(e), e);
   for (const e of fresh) { const id = idOf(e); if (!byId.has(id)) byId.set(id, { id, ...e }); }
+  // Self-heal future-dated events: clock-only times that an overnight build
+  // re-dated onto the run day belong to a prior day. Events are past-only, so
+  // anything still ahead of now (incl. stale ones from the persisted log) rolls
+  // back whole days. timeLabel (clock) stays correct; only the date shifts.
+  for (const e of byId.values()) { while (e.time > NOW + 120000) e.time -= 86400000; }
   let all = [...byId.values()].sort((a, b) => b.time - a.time);
   // keep events from the 3 most recent distinct ET dates that have events
   const dates = [...new Set(all.map((e) => etDate(e.time)))].sort().reverse().slice(0, 3);
