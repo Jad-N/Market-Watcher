@@ -149,9 +149,8 @@
   .sig .sv2 { font-size: 12px; font-weight: 650; padding-left: 13px; line-height: 1.3; }
   .sig .sx { font-size: 10.5px; color: var(--ink-3); padding-left: 13px; line-height: 1.35; }
 
-  /* ---------- two-col ---------- */
-  .cols { display: grid; grid-template-columns: 1fr 418px; gap: 18px; align-items: start; }
-  .side { display: flex; flex-direction: column; gap: 18px; }
+  /* ---------- full-width stacked sections ---------- */
+  .mb { margin-bottom: 18px; }
 
   /* ---------- event tape ---------- */
   .filterbar { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--rule-2); align-items: center; }
@@ -190,19 +189,13 @@
 
   /* ---------- charts ---------- */
   .chart { padding: 12px 14px 16px; }
-  .chart svg { width: 100%; height: auto; display: block; }
+  .chart svg { width: 100%; height: 168px; display: block; }
   .legend { display: flex; gap: 16px; flex-wrap: wrap; padding: 10px 16px 0; font-size: 11px; color: var(--ink-2); }
   .legend i { display: inline-block; width: 15px; height: 2.5px; vertical-align: middle; margin-right: 6px; }
 
-  /* ---------- watchlist ---------- */
-  .names { padding: 4px 6px 10px; }
-  .names-sec { font-size: 10px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); padding: 12px 11px 6px; border-bottom: 1px solid var(--rule-2); margin: 0 4px 4px; }
-  .name { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; padding: 8px 11px; border-radius: 2px; }
-  .name:hover { background: var(--panel-2); }
-  .name .nt { font-family: var(--mono); font-size: 13px; font-weight: 650; letter-spacing: 0; }
-  .name .np { font-family: var(--mono); font-size: 13px; font-weight: 600; text-align: right; }
-  .name .meta { grid-column: 1 / -1; font-size: 11px; color: var(--ink-3); display: flex; gap: 9px; flex-wrap: wrap; margin-top: 2px; }
-  .name .meta .hot { color: var(--amber); font-weight: 650; }
+  /* ---------- inline price chip (next to a mentioned ticker) ---------- */
+  .np-inline { font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: -0.01em; padding: 1px 5px; border-radius: 2px; }
+  .np-inline.up { background: var(--up-soft); } .np-inline.down { background: var(--down-soft); } .np-inline.flat { background: var(--rule-2); }
   .up { color: var(--up); } .down { color: var(--down); } .flat { color: var(--ink-3); }
 
   .foot { text-align: center; color: var(--ink-3); font-size: 11px; margin-top: 30px; line-height: 1.8; letter-spacing: 0.01em; }
@@ -216,7 +209,6 @@
 
   @media (max-width: 1080px) {
     .topgrid { grid-template-columns: 1fr; }
-    .cols { grid-template-columns: 1fr; }
     .signals { grid-template-columns: 1fr; }
   }
   @media (max-width: 560px) {
@@ -272,32 +264,24 @@
     <div class="signals" id="signals"></div>
   </section>
 
-  <div class="cols">
-    <section class="panel reveal d3">
-      <div class="kick">Live Tape<span class="hint mono" id="evcount"></span></div>
-      <div class="filterbar">
-        <input class="search" id="search" placeholder="Search events, symbols, headlines…">
-        <div class="chips" id="typechips"></div>
-      </div>
-      <div class="filterbar sub">
-        <span class="seclabel">Section</span>
-        <div class="chips" id="sectionchips"></div>
-      </div>
-      <div class="feed" id="feed"></div>
-    </section>
+  <section class="panel reveal d3 mb">
+    <div class="kick">Sentiment Timeline<span class="hint mono" id="timehint"></span></div>
+    <div class="legend" id="legend"></div>
+    <div class="chart"><svg viewBox="0 0 380 150" id="timechart" preserveAspectRatio="none"></svg></div>
+  </section>
 
-    <div class="side">
-      <section class="panel reveal d3">
-        <div class="kick">Sentiment Timeline<span class="hint mono" id="timehint"></span></div>
-        <div class="legend" id="legend"></div>
-        <div class="chart"><svg viewBox="0 0 380 150" id="timechart" preserveAspectRatio="none"></svg></div>
-      </section>
-      <section class="panel reveal d4">
-        <div class="kick">Watchlist<span class="hint">% vs prior close</span></div>
-        <div class="names" id="names"></div>
-      </section>
+  <section class="panel reveal d4">
+    <div class="kick">Live Tape<span class="hint mono" id="evcount"></span></div>
+    <div class="filterbar">
+      <input class="search" id="search" placeholder="Search events, symbols, headlines…">
+      <div class="chips" id="typechips"></div>
     </div>
-  </div>
+    <div class="filterbar sub">
+      <span class="seclabel">Section</span>
+      <div class="chips" id="sectionchips"></div>
+    </div>
+    <div class="feed" id="feed"></div>
+  </section>
 
   <div class="foot" id="foot"></div>
 </main>
@@ -448,13 +432,26 @@ function splitSource(text) {
   return { title: text, source: '' };
 }
 
+// Build a ticker → % move lookup so a mentioned symbol can show its price move
+// inline (this replaces the standalone watchlist panel).
+function priceMap(d) {
+  const m = {};
+  for (const n of d.perName || []) if (n.ticker && n.pct != null) m[n.ticker] = n.pct;
+  const bm = (d.snapshot && d.snapshot.marketState && d.snapshot.marketState.benchmarks) || [];
+  for (const b of bm) if (b.ticker && b.pct != null && m[b.ticker] == null) m[b.ticker] = b.pct;
+  return m;
+}
+
 function renderFeed() {
   const evs = (state.data.events || []).filter(eventMatches);
+  const pm = priceMap(state.data);
   $('evcount').textContent = `${evs.length} event${evs.length === 1 ? '' : 's'}`;
   if (!evs.length) { $('feed').innerHTML = '<div class="empty">No events match. Clear a filter, or the watch primed quietly.</div>'; return; }
   $('feed').innerHTML = evs.map((e) => {
     const head = e.type === 'theme' ? esc(e.theme) : (e.symbol ? esc(e.symbol) : '');
     const at = e.handle ? ` <span class="at">${esc(e.handle)}</span>` : '';
+    const mv = e.symbol != null ? pm[e.symbol] : null;
+    const pchip = mv != null ? `<span class="np-inline ${pctClass(mv)}">${pctStr(mv)}</span>` : '';
     let body = e.text, src = e.source || '';
     if (e.type === 'news') { const s = splitSource(e.text); body = s.title; if (!src) src = s.source; }
     const srcTag = src ? `<span class="src">${esc(src)}</span>` : '';
@@ -462,7 +459,7 @@ function renderFeed() {
     if (e.url) txt = `<a href="${esc(e.url)}" target="_blank" rel="noopener">${txt} ↗</a>`;
     const tagLabel = e.type === 'filing' && e.filingType ? esc(e.filingType) : e.type;
     return `<div class="ev"><div class="when">${esc(e.timeLabel)}<span class="d">${dayLabel(e.time)}</span></div>`
-      + `<div class="body"><div class="row1"><span class="tag ${e.type}">${tagLabel}</span>${head ? `<span class="sym">${head}${at}</span>` : ''}${srcTag}</div>`
+      + `<div class="body"><div class="row1"><span class="tag ${e.type}">${tagLabel}</span>${head ? `<span class="sym">${head}${at}</span>` : ''}${pchip}${srcTag}</div>`
       + `<div class="txt">${txt}</div></div></div>`;
   }).join('');
 }
@@ -510,27 +507,6 @@ function renderTimeline(d) {
   $('timehint').textContent = `${tl.length} pts · ${dayLabel(x0)} to ${dayLabel(x1)}`;
 }
 
-function renderNames(d) {
-  const order = { trading: 0, macro: 1, crypto: 2 };
-  const groups = {};
-  for (const n of d.perName || []) { const s = n.section || 'macro'; (groups[s] = groups[s] || []).push(n); }
-  const secLabel = { trading: 'Trading basket', macro: 'Macro context', crypto: 'Crypto' };
-  let html = '';
-  for (const sec of Object.keys(groups).sort((a, b) => (order[a] ?? 9) - (order[b] ?? 9))) {
-    html += `<div class="names-sec">${secLabel[sec] || sec}</div>`;
-    for (const n of groups[sec]) {
-      const meta = [];
-      if (n.newsCount) meta.push(`${n.newsCount} headline${n.newsCount === 1 ? '' : 's'}`);
-      if (n.latestFiling) meta.push(`<span class="hot">filing: ${esc(n.latestFiling.type)}</span>`);
-      if (n.latestPost) meta.push('posted');
-      if (n.stocktwits) meta.push(`ST ${fmt1(n.stocktwits.bullPct)}% bull`);
-      html += `<div class="name"><span class="nt">${esc(n.ticker)}</span><span class="np ${pctClass(n.pct)}">${pctStr(n.pct)}</span>`
-        + (meta.length ? `<span class="meta">${meta.join('<span style="color:var(--rule)">·</span>')}</span>` : '') + `</div>`;
-    }
-  }
-  $('names').innerHTML = html;
-}
-
 function renderHeader(d) {
   const open = d.marketOpen;
   const p = $('livepill');
@@ -553,7 +529,7 @@ function renderChips() {
 function render() {
   const d = state.data; if (!d) return;
   renderHeader(d); renderDegraded(d); renderMood(d); renderRegime(d); renderSignals(d);
-  renderStrip(d); renderChips(); renderFeed(); renderTimeline(d); renderNames(d);
+  renderStrip(d); renderChips(); renderFeed(); renderTimeline(d);
   $('foot').innerHTML = `Deterministic feed. No AI in the cron path. ${esc(d.generatedAt || '')}<br>Mood is the unweighted mean of present gauges. Prices, news, gauges, and filings from free public feeds.`;
 }
 
