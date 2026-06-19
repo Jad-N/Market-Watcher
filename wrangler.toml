@@ -1,0 +1,7 @@
+# Cloudflare Workers — static-assets only (no server code). Serves the docs/ folder
+# (market-feed.html + the JSON/CSV the cron writes). The GitHub Action runs `wrangler deploy`.
+name = "market-watcher"
+compatibility_date = "2026-06-01"
+
+[assets]
+directory = "./docs"
