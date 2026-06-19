@@ -47,16 +47,18 @@
     display: flex; align-items: flex-end; gap: 20px;
     border-bottom: 1px solid var(--rule);
   }
-  .mh-left { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; min-width: 0; }
+  .mh-left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .brandmark {
+    width: 36px; height: 36px; border-radius: 10px; flex: none; display: grid; place-items: center;
+    background: linear-gradient(140deg, #3b82f6, #1e40af); box-shadow: 0 3px 10px rgba(37,99,255,0.30), inset 0 1px 0 rgba(255,255,255,0.25);
+  }
+  .brandmark svg { width: 21px; height: 21px; fill: none; stroke: #fff; stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; }
+  .brandtext { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
   .wordmark {
-    font-family: 'Manrope', var(--sans); font-size: 20px; font-weight: 700; letter-spacing: -0.01em;
-    line-height: 1; color: var(--ink); position: relative; padding-left: 13px;
+    font-family: 'Manrope', var(--sans); font-size: 20px; font-weight: 750; letter-spacing: -0.015em;
+    line-height: 1; color: var(--ink);
   }
-  .wordmark::before {
-    content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; border-radius: 2px;
-    background: var(--brand);
-  }
-  .kicker { font-size: 10.5px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-3); }
+  .kicker { font-size: 10px; font-weight: 650; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-3); line-height: 1; }
   .spacer, .mh-spacer { flex: 1; }
   .mh-right { display: flex; align-items: center; gap: 16px; margin-left: auto; }
   .pill {
@@ -108,6 +110,7 @@
   }
   .kick .hint { font-family: var(--sans); font-weight: 500; letter-spacing: 0.01em; text-transform: none; color: var(--ink-3); margin-left: auto; font-size: 11px; }
   .kick .hint.mono { font-family: var(--mono); }
+  .kick .kico { width: 14px; height: 14px; fill: none; stroke: var(--brand); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
 
   /* ---------- mood ---------- */
   .mood { padding: 14px 16px 18px; display: grid; grid-template-columns: 172px 1fr; gap: 8px; align-items: center; }
@@ -151,6 +154,9 @@
 
   /* ---------- full-width stacked sections ---------- */
   .mb { margin-bottom: 18px; }
+  /* feed + sentiment side by side so both sit in view without scrolling */
+  .cols { display: grid; grid-template-columns: 1fr 470px; gap: 18px; align-items: start; margin-bottom: 18px; }
+  .side { display: flex; flex-direction: column; gap: 18px; }
 
   /* ---------- event tape ---------- */
   .filterbar { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--rule-2); align-items: center; }
@@ -163,7 +169,7 @@
   .chip { font-size: 11px; font-weight: 600; padding: 5px 10px; border-radius: 2px; border: 1px solid var(--rule); background: var(--panel); color: var(--ink-2); cursor: pointer; user-select: none; transition: background .12s, color .12s, border-color .12s; letter-spacing: 0.01em; }
   .chip:hover { border-color: var(--ink-3); color: var(--ink); }
   .chip.on { background: var(--brand); color: #fff; border-color: var(--brand); }
-  .feed { max-height: 1240px; overflow-y: auto; }
+  .feed { max-height: 520px; overflow-y: auto; padding-bottom: 16px; }
   .ev { display: grid; grid-template-columns: 62px 1fr; gap: 13px; padding: 12px 16px; border-bottom: 1px solid var(--rule-2); position: relative; }
   .ev:last-child { border-bottom: none; }
   .ev::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: transparent; }
@@ -182,16 +188,15 @@
   .tag.gauge  { color: #be123c; background: rgba(190,18,60,0.09); }
   .sym { font-family: var(--mono); font-size: 12px; font-weight: 650; letter-spacing: 0; }
   .sym .at { color: var(--ink-3); font-weight: 500; }
-  .src { font-size: 10px; font-weight: 600; color: var(--ink-3); letter-spacing: 0.01em; padding: 2px 6px; border: 1px solid var(--rule-2); border-radius: 2px; background: var(--panel-2); }
+  .src { display: inline-flex; align-items: center; gap: 4px; font-size: 10px; font-weight: 600; color: var(--ink-3); letter-spacing: 0.01em; padding: 2px 8px 2px 6px; border: 1px solid var(--rule-2); border-radius: 999px; background: var(--panel-2); }
+  .src svg { width: 11px; height: 11px; fill: none; stroke: var(--ink-3); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+  .src.post svg   { stroke: var(--brand); }
+  .src.filing svg { stroke: var(--amber); }
+  .src.theme svg  { stroke: #0e7490; }
+  .src.gauge svg  { stroke: #be123c; }
   .ev .txt { font-size: 13px; color: var(--ink); line-height: 1.45; }
   .ev .txt a:hover { color: var(--brand); text-decoration: underline; text-underline-offset: 2px; text-decoration-color: rgba(37,99,255,0.4); }
   .empty { padding: 40px 16px; text-align: center; color: var(--ink-3); font-size: 13px; }
-
-  /* ---------- charts ---------- */
-  .chart { padding: 12px 14px 16px; }
-  .chart svg { width: 100%; height: 168px; display: block; }
-  .legend { display: flex; gap: 16px; flex-wrap: wrap; padding: 10px 16px 0; font-size: 11px; color: var(--ink-2); }
-  .legend i { display: inline-block; width: 15px; height: 2.5px; vertical-align: middle; margin-right: 6px; }
 
   /* ---------- inline price chip (next to a mentioned ticker) ---------- */
   .np-inline { font-family: var(--mono); font-size: 11px; font-weight: 700; letter-spacing: -0.01em; padding: 1px 5px; border-radius: 2px; }
@@ -209,6 +214,7 @@
 
   @media (max-width: 1080px) {
     .topgrid { grid-template-columns: 1fr; }
+    .cols { grid-template-columns: 1fr; }
     .signals { grid-template-columns: 1fr; }
   }
   @media (max-width: 560px) {
@@ -223,8 +229,13 @@
 <header>
   <div class="masthead">
     <div class="mh-left">
-      <div class="wordmark">Market Watcher</div>
-      <div class="kicker">Live market desk</div>
+      <div class="brandmark" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M3 17.5l5-5.5 3.5 3.5L21 7"/><path d="M21 12V7h-5"/></svg>
+      </div>
+      <div class="brandtext">
+        <div class="wordmark">Market Watcher</div>
+        <div class="kicker">Live market desk</div>
+      </div>
     </div>
     <div class="mh-right">
       <span id="livepill" class="pill closed"><span class="dot"></span><span id="liveword">—</span></span>
@@ -236,51 +247,47 @@
 <main>
   <div class="degraded" id="degraded"></div>
 
-  <div class="topgrid">
+  <div class="cols">
     <section class="panel reveal d1">
-      <div class="kick">Market Mood<span class="hint">unweighted mean</span></div>
-      <div class="mood">
-        <div class="gauge-wrap">
-          <svg viewBox="0 0 172 110" id="gauge"></svg>
-          <div class="gauge-val"><div class="num" id="moodnum">—</div><div class="rate" id="moodrate"></div></div>
-        </div>
-        <div class="components" id="components"></div>
+      <div class="kick"><svg class="kico" viewBox="0 0 24 24"><path d="M3 12h4l2.5 7 4-14 2.5 7H21"/></svg>Live Tape<span class="hint mono" id="evcount"></span></div>
+      <div class="filterbar">
+        <input class="search" id="search" placeholder="Search events, symbols, headlines…">
+        <div class="chips" id="typechips"></div>
       </div>
-    </section>
-    <section class="panel reveal d2">
-      <div class="kick">Market Backdrop<span class="hint" id="regimehint"></span></div>
-      <div class="regime">
-        <div class="regime-top">
-          <span class="regime-badge" id="regimebadge">—</span>
-          <span class="regime-tally" id="regimetally"></span>
-        </div>
-        <div class="voters" id="voters"></div>
+      <div class="filterbar sub">
+        <span class="seclabel">Section</span>
+        <div class="chips" id="sectionchips"></div>
       </div>
+      <div class="feed" id="feed"></div>
     </section>
+
+    <div class="side">
+      <section class="panel reveal d2">
+        <div class="kick"><svg class="kico" viewBox="0 0 24 24"><path d="M5 18a7 7 0 0 1 14 0"/><path d="M12 18l4.5-3.5"/></svg>Market Mood<span class="hint">unweighted mean</span></div>
+        <div class="mood">
+          <div class="gauge-wrap">
+            <svg viewBox="0 0 172 110" id="gauge"></svg>
+            <div class="gauge-val"><div class="num" id="moodnum">—</div><div class="rate" id="moodrate"></div></div>
+          </div>
+          <div class="components" id="components"></div>
+        </div>
+      </section>
+      <section class="panel reveal d2">
+        <div class="kick"><svg class="kico" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></svg>Market Backdrop<span class="hint" id="regimehint"></span></div>
+        <div class="regime">
+          <div class="regime-top">
+            <span class="regime-badge" id="regimebadge">—</span>
+            <span class="regime-tally" id="regimetally"></span>
+          </div>
+          <div class="voters" id="voters"></div>
+        </div>
+      </section>
+    </div>
   </div>
 
-  <section class="panel reveal d2" id="signalspanel" style="margin-bottom:18px">
-    <div class="kick">Sentiment Signals<span class="hint" id="signalshint"></span></div>
+  <section class="panel reveal d3" id="signalspanel">
+    <div class="kick"><svg class="kico" viewBox="0 0 24 24"><path d="M5.5 13a8 8 0 0 1 13 0"/><path d="M8.5 16a4 4 0 0 1 7 0"/><circle cx="12" cy="18.6" r="0.8" fill="currentColor" stroke="none"/></svg>Sentiment Signals<span class="hint" id="signalshint"></span></div>
     <div class="signals" id="signals"></div>
-  </section>
-
-  <section class="panel reveal d3 mb">
-    <div class="kick">Sentiment Timeline<span class="hint mono" id="timehint"></span></div>
-    <div class="legend" id="legend"></div>
-    <div class="chart"><svg viewBox="0 0 380 150" id="timechart" preserveAspectRatio="none"></svg></div>
-  </section>
-
-  <section class="panel reveal d4">
-    <div class="kick">Live Tape<span class="hint mono" id="evcount"></span></div>
-    <div class="filterbar">
-      <input class="search" id="search" placeholder="Search events, symbols, headlines…">
-      <div class="chips" id="typechips"></div>
-    </div>
-    <div class="filterbar sub">
-      <span class="seclabel">Section</span>
-      <div class="chips" id="sectionchips"></div>
-    </div>
-    <div class="feed" id="feed"></div>
   </section>
 
   <div class="foot" id="foot"></div>
@@ -292,6 +299,15 @@ const TYPES = [
   { k: 'move', label: 'Moves' }, { k: 'theme', label: 'Themes' }, { k: 'gauge', label: 'Gauges' },
 ];
 const SECTIONS = [ { k: 'trading', label: 'Trading' }, { k: 'macro', label: 'Macro' }, { k: 'crypto', label: 'Crypto' }, { k: 'theme', label: 'Theme' } ];
+// minimalist line icons shown beside the source in the Live Tape (stroke set in CSS)
+const SRCICON = {
+  post:   '<svg viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.6 7.1L4 20l1.4-4.3A8 8 0 1 1 20 11.5z"/></svg>',
+  news:   '<svg viewBox="0 0 24 24"><path d="M5 5h11v14H5z"/><path d="M16 9h3v8a2 2 0 0 1-2 2H5"/><path d="M8 9h5M8 12h5M8 15h3"/></svg>',
+  theme:  '<svg viewBox="0 0 24 24"><path d="M9 4 7 20M16 4l-2 16M4.5 9h15M3.5 15h15"/></svg>',
+  filing: '<svg viewBox="0 0 24 24"><path d="M13 3H7a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V8z"/><path d="M13 3v5h5"/></svg>',
+  move:   '<svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v5h-5"/></svg>',
+  gauge:  '<svg viewBox="0 0 24 24"><path d="M5 18a7 7 0 0 1 14 0"/><path d="M12 18l4-3"/></svg>',
+};
 const state = { data: null, q: '', types: new Set(), sections: new Set() };
 
 // plain-English, no-jargon explanations shown on hover
@@ -449,62 +465,20 @@ function renderFeed() {
   if (!evs.length) { $('feed').innerHTML = '<div class="empty">No events match. Clear a filter, or the watch primed quietly.</div>'; return; }
   $('feed').innerHTML = evs.map((e) => {
     const head = e.type === 'theme' ? esc(e.theme) : (e.symbol ? esc(e.symbol) : '');
-    const at = e.handle ? ` <span class="at">${esc(e.handle)}</span>` : '';
     const mv = e.symbol != null ? pm[e.symbol] : null;
     const pchip = mv != null ? `<span class="np-inline ${pctClass(mv)}">${pctStr(mv)}</span>` : '';
+    // Show the source only (with a small type icon) — never the internal type label.
     let body = e.text, src = e.source || '';
-    if (e.type === 'news') { const s = splitSource(e.text); body = s.title; if (!src) src = s.source; }
-    const srcTag = src ? `<span class="src">${esc(src)}</span>` : '';
+    if (e.type === 'news' || e.type === 'theme') { const s = splitSource(e.text); body = s.title; if (!src) src = s.source; }
+    if (e.type === 'post') src = e.handle || 'X';
+    if (e.type === 'filing' && !src) src = 'SEC';
+    const lead = `<span class="src ${e.type}">${SRCICON[e.type] || ''}${src ? esc(src) : ''}</span>`;
     let txt = esc(body);
     if (e.url) txt = `<a href="${esc(e.url)}" target="_blank" rel="noopener">${txt} ↗</a>`;
-    const tagLabel = e.type === 'filing' && e.filingType ? esc(e.filingType) : e.type;
     return `<div class="ev"><div class="when">${esc(e.timeLabel)}<span class="d">${dayLabel(e.time)}</span></div>`
-      + `<div class="body"><div class="row1"><span class="tag ${e.type}">${tagLabel}</span>${head ? `<span class="sym">${head}${at}</span>` : ''}${pchip}${srcTag}</div>`
+      + `<div class="body"><div class="row1">${lead}${head ? `<span class="sym">${head}</span>` : ''}${pchip}</div>`
       + `<div class="txt">${txt}</div></div></div>`;
   }).join('');
-}
-
-// ---- timeline chart (inline SVG, multi-series) ----
-function renderTimeline(d) {
-  const tl = (d.timeline || []).filter((p) => p.t);
-  const svg = $('timechart');
-  if (tl.length < 2) { svg.innerHTML = '<text x="190" y="75" font-size="11" fill="#9aa0a8" text-anchor="middle">timeline builds as runs accumulate</text>'; $('legend').innerHTML = ''; return; }
-  const W = 380, H = 150, PL = 20, PR = 6, PT = 10, PB = 16;
-  const xs = tl.map((p) => p.t); const x0 = Math.min(...xs), x1 = Math.max(...xs);
-  const X = (t) => PL + (x1 === x0 ? 0 : (t - x0) / (x1 - x0)) * (W - PL - PR);
-  const series = [
-    { key: 'composite', col: '#0a0c10', w: 2.2, label: 'Composite mood' },
-    { key: 'cnn', col: '#2563ff', w: 1.4, label: 'CNN Fear & Greed' },
-    { key: 'regime', col: '#15803d', w: 1.4, label: 'Regime risk-on %' },
-  ];
-  const vals = [];
-  for (const s of series) for (const p of tl) if (p[s.key] != null) vals.push(p[s.key]);
-  let lo = Math.min(...vals), hi = Math.max(...vals);
-  const pad = Math.max(4, (hi - lo) * 0.18); lo = Math.max(0, Math.floor((lo - pad) / 5) * 5); hi = Math.min(100, Math.ceil((hi + pad) / 5) * 5);
-  const Y = (v) => PT + (1 - (v - lo) / (hi - lo || 1)) * (H - PT - PB);
-  let g = '';
-  const ticks = [];
-  for (let t = Math.ceil(lo / 20) * 20; t <= hi; t += 20) ticks.push(t);
-  for (const gl of ticks) { g += `<line x1="${PL}" y1="${Y(gl).toFixed(1)}" x2="${W - PR}" y2="${Y(gl).toFixed(1)}" stroke="#eceef2" stroke-width="1"/><text x="2" y="${(Y(gl) + 3).toFixed(1)}" font-size="8" font-family="ui-monospace, Consolas, monospace" fill="#9aa0a8">${gl}</text>`; }
-  if (lo <= 50 && hi >= 50) g += `<line x1="${PL}" y1="${Y(50).toFixed(1)}" x2="${W - PR}" y2="${Y(50).toFixed(1)}" stroke="#cbd0d8" stroke-width="1" stroke-dasharray="3 3"/><text x="${W - PR}" y="${(Y(50) - 3).toFixed(1)}" font-size="7.5" fill="#646b76" text-anchor="end">neutral 50</text>`;
-  for (const s of series) {
-    const pts = tl.filter((p) => p[s.key] != null);
-    if (pts.length < 2) continue;
-    if (s.key === 'composite') {
-      const area = `M ${X(pts[0].t).toFixed(1)} ${Y(pts[0][s.key]).toFixed(1)} ` + pts.map((p) => `L ${X(p.t).toFixed(1)} ${Y(p[s.key]).toFixed(1)}`).join(' ') + ` L ${X(pts[pts.length - 1].t).toFixed(1)} ${H - PB} L ${X(pts[0].t).toFixed(1)} ${H - PB} Z`;
-      g += `<path d="${area}" fill="rgba(10,12,16,0.045)"/>`;
-    }
-    const dpath = 'M ' + pts.map((p) => `${X(p.t).toFixed(1)} ${Y(p[s.key]).toFixed(1)}`).join(' L ');
-    g += `<path d="${dpath}" fill="none" stroke="${s.col}" stroke-width="${s.w}" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>`;
-    const last = pts[pts.length - 1];
-    g += `<circle cx="${X(last.t).toFixed(1)}" cy="${Y(last[s.key]).toFixed(1)}" r="2.6" fill="${s.col}"/>`;
-  }
-  // x date ticks (first / mid / last)
-  const tick = (t) => `<text x="${X(t).toFixed(1)}" y="${H - 3}" font-size="8.5" font-family="ui-monospace, Consolas, monospace" fill="#646b76" text-anchor="middle">${dayLabel(t)}</text>`;
-  g += tick(x0) + tick(tl[Math.floor(tl.length / 2)].t) + tick(x1);
-  svg.innerHTML = g;
-  $('legend').innerHTML = series.map((s) => `<span><i style="background:${s.col}"></i>${s.label}</span>`).join('');
-  $('timehint').textContent = `${tl.length} pts · ${dayLabel(x0)} to ${dayLabel(x1)}`;
 }
 
 function renderHeader(d) {
@@ -529,7 +503,7 @@ function renderChips() {
 function render() {
   const d = state.data; if (!d) return;
   renderHeader(d); renderDegraded(d); renderMood(d); renderRegime(d); renderSignals(d);
-  renderStrip(d); renderChips(); renderFeed(); renderTimeline(d);
+  renderStrip(d); renderChips(); renderFeed();
   $('foot').innerHTML = `Deterministic feed. No AI in the cron path. ${esc(d.generatedAt || '')}<br>Mood is the unweighted mean of present gauges. Prices, news, gauges, and filings from free public feeds.`;
 }
 
