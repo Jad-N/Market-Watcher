@@ -4,9 +4,12 @@ name: Live market feed
 # No Anthropic API, no npm install — preinstalled Node 20 + the dependency-free scripts only.
 on:
   schedule:
-    # every 15 min, 11:00–22:00 UTC, Mon–Fri  (~7am–6pm ET; UTC drifts ±5–15 min, fine —
-    # build feed data.js self-gates to market hours and no-ops off-hours).
-    - cron: '*/15 11-22 * * 1-5'
+    # ~7am–6pm ET, Mon–Fri. Offset OFF the :00/:15/:30/:45 marks (GitHub drops scheduled
+    # runs hardest at the busy quarter-hours) and denser at every ~10 min so at least one
+    # attempt per quarter survives GitHub's scheduled-run lottery. build feed data.js
+    # self-gates to market hours and no-ops off-hours. The reliable trigger is the external
+    # pinger hitting workflow_dispatch; this schedule is the free backstop.
+    - cron: '3,13,23,33,43,53 11-22 * * 1-5'
   workflow_dispatch:
     inputs:
       force_fetch:
