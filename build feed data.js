@@ -34,6 +34,8 @@ const MOOD_CSV = path.join(DOCS, 'mood-history.csv');
 const DATA_FILE = path.join(DOCS, 'feed-data.json');
 const WATCH_SCRIPT = path.join(DIR, 'intraday-watch.js');
 const REGIME_SCRIPT = path.join(DIR, 'regime engine.js');
+const MOOD_SIGNALS_SCRIPT = path.join(DIR, 'mood-signals.js');
+const MOOD_SIGNALS_STATE = path.join(DIR, 'mood-signals state.json');
 
 const NOW = Date.now();
 const round1 = (n) => (n == null || Number.isNaN(n) ? null : Math.round(n * 10) / 10);
@@ -297,6 +299,21 @@ function runRegime() {
   }
 }
 
+// ---- extra mood signals (daily-cached; display+log only, not regime voters) ----
+// Self-caches once per ET day, so calling it every run is cheap. On any failure, fall
+// back to the cached block, then to the prior feed-data.json, so the section never blanks.
+function runMoodSignals(prev) {
+  try {
+    const out = execFileSync('node', [MOOD_SIGNALS_SCRIPT], { cwd: DIR, timeout: 90000, maxBuffer: 1 << 22, encoding: 'utf8' });
+    const j = JSON.parse(out);
+    if (j && Array.isArray(j.groups) && j.groups.length) return j;
+  } catch (e) { /* fall through to cache */ }
+  const st = readJson(MOOD_SIGNALS_STATE, null);
+  if (st && st.block && Array.isArray(st.block.groups) && st.block.groups.length) return st.block;
+  if (prev && prev.moodSignals && Array.isArray(prev.moodSignals.groups)) return prev.moodSignals;
+  return null;
+}
+
 function shapeRegime(rg) {
   if (!rg || !rg.regime) return null;
   const r = rg.regime;
@@ -332,7 +349,7 @@ function main() {
       return;
     }
     // first-ever run while closed and no prior state: write a minimal shell
-    const shell = { generatedAt: etStamp(NOW), generatedAtMs: NOW, marketOpen: false, snapshot: null, mood: { composite: null, components: [] }, regime: null, perName: [], events: mergeEvents([]), timeline: readTimeline(), degraded: ['No market data yet — first run was off-hours'] };
+    const shell = { generatedAt: etStamp(NOW), generatedAtMs: NOW, marketOpen: false, snapshot: null, mood: { composite: null, components: [] }, moodSignals: null, regime: null, perName: [], events: mergeEvents([]), timeline: readTimeline(), degraded: ['No market data yet — first run was off-hours'] };
     fs.writeFileSync(DATA_FILE, JSON.stringify(shell, null, 1), 'utf8');
     console.log('[build] off-hours first run, wrote shell feed-data.json');
     return;
@@ -348,6 +365,7 @@ function main() {
   const rg = runRegime();
   const regime = shapeRegime(rg);
   const mood = computeMood(raw, regime);
+  const moodSignals = runMoodSignals(readJson(DATA_FILE, null));
 
   appendMoodRow(mood, regime, raw);
 
@@ -357,6 +375,7 @@ function main() {
     marketOpen: true,
     snapshot: buildSnapshot(raw),
     mood: { ...mood, rating: moodRating(mood.composite) },
+    moodSignals,
     regime,
     perName: buildPerName(raw),
     events,

@@ -1,22 +1,22 @@
 {
- "generatedAt": "Jun 19, 2026, 12:14 AM ET",
- "generatedAtMs": 1781842454841,
+ "generatedAt": "Jun 19, 2026, 12:53 AM ET",
+ "generatedAtMs": 1781844794220,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-19 00:00 ET",
-  "pricesAsOf": "Jun 19, 2026, 12:14 AM ET",
+  "pricesAsOf": "Jun 19, 2026, 12:53 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7538.5,
-     "change": 1.5,
+     "value": 7530.75,
+     "change": 1.4,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30518.5,
-     "change": 2.8,
+     "value": 30472.25,
+     "change": 2.6,
      "invert": false
     },
     {
@@ -91,6 +91,111 @@
   ],
   "rating": "Fear"
  },
+ "moodSignals": {
+  "asOfET": "Jun 19, 2026",
+  "asOfMs": 1781844818000,
+  "groups": [
+   {
+    "key": "riskAppetite",
+    "title": "Risk appetite",
+    "question": "Reaching for risk, or hiding in safety?",
+    "signals": [
+     {
+      "key": "racyVsSteady",
+      "label": "Racy vs steady stocks",
+      "state": "Reaching for risk",
+      "lean": "risk-on",
+      "detail": "racy stocks beating steady ones lately",
+      "status": "ok",
+      "raw": {
+       "ratio": 2.1212,
+       "avg": 2.0227
+      }
+     },
+     {
+      "key": "junkDemand",
+      "label": "Junk-bond demand",
+      "state": "Backing away from risky debt",
+      "lean": "risk-off",
+      "detail": "money rotating to safer bonds",
+      "status": "ok",
+      "raw": {
+       "ratio": 0.7336,
+       "avg": 0.7345
+      }
+     }
+    ]
+   },
+   {
+    "key": "fearHedging",
+    "title": "Fear hedging",
+    "question": "How hard are people bracing for a drop?",
+    "signals": [
+     {
+      "key": "crashInsurance",
+      "label": "Crash-insurance demand",
+      "state": "Bracing for a drop",
+      "lean": "risk-off",
+      "detail": "paying up for crash protection",
+      "status": "ok",
+      "raw": {
+       "skew": 146.72,
+       "avg": 142.23
+      }
+     },
+     {
+      "key": "safeHaven",
+      "label": "Safe-haven scorecard",
+      "state": "2 of 4 safe havens bid",
+      "lean": "neutral",
+      "detail": "bonds, dollar rising",
+      "status": "ok",
+      "raw": {
+       "bid": 2,
+       "total": 4,
+       "changes": {
+        "gold": -1.68,
+        "bonds": 0.49,
+        "yen": 0.47,
+        "dollar": 0.15
+       }
+      }
+     }
+    ]
+   },
+   {
+    "key": "breadth",
+    "title": "Crowd breadth",
+    "question": "Whole market rising, or just the giants?",
+    "signals": [
+     {
+      "key": "sectorsAbove200",
+      "label": "Long-term uptrend",
+      "state": "9 of 11 sectors trending up",
+      "lean": "risk-on",
+      "detail": "above their 200-day trend",
+      "status": "ok",
+      "raw": {
+       "above": 9,
+       "total": 11
+      }
+     },
+     {
+      "key": "sectorsAbove50",
+      "label": "Short-term uptrend",
+      "state": "5 of 11 sectors rising",
+      "lean": "risk-off",
+      "detail": "above their 50-day trend",
+      "status": "ok",
+      "raw": {
+       "above": 5,
+       "total": 11
+      }
+     }
+    ]
+   }
+  ]
+ },
  "regime": {
   "label": "risk-on",
   "tally": "5-2",
@@ -115,7 +220,7 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 100.97 vs 20d avg 99.6"
+    "detail": "DXY 101 vs 20d avg 99.68"
    },
    {
     "name": "vol",
@@ -133,13 +238,13 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d -1.4% vs others 2.6%"
+    "detail": "defensives 5d -2.3% vs others 0.9%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2821 vs 20d avg 0.2794"
+    "detail": "RSP/SPY 0.2812 vs 20d avg 0.2797"
    },
    {
     "name": "sentiment",
@@ -154,8 +259,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -0.1,
-   "last": 62815.3,
+   "pct": -0.6,
+   "last": 62515.8,
    "newsCount": 10,
    "latestNews": {
     "title": "JPMorgan says bitcoin mining economics have 'worsened' as BTC trades below production cost - The Block",
@@ -183,7 +288,7 @@
     "type": "insider",
     "label": "Insider transaction",
     "url": "https://www.sec.gov/Archives/edgar/data/1819989/000129958126000007/xslF345X06/wk-form4_1781814406.xml",
-    "time": "12:26 PM"
+    "time": "4:26 PM"
    },
    "stocktwits": null
   },
@@ -214,11 +319,11 @@
    "class": "equity",
    "pct": 8.1,
    "last": 286.7,
-   "newsCount": 5,
+   "newsCount": 15,
    "latestNews": {
-    "title": "Nebius Is Up 210% This Year. Here's Why There's Still Room for More Upside in 2026.",
-    "link": "https://www.fool.com/investing/2026/06/18/nebius-is-up-210-this-year-heres-why-theres-still/?.tsrc=rss",
-    "time": "5:27 PM"
+    "title": "Why Is NBIS Stock Soaring Over 10% In Overnight Trading? - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbGtOX09fek0wTnVlUGkzQjJIYlVUaF90YThzMTVER25tdGs0ZXFNcHRBQkVOdWp1UFIzUURFMUNya0RjMXNzY2VNQV9WMTNhdTl1bmUwS3FpMVdwUEUwd2JSODZSU3NPeWo5c253N2NxRDY4Q1RhSi0xaUE2bF9ENUpxbS1ZczhSdV9WWUdmRmNrS0pSd0l3dHoyZE1HdUZWdzNubUNteVFrdmNNRHc5Q0t3Y0RjdVNaRVE?oc=5",
+    "time": "4:16 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -237,13 +342,13 @@
    "last": 537.4,
    "newsCount": 18,
    "latestNews": {
-    "title": "Donald Trump’s Q1 Portfolio Was Just Revealed. He Just Poured Millions Into These 3 Unstoppable AI Stocks. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdk9nbTZYX09VbVN5X0JlZXRkZi1kRVhaSTZSeUZBZjlxa0FxM3QtXzBBSUZhakJCRDR6LXhFcXpWSk9GVTUzU0hkSzVVeDFWckZlZ2JpSFIwZXU2R3lBMjM5R2FPSGQ3NEJyRXZEMDdyWnQtTVBMeXZ6NmpJZ21feGtjeEtKQ19MTUhpbjUzZ3FES3hZVFJoZ25EYw?oc=5",
-    "time": "12:43 PM"
+    "title": "MRVL vs. AMD: Which Semiconductor Stock Has an Edge in the AI Market? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaFZyWWFGQl9McGk5d0VkdW5OOHh5ZmNwYWRCN2ZMSk9mZmdkWjRwSjN3RGk3dEhYU1RWU3IwYzVKU2NnTVptY3BZdm1UWjlzdU1fSEZLQktVdXBEQ0JkN3h5eGNuTlktVEpaQWFHY2haNkRUUW9oclFKTTdUdXA4dGpZQnJxUVZGODZ0am5XdDFudDZlRlk2R2EzWQ?oc=5",
+    "time": "10:16 AM"
    },
    "latestPost": {
-    "text": "Run a 200B-parameter model on your desk, not in the cloud. The AMD Ryzen AI Halo packs 128GB unified memory for local agentic AI development. \n\nLearn more: https://t.co/DOsAtaacnv",
-    "url": "https://x.com/AMD/status/2067687798555959305",
+    "text": "Run a 200B-parameter model on your desk, not in the cloud. The AMD Ryzen AI Halo packs 128GB unified memory for local agentic AI development. \n\nLearn more: https://www.amd.com/en/blogs/2026/amd-powers-next-generation-agent-computers-with-new-ryzen-ai-hal.html",
+    "url": "https://nitter.net/AMD/status/2067687798555959305#m",
     "time": "3:16 PM"
    },
    "latestFiling": null,
@@ -297,13 +402,17 @@
    "class": "equity",
    "pct": 9.5,
    "last": 7.4,
-   "newsCount": 4,
+   "newsCount": 5,
    "latestNews": {
-    "title": "Immunitybio Inc (IBRX) Institutional Confidence - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jMERCYjhZVFd4R0RHa2w3WS1fNkFKaTBiMGw1VzNtQXp4Qms4cDFVMHRLVU12d1FVMm1BT2hORGVvdlphTFpMZzcxOXRtWjNVbml0MFdKMWFmR2YtRkJsT2pXQl80eW95a3RDNlFZZEs?oc=5",
-    "time": "2:55 AM"
+    "title": "IBRX stock eyes best week since February: Founder highlights new Anktiva-NK cell therapy study - MSN",
+    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOeFdPdlFHMkt5eE1YSzJMejNJZ1VRNGlJdVYyV0MxXzZFakNoa29Ua1Z1ZkpHMXFfd1VRT0tFRGx6c2tkcndCLXh3aC1HNldPVU5DT3NpSDU0c0d5QXl6V3VncklUZUtvZXdUdVhtWFY3dmV4T2VjdGRYc2JwaUhZRm9wZ09OaHZrclJoX1RrUW1tbHRmYmc2SjcxdmhTN3V5bXJqTURLVjZWY3hZQzA3SEJiMUlZbXpwV09QY0I5Z3BSYlFDejdZeFpDajZQRTk1SXZocjNYdlhxcTlXU1R0cTB5QzNXR3RiU0dfekN4LVRCV2dC?oc=5",
+    "time": "12:49 PM"
    },
-   "latestPost": null,
+   "latestPost": {
+    "text": "Be part of something bigger. At ImmunityBio, we're developing innovative cancer therapies, and we need dedicated people like you to help us strive to improve patient outcomes. \n\nExplore opportunities to join our team: https://immunitybio.com/careers/",
+    "url": "https://nitter.net/ImmunityBio/status/2067687241800142943#m",
+    "time": "3:13 PM"
+   },
    "latestFiling": null,
    "stocktwits": null
   },
@@ -341,8 +450,8 @@
     "time": "9:00 AM"
    },
    "latestPost": {
-    "text": "“We view this as a boots-on-the-ground, hand-to-hand, face-to-face, shoulder-to-shoulder opportunity to take what we believe is a hugely positive economic activity... which is building data centers, mining bitcoin, working on behalf of the intelligent tokens that are required for https://t.co/4hdPnJZEPc",
-    "url": "https://x.com/CleanSpark_Inc/status/2067640441864855935",
+    "text": "Pinned: “We view this as a boots-on-the-ground, hand-to-hand, face-to-face, shoulder-to-shoulder opportunity to take what we believe is a hugely positive economic activity... which is building data centers, mining bitcoin, working on behalf of the intelligent tokens that are required for the future, and go do it.”\n\nThe race for global digital infrastructure is on. At @TheBitcoinConf, $CLSK Chief Business Officer @harry_sudock shared his perspective on how the U.S. can win it.\n\nWatch here: https://www.youtube.com/watch?v=B3tW096amP0&t=1537s",
+    "url": "https://nitter.net/CleanSpark_Inc/status/2067640441864855935#m",
     "time": "12:07 PM"
    },
    "latestFiling": {
@@ -410,8 +519,8 @@
     "time": "11:29 AM"
    },
    "latestPost": {
-    "text": "At VivaTech, we're sharing how France is turning AI ambitions into production reality.\n\nAI factories are coming online, open models are advancing, and agents are being deployed across industries, including healthcare, telecommunications, manufacturing, energy, and retail.\n\nFrom https://t.co/gqgi8yC6bo",
-    "url": "https://x.com/nvidia/status/2067489992042004685",
+    "text": "At VivaTech, we're sharing how France is turning AI ambitions into production reality.\n\nAI factories are coming online, open models are advancing, and agents are being deployed across industries, including healthcare, telecommunications, manufacturing, energy, and retail.\n\nFrom infrastructure to applications, France is helping lay the foundations for Europe's AI future with NVIDIA technologies.\n\nRead the blog: http://nvda.ws/4vTllNV",
+    "url": "https://nitter.net/nvidia/status/2067489992042004685#m",
     "time": "2:10 AM"
    },
    "latestFiling": null,
@@ -421,7 +530,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -0.7,
+   "pct": -1.6,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -451,7 +560,7 @@
    "class": "equity",
    "pct": 2.5,
    "last": 107.2,
-   "newsCount": 4,
+   "newsCount": 12,
    "latestNews": {
     "title": "Huge News for RocketLab Stock Investors! - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPY3B1Mi1sZmE5TXRLUTRZbUdjd25LZXBjV0xYTHpDUElXbC1mNVhSSDZLemlETkVVd1U2SElXNUFIY1JUZ0JsTzdUMjJhUTdHVzFkZzNXc1dxeHFHVmVlTS1nd0ZqQWN4UDhsbFlPeXoyaERValZxaXlPSWZjY2NnRVhhWW1Xc01VS1E?oc=5",
@@ -483,11 +592,11 @@
    "class": "equity",
    "pct": -3.7,
    "last": 379.4,
-   "newsCount": 13,
+   "newsCount": 12,
    "latestNews": {
-    "title": "Microsoft Stock's Biggest Risk Isn't Competition - It's Expectations (NASDAQ:MSFT) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc0hqR0lIeEZFY0plRHVyUmxUVG9jUjhiTlJNQnFsY1hrdHpxUHpIaUZ5a0UwbkJlU0pEd1kzdlkwaHNoN0ozX1dNVG1fajBPQkdxNktJeXI5aHh3Wk5Qd0M5bnJkcl9XMjhFMGp6MWUzT1E1SVkwR2g5MWNxcTMyaXVhNVktNWVzTnBHbWExM3R5bzBDM2lZT3BQcndXUTA?oc=5",
-    "time": "12:27 AM"
+    "title": "Satya Nadella's $200 Billion Dilemma: Why Microsoft Must Compete With Its Own Best Investment - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMWpwUDFzUTBBaDhBUUNwMjJqN2MwSlV2TnpEdy1pWDlUbnN1anZ2ZlJSaWJxcE9Ua0haT25tb19nVFpQVkJKX3V0UUl2Ql95YWlGb2xFX1B4NnR6aWZjWEhVZWlmVlQwVUEteEw4b3Ffc24wRWVyTnJ1SjRxU2Yzdmd2LURBNVBXZE5XeWdtY05nd1EybGEyMmFyR0NmSXVVcDZFZTZlUnhENHZCN2tOdzA2YlFMbTJvMlRXdzQ3dUozaXpYLV8wR1UxRXNtTnM?oc=5",
+    "time": "9:23 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -499,7 +608,7 @@
    "class": "equity",
    "pct": 12.7,
    "last": 35.5,
-   "newsCount": 7,
+   "newsCount": 8,
    "latestNews": {
     "title": "Why is Hims & Hers Health stock surging today? - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVmMxMEhrdV9DbGpqS1ZTVXRpODVzVW5qQkJLYXF0bV91Vk9MVmtYcnU2ZzRTQ0h6cElpdGU2aTU3dXFjelJQbjIyeHo4eGkxeF9Gci1HTGFlNHA2RTBoZDZIQlNDYUZpNlJQQkFBdlNxWFhsLTJpSVNxZnFMZWc2RF9GMnZRMjEydFRsQjI5ZVk4azJINWVPeGt3cW43SEltd2czbFYwbGRRZw?oc=5",
@@ -522,8 +631,8 @@
     "time": "11:28 AM"
    },
    "latestPost": {
-    "text": "World Cup: USA #GoogleDoodle https://t.co/0ZvaDcEBLV",
-    "url": "https://x.com/Google/status/2067676806694453251",
+    "text": "R to @Google: World Cup: USA #GoogleDoodle http://goo.gle/4fTwg5I",
+    "url": "https://nitter.net/Google/status/2067676806694453251#m",
     "time": "2:32 PM"
    },
    "latestFiling": null,
@@ -533,8 +642,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -4.5,
-   "last": 4162.2,
+   "pct": -4.7,
+   "last": 4153.4,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of gold as of June 18, 2026 - Fortune",
@@ -549,13 +658,13 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -0.5,
-   "last": 79.2,
+   "pct": 0,
+   "last": 79.6,
    "newsCount": 10,
    "latestNews": {
-    "title": "Oil Prices Are Crashing. Inventories Tell A Different Story. - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWG1lOHBfTXV1SkFVQWtneXNDTVBiVXk0cEltMWlHMWl5T3VveThQS0c0Z0VKVlA0VndveU9fWm5Jb0pYMUJ0UHJYQTA5MHZLWExiNmVZdHdpUFVYaVVtNGZ4b2NhZU5sNGhJd3hNcTQ4M21ELWpTcVFrM05tQTJvRXRVQXJxRlNNOWpRTmpscUxYVzVOZkxyRmNwcTlwQ1dRSFNfZ0cyVmJRVVNSNVEzQWFYNk3SAboBQVVfeXFMTkdpU0REYjhtV2hndzh0d2FBWURheHlqT3BEUkZpdWp3bmhpSkhaUTQ0N21EQXRCZkNBTWhPSkRrQ0VfQVlEclFMRm1pWk1YVk5LQXB5dGp4U0xTaThVR3E3SHFaSWVyRHhMc0J6MHZFQkZmeWZDLUZ2NUFDX295VldfbXNSN1gtcGZoZE5sR1lYaTF1WDJfX1c2dXVaWWQ4dzVkemVUaXl6M0VFNTBWQlRwS2tGQ0Z0X2ln?oc=5",
-    "time": "1:30 PM"
+    "title": "Oil prices fall, stocks rally as US, Iran sign framework to end war - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2p4U3V5MHpKTHNITFJNTDZxa3libWZYNjN4TXRUZzdIZlpiM3JWUWZ1V3pBOU9HdWJtQU5va3B4enY3T2VOVXh2UlFHYmNRRFE4M0h2QjBBTFJWSWNiWFl5UGJUQzFrd0ptT2xrZG53SGxVZ1JodGRfcm91Z093ZV9qa2xNLThiREdXb29saU5OR1Qzd1FiRVVudVlXWGluRFZ1WmJZN29McDJGVUHSAbMBQVVfeXFMTXRfcnlNNHVyOXF2WGd1emdEVF9md2JrVVF6elpWTHRtZkIzU0tKN1p0ektiRkVfN3NDbHZ3b2hRU2J1MDJ3RWhhMVdZcEg0WmV4S3VIRlRmRzRrLVFOakF4c3F1X2NNWUVuY1RxTnlPanF1M3llZnNoZjhlSi14eldsSHlhdmlpbTY2cDVjRktLY1Y4LWZjckNKVUlNSGRZZnZTU2R5SkpHNUVCMHVCakczQ28?oc=5",
+    "time": "2:20 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -565,8 +674,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -2,
-   "last": 75.2,
+   "pct": -1.5,
+   "last": 75.7,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of oil as of June 18, 2026 - Fortune",
@@ -579,6 +688,248 @@
   }
  ],
  "events": [
+  {
+   "id": "69530755e03e",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1781923560000,
+   "timeLabel": "10:46 PM",
+   "source": "",
+   "text": "Nebius Stock And 2 AI Infrastructure Growth Stocks With Insider Ownership - simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOU0JmN19IckFYVXVXQVdvcXNNNlltZ1c3bG92ODRlcElzNDlPU1UxM0o2SVpHeUIwNUVpc19uVUFyNmFHWkJUS3ZXUjgwVDFSMmFTODdRM2Z0bTlVc1Q4NDRfSTV0WkE0blF3UUtranktVi1SRk5MamZnWXVvZi03ektOQk5hNklNbm9UWXVWa0Q2dnNnZ3BNN1N3NU9FY3Q4WkpiMTJwQlVXU2xaZzVFWTRJMEFTZFZiTmtxeXhzNy1HWUFUN3RwbXdjY9IB0AFBVV95cUxOd1NsNFVnaWhWeE1lZFAwbElhMGI4RHdBa2l2VTRHLWZJa0dsaHNwRGwwQ3QwSXVEMzY3SWhQcEkxNU9NQ182ajhtcDNlVGotMVhEVmhFVDZtTERCMzEtMXVwNTZUc25sU1ZTdEo3Z0xyREhtbk1Fb1NoMjdla3dJQ0xFOWFySGR6SHZxYkF3dGtldW5Uc24zR1RjNEx2d0xiaDM4Q0lBMERUUkZTV1BNTDhGVFlFbm1YMkg3TnNjRkFDRUJxQTYzd280cTByQVNG?oc=5"
+  },
+  {
+   "id": "602a15da7290",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1781904240000,
+   "timeLabel": "5:24 PM",
+   "source": "",
+   "text": "Nebius Group (NASDAQ:NBIS) Shares Up 2.1% - What's Next? - MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORDhWU3NkaUY4UG9sVk14U2ZmTmY2b0hodkJqZ0hDY3Q0UzFtaEoycEw0emxUdUM3aHV2Q3NoTTEtXy1nRThDeUM2MlpqZDlNLVhadGlBN1h3NXQ0TWlhV0xRQXBBeldWTU4tN1BKNThzU3ZFU0czWnhCeDcxOXl5VVF3OXFnUU4tMlI4Qk4zVEZ4cngtTVI5SFRoR0ZneE50NU5N?oc=5"
+  },
+  {
+   "id": "677862dba2e7",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1781904060000,
+   "timeLabel": "5:21 PM",
+   "source": "",
+   "text": "A Look at Advanced Micro Devices Inc (AMD) After 4.7% Gain -- GF Value $234.89 vs Price $536.67 - GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUjFsV1RPY0dzcGk3Tm1XUlBJSlhFbzRiYW9LNjhfSW5CYjduOXJzOWM1cnhpX1JsbFoxMUFXRW55azMzcjNhWlY0c0k4TmJHbFZIRGxzM2ZmcmRoOWpNYV96dmhEWE1zMTM5djhmdHg3VFd2NXBBRExYY3l3RWZfRUJSWkx3R2l5R0JWaUw4eEdyN1FiYjlyUi1jaUozU3IzbEVRblltMjFtRjhZS29teXl2d0pabDZoNkxEbmJINHo?oc=5"
+  },
+  {
+   "id": "515c4a7f3b4a",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1781897700000,
+   "timeLabel": "3:35 PM",
+   "source": "",
+   "text": "One Warning Signal AMD Investors Can't Miss - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMkxKX29hZmg2dGdPQmk4VGhCT3Rmdm5fWFlKZGZYVGoxdU1nbUVnSW1uMEVLQlBtdW1sZXMwTUd1Ri1FSjhxSzVjQkQxMFNnZFNKWE53Q1JPQ21kM2g2b0pMUEY1cWUyNy1USVV3bGpoNzBVRWdzSkRqVW1LendvLV9yZUFrODNHZ1lzNXhlMDhhVm1lTS1yTFEwd2ZZZw?oc=5"
+  },
+  {
+   "id": "97626bb653ee",
+   "type": "post",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1781896560000,
+   "timeLabel": "3:16 PM",
+   "handle": "@AMD",
+   "text": "Run a 200B-parameter model on your desk, not in the cloud. The AMD Ryzen AI Halo packs 128GB unified memory for local agentic AI development. Learn more: h…",
+   "url": "https://nitter.net/AMD/status/2067687798555959305#m"
+  },
+  {
+   "id": "318b9afd0377",
+   "type": "post",
+   "symbol": "IBRX",
+   "section": "trading",
+   "time": 1781896380000,
+   "timeLabel": "3:13 PM",
+   "handle": "@ImmunityBio",
+   "text": "Be part of something bigger. At ImmunityBio, we're developing innovative cancer therapies, and we need dedicated people like you to help us strive to improve…",
+   "url": "https://nitter.net/ImmunityBio/status/2067687241800142943#m"
+  },
+  {
+   "id": "56b3f0670f33",
+   "type": "post",
+   "symbol": "GOOGL",
+   "section": "macro",
+   "time": 1781893920000,
+   "timeLabel": "2:32 PM",
+   "handle": "@Google",
+   "text": "R to @Google: World Cup: USA #GoogleDoodle http://goo.gle/4fTwg5I",
+   "url": "https://nitter.net/Google/status/2067676806694453251#m"
+  },
+  {
+   "id": "0fc51f4ba635",
+   "type": "post",
+   "symbol": "GOOGL",
+   "section": "macro",
+   "time": 1781893920000,
+   "timeLabel": "2:32 PM",
+   "handle": "@Google",
+   "text": "R to @Google: World Cup: Spain #GoogleDoodle http://goo.gle/4oGHBZe",
+   "url": "https://nitter.net/Google/status/2067676804626673968#m"
+  },
+  {
+   "id": "f58dc29546b8",
+   "type": "post",
+   "symbol": "GOOGL",
+   "section": "macro",
+   "time": 1781893920000,
+   "timeLabel": "2:32 PM",
+   "handle": "@Google",
+   "text": "R to @Google: World Cup: Portugal #GoogleDoodle http://goo.gle/3SutZE7",
+   "url": "https://nitter.net/Google/status/2067676802659524726#m"
+  },
+  {
+   "id": "127cbb6d8bde",
+   "type": "post",
+   "symbol": "GOOGL",
+   "section": "macro",
+   "time": 1781893920000,
+   "timeLabel": "2:32 PM",
+   "handle": "@Google",
+   "text": "R to @Google: World Cup: France #GoogleDoodle http://goo.gle/4vhE45L",
+   "url": "https://nitter.net/Google/status/2067676801120223234#m"
+  },
+  {
+   "id": "242465fe213f",
+   "type": "post",
+   "symbol": "GOOGL",
+   "section": "macro",
+   "time": 1781893920000,
+   "timeLabel": "2:32 PM",
+   "handle": "@Google",
+   "text": "R to @Google: World Cup: Brazil #GoogleDoodle http://goo.gle/4aDTdGk",
+   "url": "https://nitter.net/Google/status/2067676799476081023#m"
+  },
+  {
+   "id": "8124178e2210",
+   "type": "post",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1781888400000,
+   "timeLabel": "1:00 PM",
+   "handle": "@AMD",
+   "text": "In healthcare, trust is everything. From AI-driven diagnostics to real-time patient monitoring and drug discovery, healthcare leaders rely on AMD to delive…",
+   "url": "https://nitter.net/AMD/status/2067653632086966618#m"
+  },
+  {
+   "id": "81e7b688f11f",
+   "type": "news",
+   "symbol": "IBRX",
+   "section": "trading",
+   "time": 1781887740000,
+   "timeLabel": "12:49 PM",
+   "source": "",
+   "text": "IBRX stock eyes best week since February: Founder highlights new Anktiva-NK cell therapy study - MSN",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOeFdPdlFHMkt5eE1YSzJMejNJZ1VRNGlJdVYyV0MxXzZFakNoa29Ua1Z1ZkpHMXFfd1VRT0tFRGx6c2tkcndCLXh3aC1HNldPVU5DT3NpSDU0c0d5QXl6V3VncklUZUtvZXdUdVhtWFY3dmV4T2VjdGRYc2JwaUhZRm9wZ09OaHZrclJoX1RrUW1tbHRmYmc2SjcxdmhTN3V5bXJqTURLVjZWY3hZQzA3SEJiMUlZbXpwV09QY0I5Z3BSYlFDejdZeFpDajZQRTk1SXZocjNYdlhxcTlXU1R0cTB5QzNXR3RiU0dfekN4LVRCV2dC?oc=5"
+  },
+  {
+   "id": "b4ec2f1a531a",
+   "type": "post",
+   "symbol": "CLSK",
+   "section": "trading",
+   "time": 1781885220000,
+   "timeLabel": "12:07 PM",
+   "handle": "@CleanSpark_Inc",
+   "text": "Pinned: “We view this as a boots-on-the-ground, hand-to-hand, face-to-face, shoulder-to-shoulder opportunity to take what we believe is a hugely positive eco…",
+   "url": "https://nitter.net/CleanSpark_Inc/status/2067640441864855935#m"
+  },
+  {
+   "id": "80352b6cc361",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1781882520000,
+   "timeLabel": "11:22 AM",
+   "source": "",
+   "text": "Nebius: Time To Sell…Almost (Rating Downgrade) (NASDAQ:NBIS) - Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPY2xEMjVURGtQNnl6cDBWSDhxVVVtS01fMmgxWkFSajhYaVBXUXVCS2p2c2g2QnhNbkpWOGdHSURLbjkzeEdGbkgwMTVYck5MX1JWOG9hdzUwcFdKdHY0alM1RDNubjgtc3NmN1ZacHBXdjBTTmJBbXBPaUZ2SUpEVi13X1JZRzA5bVlZ?oc=5"
+  },
+  {
+   "id": "8f4c95a79ade",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1781878560000,
+   "timeLabel": "10:16 AM",
+   "source": "",
+   "text": "MRVL vs. AMD: Which Semiconductor Stock Has an Edge in the AI Market? - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaFZyWWFGQl9McGk5d0VkdW5OOHh5ZmNwYWRCN2ZMSk9mZmdkWjRwSjN3RGk3dEhYU1RWU3IwYzVKU2NnTVptY3BZdm1UWjlzdU1fSEZLQktVdXBEQ0JkN3h5eGNuTlktVEpaQWFHY2haNkRUUW9oclFKTTdUdXA4dGpZQnJxUVZGODZ0am5XdDFudDZlRlk2R2EzWQ?oc=5"
+  },
+  {
+   "id": "a724048a5768",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1781877900000,
+   "timeLabel": "10:05 AM",
+   "source": "",
+   "text": "Nebius Amasses $9.3B Cash Reserve: Can It Accelerate AI Buildout? - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTXFHRmRCWGs3QkxMYnFxWllIRUZzQVRCSXlobDF0NHdBYWVlbVRxaWdmYVNRY0FJRjYtMmZYRHJac1d1LUdhQS15VFdCMUZUcmdPblo4Z1JtXzVBa3V3eFU2ZDM5UmdLLTBZbk5oS0gyU3BZbGJWUTNSTU9nWTk3NGhyZEV1MFNGd0dwMHQ5Ym9ScnBZOGhvaVRRRFJwSnJYTjVIYXREcUNybG8wUXBhdnVwVGdYWk5LRFE?oc=5"
+  },
+  {
+   "id": "2fe9bb09451b",
+   "type": "post",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1781877720000,
+   "timeLabel": "10:02 AM",
+   "handle": "@AMD",
+   "text": "AI is reshaping the data center. Hear from Paul Turner, Chief Product Officer of the VMware Cloud Foundation Division at @Broadcom, on how Broadcom and AMD …",
+   "url": "https://nitter.net/AMD/status/2067608913743163769#m"
+  },
+  {
+   "id": "5c11c6a479e1",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1781868600000,
+   "timeLabel": "7:30 AM",
+   "source": "",
+   "text": "NBIS Stock Nears New High. Nebius Rises Over 5% Premarket, Nearing the $300 Mark Again - TradingKey",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTHBNdC10a1l5ZDlUS2JBOXNvcnZfN2lFQkZnc3RhUUQ4UGZPNFZldDU0T253TVBJM0JvUXlEMXNGZWRIUVFnSTNmX3p3NHZVUWtRUElCN25HODFtSnZqbEtWLV9GUy1lQnNwZUJBRlhfc3dnTnN2S3gwT3hlMjM0YnI5UmZlM0pWOGRSOVA0ZFg4NWQ2RUd3NktBcE9DQThZMFEwWGhjOG5GNkZ2Rkp3b0czdEdReW5Y?oc=5"
+  },
+  {
+   "id": "1282d339ce54",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1781855880000,
+   "timeLabel": "3:58 AM",
+   "source": "",
+   "text": "Armistice Capital LLC Buys 54,141 Shares of Nebius Group N.V. $NBIS - MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPd0g0NUNmWFJubW1ZODFWVmZkWXJXMlJEZkZKSzRjQTN3azEzcDlnaktXSEJBYk5EdDdSdUZXYlhhUS1laXF4V1VxcFFqV3F0V0llc2sxWTBKVEdsY3MzTWlZY1VnbWQzYWY3MjdyZVU1N3d5S2VETGFNdFlZWWZWdTJHczFzUEtmcTRidGs1TVpUOU9sN2s0UEhCbGFzbHBVV0FxdU05UDcwX2plRzBaOXZPZ2wxX2RQUGRCSEpfSmxFdw?oc=5"
+  },
+  {
+   "id": "f4a6f115d649",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1781853540000,
+   "timeLabel": "3:19 AM",
+   "source": "",
+   "text": "NBIS Stock Has Already Beaten Its Own Analyst Target! Where Does the Nebius Price Prediction Go Now? - MEXC Exchange",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPX25sb3hFZEE1a09qcHZLZzJfbjBHak9aU2Y3czZQZTVSejU3VWpZc2ZsRVRTZGRSZVpHYlg0U1B4Tl9Za0VBQ09XVkNlbHp1MTh5dm14dUdGT3RpOWRfMWpqbkNiTXpyajZkbkw1MS1XcnI2T2h0dlZfbmd1UVo1c2dLbmVPemNCbnVTUWFwSUhYUUtTbHpxRzVXbnFyZWR5RkozNld5NkdEby1KN01PZ2doMGVoeDZncjRrWkZpRjJTbnhkeVpmbHpFcGdyOF91QU9PYXE3cDI?oc=5"
+  },
+  {
+   "id": "fe47bdaf7d06",
+   "type": "post",
+   "symbol": "NVDA",
+   "section": "macro",
+   "time": 1781849400000,
+   "timeLabel": "2:10 AM",
+   "handle": "@nvidia",
+   "text": "At VivaTech, we're sharing how France is turning AI ambitions into production reality. AI factories are coming online, open models are advancing, and agents…",
+   "url": "https://nitter.net/nvidia/status/2067489992042004685#m"
+  },
   {
    "id": "4e2e715995ce",
    "type": "news",
@@ -642,6 +993,15 @@
   {
    "t": 1781842454841,
    "label": "Jun 19 2026 12:14 AM ET",
+   "cnn": 37,
+   "crypto": 14,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 40.8
+  },
+  {
+   "t": 1781844794220,
+   "label": "Jun 19 2026 12:53 AM ET",
    "cnn": 37,
    "crypto": 14,
    "stBull": null,

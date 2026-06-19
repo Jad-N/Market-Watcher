@@ -1,0 +1,109 @@
+{
+  "computedET": "2026-06-19",
+  "computedMs": 1781844818555,
+  "block": {
+    "asOfET": "Jun 19, 2026",
+    "asOfMs": 1781844818000,
+    "groups": [
+      {
+        "key": "riskAppetite",
+        "title": "Risk appetite",
+        "question": "Reaching for risk, or hiding in safety?",
+        "signals": [
+          {
+            "key": "racyVsSteady",
+            "label": "Racy vs steady stocks",
+            "state": "Reaching for risk",
+            "lean": "risk-on",
+            "detail": "racy stocks beating steady ones lately",
+            "status": "ok",
+            "raw": {
+              "ratio": 2.1212,
+              "avg": 2.0227
+            }
+          },
+          {
+            "key": "junkDemand",
+            "label": "Junk-bond demand",
+            "state": "Backing away from risky debt",
+            "lean": "risk-off",
+            "detail": "money rotating to safer bonds",
+            "status": "ok",
+            "raw": {
+              "ratio": 0.7336,
+              "avg": 0.7345
+            }
+          }
+        ]
+      },
+      {
+        "key": "fearHedging",
+        "title": "Fear hedging",
+        "question": "How hard are people bracing for a drop?",
+        "signals": [
+          {
+            "key": "crashInsurance",
+            "label": "Crash-insurance demand",
+            "state": "Bracing for a drop",
+            "lean": "risk-off",
+            "detail": "paying up for crash protection",
+            "status": "ok",
+            "raw": {
+              "skew": 146.72,
+              "avg": 142.23
+            }
+          },
+          {
+            "key": "safeHaven",
+            "label": "Safe-haven scorecard",
+            "state": "2 of 4 safe havens bid",
+            "lean": "neutral",
+            "detail": "bonds, dollar rising",
+            "status": "ok",
+            "raw": {
+              "bid": 2,
+              "total": 4,
+              "changes": {
+                "gold": -1.68,
+                "bonds": 0.49,
+                "yen": 0.47,
+                "dollar": 0.15
+              }
+            }
+          }
+        ]
+      },
+      {
+        "key": "breadth",
+        "title": "Crowd breadth",
+        "question": "Whole market rising, or just the giants?",
+        "signals": [
+          {
+            "key": "sectorsAbove200",
+            "label": "Long-term uptrend",
+            "state": "9 of 11 sectors trending up",
+            "lean": "risk-on",
+            "detail": "above their 200-day trend",
+            "status": "ok",
+            "raw": {
+              "above": 9,
+              "total": 11
+            }
+          },
+          {
+            "key": "sectorsAbove50",
+            "label": "Short-term uptrend",
+            "state": "5 of 11 sectors rising",
+            "lean": "risk-off",
+            "detail": "above their 50-day trend",
+            "status": "ok",
+            "raw": {
+              "above": 5,
+              "total": 11
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

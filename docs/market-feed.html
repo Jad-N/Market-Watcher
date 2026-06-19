@@ -143,6 +143,19 @@
   .voter .vn { font-weight: 650; text-transform: capitalize; letter-spacing: -0.005em; }
   .voter .vs { color: var(--ink-3); margin-left: auto; font-size: 10.5px; text-align: right; font-family: var(--mono); }
 
+  /* ---------- sentiment signals ---------- */
+  .signals { padding: 12px 16px 16px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .sg-group { display: flex; flex-direction: column; gap: 7px; }
+  .sg-head { font-size: 10.5px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); }
+  .sg-q { font-size: 11.5px; color: var(--ink-3); font-weight: 500; margin: -3px 0 3px; }
+  .sig { display: flex; flex-direction: column; gap: 3px; padding: 9px 11px; background: var(--panel-2); border: 1px solid var(--rule-2); border-radius: 2px; }
+  .sig .sig-top { display: flex; align-items: center; gap: 7px; }
+  .sig .sd { width: 6px; height: 6px; border-radius: 50%; flex: none; }
+  .sig .sd.on { background: var(--up); } .sig .sd.off { background: var(--down); } .sig .sd.neutral { background: var(--ink-3); }
+  .sig .sl2 { font-size: 11.5px; font-weight: 650; letter-spacing: -0.005em; }
+  .sig .sv2 { font-size: 12px; font-weight: 650; padding-left: 13px; line-height: 1.3; }
+  .sig .sx { font-size: 10.5px; color: var(--ink-3); padding-left: 13px; line-height: 1.35; }
+
   /* ---------- two-col ---------- */
   .cols { display: grid; grid-template-columns: 1fr 418px; gap: 18px; align-items: start; }
   .side { display: flex; flex-direction: column; gap: 18px; }
@@ -210,6 +223,7 @@
   @media (max-width: 1080px) {
     .topgrid { grid-template-columns: 1fr; }
     .cols { grid-template-columns: 1fr; }
+    .signals { grid-template-columns: 1fr; }
   }
   @media (max-width: 560px) {
     .masthead, .tape, main { padding-left: 16px; padding-right: 16px; }
@@ -258,6 +272,11 @@
       </div>
     </section>
   </div>
+
+  <section class="panel reveal d2" id="signalspanel" style="margin-bottom:18px">
+    <div class="kick">Sentiment Signals<span class="hint" id="signalshint"></span></div>
+    <div class="signals" id="signals"></div>
+  </section>
 
   <div class="cols">
     <section class="panel reveal d3">
@@ -354,6 +373,26 @@ function renderRegime(d) {
   $('voters').innerHTML = (r.components || []).map((c) => {
     const von = c.vote === 'on';
     return `<div class="voter" title="${esc(c.detail)}"><span class="vd ${von ? 'on' : 'off'}"></span><span class="vn">${esc(c.name)}</span><span class="vs">${esc(c.state)}</span></div>`;
+  }).join('');
+}
+
+function leanColor(lean) { return lean === 'risk-on' ? 'var(--up)' : lean === 'risk-off' ? 'var(--down)' : 'var(--ink-3)'; }
+function leanDot(lean) { return lean === 'risk-on' ? 'on' : lean === 'risk-off' ? 'off' : 'neutral'; }
+function renderSignals(d) {
+  const ms = d.moodSignals;
+  const panel = $('signalspanel');
+  if (!ms || !ms.groups || !ms.groups.length) { if (panel) panel.style.display = 'none'; return; }
+  if (panel) panel.style.display = '';
+  $('signalshint').textContent = ms.asOfET ? 'daily · as of ' + ms.asOfET : 'daily';
+  $('signals').innerHTML = ms.groups.map((g) => {
+    const cards = (g.signals || []).map((s) => {
+      const col = leanColor(s.lean);
+      const detail = s.detail ? `<div class="sx">${esc(s.detail)}</div>` : '';
+      const val = s.status === 'ok' ? esc(s.state) : 'unavailable';
+      return `<div class="sig"><div class="sig-top"><span class="sd ${leanDot(s.lean)}"></span><span class="sl2">${esc(s.label)}</span></div>`
+        + `<div class="sv2" style="color:${col}">${val}</div>${detail}</div>`;
+    }).join('');
+    return `<div class="sg-group"><div class="sg-head">${esc(g.title)}</div><div class="sg-q">${esc(g.question)}</div>${cards}</div>`;
   }).join('');
 }
 
@@ -485,7 +524,7 @@ function renderChips() {
 
 function render() {
   const d = state.data; if (!d) return;
-  renderHeader(d); renderDegraded(d); renderMood(d); renderRegime(d);
+  renderHeader(d); renderDegraded(d); renderMood(d); renderRegime(d); renderSignals(d);
   renderStrip(d); renderChips(); renderFeed(); renderTimeline(d); renderNames(d);
   $('foot').innerHTML = `Deterministic feed. No AI in the cron path. ${esc(d.generatedAt || '')}<br>Mood is the unweighted mean of present gauges. Prices, news, gauges, and filings from free public feeds.`;
 }
