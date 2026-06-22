@@ -1,51 +1,51 @@
 {
- "generatedAt": "Jun 22, 2026, 10:30 AM ET",
- "generatedAtMs": 1782138601837,
+ "generatedAt": "Jun 22, 2026, 10:53 AM ET",
+ "generatedAtMs": 1782140020046,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-22 10:00 ET",
-  "pricesAsOf": "Jun 22, 2026, 10:30 AM ET",
+  "pricesAsOf": "Jun 22, 2026, 10:53 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7581.75,
-     "change": 0.1,
+     "value": 7544.75,
+     "change": -0.3,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30876.25,
-     "change": 0.5,
+     "value": 30640,
+     "change": -0.3,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 16.61,
-     "change": -1,
+     "value": 17.43,
+     "change": 3.9,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 17.14,
-      "divergencePct": 3.09
+      "cnbcLast": 17.62,
+      "divergencePct": 1.08
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.8
+     "pct": 0.5
     },
     {
      "ticker": "QQQ",
-     "pct": 2.5
+     "pct": 2.1
     }
    ],
    "putCall": null
   },
   "gauges": {
    "cnn": {
-    "score": 39,
+    "score": 36,
     "rating": "fear",
     "prevClose": 37,
     "prevWeek": 42,
@@ -238,13 +238,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101 vs 20d avg 99.68"
+    "detail": "DXY 100.94 vs 20d avg 99.68"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 16.61 vs VIX3M 19.43"
+    "detail": "VIX 17.44 vs VIX3M 19.89"
    },
    {
     "name": "credit",
@@ -256,13 +256,13 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d -3% vs others -0.9%"
+    "detail": "defensives 5d -2.8% vs others -1%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2812 vs 20d avg 0.28"
+    "detail": "RSP/SPY 0.2816 vs 20d avg 0.28"
    },
    {
     "name": "skew",
@@ -278,7 +278,7 @@
    "section": "crypto",
    "class": "crypto",
    "pct": 2.6,
-   "last": 64888.3,
+   "last": 64894.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin and Oil Markets Brace for Possible Black Monday After US-Iran Talks Fracture in Switzerland - Yahoo Finance",
@@ -293,8 +293,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 11.3,
-   "last": 29.3,
+   "pct": 9.4,
+   "last": 28.8,
    "newsCount": 4,
    "latestNews": {
     "title": "Why Is CIFR Stock Rising Despite Q1 Earnings Miss? - Stocktwits",
@@ -314,8 +314,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": 2,
-   "last": 59.3,
+   "pct": 0.4,
+   "last": 58.3,
    "newsCount": 3,
    "latestNews": {
     "title": "IREN (IREN) Stock Could Be 37.4% Undervalued After Jefferies Backs Its AI Pivot - simplywall.st",
@@ -335,8 +335,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 2.6,
-   "last": 288.2,
+   "pct": 2,
+   "last": 286.6,
    "newsCount": 6,
    "latestNews": {
     "title": "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next? - TradingKey",
@@ -356,9 +356,9 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 6.2,
-   "last": 544.2,
-   "newsCount": 14,
+   "pct": 6.1,
+   "last": 543.6,
+   "newsCount": 15,
    "latestNews": {
     "title": "Nvidia Stock Rises But It Still Lags Intel - Barron's",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MSnV6RWNOazJMeXF2RVd2RUhJNU9aR0hKNElGM0s0UUNhTkZtRDVwRE9xWVlEMFE3QWp0RUhQTDJPVUZLNkEyS05QYm1FTURGMWtlbkRxMGM1QVF3NktaN3hKaHZwNFo0UGphRFVHRUZXblh5QXB0ckZB?oc=5",
@@ -372,13 +372,13 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": 1.1,
-   "last": 46.1,
-   "newsCount": 4,
+   "pct": 0.1,
+   "last": 45.6,
+   "newsCount": 1,
    "latestNews": {
-    "title": "APLD Stock Surges To Over 2-Month High – Retail Expects Stock To Double By Year-End - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUDR6ZkozME5sZC05Q1FxbEpQVXllakVfbG9YNHJhdkZDM0o1ZFJnWmI5WjZkOEZuWXVBbWFUdEswN0pLcEZfUTZ4ckxyM05id1BYRHZBZ05wSzdTLTIxb0VlWHd0ZVB1c1QxbjNydk51dTNtc3oyTXlSTmVTVEdoaTB4SjlmR3M2Ry0tYWlYbGd3c0VVcG1Cc2pTSHhIRmVoSWpRV1JMTDl5SnR2T1gwLTR3WDR4bkc3SThwVjFHbDUwMkptNzE0R0ZNYjVoaWlMblBaQTFnbmh2ajEtQ2c?oc=5",
-    "time": "10:03 PM"
+    "title": "Applied Digital (NASDAQ: APLD) Stock Price Could Triple By 2030, But Risks Loom Large - foreignpolicyjournal.com",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZERNQnlZbVJSUk9VMjJPZ0tnbUd2THAwMnNjYnEyeGNsRjFmWFlTNktrSHRNTWpBMm96ci04VkFqLWVTNFg0M2xMY1U4a045Z1lPMUpEYktudTlrOVZ2UjZaNTJlRk56VWFjbGs1SXgyU01VczgtMFpwS2pCUktXbkFwQW9hVE1pZk9ZNlZtSm0xS0tJckZvRjNOVU9lczBSZkw1SlNtYWRDY0JTSGxwUDdTUmtFSDB0SXB5WXJtTVB4bC0zd3pxd1dB?oc=5",
+    "time": "4:30 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -393,8 +393,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 3.8,
-   "last": 28.9,
+   "pct": 2.8,
+   "last": 28.6,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -410,10 +410,14 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 2.9,
+   "pct": 3.3,
    "last": 7.2,
-   "newsCount": 0,
-   "latestNews": null,
+   "newsCount": 1,
+   "latestNews": {
+    "title": "IBRX Stock Declines — ImmunityBio Resubmits Anktiva Application To FDA With Additional Data - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcWp2SVRmUXBHQjYyQVRaOHdNLXhyam5xZDdaOURRQllzZVNqUEdzdU5HRHFIX3J5SkxtVEx0M0ZqMnN3Q3FUVVJMRDBWTzEtYl8xVzB1TFdIcEpvcmNXb0wxSjhwb1VBQW80ODhlM0pNRjRFVUpyUU96bmtwOXplOFRDZThrejZNOWJOMnFyLTFfQ2hvdDNDZkk1b0FiRml3NDdYVWIwOEZMVmF2VW80d3I2T0lFeFcyenJBRDJMUUhKNGlfRjVtQ0YxV2k?oc=5",
+    "time": "6:09 AM"
+   },
    "latestPost": null,
    "latestFiling": null,
    "stocktwits": null
@@ -422,8 +426,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 23.6,
-   "last": 7.1,
+   "pct": 20.5,
+   "last": 6.9,
    "newsCount": 1,
    "latestNews": {
     "title": "New Era Energy and Digital Ord Shs (NUAI) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey",
@@ -443,8 +447,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 9.5,
-   "last": 18.4,
+   "pct": 7.9,
+   "last": 18.1,
    "newsCount": 1,
    "latestNews": {
     "title": "CleanSpark Stock: The AI Pivot Is Not Worth The Risk (NASDAQ:CLSK) - Seeking Alpha",
@@ -464,8 +468,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 1.2,
-   "last": 15.6,
+   "pct": 0.3,
+   "last": 15.5,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -477,7 +481,7 @@
    "section": "trading",
    "class": "equity",
    "pct": -2.2,
-   "last": 98,
+   "last": 97.9,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -488,8 +492,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -1.3,
-   "last": 24.8,
+   "pct": -2.3,
+   "last": 24.6,
    "newsCount": 1,
    "latestNews": {
     "title": "Mineralys Therapeutics (MLYS) Stock Could Be 52% Undervalued After Funding Deal And Lorundrostat Data - simplywall.st",
@@ -504,13 +508,13 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 3.1,
-   "last": 211,
+   "pct": 2.3,
+   "last": 209.4,
    "newsCount": 18,
    "latestNews": {
-    "title": "NVIDIA Stock Has Slipped By 10% From YTD High As Pros Predict 46% Jump - NVIDIA (NASDAQ:NVDA) - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcVUtRHloSkVTSHE4STRpeVN3SXoyTVg0Y0RyUjVWRVUyanVzRU9STjh2UUtPRllVSzVsdkRoV1gxUFM2ZWE2Nng4NnZxbTZYNUZ0VEp1TmFxX3FqNW9ISmFJd1ZqYng2VFZpTGVjSkI5Y1R1YUFYRVFxM3pRNWs4Ri1EVFdzOHQxYkZoWnp6ZTJ1c3hyczVxanB6d0RSNGxCRFJvdUVlek43V3cxOXI4WndwYXhVS3k1UU1VR09XclBtTGs?oc=5",
-    "time": "2:31 PM"
+    "title": "1 Mind-Boggling Metric That Makes Nvidia Stock a Screaming Buy - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQajBkTnJsbFR3U0lvbTFWQlZvWmVhbmYtV2h3c0ZHbzF5eFZtcWl3dUFtX0NCQ2FxeVE0ZzBZLUVHbkJlTXRkRnBuVDg3Rkh0MnZYNllodGR1RE1rbDlGNk1wT2p6ckZlanZkclAybmEwVjA0X3lTYkRWQ29rdDAwMTFDNkFkdzJsdloweXRucGNVOEh3ejFNSA?oc=5",
+    "time": "11:00 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -520,7 +524,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 2,
+   "pct": 1.7,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -536,8 +540,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 4,
-   "last": 13.4,
+   "pct": 3.5,
+   "last": 13.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -548,13 +552,13 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -10.2,
-   "last": 97,
-   "newsCount": 9,
+   "pct": -9.3,
+   "last": 98,
+   "newsCount": 8,
    "latestNews": {
-    "title": "Rocket Lab Stock Has Dived After SpaceX IPO, But Top Analysts Predict A Rebound - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeGR6U0wzSDAxX0lMVGRwa0liSnMyTVBLZ3BneGZqMFNyak9NX3piQUZiVWk2eWJOSl84YjF3Tjg1ZS00LWFUVml0bVVUYWdJbmhZOTV6bnBPTWMxNjNuTktvZ09hckdqaElWSzRtU3lLbnJyWjRyOHJaNmx0ZG9hZkh6Q0pWT2lhN2taczdVc3VWZlVNWC1GdmR1YlAzX1o3dUkzZWYxNmFMR1BuZmhMSm16OVlSOU9ydWVObFNia2pYQm1KdFpsTzdkQXJzbVd4?oc=5",
-    "time": "5:17 PM"
+    "title": "Rocket Lab Stock In Focus As Company Officially Joins Nasdaq-100 - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeHR6WXRPbXRnLWY1Vm9XUHhuNllLMHBJZnRncEExUEw1MDZvaXZfV2lKLUhCZGZOWHlGb1VUMGEzNjUyVWkydXRGVWVJcEJHMXhUTUJkQUNsSms1azVzT1A4QnE3MnNnbFl4VlZGNTE3YXlwbElMLVplRGE0NklCc0NUdmZ3dFRrcW9YUHJ0cUFZSzZFdmxtM0RkZUNXQ2tRUjdiQ3pSWV9pUXRQNHB5RktfQkwzeDZMX3pnQlFEYWpHTTQ?oc=5",
+    "time": "7:31 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -564,9 +568,9 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -5,
-   "last": 124.2,
-   "newsCount": 6,
+   "pct": -5.9,
+   "last": 123,
+   "newsCount": 5,
    "latestNews": {
     "title": "Palantir Technologies Stock (PLTR) Opinions on Burry's Bearish Stance and Analyst Notes - Quiver Quantitative",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOGg1eGdVandqYU0xc2RFMGZIeXZyOHExTnFaeERDZ2dtQTl6eWQxNWRmbmNRSm5fcjlHbEVXTElXVnBRUHRGWGxzekpHMlJrLXlFMDN6VjVVYzF6M2c2MGpXaXpOUl9LM2F1a01OR0ZuUnlPUWoydzZWYVFyVktWRGY2X1BTTGdGM0JWREhUZDMzd2RXRWR5VW5XVlhoSUh1RWNSTGJ1VWJlXzgzSlBVWTQ0QzNVX0R3SU40T1Q2Z1NPcW4t?oc=5",
@@ -580,9 +584,9 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -1.4,
-   "last": 373.5,
-   "newsCount": 17,
+   "pct": -1.7,
+   "last": 372.4,
+   "newsCount": 18,
    "latestNews": {
     "title": "Microsoft (MSFT) Stock After 20% Slide This Year Is The Valuation Case Compelling - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSnVQb0pjTFBrWmtYMFNaYzlIVHR3TTNESHpBSGk4V0JYWUFfTl9JUTc5eFpObXRuV3NSYXhKWWdrcUk2bmtkUFIxWW56cFZkNmNaOU5yYnZsOFYyUmxZMGxsRTVmNTVoV2VHS1V1ZDlkNTJCdlU0NmpHbElXdWhuUzR1ZmRwMl91SVM2SElnYndQRTAxeDE4N3dRY2hYX1hzc2lDZFVLVjJ3d2t1SGxoMTlTcWVsSnNPZjhTYU9KMTJxRnBseWZB0gHMAUFVX3lxTE5OMVV4T3MwTGVmUXRHSUtxNTFaNWh0amYtb0VjNkVtQ1RDcW5oNkhGUDV6NHVCOV9wUEExRTZ2VGRPelVDZnhMY0dvZGEzR3pSMWo4aXBNa3R3VndHSmpqWVBjbnA2bVlHNU1XaUkydUFxTS1NMFJkRFNocWEzWE5ZaEhFb3BvZTJvUHRRRmxpRFhBcWJZWHhYSGZLWElFU0ZmUUVMZGtvUEQ3aGZPdjk1MFFESGgxejNONzQwQlc2eXhHNVJBeGZfWV85Qw?oc=5",
@@ -596,8 +600,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 9.8,
-   "last": 35,
+   "pct": 7.1,
+   "last": 34.2,
    "newsCount": 4,
    "latestNews": {
     "title": "HIMS Stock Eyes Breakout Week: Eight New Partners Fuel Push To Build An All-In-One Health Platform - Stocktwits",
@@ -612,8 +616,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -4.1,
-   "last": 348.8,
+   "pct": -4.9,
+   "last": 345.8,
    "newsCount": 18,
    "latestNews": {
     "title": "GOOGL Stock Dips Premarket After Breakout Week: Analyst Says Google Developing Next-Gen AI Chip With MediaTek - Yahoo Finance",
@@ -629,7 +633,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": -0.7,
-   "last": 4214.7,
+   "last": 4215.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold Price Today on June 22, 2026 - USA Today",
@@ -644,8 +648,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.4,
-   "last": 77.9,
+   "pct": -2,
+   "last": 78.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of oil as of June 22, 2026 - Fortune",
@@ -660,8 +664,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.7,
-   "last": 73.8,
+   "pct": -2.2,
+   "last": 74.2,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of oil as of June 22, 2026 - Fortune",
@@ -674,6 +678,17 @@
   }
  ],
  "events": [
+  {
+   "id": "ed96c319a9ea",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782138300000,
+   "timeLabel": "10:25 AM",
+   "source": "",
+   "text": "SpaceX Merger Would Hurt Tesla Stock, Jefferies Says. Cathie Wood Adds Tesla.",
+   "url": "https://finance.yahoo.com/m/07442257-2e33-318b-9cd5-73ba0bab211a/spacex-merger-would-hurt.html?.tsrc=rss"
+  },
   {
    "id": "c1dbcfe621db",
    "type": "news",
@@ -750,6 +765,17 @@
    "source": "",
    "text": "Why Nvidia Stock Is Falling When Intel and AMD Are Rising - Barron's",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MSnV6RWNOazJMeXF2RVd2RUhJNU9aR0hKNElGM0s0UUNhTkZtRDVwRE9xWVlEMFE3QWp0RUhQTDJPVUZLNkEyS05QYm1FTURGMWtlbkRxMGM1QVF3NktaN3hKaHZwNFo0UGphRFVHRUZXblh5QXB0ckZB?oc=5"
+  },
+  {
+   "id": "df2051fcb9b4",
+   "type": "news",
+   "symbol": "IBRX",
+   "section": "trading",
+   "time": 1782122940000,
+   "timeLabel": "6:09 AM",
+   "source": "",
+   "text": "IBRX Stock Declines — ImmunityBio Resubmits Anktiva Application To FDA With Additional Data - Stocktwits",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcWp2SVRmUXBHQjYyQVRaOHdNLXhyam5xZDdaOURRQllzZVNqUEdzdU5HRHFIX3J5SkxtVEx0M0ZqMnN3Q3FUVVJMRDBWTzEtYl8xVzB1TFdIcEpvcmNXb0wxSjhwb1VBQW80ODhlM0pNRjRFVUpyUU96bmtwOXplOFRDZThrejZNOWJOMnFyLTFfQ2hvdDNDZkk1b0FiRml3NDdYVWIwOEZMVmF2VW80d3I2T0lFeFcyenJBRDJMUUhKNGlfRjVtQ0YxV2k?oc=5"
   },
   {
    "id": "6ff869306fb9",
@@ -2042,12 +2068,21 @@
    "stBull": null,
    "regime": 71.4,
    "composite": 45.7
+  },
+  {
+   "t": 1782140020046,
+   "label": "Jun 22 2026 10:53 AM ET",
+   "cnn": 36,
+   "crypto": 20,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 45.7
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.21,
+  "divMax": 0.09,
   "fallbacks": 0
  }
 }
