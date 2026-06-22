@@ -1,21 +1,21 @@
 {
- "generatedAt": "Jun 22, 2026, 5:08 PM ET",
- "generatedAtMs": 1782162520294,
+ "generatedAt": "Jun 22, 2026, 5:30 PM ET",
+ "generatedAtMs": 1782163801975,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-22 17:00 ET",
-  "pricesAsOf": "Jun 22, 2026, 5:08 PM ET",
+  "pricesAsOf": "Jun 22, 2026, 5:29 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7540.5,
+     "value": 7540.75,
      "change": -0.4,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30655.25,
+     "value": 30662.5,
      "change": -0.2,
      "invert": false
     },
@@ -101,11 +101,11 @@
   ]
  },
  "mood": {
-  "composite": 45.7,
+  "composite": 52.9,
   "components": [
    {
     "name": "Regime (% voters risk-on)",
-    "value": 71.4
+    "value": 85.7
    },
    {
     "name": "Crypto Fear & Greed",
@@ -221,17 +221,18 @@
  },
  "regime": {
   "label": "risk-on",
-  "tally": "5-2",
-  "on": 5,
-  "off": 2,
+  "tally": "6-1",
+  "on": 6,
+  "off": 1,
   "drivers": [
    "curve positive",
    "VIX in contango",
    "credit spreads tight",
    "cyclicals leading",
-   "breadth broad"
+   "breadth broad",
+   "crash-hedging subdued"
   ],
-  "score": 71.4,
+  "score": 85.7,
   "components": [
    {
     "name": "curve",
@@ -271,9 +272,9 @@
    },
    {
     "name": "skew",
-    "vote": "off",
-    "state": "elevated",
-    "detail": "SKEW 146.7 vs 20d avg 142.2"
+    "vote": "on",
+    "state": "subdued",
+    "detail": "SKEW 141.9 vs 20d avg 142.5"
    }
   ]
  },
@@ -282,8 +283,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 1.7,
-   "last": 64343.5,
+   "pct": 1.6,
+   "last": 64229,
    "newsCount": 10,
    "latestNews": {
     "title": "Strategy Is Buying Bitcoin Again but Its STRC Financing Engine Is the Real Worry - Barron's",
@@ -383,7 +384,7 @@
    "class": "equity",
    "pct": -0.8,
    "last": 45.2,
-   "newsCount": 7,
+   "newsCount": 6,
    "latestNews": {
     "title": "APLD Stock Surges To Over 2-Month High – Retail Expects Stock To Double By Year-End - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUDR6ZkozME5sZC05Q1FxbEpQVXllakVfbG9YNHJhdkZDM0o1ZFJnWmI5WjZkOEZuWXVBbWFUdEswN0pLcEZfUTZ4ckxyM05id1BYRHZBZ05wSzdTLTIxb0VlWHd0ZVB1c1QxbjNydk51dTNtc3oyTXlSTmVTVEdoaTB4SjlmR3M2Ry0tYWlYbGd3c0VVcG1Cc2pTSHhIRmVoSWpRV1JMTDl5SnR2T1gwLTR3WDR4bkc3SThwVjFHbDUwMkptNzE0R0ZNYjVoaWlMblBaQTFnbmh2ajEtQ2c?oc=5",
@@ -541,7 +542,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 0.5,
+   "pct": 0.4,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -578,9 +579,9 @@
     "time": "12:20 PM"
    },
    "latestPost": {
-    "text": "R to @USSF_SSC: Lifting off from Rocket Lab Launch Complex 1 in New Zealand at 10:19 pm NZT on June 19th, the mission shattered the previous TacRS record set by VICTUS NOX by more than 10 hours. The feat establishes a new global benchmark for rapid call-up space capabilities.",
-    "url": "https://nitter.net/RocketLab/status/2069157804846502360#m",
-    "time": "4:37 PM"
+    "text": "The Space Force called, and we launched. From call up to lift-off in just 16 hours 42 minutes 🎯 Rocket Lab has made history - the fastest response time ever for a @USSF_SSC Tactically Responsive Space mission.",
+    "url": "https://nitter.net/RocketLab/status/2069157322266759289#m",
+    "time": "4:35 PM"
    },
    "latestFiling": null,
    "stocktwits": null
@@ -597,7 +598,11 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdzBXTFhHeTdKSnpCVEE1RlFfcHpTTTdwa1B3QkZDVWJoaU0xNDlYR3c4cW8yQ0ladnpLUWFjeWZUMU9WWXRtZTNjMnk3eGlxLVl1M3dqRm1xRTZlSGljTnd6M0g2aFJGOVlVRkRNdi0tdFVNSm9JcGRiX1JpWHpmeHVfelJabjlWZVR0WEh1RlVyUnBFNGZMWW8wRVo0TUJBM0NnaVF4Yw?oc=5",
     "time": "11:11 AM"
    },
-   "latestPost": null,
+   "latestPost": {
+    "text": "Palantir is proud to support the @USArmy's next generation of command and control. https://www.businesswire.com/news/home/20260622171213/en/Palantir-Secures-Foundational-Role-in-NGC2-Data-Layer",
+    "url": "https://nitter.net/PalantirTech/status/2069167863462596729#m",
+    "time": "5:17 PM"
+   },
    "latestFiling": null,
    "stocktwits": null
   },
@@ -657,8 +662,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -0.8,
-   "last": 4210.4,
+   "pct": -1.7,
+   "last": 4172.9,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of gold as of June 22, 2026 - Fortune",
@@ -689,8 +694,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.4,
-   "last": 74.1,
+   "pct": 0.9,
+   "last": 76.5,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil Futures Retreat As U.S.-Iran Talks Make Some Headway - WSJ",
@@ -703,6 +708,17 @@
   }
  ],
  "events": [
+  {
+   "id": "6624baf03212",
+   "type": "post",
+   "symbol": "PLTR",
+   "section": "macro",
+   "time": 1782163020000,
+   "timeLabel": "5:17 PM",
+   "handle": "@PalantirTech",
+   "text": "Palantir is proud to support the @USArmy's next generation of command and control. https://www.businesswire.com/news/home/20260622171213/en/Palantir-Secures-…",
+   "url": "https://nitter.net/PalantirTech/status/2069167863462596729#m"
+  },
   {
    "id": "bcf9ee6d30a9",
    "type": "news",
@@ -2387,6 +2403,15 @@
    "stBull": null,
    "regime": 71.4,
    "composite": 45.7
+  },
+  {
+   "t": 1782163801975,
+   "label": "Jun 22 2026 5:30 PM ET",
+   "cnn": 35,
+   "crypto": 20,
+   "stBull": null,
+   "regime": 85.7,
+   "composite": 52.9
   }
  ],
  "degraded": [],
