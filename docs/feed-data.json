@@ -1,22 +1,22 @@
 {
- "generatedAt": "Jun 22, 2026, 1:30 PM ET",
- "generatedAtMs": 1782149402072,
+ "generatedAt": "Jun 22, 2026, 1:53 PM ET",
+ "generatedAtMs": 1782150820271,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-22 13:00 ET",
-  "pricesAsOf": "Jun 22, 2026, 1:30 PM ET",
+  "pricesAsOf": "Jun 22, 2026, 1:53 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7546.75,
-     "change": -0.3,
+     "value": 7538.75,
+     "change": -0.4,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30598.5,
-     "change": -0.4,
+     "value": 30576,
+     "change": -0.5,
      "invert": false
     },
     {
@@ -26,19 +26,19 @@
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 17.24,
-      "divergencePct": 0.52
+      "cnbcLast": 17.18,
+      "divergencePct": 0.87
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.5
+     "pct": 0.6
     },
     {
      "ticker": "QQQ",
-     "pct": 2
+     "pct": 2.1
     }
    ],
    "putCall": null
@@ -60,11 +60,22 @@
   "themeHeadlines": [
    {
     "theme": "AI data centers",
-    "items": []
+    "items": [
+     {
+      "title": "India’s Data Center Build-Out: AI, Power and the Road from 350 MW to 7 GW - Smartkarma",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOc09XVnRmSDAzT29xTmVRY08tTGJaQ2poSXEzQWg4VmhKcXNlOExwdE8xUEVaWmNsUEJhN2NDOGZVNU96THI4cEFlclA2R2d5M0VhVnI1YVpMcW5KV1A1LVpBam5VbVFFTDg4NVBFa3lsUlU4U2k1a2ZTNXUwWTVnLThFZ09zVk9pbm1xSmZoejJIRnBZS0ZZejMxVG1kUFU1WVQxVTZmc3A0WUFGUXFCbkoyNm9KdllYTmQzWFdqRVd1VHU2NjB3N29pX25RVFBySF93VQ?oc=5",
+      "time": null
+     }
+    ]
    },
    {
     "theme": "Miners to HPC/AI",
     "items": [
+     {
+      "title": "CIFR Stock Surges: Crypto Miner Doubles Down On AI Data Centers With New Lease - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLVluMURaVTBmTVRTWW1LaGtHUDIzSV8wR2RRMHduUUt3aWNuakE4SndfOUM5bmkteDFGTVVHaXNwT0VPeFA0SHkxM25vRTVXRWVyWjBLWjRQaVNINFlTaGE4ekdhXzhjR2lIMmdpYUdtRkFEN04zUDdHQS1lX1pfcGdKazB3OFpXdnJLWU9jRjl6ZUdBbVpReEFjYUh2enBKdE9vS0V0U3FZeTdWaFlJNnRqRQ?oc=5",
+      "time": null
+     },
      {
       "title": "Is CleanSpark's Sustainable Bitcoin Mining a Game Changer - Kavout",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOc1lwS0pITEIzZlZvcjB3YWlrNGZFNXB4b3VGQnlEd1JwOVpHeUdlSHpQSkNsVXcxQXA1MWtpemxHLXpnbVljODlEdU50Rmt3dnpSSEVZRWZONldyYnc4dm12QVdJMnJxWURQYnpjTC1oeS10SmMyTzF0MElDWUMtNXJzLTV4cWJBV1Y4U0hkMkRQM1VMX0c4?oc=5",
@@ -232,13 +243,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 100.99 vs 20d avg 99.68"
+    "detail": "DXY 101 vs 20d avg 99.68"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 17.24 vs VIX3M 19.77"
+    "detail": "VIX 17.33 vs VIX3M 19.82"
    },
    {
     "name": "credit",
@@ -250,13 +261,13 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d -2.2% vs others -1%"
+    "detail": "defensives 5d -2.3% vs others -0.9%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2817 vs 20d avg 0.28"
+    "detail": "RSP/SPY 0.2816 vs 20d avg 0.28"
    },
    {
     "name": "skew",
@@ -271,13 +282,13 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 1.9,
-   "last": 64454.1,
+   "pct": 2.1,
+   "last": 64535.7,
    "newsCount": 10,
    "latestNews": {
-    "title": "Is Michael Saylor's bitcoin strategy still panning out? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUWxTcmNTWkUzSnRZcDJYZDJFMkxIOHg5blNZOE9OWUVMbkVqNkdGRUJxTGRaRFF4cjBCWWJRNVh1MEllTmV3UzdlbXdfdk9rTk9VM3ViZGZaQVdfbTBiLUoxTjV5cW5tSklpQjdLSEdsYmVISmxXS2xJYWFfS25GaDV0UkRaWW9rc1Y2RmVB?oc=5",
-    "time": "12:20 PM"
+    "title": "Bitcoin and Oil Markets Brace for Possible Black Monday After US-Iran Talks Fracture in Switzerland - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdEoxTkdTb1pGMGdQY2QyXzJ0WFVvZnpoVUEtYzBTN2dsWWY2RUY4REI2dGhNRGJRM2VmaC1laEZ3cl9STmpjUE4temxwTGR6UTk0X1AxWTI1WlNvc0hjYU5MZGMwUVhJM0otZmNiZ010YnVhTUlUZjBodnlZcDFMRXJOVDhRLU9URjdLM3AzNllkRElVZWR6cnJMeTRCZ3pD?oc=5",
+    "time": "3:13 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -287,8 +298,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 6.3,
-   "last": 28,
+   "pct": 7,
+   "last": 28.2,
    "newsCount": 3,
    "latestNews": {
     "title": "Why Is CIFR Stock Rising Despite Q1 Earnings Miss? - Stocktwits",
@@ -308,9 +319,9 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -2,
-   "last": 56.9,
-   "newsCount": 5,
+   "pct": -1.7,
+   "last": 57.1,
+   "newsCount": 7,
    "latestNews": {
     "title": "IREN Stock Set for 92% Surge - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU0k1dU5VNHF0UFpVdndwZW9rbmhVSHJNbzZqVnpTV1hLLW9LODVnb2dSdWNBcXh4dlYwM0xnMVN1aVZCZ1dMa3NhTEZLR3kyaXdrVmY2M0c2M0dTSHlOM1Y1d1JoWUJtRndmNmNmNmE4UHFZcmR4Vnk1WExQaUExVDJxUHh5bHllaVpRa09rbnRXQQ?oc=5",
@@ -329,9 +340,9 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.4,
-   "last": 279.7,
-   "newsCount": 8,
+   "pct": 0.4,
+   "last": 281.9,
+   "newsCount": 9,
    "latestNews": {
     "title": "Moderate Bearish Sentiment on Nebius Group NV (NBIS) as Shares D - GuruFocus",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZG40V0htSmY0YW5LblRRNmk2a1RnWmh3dklqQzBJbUMweDdHSGZGeXNrbW15M3BXQVRidXVuYlVqX2N1bXhJRGZxZHYwc01zUk5rM25VS2ZkaFlOcG4xYzBfaDJLMXRIQUhhN05xa1M5amJPazZCWVA0dEdzUTdtWi1CaWdrZWRzbHVEdGNWSGw4ZnRRN0tPOHhuX1p4NGRLemx5RmdHYV9nOEE?oc=5",
@@ -350,13 +361,13 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 6,
-   "last": 543.4,
+   "pct": 6.6,
+   "last": 546.2,
    "newsCount": 18,
    "latestNews": {
-    "title": "Nvidia Stock Rises But It Still Lags Intel - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MSnV6RWNOazJMeXF2RVd2RUhJNU9aR0hKNElGM0s0UUNhTkZtRDVwRE9xWVlEMFE3QWp0RUhQTDJPVUZLNkEyS05QYm1FTURGMWtlbkRxMGM1QVF3NktaN3hKaHZwNFo0UGphRFVHRUZXblh5QXB0ckZB?oc=5",
-    "time": "10:13 AM"
+    "title": "David Tepper Trimmed Nvidia and AMD, but Doubled Down on This AI Stock - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLWVIRTV4MG8xMHUwU0VLd0Q2aWN3OVhUSG80MGoxMEUzM1ZIWTJYODFBM0xuU09CdlZxYnlnanZsOGdQSjgwcVBjdHhJV3Jiak0xdmlxbTBCYkZwZ29oVUtnX0x2LWRaT1EyMHh4eng1NkpDMENQY25Kc25HRnJtQmE1OGl1cGFXSFBWOWRxVDBVSE5BdzdRNFBmV2NMZmZPV1R3TDJqTjViMll4QTZSTkRZaw?oc=5",
+    "time": "12:47 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -366,8 +377,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -1.3,
-   "last": 45,
+   "pct": -0.9,
+   "last": 45.2,
    "newsCount": 5,
    "latestNews": {
     "title": "APLD Stock Surges To Over 2-Month High – Retail Expects Stock To Double By Year-End - Stocktwits",
@@ -387,8 +398,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 1.4,
-   "last": 28.3,
+   "pct": 1.9,
+   "last": 28.4,
    "newsCount": 1,
    "latestNews": {
     "title": "What's Going On With TeraWulf Stock Monday? - Benzinga",
@@ -408,8 +419,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 2.9,
-   "last": 7.2,
+   "pct": 4.2,
+   "last": 7.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -420,9 +431,9 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 18.8,
-   "last": 6.8,
-   "newsCount": 3,
+   "pct": 21.9,
+   "last": 7,
+   "newsCount": 2,
    "latestNews": {
     "title": "NUAI Stock Grinds Higher As Speculative Momentum Builds - StocksToTrade",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUG5EX0d6TExXUmxtem5Wdm05d25nTHRXeS04OGNkVlNpVi1relo1VXRHUUs0NmpLN1ZGYVRsbG81MnlBM0hNM05ITzdRdV94eFVHLS04RGMxUzBXNlhnYlFDTERScmk4YnN0RFNzTHFkZVZkZ1pkSnBfQjctZ0pDMFF5MGZTdw?oc=5",
@@ -441,7 +452,7 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 2.9,
+   "pct": 3.1,
    "last": 17.3,
    "newsCount": 2,
    "latestNews": {
@@ -462,8 +473,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -2.6,
-   "last": 15,
+   "pct": -2.4,
+   "last": 15.1,
    "newsCount": 1,
    "latestNews": {
     "title": "Is Michael Saylor's bitcoin strategy still panning out?",
@@ -478,8 +489,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 0.2,
-   "last": 100.4,
+   "pct": 1.1,
+   "last": 101.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -490,8 +501,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -1.5,
-   "last": 24.8,
+   "pct": 0.2,
+   "last": 25.2,
    "newsCount": 1,
    "latestNews": {
     "title": "Mineralys Therapeutics (MLYS) Stock Could Be 52% Undervalued After Funding Deal And Lorundrostat Data - simplywall.st",
@@ -506,8 +517,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 2.1,
-   "last": 209,
+   "pct": 2,
+   "last": 208.8,
    "newsCount": 18,
    "latestNews": {
     "title": "What Will Be Nvidia’s Stock Price in 2029? - Yahoo Finance",
@@ -522,7 +533,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 0.7,
+   "pct": 1.3,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -538,7 +549,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 3.3,
+   "pct": 3.2,
    "last": 13.3,
    "newsCount": 0,
    "latestNews": null,
@@ -550,9 +561,9 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -8.4,
-   "last": 98.9,
-   "newsCount": 16,
+   "pct": -8,
+   "last": 99.4,
+   "newsCount": 17,
    "latestNews": {
     "title": "Is Rocket Lab Stock a Buy After the SpaceX IPO? - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd3lJc2VCSFNSQjkwUFhZVFUxQmNKV0JDbnc1T3JSVXJ4R2M3WnpaTVoweUhXNjdlNlhBZTVuZ2k3TDJybEZnc0JNTEw2WmR1bUJreUh0bGtVVDZBaXczSWkwMmFNZ0FlYVkzZzgyMHc2SHRpdmk5LXl4QXBFN0NvLUZmdDh6U3dHVURERXBlbTl1Tm8?oc=5",
@@ -566,8 +577,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -7.5,
-   "last": 120.8,
+   "pct": -7.6,
+   "last": 120.7,
    "newsCount": 14,
    "latestNews": {
     "title": "Palantir Technologies (PLTR) Stock After Recent Pullback Is The Price Now Fair? - Yahoo Finance",
@@ -582,13 +593,13 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -2.6,
-   "last": 369,
+   "pct": -2.4,
+   "last": 369.7,
    "newsCount": 18,
    "latestNews": {
-    "title": "Microsoft (MSFT) Stock After 20% Slide This Year Is The Valuation Case Compelling - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSnVQb0pjTFBrWmtYMFNaYzlIVHR3TTNESHpBSGk4V0JYWUFfTl9JUTc5eFpObXRuV3NSYXhKWWdrcUk2bmtkUFIxWW56cFZkNmNaOU5yYnZsOFYyUmxZMGxsRTVmNTVoV2VHS1V1ZDlkNTJCdlU0NmpHbElXdWhuUzR1ZmRwMl91SVM2SElnYndQRTAxeDE4N3dRY2hYX1hzc2lDZFVLVjJ3d2t1SGxoMTlTcWVsSnNPZjhTYU9KMTJxRnBseWZB0gHMAUFVX3lxTE5OMVV4T3MwTGVmUXRHSUtxNTFaNWh0amYtb0VjNkVtQ1RDcW5oNkhGUDV6NHVCOV9wUEExRTZ2VGRPelVDZnhMY0dvZGEzR3pSMWo4aXBNa3R3VndHSmpqWVBjbnA2bVlHNU1XaUkydUFxTS1NMFJkRFNocWEzWE5ZaEhFb3BvZTJvUHRRRmxpRFhBcWJZWHhYSGZLWElFU0ZmUUVMZGtvUEQ3aGZPdjk1MFFESGgxejNONzQwQlc2eXhHNVJBeGZfWV85Qw?oc=5",
-    "time": "2:58 AM"
+    "title": "Dear Microsoft Stock Fans, Mark Your Calendars for June 30 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQWpmSzJ0dEtWLWkzZWtLelBYVy0xSUdKNXVUaDZ5dkRqeEZIVm5RckV0Z3ZpSHlxM0NqMmlXelUyOW5kck95dHNLTUdPM3FoMXZKOU1LV0FrRVZJM000bW10d3lDaGVBdmgxOHVZTnk0RVNJUnFLZ0xLT2RaUzFzX3lQRUxyeDllQVowUmJBVHlaaml0VGVHWGpMNA?oc=5",
+    "time": "4:50 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -598,7 +609,7 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 5,
+   "pct": 5.2,
    "last": 33.5,
    "newsCount": 4,
    "latestNews": {
@@ -614,15 +625,19 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -4.6,
-   "last": 347.1,
+   "pct": -4.5,
+   "last": 347.3,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet Stock Tumbles as Google’s DeepMind Loses Nobel Prize Winner to Anthropic - Barron's",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSTc2Y1FPQno3bHpCdFJ5VXlzV0lzWFpsNFlKam5Hc2RnU1RxcXBmOWhpRUVISnJaXzh5Xzd4empiT3BKWFMxUlNOa2xSeVFxdTlyM21GVFdJcUZUU1hWd1VNekgtVU5JN3Rqak1mZFMtdXpaVjFkTXpuMi1KLU1RTHRQaFhSc0k3OFE?oc=5",
     "time": "12:19 PM"
    },
-   "latestPost": null,
+   "latestPost": {
+    "text": "R to @Google: Learn more ↓ http://goo.gle/4g174Kr",
+    "url": "https://nitter.net/Google/status/2069108945159864429#m",
+    "time": "1:23 PM"
+   },
    "latestFiling": null,
    "stocktwits": null
   },
@@ -630,8 +645,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -0.9,
-   "last": 4207.5,
+   "pct": -1.1,
+   "last": 4199.2,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of gold as of June 22, 2026 - Fortune",
@@ -646,8 +661,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.7,
-   "last": 77.7,
+   "pct": -2.9,
+   "last": 77.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of oil as of June 22, 2026 - Fortune",
@@ -662,16 +677,42 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -3,
-   "last": 73.6,
-   "newsCount": 0,
-   "latestNews": null,
+   "pct": -3.1,
+   "last": 73.5,
+   "newsCount": 10,
+   "latestNews": {
+    "title": "Oil Falls Further on Optimism About U.S.-Iran Talks - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZXJJX05QWEtlRnkwX285cU1uUG9oUlNDVHlwclhNcmhwZThZNnZZRkd0cUtGVTYtWktZSjdqTDNfR0RhbnNNRGl4aVRhZWFvUDFGTHZNei11SkpEdE5tblNzUDBDYXA1cVlSLXVCajhvSGY1ZmtFMHh3dXI4Z0RwQldXakdEOXY4ZG1ia0xaa0JwM3ZBZk5xeDZZZl9EZWRpVFh5Sk5vdE5KNzhleG4tendB?oc=5",
+    "time": "12:10 PM"
+   },
    "latestPost": null,
    "latestFiling": null,
    "stocktwits": null
   }
  ],
  "events": [
+  {
+   "id": "3a2bcecb16a4",
+   "type": "post",
+   "symbol": "GOOGL",
+   "section": "macro",
+   "time": 1782148980000,
+   "timeLabel": "1:23 PM",
+   "handle": "@Google",
+   "text": "R to @Google: Learn more ↓ http://goo.gle/4g174Kr",
+   "url": "https://nitter.net/Google/status/2069108945159864429#m"
+  },
+  {
+   "id": "808a7ea27089",
+   "type": "post",
+   "symbol": "GOOGL",
+   "section": "macro",
+   "time": 1782148980000,
+   "timeLabel": "1:23 PM",
+   "handle": "@Google",
+   "text": "Today, the Interactions API is now generally available as our primary interface for Gemini models and agents. Built based on developer feedback and optimized…",
+   "url": "https://nitter.net/Google/status/2069108942102310957#m"
+  },
   {
    "id": "737ff9400170",
    "type": "news",
@@ -759,6 +800,17 @@
    "source": "",
    "text": "Nebius Has 40% Upside in 2026 as Global AI Data Center Shortage Worsens",
    "url": "https://247wallst.com/investing/2026/06/22/nebius-has-40-upside-in-2026-as-global-ai-data-center-shortage-worsens/?.tsrc=rss"
+  },
+  {
+   "id": "8d8458459cf1",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1782143580000,
+   "timeLabel": "11:53 AM",
+   "source": "",
+   "text": "Nebius Has 40% Upside in 2026 as Global AI Data Center Shortage Worsens - 24/7 Wall St.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcGtEUWZYanplUzlFaUJmZnRxckNzellYY3UyLTFHYjVXc0lLRjNxWEc3aGNSUWhzNEFLbkdqUlhQQXhEenliVk5oaEdsMzdOXzNpbVVmeFZPWG9aUkpvdExoYWxMVmtBcGRRUEctTUN3d04xdjV5SlNBSFRlUkJrZVVsaDI3NjFVR1ozd3pPenFYUEZJTGFabk0wZ1d2V3AyXy0xdlo3MDN0LXRsS2xaT3FYTEI?oc=5"
   },
   {
    "id": "ba03301dc8cc",
@@ -2035,12 +2087,21 @@
    "stBull": null,
    "regime": 71.4,
    "composite": 45.7
+  },
+  {
+   "t": 1782150820271,
+   "label": "Jun 22 2026 1:53 PM ET",
+   "cnn": 35,
+   "crypto": 20,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 45.7
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.07,
+  "divMax": 0.08,
   "fallbacks": 0
  }
 }
