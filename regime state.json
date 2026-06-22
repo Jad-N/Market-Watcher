@@ -28,25 +28,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.93 vs 20d avg 99.68",
+      "detail": "DXY 100.98 vs 20d avg 99.68",
       "asOfMs": 1782100800000,
       "status": "ok",
       "raw": {
-        "last": 100.93,
+        "last": 100.98,
         "avg": 99.68,
-        "gap": 1.25
+        "gap": 1.29
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.97 vs VIX3M 19.57",
+      "detail": "VIX 16.8 vs VIX3M 19.57",
       "asOfMs": 1782111600000,
       "status": "ok",
       "raw": {
-        "vix": 16.97,
+        "vix": 16.8,
         "vix3m": 19.57,
-        "diff": -2.6
+        "diff": -2.77
       }
     },
     "credit": {
@@ -64,25 +64,25 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -2.3% vs others 0.9%",
-      "asOfMs": 1781789400000,
+      "detail": "defensives 5d -2.7% vs others -1%",
+      "asOfMs": 1782135000000,
       "status": "ok",
       "raw": {
-        "defMedPct": -2.3,
-        "othMedPct": 0.9,
-        "diffPct": -3.3
+        "defMedPct": -2.7,
+        "othMedPct": -1,
+        "diffPct": -1.7
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2812 vs 20d avg 0.2797",
-      "asOfMs": 1781789400000,
+      "detail": "RSP/SPY 0.2803 vs 20d avg 0.28",
+      "asOfMs": 1782135000000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2812,
-        "avg": 0.2797,
-        "gap": 0.0014
+        "ratio": 0.2803,
+        "avg": 0.28,
+        "gap": 0.0003
       }
     },
     "skew": {
@@ -101,14 +101,14 @@
   "context": {
     "overnight": [
       {
+        "name": "DAX",
+        "pct": 0.4,
+        "asOfMs": 1782111600000
+      },
+      {
         "name": "Hang Seng",
         "pct": -0.7,
         "asOfMs": 1782091800000
-      },
-      {
-        "name": "DAX",
-        "pct": 0.2,
-        "asOfMs": 1782111600000
       },
       {
         "name": "Nikkei",
@@ -207,5 +207,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782134645932
+  "updatedMs": 1782135928309
 }
