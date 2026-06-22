@@ -17,7 +17,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.27pp (2y 4.19, 10y 4.46)",
-      "asOfMs": 1781740800000,
+      "asOfMs": 1781755200000,
       "status": "ok",
       "raw": {
         "spread": 0.27,
@@ -28,35 +28,35 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.97 vs 20d avg 99.68",
+      "detail": "DXY 101.02 vs 20d avg 99.69",
       "asOfMs": 1782100800000,
       "status": "ok",
       "raw": {
-        "last": 100.97,
-        "avg": 99.68,
-        "gap": 1.29
+        "last": 101.02,
+        "avg": 99.69,
+        "gap": 1.34
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 17.26 vs VIX3M 19.77",
+      "detail": "VIX 17.63 vs VIX3M 19.94",
       "asOfMs": 1782135000000,
       "status": "ok",
       "raw": {
-        "vix": 17.26,
-        "vix3m": 19.77,
-        "diff": -2.51
+        "vix": 17.63,
+        "vix3m": 19.94,
+        "diff": -2.31
       }
     },
     "credit": {
       "state": "below 20-obs avg",
       "vote": "on",
-      "detail": "HY spread 2.63pp vs 20-obs avg 2.73pp (as of 2026-06-17)",
-      "asOfMs": 1781654400000,
+      "detail": "HY spread 2.66pp vs 20-obs avg 2.73pp (as of 2026-06-18)",
+      "asOfMs": 1781740800000,
       "status": "ok",
       "raw": {
-        "spread": 2.63,
+        "spread": 2.66,
         "avg": 2.73,
         "newHigh": false
       }
@@ -64,25 +64,25 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -2.3% vs others -0.8%",
+      "detail": "defensives 5d -2.2% vs others -0.9%",
       "asOfMs": 1782135000000,
       "status": "ok",
       "raw": {
-        "defMedPct": -2.3,
-        "othMedPct": -0.8,
-        "diffPct": -1.5
+        "defMedPct": -2.2,
+        "othMedPct": -0.9,
+        "diffPct": -1.3
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2818 vs 20d avg 0.2801",
+      "detail": "RSP/SPY 0.2817 vs 20d avg 0.28",
       "asOfMs": 1782135000000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2818,
-        "avg": 0.2801,
-        "gap": 0.0018
+        "ratio": 0.2817,
+        "avg": 0.28,
+        "gap": 0.0017
       }
     },
     "skew": {
@@ -112,13 +112,13 @@
       },
       {
         "name": "Hang Seng",
-        "pct": -0.7,
-        "asOfMs": 1782091800000
+        "pct": -1.6,
+        "asOfMs": 1781746200000
       }
     ],
     "rates": {
-      "impliedRate": 3.72,
-      "changeBp": -10,
+      "impliedRate": 3.73,
+      "changeBp": -10.5,
       "asOfMs": 1782100800000
     }
   },
@@ -207,5 +207,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782143955874
+  "updatedMs": 1782145445564
 }
