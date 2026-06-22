@@ -1,40 +1,40 @@
 {
- "generatedAt": "Jun 22, 2026, 1:53 PM ET",
- "generatedAtMs": 1782150820271,
+ "generatedAt": "Jun 22, 2026, 2:15 PM ET",
+ "generatedAtMs": 1782152101902,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-06-22 13:00 ET",
-  "pricesAsOf": "Jun 22, 2026, 1:53 PM ET",
+  "asOfET": "2026-06-22 14:00 ET",
+  "pricesAsOf": "Jun 22, 2026, 2:15 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7538.75,
+     "value": 7541,
      "change": -0.4,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30576,
-     "change": -0.5,
+     "value": 30614.75,
+     "change": -0.3,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 17.33,
-     "change": 3.3,
+     "value": 17.22,
+     "change": 2.6,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 17.18,
-      "divergencePct": 0.87
+      "cnbcLast": 17.17,
+      "divergencePct": 0.29
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.6
+     "pct": 0.5
     },
     {
      "ticker": "QQQ",
@@ -45,7 +45,7 @@
   },
   "gauges": {
    "cnn": {
-    "score": 35,
+    "score": 36,
     "rating": "fear",
     "prevClose": 37,
     "prevWeek": 42,
@@ -249,7 +249,7 @@
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 17.33 vs VIX3M 19.82"
+    "detail": "VIX 17.25 vs VIX3M 19.76"
    },
    {
     "name": "credit",
@@ -261,13 +261,13 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d -2.3% vs others -0.9%"
+    "detail": "defensives 5d -2.2% vs others -1%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2816 vs 20d avg 0.28"
+    "detail": "RSP/SPY 0.2815 vs 20d avg 0.28"
    },
    {
     "name": "skew",
@@ -283,7 +283,7 @@
    "section": "crypto",
    "class": "crypto",
    "pct": 2.1,
-   "last": 64535.7,
+   "last": 64594,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin and Oil Markets Brace for Possible Black Monday After US-Iran Talks Fracture in Switzerland - Yahoo Finance",
@@ -298,8 +298,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 7,
-   "last": 28.2,
+   "pct": 8.1,
+   "last": 28.5,
    "newsCount": 3,
    "latestNews": {
     "title": "Why Is CIFR Stock Rising Despite Q1 Earnings Miss? - Stocktwits",
@@ -320,8 +320,8 @@
    "section": "trading",
    "class": "equity",
    "pct": -1.7,
-   "last": 57.1,
-   "newsCount": 7,
+   "last": 57.2,
+   "newsCount": 6,
    "latestNews": {
     "title": "IREN Stock Set for 92% Surge - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU0k1dU5VNHF0UFpVdndwZW9rbmhVSHJNbzZqVnpTV1hLLW9LODVnb2dSdWNBcXh4dlYwM0xnMVN1aVZCZ1dMa3NhTEZLR3kyaXdrVmY2M0c2M0dTSHlOM1Y1d1JoWUJtRndmNmNmNmE4UHFZcmR4Vnk1WExQaUExVDJxUHh5bHllaVpRa09rbnRXQQ?oc=5",
@@ -340,8 +340,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 0.4,
-   "last": 281.9,
+   "pct": 1.3,
+   "last": 284.5,
    "newsCount": 9,
    "latestNews": {
     "title": "Moderate Bearish Sentiment on Nebius Group NV (NBIS) as Shares D - GuruFocus",
@@ -361,8 +361,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 6.6,
-   "last": 546.2,
+   "pct": 6.5,
+   "last": 545.7,
    "newsCount": 18,
    "latestNews": {
     "title": "David Tepper Trimmed Nvidia and AMD, but Doubled Down on This AI Stock - 24/7 Wall St.",
@@ -377,8 +377,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -0.9,
-   "last": 45.2,
+   "pct": 1.7,
+   "last": 46.3,
    "newsCount": 5,
    "latestNews": {
     "title": "APLD Stock Surges To Over 2-Month High – Retail Expects Stock To Double By Year-End - Stocktwits",
@@ -398,8 +398,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 1.9,
-   "last": 28.4,
+   "pct": 2.6,
+   "last": 28.6,
    "newsCount": 1,
    "latestNews": {
     "title": "What's Going On With TeraWulf Stock Monday? - Benzinga",
@@ -419,8 +419,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 4.2,
-   "last": 7.3,
+   "pct": 5.2,
+   "last": 7.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -431,7 +431,7 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 21.9,
+   "pct": 21.7,
    "last": 7,
    "newsCount": 2,
    "latestNews": {
@@ -452,8 +452,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 3.1,
-   "last": 17.3,
+   "pct": 4.5,
+   "last": 17.5,
    "newsCount": 2,
    "latestNews": {
     "title": "Why is CleanSpark stock surging today? - Investing.com",
@@ -473,13 +473,13 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -2.4,
-   "last": 15.1,
-   "newsCount": 1,
+   "pct": -1.8,
+   "last": 15.2,
+   "newsCount": 2,
    "latestNews": {
-    "title": "Is Michael Saylor's bitcoin strategy still panning out?",
-    "link": "https://finance.yahoo.com/video/michael-saylors-bitcoin-strategy-still-162000903.html?.tsrc=rss",
-    "time": "12:20 PM"
+    "title": "Saylor’s bitcoin engine stalled, what’s next for MSTR?",
+    "link": "https://finance.yahoo.com/video/saylors-bitcoin-engine-stalled-whats-next-for-mstr-173221218.html?.tsrc=rss",
+    "time": "1:32 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -489,8 +489,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 1.1,
-   "last": 101.3,
+   "pct": 2.1,
+   "last": 102.2,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -501,8 +501,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 0.2,
-   "last": 25.2,
+   "pct": 0,
+   "last": 25.1,
    "newsCount": 1,
    "latestNews": {
     "title": "Mineralys Therapeutics (MLYS) Stock Could Be 52% Undervalued After Funding Deal And Lorundrostat Data - simplywall.st",
@@ -517,8 +517,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 2,
-   "last": 208.8,
+   "pct": 2.1,
+   "last": 209,
    "newsCount": 18,
    "latestNews": {
     "title": "What Will Be Nvidia’s Stock Price in 2029? - Yahoo Finance",
@@ -533,7 +533,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 1.3,
+   "pct": 1.5,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -549,7 +549,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 3.2,
+   "pct": 3.8,
    "last": 13.3,
    "newsCount": 0,
    "latestNews": null,
@@ -561,9 +561,9 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -8,
-   "last": 99.4,
-   "newsCount": 17,
+   "pct": -7.2,
+   "last": 100.2,
+   "newsCount": 18,
    "latestNews": {
     "title": "Is Rocket Lab Stock a Buy After the SpaceX IPO? - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd3lJc2VCSFNSQjkwUFhZVFUxQmNKV0JDbnc1T3JSVXJ4R2M3WnpaTVoweUhXNjdlNlhBZTVuZ2k3TDJybEZnc0JNTEw2WmR1bUJreUh0bGtVVDZBaXczSWkwMmFNZ0FlYVkzZzgyMHc2SHRpdmk5LXl4QXBFN0NvLUZmdDh6U3dHVURERXBlbTl1Tm8?oc=5",
@@ -594,7 +594,7 @@
    "section": "macro",
    "class": "equity",
    "pct": -2.4,
-   "last": 369.7,
+   "last": 370,
    "newsCount": 18,
    "latestNews": {
     "title": "Dear Microsoft Stock Fans, Mark Your Calendars for June 30 - Yahoo Finance",
@@ -609,9 +609,9 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 5.2,
-   "last": 33.5,
-   "newsCount": 4,
+   "pct": 6,
+   "last": 33.8,
+   "newsCount": 3,
    "latestNews": {
     "title": "HIMS Stock Eyes Breakout Week: Eight New Partners Fuel Push To Build An All-In-One Health Platform - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTmFzT1g5LXFvWnJjVGJqNUJWRHNqVTE5M09tOXJib0pSSU54dUxucGlDdGRpOFlYWEctZ2VMV09iVWdienRWTFY1Z2J1bWRoZ09ZZi1pVGRCZFo5eHg2aWRIbGNGa0dVcnNVVEJSOWRLSlB1cVItMWJaU0xrUXpnTlkwR0FjZGh0SUI2RXluNTl4cWtQd25DZ290dnMxTkdHTUJ0cVFQM0JCck5waXFZ?oc=5",
@@ -625,13 +625,13 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -4.5,
-   "last": 347.3,
+   "pct": -4.3,
+   "last": 348.1,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet Stock Tumbles as Google’s DeepMind Loses Nobel Prize Winner to Anthropic - Barron's",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSTc2Y1FPQno3bHpCdFJ5VXlzV0lzWFpsNFlKam5Hc2RnU1RxcXBmOWhpRUVISnJaXzh5Xzd4empiT3BKWFMxUlNOa2xSeVFxdTlyM21GVFdJcUZUU1hWd1VNekgtVU5JN3Rqak1mZFMtdXpaVjFkTXpuMi1KLU1RTHRQaFhSc0k3OFE?oc=5",
-    "time": "12:19 PM"
+    "time": "2:02 PM"
    },
    "latestPost": {
     "text": "R to @Google: Learn more ↓ http://goo.gle/4g174Kr",
@@ -645,8 +645,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -1.1,
-   "last": 4199.2,
+   "pct": -1,
+   "last": 4201.5,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of gold as of June 22, 2026 - Fortune",
@@ -677,7 +677,7 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -3.1,
+   "pct": -3.2,
    "last": 73.5,
    "newsCount": 10,
    "latestNews": {
@@ -691,6 +691,17 @@
   }
  ],
  "events": [
+  {
+   "id": "42daf96187be",
+   "type": "news",
+   "symbol": "ASST",
+   "section": "trading",
+   "time": 1782149520000,
+   "timeLabel": "1:32 PM",
+   "source": "",
+   "text": "Saylor’s bitcoin engine stalled, what’s next for MSTR?",
+   "url": "https://finance.yahoo.com/video/saylors-bitcoin-engine-stalled-whats-next-for-mstr-173221218.html?.tsrc=rss"
+  },
   {
    "id": "3a2bcecb16a4",
    "type": "post",
@@ -1020,6 +1031,17 @@
    "source": "",
    "text": "Europe is building 35 NVIDIA AI supercomputers for science - Stock Titan",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSEhucEdPR2ZYOVZEQnJHYU5rZ2Nya3JxcUVtWHVLSGJIbi1GcEYwdVhtaHlyeURlVE9rVjFyRUVTcHEtZTUtLXRRMWpDN1dGaERjMjhTbWJiX1hZRTdGYlh3MDVQUDhLTmJYOGkwU0FRYWZIVnFGY1k1aGIwNlI5aWhOWFk5N3R2OVhQOUNFd0lXZzl6Y2FQRjMxVQ?oc=5"
+  },
+  {
+   "id": "a8293565dd40",
+   "type": "news",
+   "symbol": "BTC",
+   "section": "crypto",
+   "time": 1782132720000,
+   "timeLabel": "8:52 AM",
+   "source": "",
+   "text": "Bitcoin miners near breakeven as network reacts more sharply to price swings: JPMorgan - CoinDesk",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUXgxSmJfNG9nM0tXcUlKbkhEbFdERmU3TGk3ODdXUm00WVlCR2FKTTM2WWltS3VqSTIwSUdWVzZoSnU4ZExnWUhMaUpOTnJ0MXppRXlUdHN5ZmtDSXBiYnJDeVZuLXhMc19Bdk90SVVQWURuZnhIbVI1d3ZPQmZCMnFpd1pmRHNBNXVTeUdZWTRORlFKOXlXOWVWOE5EeU5KeF9TSUVuQ0xGNGZfQU9POFhxNWl3TUR4aXZLQw?oc=5"
   },
   {
    "id": "cfa01e429900",
@@ -2096,12 +2118,21 @@
    "stBull": null,
    "regime": 71.4,
    "composite": 45.7
+  },
+  {
+   "t": 1782152101902,
+   "label": "Jun 22 2026 2:15 PM ET",
+   "cnn": 36,
+   "crypto": 20,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 45.7
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.08,
+  "divMax": 0.07,
   "fallbacks": 0
  }
 }
