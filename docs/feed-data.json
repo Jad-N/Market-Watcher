@@ -1,44 +1,44 @@
 {
- "generatedAt": "Jun 22, 2026, 10:08 AM ET",
- "generatedAtMs": 1782137320049,
+ "generatedAt": "Jun 22, 2026, 10:30 AM ET",
+ "generatedAtMs": 1782138601837,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-22 10:00 ET",
-  "pricesAsOf": "Jun 22, 2026, 10:08 AM ET",
+  "pricesAsOf": "Jun 22, 2026, 10:30 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7593.25,
-     "change": 0.3,
+     "value": 7581.75,
+     "change": 0.1,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30918,
-     "change": 0.6,
+     "value": 30876.25,
+     "change": 0.5,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 16.55,
-     "change": -1.4,
+     "value": 16.61,
+     "change": -1,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 16.53,
-      "divergencePct": 0.12
+      "cnbcLast": 17.14,
+      "divergencePct": 3.09
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 1.2
+     "pct": 0.8
     },
     {
      "ticker": "QQQ",
-     "pct": 3.1
+     "pct": 2.5
     }
    ],
    "putCall": null
@@ -238,13 +238,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.04 vs 20d avg 99.69"
+    "detail": "DXY 101 vs 20d avg 99.68"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 16.64 vs VIX3M 19.43"
+    "detail": "VIX 16.61 vs VIX3M 19.43"
    },
    {
     "name": "credit",
@@ -256,13 +256,13 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d -2.9% vs others -0.6%"
+    "detail": "defensives 5d -3% vs others -0.9%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2802 vs 20d avg 0.28"
+    "detail": "RSP/SPY 0.2812 vs 20d avg 0.28"
    },
    {
     "name": "skew",
@@ -277,8 +277,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 3.2,
-   "last": 65264.7,
+   "pct": 2.6,
+   "last": 64888.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin and Oil Markets Brace for Possible Black Monday After US-Iran Talks Fracture in Switzerland - Yahoo Finance",
@@ -293,8 +293,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 12.8,
-   "last": 29.7,
+   "pct": 11.3,
+   "last": 29.3,
    "newsCount": 4,
    "latestNews": {
     "title": "Why Is CIFR Stock Rising Despite Q1 Earnings Miss? - Stocktwits",
@@ -314,9 +314,9 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": 4.1,
-   "last": 60.5,
-   "newsCount": 4,
+   "pct": 2,
+   "last": 59.3,
+   "newsCount": 3,
    "latestNews": {
     "title": "IREN (IREN) Stock Could Be 37.4% Undervalued After Jefferies Backs Its AI Pivot - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaUtjZ1p0Z1I3bk5SUExrWGVLY29saFM3S0QyX2R0X04xZUFqc0g0WGRnejNqSXRiY0E2OVdBYU9SaTlGWmQtTTl6VzRid2FVQVp6MEVYTkswaGhfMFEtRzNTNUxwd3hrSl9GSVJUeTUxRVloV0xPQ3VORDlrTFIxMDVQYWh5Zy0tUzIzS1gtYWpiSU9GSlZMSE1jd1Z4cHdiTlBPaWk1YlNOdmVNaUZ5ODhCSko2cHJXMmR0MHJHaUzSAcYBQVVfeXFMT1BiM2FHdXVicWdmV0M4UkdLd0FRUTFrN1RPM18xQmdZdFRtaXItcnlJLWhQMWREX1Y4MldSNWdtRGlqQXlLMFgzMldlckNiS0J6c001MFdKb3o5MWRQNlJVTWJfNGdrOVI2RUE4WVB1V3VFR2F6UjJrUklmMk1tRTRabGROcU9QRmhnamxHQVFSTk5HdVJ5VmJHSWxPUkJJSGhMVEQ4MU5iLWNqVXJBcDd6TWNESmNZQU1Vc05ZX0tldFY2N3JB?oc=5",
@@ -335,8 +335,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 4.3,
-   "last": 293.1,
+   "pct": 2.6,
+   "last": 288.2,
    "newsCount": 6,
    "latestNews": {
     "title": "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next? - TradingKey",
@@ -356,13 +356,13 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 8,
-   "last": 553.2,
-   "newsCount": 12,
+   "pct": 6.2,
+   "last": 544.2,
+   "newsCount": 14,
    "latestNews": {
-    "title": "Why Nvidia Stock Is Falling When Intel and AMD Are Rising - Barron's",
+    "title": "Nvidia Stock Rises But It Still Lags Intel - Barron's",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MSnV6RWNOazJMeXF2RVd2RUhJNU9aR0hKNElGM0s0UUNhTkZtRDVwRE9xWVlEMFE3QWp0RUhQTDJPVUZLNkEyS05QYm1FTURGMWtlbkRxMGM1QVF3NktaN3hKaHZwNFo0UGphRFVHRUZXblh5QXB0ckZB?oc=5",
-    "time": "8:48 AM"
+    "time": "10:13 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -372,9 +372,9 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": 3.9,
-   "last": 47.3,
-   "newsCount": 3,
+   "pct": 1.1,
+   "last": 46.1,
+   "newsCount": 4,
    "latestNews": {
     "title": "APLD Stock Surges To Over 2-Month High – Retail Expects Stock To Double By Year-End - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOUDR6ZkozME5sZC05Q1FxbEpQVXllakVfbG9YNHJhdkZDM0o1ZFJnWmI5WjZkOEZuWXVBbWFUdEswN0pLcEZfUTZ4ckxyM05id1BYRHZBZ05wSzdTLTIxb0VlWHd0ZVB1c1QxbjNydk51dTNtc3oyTXlSTmVTVEdoaTB4SjlmR3M2Ry0tYWlYbGd3c0VVcG1Cc2pTSHhIRmVoSWpRV1JMTDl5SnR2T1gwLTR3WDR4bkc3SThwVjFHbDUwMkptNzE0R0ZNYjVoaWlMblBaQTFnbmh2ajEtQ2c?oc=5",
@@ -393,8 +393,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 4.8,
-   "last": 29.2,
+   "pct": 3.8,
+   "last": 28.9,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -410,8 +410,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 4.3,
-   "last": 7.3,
+   "pct": 2.9,
+   "last": 7.2,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -422,8 +422,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 26.1,
-   "last": 7.2,
+   "pct": 23.6,
+   "last": 7.1,
    "newsCount": 1,
    "latestNews": {
     "title": "New Era Energy and Digital Ord Shs (NUAI) Technical Analysis: Support, Resistance, Indicators & Moving Averages - TradingKey",
@@ -443,8 +443,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 12.6,
-   "last": 18.9,
+   "pct": 9.5,
+   "last": 18.4,
    "newsCount": 1,
    "latestNews": {
     "title": "CleanSpark Stock: The AI Pivot Is Not Worth The Risk (NASDAQ:CLSK) - Seeking Alpha",
@@ -464,8 +464,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 3.7,
-   "last": 16,
+   "pct": 1.2,
+   "last": 15.6,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -476,8 +476,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -1.5,
-   "last": 98.6,
+   "pct": -2.2,
+   "last": 98,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -488,8 +488,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.9,
-   "last": 24.9,
+   "pct": -1.3,
+   "last": 24.8,
    "newsCount": 1,
    "latestNews": {
     "title": "Mineralys Therapeutics (MLYS) Stock Could Be 52% Undervalued After Funding Deal And Lorundrostat Data - simplywall.st",
@@ -504,8 +504,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 4.3,
-   "last": 213.5,
+   "pct": 3.1,
+   "last": 211,
    "newsCount": 18,
    "latestNews": {
     "title": "NVIDIA Stock Has Slipped By 10% From YTD High As Pros Predict 46% Jump - NVIDIA (NASDAQ:NVDA) - Benzinga",
@@ -520,13 +520,13 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 2.8,
-   "last": 1.2,
+   "pct": 2,
+   "last": 1.1,
    "newsCount": 10,
    "latestNews": {
     "title": "XRP News: Why July 1 Is a Make or Break Date for Ripple in California - Coinpedia",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUERUcnlQU2ZwLTVlNVRKNDlNUWt1VXZobFJJWGNjQXZ2U0JBUEU5QWJqX1FFZk85SFhQX0NrN3BwOHNBdGR1R2k5RjVuMW9SQ1BFdThuT1RQUlpPR0tmLTJIUGxFc0FkY0xPbGtqZndLUkZWSzlsSlZGaUR6aFR0NVNFVXlOaUN5WkdZMGlBTHFIWjJZV2hVdVRYUjjSAaIBQVVfeXFMTzJkSHFVUHFSUWNkeVJ2eXcyLWVXTmhkVGNoOHU0MHFHRXUya2xhZ1REN3BSOW5EVktLMFRsQl9RdkR4dno2NHZ2d3RoeGRlcVNpLTZRM3dWTFpES2p0OG9JdGtVbmNrakFBQ1pJOWI4YjZoVWtnZDA2bTNpUzJYbjQwN1RaSU9CRGtsSWxpVG9RTWQxdkZETU8wMnBYVHVGY25n?oc=5",
-    "time": "4:46 AM"
+    "time": "7:47 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -536,8 +536,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 6.1,
-   "last": 13.6,
+   "pct": 4,
+   "last": 13.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -548,9 +548,9 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -6.8,
-   "last": 100.6,
-   "newsCount": 8,
+   "pct": -10.2,
+   "last": 97,
+   "newsCount": 9,
    "latestNews": {
     "title": "Rocket Lab Stock Has Dived After SpaceX IPO, But Top Analysts Predict A Rebound - Benzinga",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeGR6U0wzSDAxX0lMVGRwa0liSnMyTVBLZ3BneGZqMFNyak9NX3piQUZiVWk2eWJOSl84YjF3Tjg1ZS00LWFUVml0bVVUYWdJbmhZOTV6bnBPTWMxNjNuTktvZ09hckdqaElWSzRtU3lLbnJyWjRyOHJaNmx0ZG9hZkh6Q0pWT2lhN2taczdVc3VWZlVNWC1GdmR1YlAzX1o3dUkzZWYxNmFMR1BuZmhMSm16OVlSOU9ydWVObFNia2pYQm1KdFpsTzdkQXJzbVd4?oc=5",
@@ -564,8 +564,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -2.6,
-   "last": 127.3,
+   "pct": -5,
+   "last": 124.2,
    "newsCount": 6,
    "latestNews": {
     "title": "Palantir Technologies Stock (PLTR) Opinions on Burry's Bearish Stance and Analyst Notes - Quiver Quantitative",
@@ -580,9 +580,9 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 0,
-   "last": 378.8,
-   "newsCount": 15,
+   "pct": -1.4,
+   "last": 373.5,
+   "newsCount": 17,
    "latestNews": {
     "title": "Microsoft (MSFT) Stock After 20% Slide This Year Is The Valuation Case Compelling - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSnVQb0pjTFBrWmtYMFNaYzlIVHR3TTNESHpBSGk4V0JYWUFfTl9JUTc5eFpObXRuV3NSYXhKWWdrcUk2bmtkUFIxWW56cFZkNmNaOU5yYnZsOFYyUmxZMGxsRTVmNTVoV2VHS1V1ZDlkNTJCdlU0NmpHbElXdWhuUzR1ZmRwMl91SVM2SElnYndQRTAxeDE4N3dRY2hYX1hzc2lDZFVLVjJ3d2t1SGxoMTlTcWVsSnNPZjhTYU9KMTJxRnBseWZB0gHMAUFVX3lxTE5OMVV4T3MwTGVmUXRHSUtxNTFaNWh0amYtb0VjNkVtQ1RDcW5oNkhGUDV6NHVCOV9wUEExRTZ2VGRPelVDZnhMY0dvZGEzR3pSMWo4aXBNa3R3VndHSmpqWVBjbnA2bVlHNU1XaUkydUFxTS1NMFJkRFNocWEzWE5ZaEhFb3BvZTJvUHRRRmxpRFhBcWJZWHhYSGZLWElFU0ZmUUVMZGtvUEQ3aGZPdjk1MFFESGgxejNONzQwQlc2eXhHNVJBeGZfWV85Qw?oc=5",
@@ -596,8 +596,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 12.4,
-   "last": 35.9,
+   "pct": 9.8,
+   "last": 35,
    "newsCount": 4,
    "latestNews": {
     "title": "HIMS Stock Eyes Breakout Week: Eight New Partners Fuel Push To Build An All-In-One Health Platform - Stocktwits",
@@ -612,8 +612,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -3.2,
-   "last": 352.1,
+   "pct": -4.1,
+   "last": 348.8,
    "newsCount": 18,
    "latestNews": {
     "title": "GOOGL Stock Dips Premarket After Breakout Week: Analyst Says Google Developing Next-Gen AI Chip With MediaTek - Yahoo Finance",
@@ -629,7 +629,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": -0.7,
-   "last": 4218,
+   "last": 4214.7,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold Price Today on June 22, 2026 - USA Today",
@@ -664,9 +664,9 @@
    "last": 73.8,
    "newsCount": 10,
    "latestNews": {
-    "title": "Oil Falls on Signs of Progress in U.S.-Iran Peace Talks Despite Challenges - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZXJJX05QWEtlRnkwX285cU1uUG9oUlNDVHlwclhNcmhwZThZNnZZRkd0cUtGVTYtWktZSjdqTDNfR0RhbnNNRGl4aVRhZWFvUDFGTHZNei11SkpEdE5tblNzUDBDYXA1cVlSLXVCajhvSGY1ZmtFMHh3dXI4Z0RwQldXakdEOXY4ZG1ia0xaa0JwM3ZBZk5xeDZZZl9EZWRpVFh5Sk5vdE5KNzhleG4tendB?oc=5",
-    "time": "2:56 AM"
+    "title": "Current price of oil as of June 22, 2026 - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Lb05fNzNMVm1tN3VmZm9EYUpjVGtmWTZFbHFyM0wzLXE2eTdSelJNeVBvMDZLU3hGVHB2R19CdE5iSmFpaE9HRGI5MkpPN2dwdnROelVNZWo0d2xpTjZMbHh3?oc=5",
+    "time": "8:47 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -674,6 +674,28 @@
   }
  ],
  "events": [
+  {
+   "id": "c1dbcfe621db",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782137700000,
+   "timeLabel": "10:15 AM",
+   "source": "",
+   "text": "Advanced Micro Devices Inc Stock (AMD) Moved Up by 4.35% on Jun 22: Key Drivers Unveiled - TradingKey",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS1dwSU91MllfLXJkdWstdFpMdDVDQWVUaF9kT1VHSTFPS1B1cXZUQzNsQUc4VTVUTzZ6dmUxcW1tdGVnNWh1NGNpRnRLc3ZuQVJvSUR3UWczQllneWFzZXZYcFdHaWNLWGZ6bFpiV2tnU3pyXy0zZnJWaXlsenZ6N1lwWjVLRUwyZHc?oc=5"
+  },
+  {
+   "id": "1641c301dc11",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782137580000,
+   "timeLabel": "10:13 AM",
+   "source": "",
+   "text": "Nvidia Stock Rises But It Still Lags Intel - Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5MSnV6RWNOazJMeXF2RVd2RUhJNU9aR0hKNElGM0s0UUNhTkZtRDVwRE9xWVlEMFE3QWp0RUhQTDJPVUZLNkEyS05QYm1FTURGMWtlbkRxMGM1QVF3NktaN3hKaHZwNFo0UGphRFVHRUZXblh5QXB0ckZB?oc=5"
+  },
   {
    "id": "9e9de3165ca5",
    "type": "news",
@@ -2011,12 +2033,21 @@
    "stBull": null,
    "regime": 71.4,
    "composite": 45.7
+  },
+  {
+   "t": 1782138601837,
+   "label": "Jun 22 2026 10:30 AM ET",
+   "cnn": 39,
+   "crypto": 20,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 45.7
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.12,
+  "divMax": 0.21,
   "fallbacks": 0
  }
 }
