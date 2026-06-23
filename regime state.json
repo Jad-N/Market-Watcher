@@ -1,23 +1,22 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "5-2",
+    "tally": "4-3",
     "drivers": [
       "curve positive",
       "VIX in contango",
       "credit spreads tight",
-      "breadth broad",
-      "crash-hedging subdued"
+      "breadth broad"
     ],
-    "on": 5,
-    "off": 2
+    "on": 4,
+    "off": 3
   },
   "components": {
     "curve": {
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.34pp (2y 4.16, 10y 4.5)",
-      "asOfMs": 1782187200000,
+      "asOfMs": 1782172800000,
       "status": "ok",
       "raw": {
         "spread": 0.34,
@@ -28,13 +27,13 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.39 vs 20d avg 99.79",
+      "detail": "DXY 101.36 vs 20d avg 99.79",
       "asOfMs": 1782187200000,
       "status": "ok",
       "raw": {
-        "last": 101.39,
+        "last": 101.36,
         "avg": 99.79,
-        "gap": 1.6
+        "gap": 1.57
       }
     },
     "vol": {
@@ -86,20 +85,25 @@
       }
     },
     "skew": {
-      "state": "subdued",
-      "vote": "on",
-      "detail": "SKEW 141.9 vs 20d avg 142.5",
-      "asOfMs": 1782135000000,
+      "state": "elevated",
+      "vote": "off",
+      "detail": "SKEW 143.1 vs 20d avg 142.8",
+      "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "skew": 141.85,
-        "avg": 142.47,
-        "gap": -0.62
+        "skew": 143.14,
+        "avg": 142.76,
+        "gap": 0.38
       }
     }
   },
   "context": {
     "overnight": [
+      {
+        "name": "Hang Seng",
+        "pct": -0.7,
+        "asOfMs": 1782091800000
+      },
       {
         "name": "DAX",
         "pct": -1,
@@ -109,16 +113,11 @@
         "name": "Nikkei",
         "pct": 1.5,
         "asOfMs": 1782086400000
-      },
-      {
-        "name": "Hang Seng",
-        "pct": -0.7,
-        "asOfMs": 1782091800000
       }
     ],
     "rates": {
       "impliedRate": 3.72,
-      "changeBp": -9.2,
+      "changeBp": -9.7,
       "asOfMs": 1782187200000
     }
   },
@@ -233,9 +232,14 @@
       "ts": 1782224126943,
       "kind": "STRESS-CLEAR",
       "line": "STRESS-CLEAR vixBackwardation"
+    },
+    {
+      "ts": 1782251993227,
+      "kind": "REGIME",
+      "line": "REGIME skew subdued -> elevated"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782247608396
+  "updatedMs": 1782251993616
 }
