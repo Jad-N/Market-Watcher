@@ -17,7 +17,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.27pp (2y 4.24, 10y 4.51)",
-      "asOfMs": 1782100800000,
+      "asOfMs": 1782086400000,
       "status": "ok",
       "raw": {
         "spread": 0.27,
@@ -28,25 +28,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.4 vs 20d avg 99.79",
+      "detail": "DXY 101.41 vs 20d avg 99.79",
       "asOfMs": 1782187200000,
       "status": "ok",
       "raw": {
-        "last": 101.4,
+        "last": 101.41,
         "avg": 99.79,
-        "gap": 1.61
+        "gap": 1.62
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 19.03 vs VIX3M 20.85",
+      "detail": "VIX 18.89 vs VIX3M 20.77",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "vix": 19.03,
-        "vix3m": 20.85,
-        "diff": -1.82
+        "vix": 18.89,
+        "vix3m": 20.77,
+        "diff": -1.88
       }
     },
     "credit": {
@@ -76,13 +76,13 @@
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2841 vs 20d avg 0.2804",
+      "detail": "RSP/SPY 0.2843 vs 20d avg 0.2804",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2841,
+        "ratio": 0.2843,
         "avg": 0.2804,
-        "gap": 0.0037
+        "gap": 0.0039
       }
     },
     "skew": {
@@ -101,9 +101,9 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": 1.5,
-        "asOfMs": 1782086400000
+        "name": "Hang Seng",
+        "pct": -0.7,
+        "asOfMs": 1782091800000
       },
       {
         "name": "DAX",
@@ -111,9 +111,9 @@
         "asOfMs": 1782198000000
       },
       {
-        "name": "Hang Seng",
-        "pct": -0.7,
-        "asOfMs": 1782091800000
+        "name": "Nikkei",
+        "pct": 1.5,
+        "asOfMs": 1782086400000
       }
     ],
     "rates": {
@@ -237,5 +237,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782238525698
+  "updatedMs": 1782238683967
 }
