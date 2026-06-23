@@ -28,25 +28,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.41 vs 20d avg 99.79",
+      "detail": "DXY 101.38 vs 20d avg 99.79",
       "asOfMs": 1782187200000,
       "status": "ok",
       "raw": {
-        "last": 101.41,
+        "last": 101.38,
         "avg": 99.79,
-        "gap": 1.62
+        "gap": 1.59
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 19.2 vs VIX3M 20.9",
+      "detail": "VIX 19.62 vs VIX3M 21.12",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "vix": 19.2,
-        "vix3m": 20.9,
-        "diff": -1.7
+        "vix": 19.62,
+        "vix3m": 21.12,
+        "diff": -1.5
       }
     },
     "credit": {
@@ -64,13 +64,13 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d -0.8% vs others -2.5%",
+      "detail": "defensives 5d -0.6% vs others -2.6%",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "defMedPct": -0.8,
-        "othMedPct": -2.5,
-        "diffPct": 1.7
+        "defMedPct": -0.6,
+        "othMedPct": -2.6,
+        "diffPct": 2
       }
     },
     "breadth": {
@@ -82,7 +82,7 @@
       "raw": {
         "ratio": 0.2844,
         "avg": 0.2804,
-        "gap": 0.004
+        "gap": 0.0039
       }
     },
     "skew": {
@@ -106,19 +106,19 @@
         "asOfMs": 1782086400000
       },
       {
-        "name": "Hang Seng",
-        "pct": -0.7,
-        "asOfMs": 1782091800000
-      },
-      {
         "name": "DAX",
         "pct": -1,
         "asOfMs": 1782198000000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": -0.7,
+        "asOfMs": 1782091800000
       }
     ],
     "rates": {
       "impliedRate": 3.72,
-      "changeBp": -9.2,
+      "changeBp": -9.7,
       "asOfMs": 1782187200000
     }
   },
@@ -237,5 +237,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782240336082
+  "updatedMs": 1782242125689
 }

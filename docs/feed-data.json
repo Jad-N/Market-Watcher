@@ -1,44 +1,44 @@
 {
- "generatedAt": "Jun 23, 2026, 2:45 PM ET",
- "generatedAtMs": 1782240301955,
+ "generatedAt": "Jun 23, 2026, 3:15 PM ET",
+ "generatedAtMs": 1782242101979,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-06-23 14:00 ET",
-  "pricesAsOf": "Jun 23, 2026, 2:45 PM ET",
+  "asOfET": "2026-06-23 15:00 ET",
+  "pricesAsOf": "Jun 23, 2026, 3:15 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7447.25,
-     "change": -1.2,
+     "value": 7446,
+     "change": -1.3,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29715,
+     "value": 29710.5,
      "change": -3.1,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 19.15,
-     "change": 10.8,
+     "value": 19.55,
+     "change": 13.1,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 19.61,
-      "divergencePct": 2.35
+      "cnbcLast": 19.52,
+      "divergencePct": 0.15
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": -1.7
+     "pct": -1.6
     },
     {
      "ticker": "QQQ",
-     "pct": -3.7
+     "pct": -3.5
     }
    ],
    "putCall": null
@@ -221,13 +221,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.41 vs 20d avg 99.79"
+    "detail": "DXY 101.38 vs 20d avg 99.79"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 19.2 vs VIX3M 20.9"
+    "detail": "VIX 19.62 vs VIX3M 21.12"
    },
    {
     "name": "credit",
@@ -239,7 +239,7 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d -0.8% vs others -2.5%"
+    "detail": "defensives 5d -0.6% vs others -2.6%"
    },
    {
     "name": "breadth",
@@ -260,13 +260,13 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -3,
-   "last": 62059.7,
+   "pct": -2.6,
+   "last": 62283.3,
    "newsCount": 10,
    "latestNews": {
-    "title": "Live BTC markets: Bitcoin drop to $62,000 creates $700 million in liquidations - CoinDesk",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPc3pZVUtLMUFwU2NNV1JtenFJU21BTEZfcFVGZ1E5N3pVaU1jT1NqTUhJVG8yRmdjWWJBbERZU3lRMXlGbnhNM01UaUtWZTBWMkpPa1hWaGNzVGNGSzl0dmdCalpXYm9QSVoxUnI1cGtlTkw5S3doeG16SEFERUhtaTZ0WWdDejRKSnBMOWtjYVFvbkhYSnRBWGFMLUlGdVpweWpubDg1UGNZeURSbnVLdlAtNE5kc0REZHh1Nko5TE1Iei1MZFJr?oc=5",
-    "time": "1:39 PM"
+    "title": "Bitcoin price analysis: BTC may be close to a bottom. Here's why. - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPVWtRY2U5RXpXQ0NoSDl5SHZDWTBfWVhfY3k3ckJjQXVFek93RkdEY09BMEtUVTZNT1ZNMVk5R2d2TlF1a3ZDOXhNQXRoSmd3R1hOdkxhX1dZZ1NJS1lmX1I5NlpXMGRhX3Jfam9UTFluQnluUkQ3Unh2R1ZwVEhubXJqRUR6TFNBeWRHTkN1VnFtUHBrVWRvOS0yY3h4S29JaXA1b1VuQ25vTTVxbzQ5MkdQc1d3bVZzakdTemRnQ1U4bUxGWFE?oc=5",
+    "time": "4:25 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -276,9 +276,9 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -4.8,
+   "pct": -4.9,
    "last": 27.8,
-   "newsCount": 3,
+   "newsCount": 4,
    "latestNews": {
     "title": "Cipher Digital Inc. (CIFR) Dips More Than Broader Market: What You Should Know - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORDgySmlvY0tYdWlYTDVVSGpmX0VmZXd6VGludk1scngxQmRza1RaRGtDNVVVT0xWMEpRYnFtQ0FOaXpIM0NmeXFWNmQ1RGFpVkZybEhwa1pEbGlMVDE1ZUxheUkxVElrdlBPNWdfeDE3djRtMzBNSTFsMWxTUlpTTW92TWNyVlFUSFg1UUJFM2x0NEpuZ01rUw?oc=5",
@@ -297,8 +297,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -8.9,
-   "last": 54.6,
+   "pct": -8.8,
+   "last": 54.7,
    "newsCount": 5,
    "latestNews": {
     "title": "Why Jefferies Is Betting That IREN Stock Will Gain 30% from Here - Barchart.com",
@@ -318,9 +318,9 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -3.7,
-   "last": 276,
-   "newsCount": 7,
+   "pct": -4,
+   "last": 275.1,
+   "newsCount": 6,
    "latestNews": {
     "title": "CoreWeave vs. Nebius: Which AI Infrastructure Stock Has More Upside? - The Globe and Mail",
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMmFDWGFtV09IMjhkN1dVUzlqMG1WMEdlcGppY2QyR3g1ZFFwSDR4LTdzOTVpcWdXQy1vajNCVXBIemJfNk9rbUlTMlFrRDU0b1NwLVRncUxHQkdiNnh4TnFiejlGSGJQY2QyUEo1bnVUeWJ6Z0NmZW9vUC1uVmtxeWdEWXQ2MHdTaFg2RE5IZ2t2Y0poQUtJMVUySXZ2WjBwaElYVmNEVzR1elMzdENZUkdNVnc2UHFaNkVTWjhPWWlONzR3cWtOZFRNM052cHBNMlpGS2Jpd2E5SmNRZkpzdWxRams?oc=5",
@@ -343,8 +343,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -3.9,
-   "last": 516.3,
+   "pct": -3.6,
+   "last": 518.2,
    "newsCount": 18,
    "latestNews": {
     "title": "Intel Has a Warning for AMD Stock Investors - The Motley Fool",
@@ -363,13 +363,13 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -3.9,
-   "last": 44.8,
-   "newsCount": 10,
+   "pct": -3.4,
+   "last": 45,
+   "newsCount": 12,
    "latestNews": {
-    "title": "Synopsys vs. Applied Digital: Which AI Stock Has an Edge Right Now? - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR1FmVlFTSmpDdWw3bVFsdG11VnM0aHBUVEpkT2F5OHZmcnh2Q3dLcHFldFZxWmRCbUdlcF9GVlV1WURJS3FWbm9sVHNrOXlSWEhUS2Q5ODlySEl4YjBTUnd3ZDkzSTBWT29Ia2EwV2o0eDZ4dWhDVEhUSV81Qm5Cb3FOZlI0QnpNRWFpakNjbmNTTFNuYnFCOWF5QmlCTFZkd294Z1h0TmVPNGYwcGJnc3M0aHQ2c1FOV3AteQ?oc=5",
-    "time": "11:11 AM"
+    "title": "Applied Digital (APLD) Completes $1.59B Private Offering to Fund AI Data Center Expansion - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcmRDMm84dHRHUVM5NkdxVm9PbGxoTDlYRS0zbVB2SnlKQURsZ3dfU0UtOTFRZlp0WjZqT1dpckU1c2tRcE5Kb2M5NG5Ub0xyaFNyeGpDM0ZfOHFmV2Z6WDkxWm9xcUVPS0M0eHhfS0lVQ09qX09rR0FQZ25CUnB0cGJJVmZtVkFjck93dHh6Z2JIQndzZnJYSlFONjY?oc=5",
+    "time": "2:55 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -384,7 +384,7 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -2.1,
+   "pct": -1.8,
    "last": 28.4,
    "newsCount": 0,
    "latestNews": null,
@@ -401,7 +401,7 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": -0.1,
+   "pct": 0.4,
    "last": 7.4,
    "newsCount": 0,
    "latestNews": null,
@@ -413,8 +413,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -0.6,
-   "last": 6.2,
+   "pct": 0.4,
+   "last": 6.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -430,8 +430,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 1.2,
-   "last": 17.4,
+   "pct": 1.6,
+   "last": 17.5,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -447,8 +447,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -5.5,
-   "last": 14,
+   "pct": -5.1,
+   "last": 14.1,
    "newsCount": 1,
    "latestNews": {
     "title": "Strive Inc. (ASST) Boosts BTC Holdings With $4.7 Million Purchase",
@@ -463,8 +463,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -1.5,
-   "last": 97.7,
+   "pct": -1.2,
+   "last": 98,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -475,8 +475,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 3.7,
-   "last": 25.5,
+   "pct": 4,
+   "last": 25.6,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -487,8 +487,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -4.7,
-   "last": 200.8,
+   "pct": -4.6,
+   "last": 200.9,
    "newsCount": 18,
    "latestNews": {
     "title": "NVIDIA Stock’s Next Big Move Might Not Involve A GPU - Trefis",
@@ -507,7 +507,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -3,
+   "pct": -2.7,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -535,9 +535,9 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -10.6,
-   "last": 95.9,
-   "newsCount": 10,
+   "pct": -10.3,
+   "last": 96.2,
+   "newsCount": 9,
    "latestNews": {
     "title": "Rocket Lab (NASDAQ:RKLB) Stock Price Down 6.5% - Here's What Happened - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVVVPcVFDSmZsMFpKTXVqckRUcDFrSUxfcmZxUEx1cUtrN3lLU0tSb2Yya2d5VVVUSGVTazVPdk5BSWxuZFVleHVDUTVrbEZuNnFDZEd4YkM2VGRsWVAwQ0ZSYnhVWlktRHJHNnBZYjlJdmxEUHlJalN6RURHUms4VC1UVW5VRWNOazgwS3JOcThLcTVnUWYzLWFSUVVGYWVLRTAyWkszcFN3MHNpNU1JalJTMW84dw?oc=5",
@@ -555,7 +555,7 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -9.1,
+   "pct": -9.2,
    "last": 116.7,
    "newsCount": 18,
    "latestNews": {
@@ -575,13 +575,13 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -1.9,
-   "last": 372.4,
+   "pct": -1.6,
+   "last": 373.4,
    "newsCount": 18,
    "latestNews": {
-    "title": "Jim Cramer Reveals What He’d Like To See With Microsoft (MSFT) - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOemdwNFlLU1Y1eG0tTmZ4a0Jwb1FXeU0wYUdYUFBfWkNVZ3lmSEpMMXhyTGFWeGdCSldQMXNzU1dUZlM2Z3I2Z29uNnNrYy1FRjE1OHk4UjRBdFBBTTJscHExNFVyUGxDSnd6UU55X3JKSmkxVTd1LU5sUXlNMkxEV0gxcXcyRGk0UmQ0VEdyaGhQLVk?oc=5",
-    "time": "2:55 AM"
+    "title": "Microsoft Stock (NASDAQ:MSFT) Notches Up With New AI Banking Connections - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcTlKaGtqQ3oweW9KQnI3VlpJcWktUjFiVHBzeTM0ZHhJVEltWWNnRXlqdWNRb29XVEwxSTh5NmtYU211eWpFekk2Vkd6dDVKUmN1SW5Ub0FHeHd6WDdYb3pBRFBzVm0zYnVlalFKTzJMQ0FYU1VjdEpSSXNWYjF5b096aG9adC1PdngzOURCVVM3Ui0zQUlrYlBLTmp2elMt?oc=5",
+    "time": "8:17 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -607,8 +607,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -5.8,
-   "last": 346.7,
+   "pct": -5.7,
+   "last": 346.9,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet (GOOGL) Stock Falls Again as Anthropic Poaches DeepMind Nobel Winner - Barron's",
@@ -624,12 +624,12 @@
    "section": "macro",
    "class": "commodity",
    "pct": -1,
-   "last": 4139.5,
+   "last": 4141.6,
    "newsCount": 10,
    "latestNews": {
-    "title": "Gold and silver tumble as rate-hike fears hit precious metals - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE16RXZpQ016eGFOLXlxZ2NUWGNOQW1oTy1lNEk5UC1LTnhYZ01MOXAzVWxtOEdzbXZ0QWJsNnduWmNReHh3RmVEc3p5N1kwcG80SlRCa3F2UG95UkV3SW5CcG82TlN2UVlRNkdMYTBDbGZOUdIBd0FVX3lxTE82dFRsR0cyeUJQQWtBVzJFcVluT09tZjNYV3JhcjR3WC1TaExXSmlCZS1JMkxPUGN0V28wMUdNMWpmOHQ5VWVKakpPNncyWnFBMXFieVZfQkZqX2xIS0M4TlRMOHg2eGNjRFZZOUxWUXlSQVVmNHZB?oc=5",
-    "time": "9:52 AM"
+    "title": "Gold price slides as AI rout fuels US Dollar flight - Mitrade",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQTUzMU1RelNReUM4bEo0bkxjN041TEhrcXN5V09RbGp2UzJYeFp4THljZ05GVl9FZ1N1S3JxQktEc0NKWDlpdGRfci1zbVVISG9fdkszWnplQ2FhcmpoaXVxYlBiTG9hYzNLQUlsM09vcV9tUzJINmFqbkpnZTNZb2ZhSQ?oc=5",
+    "time": "2:12 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -656,7 +656,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": -2.1,
-   "last": 73.2,
+   "last": 73.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil Futures Decline on Prospects of Increased Supply - WSJ",
@@ -669,6 +669,17 @@
   }
  ],
  "events": [
+  {
+   "id": "a322314e33e7",
+   "type": "news",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1782240900000,
+   "timeLabel": "2:55 PM",
+   "source": "",
+   "text": "Applied Digital (APLD) Completes $1.59B Private Offering to Fund AI Data Center Expansion - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcmRDMm84dHRHUVM5NkdxVm9PbGxoTDlYRS0zbVB2SnlKQURsZ3dfU0UtOTFRZlp0WjZqT1dpckU1c2tRcE5Kb2M5NG5Ub0xyaFNyeGpDM0ZfOHFmV2Z6WDkxWm9xcUVPS0M0eHhfS0lVQ09qX09rR0FQZ25CUnB0cGJJVmZtVkFjck93dHh6Z2JIQndzZnJYSlFONjY?oc=5"
+  },
   {
    "id": "1e0984c06409",
    "type": "post",
@@ -2396,12 +2407,21 @@
    "stBull": null,
    "regime": 71.4,
    "composite": 47.2
+  },
+  {
+   "t": 1782242101979,
+   "label": "Jun 23 2026 3:15 PM ET",
+   "cnn": 28,
+   "crypto": 23,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 47.2
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.08,
+  "divMax": 0.06,
   "fallbacks": 0
  }
 }
