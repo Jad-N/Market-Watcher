@@ -1,44 +1,44 @@
 {
- "generatedAt": "Jun 23, 2026, 3:45 PM ET",
- "generatedAtMs": 1782243902116,
+ "generatedAt": "Jun 23, 2026, 4:15 PM ET",
+ "generatedAtMs": 1782245701987,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-06-23 15:00 ET",
-  "pricesAsOf": "Jun 23, 2026, 3:45 PM ET",
+  "asOfET": "2026-06-23 16:00 ET",
+  "pricesAsOf": "Jun 23, 2026, 4:14 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7447,
-     "change": -1.2,
+     "value": 7435.75,
+     "change": -1.4,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29736.5,
-     "change": -3,
+     "value": 29675.25,
+     "change": -3.2,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 19.37,
-     "change": 12.1,
+     "value": 19.5,
+     "change": 12.8,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 19.52,
-      "divergencePct": 0.77
+      "cnbcLast": 19.48,
+      "divergencePct": 0.1
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": -1.6
+     "pct": -1.7
     },
     {
      "ticker": "QQQ",
-     "pct": -3.5
+     "pct": -3.6
     }
    ],
    "putCall": null
@@ -220,19 +220,19 @@
     "name": "curve",
     "vote": "on",
     "state": "normal",
-    "detail": "10y-2y 0.27pp (2y 4.24, 10y 4.51)"
+    "detail": "10y-2y 0.34pp (2y 4.16, 10y 4.5)"
    },
    {
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.38 vs 20d avg 99.79"
+    "detail": "DXY 101.39 vs 20d avg 99.79"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 19.34 vs VIX3M 20.94"
+    "detail": "VIX 19.56 vs VIX3M 21.1"
    },
    {
     "name": "credit",
@@ -250,7 +250,7 @@
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2844 vs 20d avg 0.2804"
+    "detail": "RSP/SPY 0.2848 vs 20d avg 0.2804"
    },
    {
     "name": "skew",
@@ -265,8 +265,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -2.7,
-   "last": 62219.6,
+   "pct": -2.5,
+   "last": 62359.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin price analysis: BTC may be close to a bottom. Here's why. - CoinDesk",
@@ -281,7 +281,7 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -5.5,
+   "pct": -5.3,
    "last": 27.6,
    "newsCount": 4,
    "latestNews": {
@@ -302,13 +302,13 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -9.3,
-   "last": 54.4,
-   "newsCount": 7,
+   "pct": -8.7,
+   "last": 54.7,
+   "newsCount": 8,
    "latestNews": {
-    "title": "Why Jefferies Is Betting That IREN Stock Will Gain 30% from Here - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeGhYeHRRdWNkdHhDbGxGMEU2cUJhSHpMS1Rxam9Pb0Z2X2MtaGh6Wm5oblpuSklHcXYydFoxTXlNT2M0LVJTT0ZneExHcDNNMFE0WUs1NDVMamZiZzl0RTJ0OFJ1dGVWVk5mdUFjX280bVV3THZQaWVKLU5HRUFUNXU0THdoa1IyQS1sV2tOb0RyRnZDQURMdkE5blFIbGN6eHJHekk2RzFmUWM?oc=5",
-    "time": "3:55 PM"
+    "title": "Is IREN (IREN) The Best AI Stock With 10X Potential? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOT0pubDI2My03a0JlTUFMeTJRS3FvUUxkZlpidG5uVUV4a3hXUm5wR3hJMUZiZnN1cHJfUnNvMnJXNDJYTlJTU1BHMloyRldiUUV1c0dONjBuVk5KZk0yOHRSeW1aSmVqZGQ0OWhpYzdNTzVYYjNKU25PYWVZY1J4S245QmRoYkRIamZtY0xkRFhOZw?oc=5",
+    "time": "3:47 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -323,13 +323,13 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -3.9,
-   "last": 275.4,
-   "newsCount": 6,
+   "pct": -4,
+   "last": 275.3,
+   "newsCount": 8,
    "latestNews": {
-    "title": "CoreWeave vs. Nebius: Which AI Infrastructure Stock Has More Upside? - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMmFDWGFtV09IMjhkN1dVUzlqMG1WMEdlcGppY2QyR3g1ZFFwSDR4LTdzOTVpcWdXQy1vajNCVXBIemJfNk9rbUlTMlFrRDU0b1NwLVRncUxHQkdiNnh4TnFiejlGSGJQY2QyUEo1bnVUeWJ6Z0NmZW9vUC1uVmtxeWdEWXQ2MHdTaFg2RE5IZ2t2Y0poQUtJMVUySXZ2WjBwaElYVmNEVzR1elMzdENZUkdNVnc2UHFaNkVTWjhPWWlONzR3cWtOZFRNM052cHBNMlpGS2Jpd2E5SmNRZkpzdWxRams?oc=5",
-    "time": "11:10 AM"
+    "title": "Does Nebius Group (NBIS) Have More Upside? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX185Y2JMRmF1Q3c1MGhhYThWdnhmR2ZETlI0emVPcmdISXA2SUNjWkxEcC1MZUxfOTNWWGFRVWIxeFpndDBtSnZ3NU1xVUp2di0waU16dXhBX1pQRmVtVE85SURzREVLMzRNblhKWmoyMWYxc3hsd0p0TGo5UW1lS05iOEkyVEp0ZEJ5TDB2QzlVT2hHWDZV?oc=5",
+    "time": "3:47 PM"
    },
    "latestPost": {
     "text": "When AI agents start making the infrastructure decisions humans used to make, your go-to-market changes completely. @rweiss57, Founder & CEO of @tavilyai, on how Tavily reached 1 million users without outbound sales and why the winners in AI now are the ones cutting latency and token costs, not shipping the best model. Hear the podcast: https://nebius.com/podcast",
@@ -348,8 +348,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -3.5,
-   "last": 518.8,
+   "pct": -3.3,
+   "last": 519.9,
    "newsCount": 18,
    "latestNews": {
     "title": "Intel Has a Warning for AMD Stock Investors - The Motley Fool",
@@ -368,9 +368,9 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -3.2,
-   "last": 45.1,
-   "newsCount": 13,
+   "pct": -2.8,
+   "last": 45.3,
+   "newsCount": 12,
    "latestNews": {
     "title": "Applied Digital (APLD) Completes $1.59B Private Offering to Fund AI Data Center Expansion - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcmRDMm84dHRHUVM5NkdxVm9PbGxoTDlYRS0zbVB2SnlKQURsZ3dfU0UtOTFRZlp0WjZqT1dpckU1c2tRcE5Kb2M5NG5Ub0xyaFNyeGpDM0ZfOHFmV2Z6WDkxWm9xcUVPS0M0eHhfS0lVQ09qX09rR0FQZ25CUnB0cGJJVmZtVkFjck93dHh6Z2JIQndzZnJYSlFONjY?oc=5",
@@ -389,8 +389,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -1.3,
-   "last": 28.6,
+   "pct": -0.7,
+   "last": 28.8,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -406,7 +406,7 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": -0.7,
+   "pct": -0.5,
    "last": 7.3,
    "newsCount": 0,
    "latestNews": null,
@@ -418,16 +418,16 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -0.7,
+   "pct": -1.4,
    "last": 6.2,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
    "latestFiling": {
-    "type": "other",
-    "label": "Exec / board change",
-    "url": "https://www.sec.gov/Archives/edgar/data/2028336/000121390026064395/ea0293372-8k_newera.htm",
-    "time": "6:03 AM"
+    "type": "insider",
+    "label": "Insider transaction",
+    "url": "https://www.sec.gov/Archives/edgar/data/2028336/000121390026071090/xslF345X06/ownership.xml",
+    "time": "12:10 PM"
    },
    "stocktwits": null
   },
@@ -435,8 +435,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 0.7,
-   "last": 17.4,
+   "pct": -0.3,
+   "last": 17.2,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -452,13 +452,13 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -5.6,
+   "pct": -6.1,
    "last": 14,
-   "newsCount": 1,
+   "newsCount": 2,
    "latestNews": {
-    "title": "Strive Inc. (ASST) Boosts BTC Holdings With $4.7 Million Purchase",
-    "link": "https://finance.yahoo.com/markets/crypto/articles/strive-inc-asst-boosts-btc-045625739.html?.tsrc=rss",
-    "time": "12:56 AM"
+    "title": "Strive Is Buying Bitcoin Hand-Over-Fist, CEO Says",
+    "link": "https://finance.yahoo.com/video/strive-buying-bitcoin-hand-over-192953889.html?.tsrc=rss",
+    "time": "3:29 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -468,8 +468,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -1.1,
-   "last": 98.1,
+   "pct": -0.7,
+   "last": 98.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -480,8 +480,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 4.3,
-   "last": 25.7,
+   "pct": 4,
+   "last": 25.6,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -492,8 +492,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -4.7,
-   "last": 200.9,
+   "pct": -5.1,
+   "last": 200,
    "newsCount": 18,
    "latestNews": {
     "title": "NVIDIA Stock’s Next Big Move Might Not Involve A GPU - Trefis",
@@ -512,7 +512,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -2.7,
+   "pct": -2.3,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -528,7 +528,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -6.3,
+   "pct": -6.2,
    "last": 12.7,
    "newsCount": 0,
    "latestNews": null,
@@ -540,9 +540,9 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -11.1,
-   "last": 95.4,
-   "newsCount": 9,
+   "pct": -11.3,
+   "last": 95.1,
+   "newsCount": 10,
    "latestNews": {
     "title": "Rocket Lab (NASDAQ:RKLB) Stock Price Down 6.5% - Here's What Happened - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVVVPcVFDSmZsMFpKTXVqckRUcDFrSUxfcmZxUEx1cUtrN3lLU0tSb2Yya2d5VVVUSGVTazVPdk5BSWxuZFVleHVDUTVrbEZuNnFDZEd4YkM2VGRsWVAwQ0ZSYnhVWlktRHJHNnBZYjlJdmxEUHlJalN6RURHUms4VC1UVW5VRWNOazgwS3JOcThLcTVnUWYzLWFSUVVGYWVLRTAyWkszcFN3MHNpNU1JalJTMW84dw?oc=5",
@@ -560,8 +560,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -9.5,
-   "last": 116.3,
+   "pct": -9.2,
+   "last": 116.7,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir Hits 52-Week Low Amid AI Retreat, Rising Interest Rates - Investor's Business Daily",
@@ -581,7 +581,7 @@
    "section": "macro",
    "class": "equity",
    "pct": -1.4,
-   "last": 374.2,
+   "last": 373.9,
    "newsCount": 18,
    "latestNews": {
     "title": "Microsoft Stock (NASDAQ:MSFT) Notches Up With New AI Banking Connections - TipRanks",
@@ -596,8 +596,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -6.3,
-   "last": 33.2,
+   "pct": -7.1,
+   "last": 32.9,
    "newsCount": 2,
    "latestNews": {
     "title": "Hims & Hers Health (HIMS) Expands GLP 1 Offerings With Novo Nordisk Deal And Eucalyptus Buy",
@@ -612,8 +612,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -5.6,
-   "last": 347.2,
+   "pct": -6,
+   "last": 346.1,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet (GOOGL) Stock Falls Again as Anthropic Poaches DeepMind Nobel Winner - Barron's",
@@ -628,8 +628,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -1,
-   "last": 4140,
+   "pct": -1.3,
+   "last": 4129.4,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold and silver tumble as rate-hike fears hit precious metals - CNBC",
@@ -644,8 +644,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -0.9,
-   "last": 77.2,
+   "pct": -1,
+   "last": 77.1,
    "newsCount": 10,
    "latestNews": {
     "title": "Half-Open, Half-Closed Strait of Hormuz Baffles Oil Markets - Crude Oil Prices Today | OilPrice.com",
@@ -674,6 +674,39 @@
   }
  ],
  "events": [
+  {
+   "id": "8e4956c3fcb3",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1782244020000,
+   "timeLabel": "3:47 PM",
+   "source": "",
+   "text": "Is IREN (IREN) The Best AI Stock With 10X Potential? - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOT0pubDI2My03a0JlTUFMeTJRS3FvUUxkZlpidG5uVUV4a3hXUm5wR3hJMUZiZnN1cHJfUnNvMnJXNDJYTlJTU1BHMloyRldiUUV1c0dONjBuVk5KZk0yOHRSeW1aSmVqZGQ0OWhpYzdNTzVYYjNKU25PYWVZY1J4S245QmRoYkRIamZtY0xkRFhOZw?oc=5"
+  },
+  {
+   "id": "c8acbf6dd0a7",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1782244020000,
+   "timeLabel": "3:47 PM",
+   "source": "",
+   "text": "Does Nebius Group (NBIS) Have More Upside? - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX185Y2JMRmF1Q3c1MGhhYThWdnhmR2ZETlI0emVPcmdISXA2SUNjWkxEcC1MZUxfOTNWWGFRVWIxeFpndDBtSnZ3NU1xVUp2di0waU16dXhBX1pQRmVtVE85SURzREVLMzRNblhKWmoyMWYxc3hsd0p0TGo5UW1lS05iOEkyVEp0ZEJ5TDB2QzlVT2hHWDZV?oc=5"
+  },
+  {
+   "id": "ebe465f775db",
+   "type": "news",
+   "symbol": "ASST",
+   "section": "trading",
+   "time": 1782242940000,
+   "timeLabel": "3:29 PM",
+   "source": "",
+   "text": "Strive Is Buying Bitcoin Hand-Over-Fist, CEO Says",
+   "url": "https://finance.yahoo.com/video/strive-buying-bitcoin-hand-over-192953889.html?.tsrc=rss"
+  },
   {
    "id": "e24b73be857c",
    "type": "news",
@@ -937,6 +970,17 @@
    "source": "",
    "text": "AMD Stock Slides Despite the Chipmaker’s Supercomputer Gains - TipRanks",
    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMU1Fbk04RFdYcEVpZEJxeGJYemNWWGNyMzFFYWlLNUYzRVBKeHB5V1Yydnp2WkpXWXZrTlkyZ3VOVDdvODY5YkZUcURmbE5LS1BmU05Eb0VGd0hvSmhIWEZ4ZkV6TDZScmNkX0hxcXRXbnB5VXRwUWlOWF9udWdidk5rOHJDMmNabHJESG5lWVl2V3c?oc=5"
+  },
+  {
+   "id": "0aa455c63173",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1782223260000,
+   "timeLabel": "10:01 AM",
+   "source": "",
+   "text": "NVIDIA and Top Analysts Are Bullish on IREN Stock: Is It Still a Buy? - BanklessTimes",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOc1hjYnlhd1ZxOVJuNGxuTG01YUU0NFk1NEJ6Y0hTQ1FNSVZCYTFVSkk3Wkx1MnFUS2ZoZE0tT21qR1haM2NaTG51YVFTZlZyRnZja1pEaUJVaXNIb2szRTZ0bXB4UzhQZFNJLWFwSnNxSnRVTUJtWTY5cmlfWXZpQkw2Q0xOcjdLYnZ2SHlqdzA2emJaZXBjZ0g2MVR5U0JtN3FBUnotY0otVl9GcEU4WUJ1QVRiRXFKY1E?oc=5"
   },
   {
    "id": "2a6e483e7893",
@@ -2480,6 +2524,15 @@
   {
    "t": 1782243902116,
    "label": "Jun 23 2026 3:45 PM ET",
+   "cnn": 28,
+   "crypto": 23,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 47.2
+  },
+  {
+   "t": 1782245701987,
+   "label": "Jun 23 2026 4:15 PM ET",
    "cnn": 28,
    "crypto": 23,
    "stBull": null,

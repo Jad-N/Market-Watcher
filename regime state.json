@@ -16,37 +16,37 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.27pp (2y 4.24, 10y 4.51)",
-      "asOfMs": 1782100800000,
+      "detail": "10y-2y 0.34pp (2y 4.16, 10y 4.5)",
+      "asOfMs": 1782187200000,
       "status": "ok",
       "raw": {
-        "spread": 0.27,
-        "y2": 4.24,
-        "y10": 4.51
+        "spread": 0.34,
+        "y2": 4.16,
+        "y10": 4.5
       }
     },
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.38 vs 20d avg 99.79",
+      "detail": "DXY 101.39 vs 20d avg 99.79",
       "asOfMs": 1782187200000,
       "status": "ok",
       "raw": {
-        "last": 101.38,
+        "last": 101.39,
         "avg": 99.79,
-        "gap": 1.59
+        "gap": 1.6
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 19.34 vs VIX3M 20.94",
+      "detail": "VIX 19.56 vs VIX3M 21.1",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "vix": 19.34,
-        "vix3m": 20.94,
-        "diff": -1.6
+        "vix": 19.56,
+        "vix3m": 21.1,
+        "diff": -1.54
       }
     },
     "credit": {
@@ -70,19 +70,19 @@
       "raw": {
         "defMedPct": -0.5,
         "othMedPct": -2.5,
-        "diffPct": 1.9
+        "diffPct": 2.1
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2844 vs 20d avg 0.2804",
+      "detail": "RSP/SPY 0.2848 vs 20d avg 0.2804",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2844,
+        "ratio": 0.2848,
         "avg": 0.2804,
-        "gap": 0.0039
+        "gap": 0.0043
       }
     },
     "skew": {
@@ -118,7 +118,7 @@
     ],
     "rates": {
       "impliedRate": 3.72,
-      "changeBp": -9.2,
+      "changeBp": -9.7,
       "asOfMs": 1782187200000
     }
   },
@@ -237,5 +237,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782243936349
+  "updatedMs": 1782245726149
 }
