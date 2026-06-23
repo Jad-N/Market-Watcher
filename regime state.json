@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.27pp (2y 4.24, 10y 4.51)",
-      "asOfMs": 1782100800000,
+      "asOfMs": 1782086400000,
       "status": "ok",
       "raw": {
         "spread": 0.27,
@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.31 vs 20d avg 99.78",
+      "detail": "DXY 101.24 vs 20d avg 99.78",
       "asOfMs": 1782187200000,
       "status": "ok",
       "raw": {
-        "last": 101.31,
+        "last": 101.24,
         "avg": 99.78,
-        "gap": 1.52
+        "gap": 1.46
       }
     },
     "vol": {
       "state": "backwardation",
       "vote": "off",
-      "detail": "VIX 20.11 vs VIX3M 19.57",
+      "detail": "VIX 20.21 vs VIX3M 19.57",
       "asOfMs": 1782198000000,
       "status": "ok",
       "raw": {
-        "vix": 20.11,
+        "vix": 20.21,
         "vix3m": 19.57,
-        "diff": 0.54
+        "diff": 0.64
       }
     },
     "credit": {
@@ -63,25 +63,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d -0.7% vs others -2.8%",
+      "detail": "defensives 5d -0.9% vs others -2.7%",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "defMedPct": -0.7,
-        "othMedPct": -2.8,
-        "diffPct": 2.1
+        "defMedPct": -0.9,
+        "othMedPct": -2.7,
+        "diffPct": 1.8
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2839 vs 20d avg 0.2804",
+      "detail": "RSP/SPY 0.2835 vs 20d avg 0.2804",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2839,
+        "ratio": 0.2835,
         "avg": 0.2804,
-        "gap": 0.0035
+        "gap": 0.0031
       }
     },
     "skew": {
@@ -100,24 +100,24 @@
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": -1.8,
-        "asOfMs": 1782178200000
-      },
-      {
-        "name": "DAX",
-        "pct": -1,
-        "asOfMs": 1782198000000
-      },
-      {
         "name": "Nikkei",
         "pct": -3.5,
         "asOfMs": 1782172800000
+      },
+      {
+        "name": "DAX",
+        "pct": -1.1,
+        "asOfMs": 1782198000000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": -1.8,
+        "asOfMs": 1782178200000
       }
     ],
     "rates": {
-      "impliedRate": 3.72,
-      "changeBp": -9.2,
+      "impliedRate": 3.71,
+      "changeBp": -8.7,
       "asOfMs": 1782187200000
     }
   },
@@ -226,5 +226,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782221428660
+  "updatedMs": 1782222328456
 }
