@@ -28,25 +28,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.29 vs 20d avg 99.78",
+      "detail": "DXY 101.37 vs 20d avg 99.79",
       "asOfMs": 1782187200000,
       "status": "ok",
       "raw": {
-        "last": 101.29,
-        "avg": 99.78,
-        "gap": 1.51
+        "last": 101.37,
+        "avg": 99.79,
+        "gap": 1.58
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 19.49 vs VIX3M 21.03",
+      "detail": "VIX 19.11 vs VIX3M 20.84",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "vix": 19.49,
-        "vix3m": 21.03,
-        "diff": -1.54
+        "vix": 19.11,
+        "vix3m": 20.84,
+        "diff": -1.73
       }
     },
     "credit": {
@@ -64,25 +64,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d -0.9% vs others -2.3%",
+      "detail": "defensives 5d -0.9% vs others -2.4%",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
         "defMedPct": -0.9,
-        "othMedPct": -2.3,
-        "diffPct": 1.5
+        "othMedPct": -2.4,
+        "diffPct": 1.6
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2832 vs 20d avg 0.2804",
+      "detail": "RSP/SPY 0.2835 vs 20d avg 0.2804",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2832,
+        "ratio": 0.2835,
         "avg": 0.2804,
-        "gap": 0.0029
+        "gap": 0.0031
       }
     },
     "skew": {
@@ -107,7 +107,7 @@
       },
       {
         "name": "DAX",
-        "pct": -0.8,
+        "pct": -0.7,
         "asOfMs": 1782198000000
       },
       {
@@ -117,8 +117,8 @@
       }
     ],
     "rates": {
-      "impliedRate": 3.71,
-      "changeBp": -8.7,
+      "impliedRate": 3.72,
+      "changeBp": -9.2,
       "asOfMs": 1782187200000
     }
   },
@@ -237,5 +237,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782224127649
+  "updatedMs": 1782225927970
 }
