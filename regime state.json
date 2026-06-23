@@ -17,7 +17,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.34pp (2y 4.16, 10y 4.5)",
-      "asOfMs": 1782187200000,
+      "asOfMs": 1782172800000,
       "status": "ok",
       "raw": {
         "spread": 0.34,
@@ -40,13 +40,13 @@
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 19.56 vs VIX3M 21.1",
+      "detail": "VIX 19.51 vs VIX3M 21.06",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
-        "vix": 19.56,
-        "vix3m": 21.1,
-        "diff": -1.54
+        "vix": 19.51,
+        "vix3m": 21.06,
+        "diff": -1.55
       }
     },
     "credit": {
@@ -64,12 +64,12 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d -0.5% vs others -2.5%",
+      "detail": "defensives 5d -0.5% vs others -2.6%",
       "asOfMs": 1782221400000,
       "status": "ok",
       "raw": {
         "defMedPct": -0.5,
-        "othMedPct": -2.5,
+        "othMedPct": -2.6,
         "diffPct": 2.1
       }
     },
@@ -101,11 +101,6 @@
   "context": {
     "overnight": [
       {
-        "name": "DAX",
-        "pct": -1,
-        "asOfMs": 1782198000000
-      },
-      {
         "name": "Hang Seng",
         "pct": -0.7,
         "asOfMs": 1782091800000
@@ -114,6 +109,11 @@
         "name": "Nikkei",
         "pct": 1.5,
         "asOfMs": 1782086400000
+      },
+      {
+        "name": "DAX",
+        "pct": -1,
+        "asOfMs": 1782198000000
       }
     ],
     "rates": {
@@ -237,5 +237,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782245726149
+  "updatedMs": 1782246506259
 }
