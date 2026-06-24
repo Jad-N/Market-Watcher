@@ -1,33 +1,33 @@
 {
- "generatedAt": "Jun 24, 2026, 11:49 AM ET",
- "generatedAtMs": 1782316167749,
+ "generatedAt": "Jun 24, 2026, 11:54 AM ET",
+ "generatedAtMs": 1782316470216,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-24 11:00 ET",
-  "pricesAsOf": "Jun 24, 2026, 11:49 AM ET",
+  "pricesAsOf": "Jun 24, 2026, 11:54 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7484.25,
+     "value": 7479.5,
      "change": 0.6,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29754.75,
-     "change": 0.3,
+     "value": 29725,
+     "change": 0.2,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 18.19,
-     "change": -6.7,
+     "value": 18.24,
+     "change": -6.4,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 18.38,
-      "divergencePct": 1.03
+      "cnbcLast": 18.26,
+      "divergencePct": 0.11
      }
     }
    ],
@@ -38,7 +38,7 @@
     },
     {
      "ticker": "QQQ",
-     "pct": -3
+     "pct": -2.9
     }
    ],
    "putCall": null
@@ -236,13 +236,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.63 vs 20d avg 99.91"
+    "detail": "DXY 101.62 vs 20d avg 99.91"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 18.17 vs VIX3M 20.26"
+    "detail": "VIX 18.27 vs VIX3M 20.32"
    },
    {
     "name": "credit",
@@ -254,13 +254,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 0.2% vs others -1.5%"
+    "detail": "defensives 5d 0.1% vs others -1.6%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2858 vs 20d avg 0.2809"
+    "detail": "RSP/SPY 0.2856 vs 20d avg 0.2809"
    },
    {
     "name": "skew",
@@ -276,12 +276,12 @@
    "section": "crypto",
    "class": "crypto",
    "pct": -3.7,
-   "last": 60325,
+   "last": 60337.7,
    "newsCount": 10,
    "latestNews": {
     "title": "Live updates: Bitcoin could drop to $59,000 in the short-term as liquidity dries up - CoinDesk",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOHZvVlBMcmJLZzNubnNkWmd0N09BWWhVNUpwOFFMbUlmWGZUTEFPcjlpc3JkMzdiUTBHdHRaQ3U5cVlFNDlDZHpldkVoNlp4cXB3WlVWNlRHLWJNS292NU9HNUpfbi04LV9GQzVsd3puR2xkbHZKYmNhclZFSlU5VG9TYV9yUGRaTXRNdE1oX1ZFbW5QenhZaWs5RUVfa1FoZi1YSnNsQ3VVaTNxemtqbFg4NDFfOE9qMEFyRmluV3hvcVlo?oc=5",
-    "time": "11:31 AM"
+    "time": "11:24 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -291,8 +291,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -8.5,
-   "last": 25.7,
+   "pct": -7.7,
+   "last": 26,
    "newsCount": 7,
    "latestNews": {
     "title": "Analysts’ Top Technology Picks: Applied Materials (AMAT), Cipher Mining (CIFR) - The Globe and Mail",
@@ -312,8 +312,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -8.8,
-   "last": 51.9,
+   "pct": -8.2,
+   "last": 52.2,
    "newsCount": 9,
    "latestNews": {
     "title": "Is IREN (IREN) The Best AI Stock With 10X Potential? - Yahoo Finance",
@@ -333,18 +333,18 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -8.7,
-   "last": 259,
-   "newsCount": 8,
+   "pct": -8.1,
+   "last": 260.8,
+   "newsCount": 11,
    "latestNews": {
     "title": "Nebius selects Komodor for Kubernetes troubleshooting - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ3NFRV9peHl3X1NLVFZzUXB5MWp2bkZMcWhoNk9GYUFGQWdOYXJRZW1wa0htejFnWURweU56T2VCeUI4b0JCVVBnU1dyRkV0WjZocGJwdXp1bkxmSzlMZWZBN2dhSE15UGN1eFA2bm5pRVFJdWZRelU3R2xTbVhDaXFVODd2eFJfZlVFNmNTYkJ4Vk9HVV9mWmVGdTBSMDJLWFZodGJVYkpFTnBEajNz?oc=5",
     "time": "10:20 AM"
    },
    "latestPost": {
-    "text": "Introducing Aether 3.6, the latest version of the Nebius AI Cloud platform. Every feature in it came from our customers’ evolving needs: workload security, cost and control improvements, developers’ day-to-day operational simplicity. https://nebius.com/blog/posts/ai-cloud-aether-3-6",
-    "url": "https://nitter.net/nebiusai/status/2069764352052269395#m",
-    "time": "8:47 AM"
+    "text": "Nebius is coming to Stockholm on July 1, with Anyscale. If you’re an AI/ML engineer, come compare notes on today’s biggest challenges: idle GPUs, NCCL debugging, inference that collapses under load. \n\nDeep-dives, drinks, discussion, and debugging.\n\n📍 Convendum · Jul 1 · 17:00 → https://t.co/Grg7DhG6lN",
+    "url": "https://x.com/nebiusai/status/2069809792466497631",
+    "time": "11:48 AM"
    },
    "latestFiling": {
     "type": "insider",
@@ -358,8 +358,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -6.2,
-   "last": 517.5,
+   "pct": -5.5,
+   "last": 521.1,
    "newsCount": 18,
    "latestNews": {
     "title": "Advanced Micro Devices (AMD) Stock Could Be 15.5% Overvalued As AI Growth Questions Build - simplywall.st",
@@ -367,8 +367,8 @@
     "time": "7:00 PM"
    },
    "latestPost": {
-    "text": "The ability to match the right performance to every workload is what sets businesses apart. With @AWSCloud advanced by AMD, you can run with exceptional flexibility that fits the way you work. See how your business can run with the best in cloud at https://bit.ly/4u03x3e",
-    "url": "https://nitter.net/AMD/status/2069469320694948081#m",
+    "text": "The ability to match the right performance to every workload is what sets businesses apart. \n\nWith @AWSCloud advanced by AMD, you can run with exceptional flexibility that fits the way you work. See how your business can run with the best in cloud at https://t.co/hGwURG5sPT https://t.co/5cqSoeCjwx",
+    "url": "https://x.com/AMD/status/2069469320694948081",
     "time": "1:15 PM"
    },
    "latestFiling": null,
@@ -378,8 +378,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -6.1,
-   "last": 42.4,
+   "pct": -5.6,
+   "last": 42.7,
    "newsCount": 11,
    "latestNews": {
     "title": "Bear of the Day: Applied Digital (APLD) - Zacks Investment Research",
@@ -387,8 +387,8 @@
     "time": "5:34 AM"
    },
    "latestPost": {
-    "text": "R to @APLDdigital: Go behind the scenes at Polaris Forge 2 and see how teams keep construction moving while plans continue to evolve in real time. Watch the full episode here: https://youtu.be/B9hPBx2UC7k?si=kGI59mx0-4XWnZiR",
-    "url": "https://nitter.net/APLDdigital/status/2069785989153968465#m",
+    "text": "Go behind the scenes at Polaris Forge 2 and see how teams keep construction moving while plans continue to evolve in real time.\n\nWatch the full episode here: https://t.co/7YEcus63xG",
+    "url": "https://x.com/APLDdigital/status/2069785989153968465",
     "time": "10:13 AM"
    },
    "latestFiling": {
@@ -403,8 +403,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -2.3,
-   "last": 27.7,
+   "pct": -1.9,
+   "last": 27.8,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -420,8 +420,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 8.7,
-   "last": 7.8,
+   "pct": 9.1,
+   "last": 7.9,
    "newsCount": 4,
    "latestNews": {
     "title": "IBRX Stock In Spotlight As FDA Scrutiny Prompts ImmunityBio To Withdraw Content, Tighten Oversight - Stocktwits",
@@ -436,8 +436,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -10.3,
-   "last": 6,
+   "pct": -8.6,
+   "last": 6.1,
    "newsCount": 2,
    "latestNews": {
     "title": "New ERA Energy (NASDAQ: NUAI) grants CAO 325,000 RSUs vesting over 4 years - Stock Titan",
@@ -457,8 +457,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -5.6,
-   "last": 16.5,
+   "pct": -4.7,
+   "last": 16.6,
    "newsCount": 3,
    "latestNews": {
     "title": "Citizens initiates CleanSpark stock coverage with outperform rating - Investing.com",
@@ -478,8 +478,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -14,
-   "last": 12.7,
+   "pct": -13.5,
+   "last": 12.8,
    "newsCount": 1,
    "latestNews": {
     "title": "Strive Is Buying Bitcoin Hand-Over-Fist, CEO Says",
@@ -494,8 +494,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -9.2,
-   "last": 92.3,
+   "pct": -8.3,
+   "last": 93.2,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -506,7 +506,7 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 3.1,
+   "pct": 2.9,
    "last": 26.1,
    "newsCount": 2,
    "latestNews": {
@@ -522,17 +522,17 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -3.8,
-   "last": 200.7,
+   "pct": -3.6,
+   "last": 201,
    "newsCount": 18,
    "latestNews": {
-    "title": "Nvidia Stock Falls as Tech Selloff Catches Up With Chips - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PeGI2VTFHRmRxeHNCUDVWVGdhQk5kOFZSaWxITXVqaEpwQU1iN2VOOVZCeG1XTXQzQm5QSjFCNHpHSVJnTXAyb1dsOWJwUWd3ZVFVMVlzUkFWTzBxZzcxb0wxUFRreno3TGhpMEEyaHU0ZHVYdDFqa1pPTC0xdw?oc=5",
-    "time": "4:05 PM"
+    "title": "Nvidia Stock Finds Stability at $200 while The Future Hangs on Vera Rubin - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUZPVDJ6aUdYQnhhbTRYSlBrZVN6ZlJjVjRqUkt1VmJKc1lwTFlqdExWWTFZVjdJZnUzdE4yTHhJQnJCczRrdllXd1VSQnpfaU5YYnNDMW02YkZPcGZCdDd1OWdiUlAtQW1IbXRtNjlYQ3JLelJ0aGRfUkFOUmgtemZDNm9MQUc1VXBfcDg5QjhRVVFnbTEtYVdtb3lVaXVoWWJORA?oc=5",
+    "time": "7:07 AM"
    },
    "latestPost": {
-    "text": "For the past two years, an NVIDIA AI infrastructure contribution to the NAIRR pilot has helped power over 700 U.S. research projects. With DGX reference architecture providing dedicated resources, researchers have uncovered groundbreaking technologies that will reshape and advance industries such as healthcare, agriculture and energy. Discover how Polymathic AI, University of Michigan, and Boston University are driving scientific breakthroughs with NAIRR and NVIDIA.",
-    "url": "https://nitter.net/nvidia/status/2069525909724418344#m",
+    "text": "Learn more: https://t.co/qjfcn8tRus",
+    "url": "https://x.com/nvidia/status/2069525913264423355",
     "time": "5:00 PM"
    },
    "latestFiling": null,
@@ -558,7 +558,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -7,
+   "pct": -6.6,
    "last": 12.4,
    "newsCount": 0,
    "latestNews": null,
@@ -570,8 +570,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -12.2,
-   "last": 88.1,
+   "pct": -12,
+   "last": 88.3,
    "newsCount": 15,
    "latestNews": {
     "title": "SpaceX vs Rocket Lab: What's the Better Buy Right Now? - Yahoo Finance",
@@ -579,8 +579,8 @@
     "time": "9:50 AM"
    },
    "latestPost": {
-    "text": "Meet our Pioneer spacecraft bringing commercial RPO capability to space for @USSpaceForce and @USSF_SSC. A highly configurable medium delta-V spacecraft that can carry up to 120kg of payload, Pioneer can approach and inspect other satellites with pinpoint precision. ✅ Autonomous navigation ✅ Engine relight capability ✅ Built entirely in-house with critical subsystems (solar, propulsion, radios, flight software) supplied by Rocket Lab",
-    "url": "https://nitter.net/RocketLab/status/2069567547972976814#m",
+    "text": "Meet our Pioneer spacecraft bringing commercial RPO capability to space for @USSpaceForce and @USSF_SSC.\n\nA highly configurable medium delta-V spacecraft that can carry up to 120kg of payload, Pioneer can approach and inspect other satellites with pinpoint precision. \n\n✅ https://t.co/fmUyPomzVv",
+    "url": "https://x.com/RocketLab/status/2069567547972976814",
     "time": "7:45 PM"
    },
    "latestFiling": null,
@@ -590,8 +590,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -4.3,
-   "last": 114.4,
+   "pct": -4.1,
+   "last": 114.5,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir Hits 52-Week Low Amid AI Retreat, Rising Interest Rates - Investor's Business Daily",
@@ -607,7 +607,7 @@
    "section": "macro",
    "class": "equity",
    "pct": 1.8,
-   "last": 373.8,
+   "last": 374,
    "newsCount": 18,
    "latestNews": {
     "title": "Dan Ives Believes MSFT Is The Most Oversold Large-Cap Stock, Draws Parallels To 'Negative' Narratives Around GOOGL A Year Ago - Yahoo Finance",
@@ -622,13 +622,13 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -1.3,
-   "last": 33.1,
-   "newsCount": 10,
+   "pct": -0.7,
+   "last": 33.3,
+   "newsCount": 9,
    "latestNews": {
-    "title": "Top Hims & Hers Executive Makes Major Move With Company Stock - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUWx3c1lydi1zZ0tkNEpHdFBjUS1EOFFnVjNwMmVoWVpkZzdWRUl1bWFTYWlTX3c0cnRrNThmc3lnNWd1VnVCdlVyS1ZtWnM5UE9qWlp6QzJuT2dKYUx5YlRYdXNKN1JlYlVNdTVfWmV3YjJHTW1rQkMtZFZKbnJKOGVxLVJiQXBtV2xsUnZYYjBUbWRVZjRPU3hlcnVYUXlQUWhpd1J1VEJoWHVTTEVQYlJ2YkxhQXY0WEQ3T0NuekFNX0hR?oc=5",
-    "time": "10:09 PM"
+    "title": "Is Hims & Hers Health, Inc. (HIMS) a Top Weight Loss Stock After Barclays’ Target Increase? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdGlLWTFJSThuaDJ5ZjBsVnh3c2RlNDk0czVORE1KWklybDF2UGN6eHNEWVNTTWtTNHhQOUpRdHhPdWZGM2U2YVNKM1BmazZvUUpoMTEyVVVUSzNmbl9acUhIb3hHcHAyUzJDY3FfekI4dnFBRWFjNjVmMllDZHN2RmFlc1FrbjFCSU1TbEwwSQ?oc=5",
+    "time": "9:27 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -639,7 +639,7 @@
    "section": "macro",
    "class": "equity",
    "pct": 0.2,
-   "last": 350.3,
+   "last": 350.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet Stock (GOOGL) Joins Dow Jones as Mag 7 Takeover Nears Completion - Barron's",
@@ -647,8 +647,8 @@
     "time": "9:02 AM"
    },
    "latestPost": {
-    "text": "R to @GoogleTrends: For a full report on this summer’s defining trends, including a look at early “song of the summer” contenders, check out the link below 👇 https://goo.gle/3SX48ow",
-    "url": "https://nitter.net/Google/status/2069533329578213752#m",
+    "text": "@GoogleTrends For a full report on this summer’s defining trends, including a look at early “song of the summer” contenders, check out the link below 👇\n\nhttps://t.co/GdnNDJ9Bm1 https://t.co/JnJDtk1dRc",
+    "url": "https://x.com/Google/status/2069533329578213752",
     "time": "5:29 PM"
    },
    "latestFiling": null,
@@ -659,7 +659,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": -2.6,
-   "last": 4023.8,
+   "last": 4021.4,
    "newsCount": 10,
    "latestNews": {
     "title": "BMO cuts gold price forecast as Fed’s hawkish shift weighs on precious metals - KITCO",
@@ -674,7 +674,7 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -4,
+   "pct": -4.1,
    "last": 74,
    "newsCount": 10,
    "latestNews": {
@@ -690,8 +690,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -3.8,
-   "last": 70.4,
+   "pct": -3.9,
+   "last": 70.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Brent oil falls below $75, notching its lowest level since before U.S.-Iran war - CNBC",
@@ -704,6 +704,17 @@
   }
  ],
  "events": [
+  {
+   "id": "8a1d69df8a2e",
+   "type": "post",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1782316080000,
+   "timeLabel": "11:48 AM",
+   "handle": "@nebiusai",
+   "text": "Nebius is coming to Stockholm on July 1, with Anyscale. If you’re an AI/ML engineer, come compare notes on today’s biggest challenges: idle GPUs, NCCL debugg…",
+   "url": "https://x.com/nebiusai/status/2069809792466497631"
+  },
   {
    "id": "c2d85806684b",
    "type": "news",
@@ -758,6 +769,17 @@
    "handle": "@APLDdigital",
    "text": "R to @APLDdigital: Go behind the scenes at Polaris Forge 2 and see how teams keep construction moving while plans continue to evolve in real time. Watch the …",
    "url": "https://nitter.net/APLDdigital/status/2069785989153968465#m"
+  },
+  {
+   "id": "c3d9bb518ad5",
+   "type": "post",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1782310380000,
+   "timeLabel": "10:13 AM",
+   "handle": "@APLDdigital",
+   "text": "Go behind the scenes at Polaris Forge 2 and see how teams keep construction moving while plans continue to evolve in real time. Watch the full episode here:…",
+   "url": "https://x.com/APLDdigital/status/2069785989153968465"
   },
   {
    "id": "3d9f552b20d4",
@@ -3062,12 +3084,21 @@
    "stBull": null,
    "regime": 57.1,
    "composite": 37.1
+  },
+  {
+   "t": 1782316470216,
+   "label": "Jun 24 2026 11:54 AM ET",
+   "cnn": 28,
+   "crypto": 17,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 37.1
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.12,
+  "divMax": 0.08,
   "fallbacks": 0
  }
 }
