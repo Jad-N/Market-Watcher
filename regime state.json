@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.3pp (2y 4.11, 10y 4.41)",
-      "asOfMs": 1782273600000,
+      "asOfMs": 1782259200000,
       "status": "ok",
       "raw": {
         "spread": 0.3,
@@ -39,13 +39,13 @@
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 19.93 vs VIX3M 21.04",
+      "detail": "VIX 19.65 vs VIX3M 20.88",
       "asOfMs": 1782307800000,
       "status": "ok",
       "raw": {
-        "vix": 19.93,
-        "vix3m": 21.04,
-        "diff": -1.11
+        "vix": 19.65,
+        "vix3m": 20.88,
+        "diff": -1.23
       }
     },
     "credit": {
@@ -63,25 +63,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 0.3% vs others -2.5%",
+      "detail": "defensives 5d 0.3% vs others -2.3%",
       "asOfMs": 1782307800000,
       "status": "ok",
       "raw": {
         "defMedPct": 0.3,
-        "othMedPct": -2.5,
-        "diffPct": 2.8
+        "othMedPct": -2.3,
+        "diffPct": 2.6
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2872 vs 20d avg 0.281",
+      "detail": "RSP/SPY 0.2869 vs 20d avg 0.2809",
       "asOfMs": 1782307800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2872,
-        "avg": 0.281,
-        "gap": 0.0062
+        "ratio": 0.2869,
+        "avg": 0.2809,
+        "gap": 0.0059
       }
     },
     "skew": {
@@ -105,14 +105,14 @@
         "asOfMs": 1782172800000
       },
       {
-        "name": "Hang Seng",
-        "pct": -1.8,
-        "asOfMs": 1782178200000
-      },
-      {
         "name": "DAX",
         "pct": -0.6,
         "asOfMs": 1782284400000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": -1.8,
+        "asOfMs": 1782178200000
       }
     ],
     "rates": {
@@ -241,5 +241,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782331226657
+  "updatedMs": 1782331608423
 }

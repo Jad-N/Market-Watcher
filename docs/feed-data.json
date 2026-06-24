@@ -1,40 +1,40 @@
 {
- "generatedAt": "Jun 24, 2026, 4:00 PM ET",
- "generatedAtMs": 1782331202002,
+ "generatedAt": "Jun 24, 2026, 4:06 PM ET",
+ "generatedAtMs": 1782331587421,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-24 16:00 ET",
-  "pricesAsOf": "Jun 24, 2026, 3:59 PM ET",
+  "pricesAsOf": "Jun 24, 2026, 4:06 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7417.25,
-     "change": -0.3,
+     "value": 7423,
+     "change": -0.2,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29422,
-     "change": -0.8,
+     "value": 29466,
+     "change": -0.7,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 19.93,
-     "change": 2.3,
+     "value": 19.64,
+     "change": 0.8,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 19.51,
-      "divergencePct": 2.15
+      "cnbcLast": 18.63,
+      "divergencePct": 5.42
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": -1.6
+     "pct": -1.5
     },
     {
      "ticker": "QQQ",
@@ -237,7 +237,7 @@
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 19.93 vs VIX3M 21.04"
+    "detail": "VIX 19.65 vs VIX3M 20.88"
    },
    {
     "name": "credit",
@@ -249,13 +249,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 0.3% vs others -2.5%"
+    "detail": "defensives 5d 0.3% vs others -2.3%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2872 vs 20d avg 0.281"
+    "detail": "RSP/SPY 0.2869 vs 20d avg 0.2809"
    },
    {
     "name": "skew",
@@ -270,8 +270,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -4.5,
-   "last": 59870.5,
+   "pct": -3.2,
+   "last": 60647.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin falls back under $60,000, hitting its lowest level since October 2024 - CNBC",
@@ -286,7 +286,7 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -6.8,
+   "pct": -6.7,
    "last": 26.2,
    "newsCount": 6,
    "latestNews": {
@@ -353,8 +353,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -5.8,
-   "last": 519.6,
+   "pct": -5.9,
+   "last": 519.1,
    "newsCount": 18,
    "latestNews": {
     "title": "This Artificial Intelligence (AI) Chip Stock Is Dominating the Inference Era. It Could Be the Biggest Winner of This Megatrend (Hint: It's Not AMD or Broadcom) - Yahoo Finance",
@@ -369,8 +369,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -7.2,
-   "last": 41.9,
+   "pct": -7.1,
+   "last": 42,
    "newsCount": 7,
    "latestNews": {
     "title": "Bear of the Day: Applied Digital (APLD) - Zacks Investment Research",
@@ -394,7 +394,7 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -4.8,
+   "pct": -4.7,
    "last": 27,
    "newsCount": 0,
    "latestNews": null,
@@ -429,7 +429,7 @@
    "class": "equity",
    "pct": -12.4,
    "last": 5.9,
-   "newsCount": 3,
+   "newsCount": 2,
    "latestNews": {
     "title": "New Era Energy & Digital (NUAI) Stock Trends and Sentiment 2026 - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LYXBfaExKLVhtd050cHJHNlhvUEI4aHd0TkJ3ZW9wX21NNzgzblJRdl9pX0JheFhxeERHdGhUSUQtemtoYkItY1Q1NkR1QkZvZ3I5ZXVJWDVHNHhfblZNNllMVXFUYm1rdmZLQW5CZWYzdHZPMFE?oc=5",
@@ -470,7 +470,7 @@
    "section": "trading",
    "class": "equity",
    "pct": -15.3,
-   "last": 12.5,
+   "last": 12.6,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -481,8 +481,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -8.8,
-   "last": 92.7,
+   "pct": -9,
+   "last": 92.5,
    "newsCount": 1,
    "latestNews": {
     "title": "Why is Abivax stock sliding today? - Investing.com",
@@ -497,7 +497,7 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 1.7,
+   "pct": 1.6,
    "last": 25.8,
    "newsCount": 2,
    "latestNews": {
@@ -513,8 +513,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -4.6,
-   "last": 199,
+   "pct": -4.7,
+   "last": 198.9,
    "newsCount": 18,
    "latestNews": {
     "title": "Nvidia Stock (NVDA) Tests Key Support Level. What’s Keeping It From Rising? - Barron's",
@@ -522,9 +522,9 @@
     "time": "2:16 PM"
    },
    "latestPost": {
-    "text": "R to @Instacart: 🎧 Listen now: https://nvda.ws/4fXZtwf",
-    "url": "https://nitter.net/nvidia/status/2069842999899468129#m",
-    "time": "2:00 PM"
+    "text": "R to @nvidia: Learn more: https://nvda.ws/3SnpxXT",
+    "url": "https://nitter.net/nvidia/status/2069873200020795545#m",
+    "time": "4:00 PM"
    },
    "latestFiling": null,
    "stocktwits": null
@@ -533,7 +533,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -4.8,
+   "pct": -3.7,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -561,8 +561,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -15.1,
-   "last": 85.2,
+   "pct": -14.8,
+   "last": 85.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Rocket Lab Just Proved It's More Than a Launch Company - Victus Haze Supercharges Its Future - 24/7 Wall St.",
@@ -581,8 +581,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -5.1,
-   "last": 113.4,
+   "pct": -5,
+   "last": 113.5,
    "newsCount": 18,
    "latestNews": {
     "title": "Is Palantir Technologies Stock Finally a Buy? - Yahoo Finance",
@@ -597,8 +597,8 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -0.6,
-   "last": 365.2,
+   "pct": -0.5,
+   "last": 365.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Microsoft Stock (NASDAQ:MSFT) Slips as it Seeks to Show Lower Water Use for AI - TipRanks",
@@ -613,8 +613,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -2.8,
-   "last": 32.6,
+   "pct": -2.5,
+   "last": 32.7,
    "newsCount": 9,
    "latestNews": {
     "title": "Is Hims & Hers Health, Inc. (HIMS) a Top Weight Loss Stock After Barclays’ Target Increase? - Insider Monkey",
@@ -630,7 +630,7 @@
    "section": "macro",
    "class": "equity",
    "pct": -1.3,
-   "last": 345,
+   "last": 345.3,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet Stock (GOOGL) Joins Dow Jones as Mag 7 Takeover Nears Completion - Barron's",
@@ -649,8 +649,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -3.2,
-   "last": 3999.2,
+   "pct": -3,
+   "last": 4005.5,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold And Silver Prices Fall To Seven-Month Lows - Forbes",
@@ -665,8 +665,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -4.9,
-   "last": 73.3,
+   "pct": -4.8,
+   "last": 73.4,
    "newsCount": 10,
    "latestNews": {
     "title": "U.S. crude oil dips below $70 as tankers transit Strait of Hormuz - CNBC",
@@ -703,6 +703,28 @@
    "time": 1782331202002,
    "timeLabel": "4:00 PM",
    "text": "Fear&Greed: extreme fear → fear (26)"
+  },
+  {
+   "id": "5a6b930cfcab",
+   "type": "post",
+   "symbol": "NVDA",
+   "section": "macro",
+   "time": 1782331200000,
+   "timeLabel": "4:00 PM",
+   "handle": "@nvidia",
+   "text": "R to @nvidia: Learn more: https://nvda.ws/3SnpxXT",
+   "url": "https://nitter.net/nvidia/status/2069873200020795545#m"
+  },
+  {
+   "id": "3b91ab3f50a3",
+   "type": "post",
+   "symbol": "NVDA",
+   "section": "macro",
+   "time": 1782331200000,
+   "timeLabel": "4:00 PM",
+   "handle": "@nvidia",
+   "text": "NVIDIA's full-stack AI is enabling autonomous operations for the world's leading brands and platforms. Key capabilities driving this shift: 📈 Causal marketi…",
+   "url": "https://nitter.net/nvidia/status/2069873195499352248#m"
   },
   {
    "id": "47a9ea52b3e3",
@@ -3425,12 +3447,21 @@
    "stBull": null,
    "regime": 57.1,
    "composite": 37.1
+  },
+  {
+   "t": 1782331587421,
+   "label": "Jun 24 2026 4:06 PM ET",
+   "cnn": 26,
+   "crypto": 17,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 37.1
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.52,
+  "divMax": 0.03,
   "fallbacks": 0
  }
 }
