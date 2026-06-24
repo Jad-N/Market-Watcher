@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.3pp (2y 4.11, 10y 4.41)",
-      "asOfMs": 1782273600000,
+      "asOfMs": 1782259200000,
       "status": "ok",
       "raw": {
         "spread": 0.3,
@@ -100,6 +100,11 @@
   "context": {
     "overnight": [
       {
+        "name": "Nikkei",
+        "pct": -3.5,
+        "asOfMs": 1782172800000
+      },
+      {
         "name": "Hang Seng",
         "pct": -1.8,
         "asOfMs": 1782178200000
@@ -108,11 +113,6 @@
         "name": "DAX",
         "pct": -0.6,
         "asOfMs": 1782284400000
-      },
-      {
-        "name": "Nikkei",
-        "pct": -3.5,
-        "asOfMs": 1782172800000
       }
     ],
     "rates": {
@@ -241,5 +241,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782336629076
+  "updatedMs": 1782337498081
 }
