@@ -1,33 +1,33 @@
 {
- "generatedAt": "Jun 24, 2026, 11:54 AM ET",
- "generatedAtMs": 1782316470216,
+ "generatedAt": "Jun 24, 2026, 12:15 PM ET",
+ "generatedAtMs": 1782317702235,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-06-24 11:00 ET",
-  "pricesAsOf": "Jun 24, 2026, 11:54 AM ET",
+  "asOfET": "2026-06-24 12:00 ET",
+  "pricesAsOf": "Jun 24, 2026, 12:15 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7479.5,
-     "change": 0.6,
+     "value": 7477.75,
+     "change": 0.5,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29725,
-     "change": 0.2,
+     "value": 29765,
+     "change": 0.3,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 18.24,
-     "change": -6.4,
+     "value": 18.33,
+     "change": -6,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 18.26,
-      "divergencePct": 0.11
+      "cnbcLast": 18.34,
+      "divergencePct": 0.05
      }
     }
    ],
@@ -242,7 +242,7 @@
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 18.27 vs VIX3M 20.32"
+    "detail": "VIX 18.31 vs VIX3M 20.37"
    },
    {
     "name": "credit",
@@ -254,13 +254,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 0.1% vs others -1.6%"
+    "detail": "defensives 5d 0.1% vs others -1.5%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2856 vs 20d avg 0.2809"
+    "detail": "RSP/SPY 0.2857 vs 20d avg 0.2809"
    },
    {
     "name": "skew",
@@ -275,13 +275,13 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -3.7,
-   "last": 60337.7,
+   "pct": -3.6,
+   "last": 60438.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Live updates: Bitcoin could drop to $59,000 in the short-term as liquidity dries up - CoinDesk",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOHZvVlBMcmJLZzNubnNkWmd0N09BWWhVNUpwOFFMbUlmWGZUTEFPcjlpc3JkMzdiUTBHdHRaQ3U5cVlFNDlDZHpldkVoNlp4cXB3WlVWNlRHLWJNS292NU9HNUpfbi04LV9GQzVsd3puR2xkbHZKYmNhclZFSlU5VG9TYV9yUGRaTXRNdE1oX1ZFbW5QenhZaWs5RUVfa1FoZi1YSnNsQ3VVaTNxemtqbFg4NDFfOE9qMEFyRmluV3hvcVlo?oc=5",
-    "time": "11:24 AM"
+    "time": "12:12 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -291,8 +291,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -7.7,
-   "last": 26,
+   "pct": -6.1,
+   "last": 26.4,
    "newsCount": 7,
    "latestNews": {
     "title": "Analysts’ Top Technology Picks: Applied Materials (AMAT), Cipher Mining (CIFR) - The Globe and Mail",
@@ -333,17 +333,17 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -8.1,
-   "last": 260.8,
-   "newsCount": 11,
+   "pct": -8.7,
+   "last": 259,
+   "newsCount": 12,
    "latestNews": {
     "title": "Nebius selects Komodor for Kubernetes troubleshooting - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ3NFRV9peHl3X1NLVFZzUXB5MWp2bkZMcWhoNk9GYUFGQWdOYXJRZW1wa0htejFnWURweU56T2VCeUI4b0JCVVBnU1dyRkV0WjZocGJwdXp1bkxmSzlMZWZBN2dhSE15UGN1eFA2bm5pRVFJdWZRelU3R2xTbVhDaXFVODd2eFJfZlVFNmNTYkJ4Vk9HVV9mWmVGdTBSMDJLWFZodGJVYkpFTnBEajNz?oc=5",
     "time": "10:20 AM"
    },
    "latestPost": {
-    "text": "Nebius is coming to Stockholm on July 1, with Anyscale. If you’re an AI/ML engineer, come compare notes on today’s biggest challenges: idle GPUs, NCCL debugging, inference that collapses under load. \n\nDeep-dives, drinks, discussion, and debugging.\n\n📍 Convendum · Jul 1 · 17:00 → https://t.co/Grg7DhG6lN",
-    "url": "https://x.com/nebiusai/status/2069809792466497631",
+    "text": "Nebius is coming to Stockholm on July 1, with Anyscale. If you’re an AI/ML engineer, come compare notes on today’s biggest challenges: idle GPUs, NCCL debugging, inference that collapses under load. Deep-dives, drinks, discussion, and debugging. 📍 Convendum · Jul 1 · 17:00 → https://nebius.com/events/running-ai-in-production-stockholm",
+    "url": "https://nitter.net/nebiusai/status/2069809792466497631#m",
     "time": "11:48 AM"
    },
    "latestFiling": {
@@ -358,8 +358,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -5.5,
-   "last": 521.1,
+   "pct": -5.6,
+   "last": 520.6,
    "newsCount": 18,
    "latestNews": {
     "title": "Advanced Micro Devices (AMD) Stock Could Be 15.5% Overvalued As AI Growth Questions Build - simplywall.st",
@@ -367,8 +367,8 @@
     "time": "7:00 PM"
    },
    "latestPost": {
-    "text": "The ability to match the right performance to every workload is what sets businesses apart. \n\nWith @AWSCloud advanced by AMD, you can run with exceptional flexibility that fits the way you work. See how your business can run with the best in cloud at https://t.co/hGwURG5sPT https://t.co/5cqSoeCjwx",
-    "url": "https://x.com/AMD/status/2069469320694948081",
+    "text": "The ability to match the right performance to every workload is what sets businesses apart. With @AWSCloud advanced by AMD, you can run with exceptional flexibility that fits the way you work. See how your business can run with the best in cloud at https://bit.ly/4u03x3e",
+    "url": "https://nitter.net/AMD/status/2069469320694948081#m",
     "time": "1:15 PM"
    },
    "latestFiling": null,
@@ -378,8 +378,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -5.6,
-   "last": 42.7,
+   "pct": -5.8,
+   "last": 42.6,
    "newsCount": 11,
    "latestNews": {
     "title": "Bear of the Day: Applied Digital (APLD) - Zacks Investment Research",
@@ -387,8 +387,8 @@
     "time": "5:34 AM"
    },
    "latestPost": {
-    "text": "Go behind the scenes at Polaris Forge 2 and see how teams keep construction moving while plans continue to evolve in real time.\n\nWatch the full episode here: https://t.co/7YEcus63xG",
-    "url": "https://x.com/APLDdigital/status/2069785989153968465",
+    "text": "R to @APLDdigital: Go behind the scenes at Polaris Forge 2 and see how teams keep construction moving while plans continue to evolve in real time. Watch the full episode here: https://youtu.be/B9hPBx2UC7k?si=kGI59mx0-4XWnZiR",
+    "url": "https://nitter.net/APLDdigital/status/2069785989153968465#m",
     "time": "10:13 AM"
    },
    "latestFiling": {
@@ -403,8 +403,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -1.9,
-   "last": 27.8,
+   "pct": -1.4,
+   "last": 27.9,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -420,13 +420,13 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 9.1,
-   "last": 7.9,
+   "pct": 6.8,
+   "last": 7.7,
    "newsCount": 4,
    "latestNews": {
-    "title": "IBRX Stock In Spotlight As FDA Scrutiny Prompts ImmunityBio To Withdraw Content, Tighten Oversight - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPUDRrcnFNTkJFcjVLU2ZRMnc3cF85U3VRWUtZSmRoSDZtWmJCZ1Q3encyWWk5NUo1NkpPMHZNeVdERWJQNHo1UHlrQXp3WXUyVW9MU1kyWEdPR2VaTlh1YVZKcW02QjRJWTAwMW0yTWlCUElJVFRkTXJLSGZDNFRyWktYUVRtd25QcUl5cDNQODhfVE1LLThZR2FuWHFQUnBINnVMODltaXFSVXdmTEw1MjFkbkhUUks0bExaM25QNjFfZHk0V3FnYVp5S2Zla0RYWGFVN1doUDZud2ozU2ZvV0IwWGRzRVpQRmxnRW5rRGFPY09U?oc=5",
-    "time": "3:43 AM"
+    "title": "IBRX Stock Declines — ImmunityBio Resubmits Anktiva Application To FDA With Additional Data - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOcWp2SVRmUXBHQjYyQVRaOHdNLXhyam5xZDdaOURRQllzZVNqUEdzdU5HRHFIX3J5SkxtVEx0M0ZqMnN3Q3FUVVJMRDBWTzEtYl8xVzB1TFdIcEpvcmNXb0wxSjhwb1VBQW80ODhlM0pNRjRFVUpyUU96bmtwOXplOFRDZThrejZNOWJOMnFyLTFfQ2hvdDNDZkk1b0FiRml3NDdYVWIwOEZMVmF2VW80d3I2T0lFeFcyenJBRDJMUUhKNGlfRjVtQ0YxV2k?oc=5",
+    "time": "7:45 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -436,7 +436,7 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -8.6,
+   "pct": -9,
    "last": 6.1,
    "newsCount": 2,
    "latestNews": {
@@ -457,8 +457,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -4.7,
-   "last": 16.6,
+   "pct": -4.1,
+   "last": 16.7,
    "newsCount": 3,
    "latestNews": {
     "title": "Citizens initiates CleanSpark stock coverage with outperform rating - Investing.com",
@@ -478,8 +478,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -13.5,
-   "last": 12.8,
+   "pct": -13.1,
+   "last": 12.9,
    "newsCount": 1,
    "latestNews": {
     "title": "Strive Is Buying Bitcoin Hand-Over-Fist, CEO Says",
@@ -494,8 +494,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -8.3,
-   "last": 93.2,
+   "pct": -6.9,
+   "last": 94.7,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -522,8 +522,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -3.6,
-   "last": 201,
+   "pct": -3.7,
+   "last": 200.9,
    "newsCount": 18,
    "latestNews": {
     "title": "Nvidia Stock Finds Stability at $200 while The Future Hangs on Vera Rubin - TipRanks",
@@ -531,8 +531,8 @@
     "time": "7:07 AM"
    },
    "latestPost": {
-    "text": "Learn more: https://t.co/qjfcn8tRus",
-    "url": "https://x.com/nvidia/status/2069525913264423355",
+    "text": "R to @nvidia: Learn more: https://nvda.ws/4xDV1ch",
+    "url": "https://nitter.net/nvidia/status/2069525913264423355#m",
     "time": "5:00 PM"
    },
    "latestFiling": null,
@@ -542,7 +542,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -4.7,
+   "pct": -4.3,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -558,8 +558,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -6.6,
-   "last": 12.4,
+   "pct": -7.3,
+   "last": 12.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -570,17 +570,17 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -12,
-   "last": 88.3,
+   "pct": -12.7,
+   "last": 87.5,
    "newsCount": 15,
    "latestNews": {
-    "title": "SpaceX vs Rocket Lab: What's the Better Buy Right Now? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbkU5blcyWjQ1Sk1Oc1JMcGphdThseV9zbXdrdWVNaHBiWVhROHNkWloxU01fZk55Z1FMamo0MkJNRlc0V2pJWHA5azUzZVgtWVR6aUE5bjh5ci1td21RNDFFbU9wRHJwbkdjaWQwS0VJblM4XzRPenZxUlJjSlJlTjVKa2Z1V25Md0tJTlk2bGpZdmxRTlE?oc=5",
-    "time": "9:50 AM"
+    "title": "Rocket Lab (RKLB) Stock After 3-Year Surge And Recent Pullback: What Do Valuations Suggest? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOT2FBbFdwcC1yRk40eWZQNW5Fa0VuQ2w5d2JQR01PZnlWc3g0cWd3U3dFNmZYSUZfdjlpMjRjS3h4YWJUN2RpWlhBR3A0TGE1dVBEWGFNNS12LUxvaHE5Q3hrT0hteFRvNnEybnhDSWtQdlAxR29RcGliakZJSEQwbGk5WFMwQ1Y0S0NERmF2R3Fmdw?oc=5",
+    "time": "10:13 AM"
    },
    "latestPost": {
-    "text": "Meet our Pioneer spacecraft bringing commercial RPO capability to space for @USSpaceForce and @USSF_SSC.\n\nA highly configurable medium delta-V spacecraft that can carry up to 120kg of payload, Pioneer can approach and inspect other satellites with pinpoint precision. \n\n✅ https://t.co/fmUyPomzVv",
-    "url": "https://x.com/RocketLab/status/2069567547972976814",
+    "text": "Meet our Pioneer spacecraft bringing commercial RPO capability to space for @USSpaceForce and @USSF_SSC. A highly configurable medium delta-V spacecraft that can carry up to 120kg of payload, Pioneer can approach and inspect other satellites with pinpoint precision. ✅ Autonomous navigation ✅ Engine relight capability ✅ Built entirely in-house with critical subsystems (solar, propulsion, radios, flight software) supplied by Rocket Lab",
+    "url": "https://nitter.net/RocketLab/status/2069567547972976814#m",
     "time": "7:45 PM"
    },
    "latestFiling": null,
@@ -590,13 +590,13 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -4.1,
-   "last": 114.5,
+   "pct": -4.4,
+   "last": 114.2,
    "newsCount": 18,
    "latestNews": {
-    "title": "Palantir Hits 52-Week Low Amid AI Retreat, Rising Interest Rates - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeDBjWEpQd1I5ZmZ4WGt2ZktJaVpIRzB1cEJBUndGQjQ4dFpGM0NxY1MyNTZUelVDQzN5b3puZWJ5UGZzM3BkLTF5Z3BqaGFlSzBWSmJ3bzJsdndjMVp2c29rMjhFMEVPbjh0cTExVTRkR0pZNjc0N2l3bFREQm5Sb01xblRyOWVoSk1vX1ZRbEtvWTNja1NvRmQ3R3oxOWs?oc=5",
-    "time": "3:32 PM"
+    "title": "Is Palantir Technologies Stock Finally a Buy? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNnIzYTRqYjU0cUdBWkJiQVcyRExuMUJZamFHSjVFTWtZRDhKSjVibDV0dnNMeU50S09SLTNKWHV3ZjBCTEFSMnpCLTUzMHNab05jd1RBNHdpX3V4QzZ4ZS1NbHV6aEd5VWVsVWtMekNQSjF0eDNKR29YTHAtSlhDYTBHaWZuR2RVQkRvYXdBcHZKVDRzRG1VOEtTOGR3VzlmR2VfM3hYWQ?oc=5",
+    "time": "4:43 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -606,9 +606,9 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 1.8,
-   "last": 374,
-   "newsCount": 18,
+   "pct": 1.9,
+   "last": 374.2,
+   "newsCount": 17,
    "latestNews": {
     "title": "Dan Ives Believes MSFT Is The Most Oversold Large-Cap Stock, Draws Parallels To 'Negative' Narratives Around GOOGL A Year Ago - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOamwwdlVVelNmUDBnMkJTa2JXZHFfM3JMYzBxRHNycFJVU1NidUtFYjVBRlhHeTY1MV9GZTQ0VVRBOEdtUm1WOURTTTNnSUdTN2VrRDBVN29CeG5SaVNTRkp6SXBMX1lQY2xPb0FZVTlPdnRqQjFIVFVwTms5X2tRUjFZTzZSZlpWd3F0YXVuZzRHTW9Wb2xv?oc=5",
@@ -622,8 +622,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -0.7,
-   "last": 33.3,
+   "pct": -1.1,
+   "last": 33.2,
    "newsCount": 9,
    "latestNews": {
     "title": "Is Hims & Hers Health, Inc. (HIMS) a Top Weight Loss Stock After Barclays’ Target Increase? - Yahoo Finance",
@@ -638,8 +638,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 0.2,
-   "last": 350.4,
+   "pct": 0.3,
+   "last": 350.7,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet Stock (GOOGL) Joins Dow Jones as Mag 7 Takeover Nears Completion - Barron's",
@@ -647,8 +647,8 @@
     "time": "9:02 AM"
    },
    "latestPost": {
-    "text": "@GoogleTrends For a full report on this summer’s defining trends, including a look at early “song of the summer” contenders, check out the link below 👇\n\nhttps://t.co/GdnNDJ9Bm1 https://t.co/JnJDtk1dRc",
-    "url": "https://x.com/Google/status/2069533329578213752",
+    "text": "R to @GoogleTrends: For a full report on this summer’s defining trends, including a look at early “song of the summer” contenders, check out the link below 👇 https://goo.gle/3SX48ow",
+    "url": "https://nitter.net/Google/status/2069533329578213752#m",
     "time": "5:29 PM"
    },
    "latestFiling": null,
@@ -658,8 +658,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.6,
-   "last": 4021.4,
+   "pct": -2.7,
+   "last": 4019.6,
    "newsCount": 10,
    "latestNews": {
     "title": "BMO cuts gold price forecast as Fed’s hawkish shift weighs on precious metals - KITCO",
@@ -674,7 +674,7 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -4.1,
+   "pct": -4,
    "last": 74,
    "newsCount": 10,
    "latestNews": {
@@ -690,8 +690,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -3.9,
-   "last": 70.3,
+   "pct": -3.8,
+   "last": 70.4,
    "newsCount": 10,
    "latestNews": {
     "title": "Brent oil falls below $75, notching its lowest level since before U.S.-Iran war - CNBC",
@@ -1035,6 +1035,17 @@
    "url": "https://nitter.net/APLDdigital/status/2069520297280331825#m"
   },
   {
+   "id": "dc63096f9869",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782246900000,
+   "timeLabel": "4:35 PM",
+   "source": "",
+   "text": "Why AMD (AMD) Stock Is Trading Lower Today - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONEdzTEVYMy1ERXh0T3NzQlZDVDB2bXpvcUxhUVUySlZ1U3lWZTl4enNVVWhkUXVzR3doQ2xxYmlaVk51WTdkQmpsUXhQWloyX3dsamk2SmRGMm5OVG1Vc2dSQ2dKRVRmTkE1OXdfajItZ0FTdU43LU5ZcFdVSndsYWRuY3YzR3VQQmxGTXMtcW52cXZ5cHREQ01KNFBMUkYxbFZr?oc=5"
+  },
+  {
    "id": "d068dd20917b",
    "type": "news",
    "symbol": "APLD",
@@ -1286,6 +1297,17 @@
    "source": "",
    "text": "OPAQUE Extends the Agent Governance Toolkit with Verifiable Identity and First Ever Verifiably Governed and Secure MCP",
    "url": "https://finance.yahoo.com/technology/ai/articles/opaque-extends-agent-governance-toolkit-164500252.html?.tsrc=rss"
+  },
+  {
+   "id": "ffb7dcdbd1a2",
+   "type": "news",
+   "symbol": "GOLD",
+   "section": "macro",
+   "time": 1782231720000,
+   "timeLabel": "12:22 PM",
+   "source": "",
+   "text": "Deutsche Bank cuts Q3 gold price target by 22% - Mining.com",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1oNTVUNm1RMUJVOVMweUluakFLWTEwV2FBUW9lVFZXQTBpcWFXcUhSWEU5RVBPR0V1WjlwOFFINHIzQkUzSTFNYjdvVWR0WnlSMG5EakRISUt0bFJES2NrbEJ3Zk12T09jaTZFQWgybTNobHBEaU1EVw?oc=5"
   },
   {
    "id": "d14da13e933d",
@@ -3088,6 +3110,15 @@
   {
    "t": 1782316470216,
    "label": "Jun 24 2026 11:54 AM ET",
+   "cnn": 28,
+   "crypto": 17,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 37.1
+  },
+  {
+   "t": 1782317702235,
+   "label": "Jun 24 2026 12:15 PM ET",
    "cnn": 28,
    "crypto": 17,
    "stBull": null,
