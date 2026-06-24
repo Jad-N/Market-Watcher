@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-06-23",
-  "computedMs": 1782219627742,
+  "computedET": "2026-06-24",
+  "computedMs": 1782307618085,
   "block": {
-    "asOfET": "Jun 23, 2026",
-    "asOfMs": 1782219626000,
+    "asOfET": "Jun 24, 2026",
+    "asOfMs": 1782307617000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -13,25 +13,25 @@
           {
             "key": "racyVsSteady",
             "label": "Racy vs steady stocks",
-            "state": "Reaching for risk",
-            "lean": "risk-on",
-            "detail": "racy stocks beating steady ones lately",
+            "state": "Favoring safety",
+            "lean": "risk-off",
+            "detail": "steady stocks holding up better",
             "status": "ok",
             "raw": {
-              "ratio": 2.1404,
-              "avg": 2.0347
+              "ratio": 2.0275,
+              "avg": 2.0403
             }
           },
           {
             "key": "junkDemand",
             "label": "Junk-bond demand",
-            "state": "Lending freely to risky firms",
-            "lean": "risk-on",
-            "detail": "junk bonds in demand vs safe bonds",
+            "state": "Backing away from risky debt",
+            "lean": "risk-off",
+            "detail": "money rotating to safer bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7349,
-              "avg": 0.7344
+              "ratio": 0.7334,
+              "avg": 0.7342
             }
           }
         ]
@@ -44,30 +44,30 @@
           {
             "key": "crashInsurance",
             "label": "Crash-insurance demand",
-            "state": "Little crash worry",
-            "lean": "risk-on",
-            "detail": "low demand for crash protection",
+            "state": "Bracing for a drop",
+            "lean": "risk-off",
+            "detail": "paying up for crash protection",
             "status": "ok",
             "raw": {
-              "skew": 141.85,
-              "avg": 142.47
+              "skew": 143.14,
+              "avg": 142.76
             }
           },
           {
             "key": "safeHaven",
             "label": "Safe-haven scorecard",
-            "state": "1 of 4 safe havens bid",
+            "state": "2 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "dollar rising",
+            "detail": "bonds, dollar rising",
             "status": "ok",
             "raw": {
-              "bid": 1,
+              "bid": 2,
               "total": 4,
               "changes": {
-                "gold": -1.12,
-                "bonds": -0.76,
-                "yen": 0.08,
-                "dollar": 0.26
+                "gold": -3.49,
+                "bonds": 0.13,
+                "yen": 0.09,
+                "dollar": 0.37
               }
             }
           }
@@ -93,12 +93,12 @@
           {
             "key": "sectorsAbove50",
             "label": "Short-term uptrend",
-            "state": "5 of 11 sectors rising",
-            "lean": "risk-off",
+            "state": "7 of 11 sectors rising",
+            "lean": "risk-on",
             "detail": "above their 50-day trend",
             "status": "ok",
             "raw": {
-              "above": 5,
+              "above": 7,
               "total": 11
             }
           }
