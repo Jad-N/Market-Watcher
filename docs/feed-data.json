@@ -1,44 +1,44 @@
 {
- "generatedAt": "Jun 25, 2026, 2:25 PM ET",
- "generatedAtMs": 1782411903547,
+ "generatedAt": "Jun 25, 2026, 2:45 PM ET",
+ "generatedAtMs": 1782413102035,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-25 14:00 ET",
-  "pricesAsOf": "Jun 25, 2026, 2:25 PM ET",
+  "pricesAsOf": "Jun 25, 2026, 2:45 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7425.75,
-     "change": 0,
+     "value": 7435.25,
+     "change": 0.1,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29759.5,
-     "change": 0.8,
+     "value": 29767,
+     "change": 0.9,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 18.95,
-     "change": 1.7,
+     "value": 18.55,
+     "change": -0.4,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 18.7,
-      "divergencePct": 1.34
+      "cnbcLast": 18.87,
+      "divergencePct": 1.7
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.2
+     "pct": 0
     },
     {
      "ticker": "QQQ",
-     "pct": 0.6
+     "pct": 0.4
     }
    ],
    "putCall": null
@@ -226,13 +226,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.4 vs 20d avg 100.02"
+    "detail": "DXY 101.41 vs 20d avg 100.02"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 18.92 vs VIX3M 20.35"
+    "detail": "VIX 18.59 vs VIX3M 20.17"
    },
    {
     "name": "credit",
@@ -244,13 +244,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 3% vs others -0.4%"
+    "detail": "defensives 5d 3.1% vs others -0.8%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2884 vs 20d avg 0.2815"
+    "detail": "RSP/SPY 0.2883 vs 20d avg 0.2815"
    },
    {
     "name": "skew",
@@ -265,13 +265,13 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -2.5,
-   "last": 59462.9,
+   "pct": -2.7,
+   "last": 59326.3,
    "newsCount": 10,
    "latestNews": {
-    "title": "Bitcoin Collapses Below $59,000. Just How Deep Is This Hole? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRDhFc2xsSHdkOVdhdEFUV1N0RlNEWGtBRGFJR2p0UmdHRFI1bU5UV0JkWVlnLWlTREJVdnI1cWFBcHBEaHBVRFdPUEc3dHR5Qzg4dTNjWHdNQU83SFJhVGZ0YnpJWnNJTDZiUUNkYjFQa0dtQmJoZHNIQzdjcm5sdjBsSkFtUG1sdDJJb0UyMDE3TU9iSUtvVHl5Zw?oc=5",
-    "time": "11:16 AM"
+    "title": "Bitcoin slips below $60,000 as token struggles to recover - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbnFKNjFLeHpNcTNLX3d6T1duTGgxUTdtX1VmaWRnR0U4U0VsMkJNZy1QVnQ2WlFJODQ3bVVNMUxGWjJZYi1Lb2hqT3Z2R2liMXVhdC1jX2lWaWdDaTVhSzBuTGpVakh6UFlOSXdjcTYyR05QcWlnWkdsUlJVdzBBVkt1NkI3VklZSFd4UmJaM0pWRWtieDdpVERhcGNmUHlLenNNUkdCMHZSSUhmYTlaRFJB?oc=5",
+    "time": "3:31 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -281,7 +281,7 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -8,
+   "pct": -8.3,
    "last": 25.4,
    "newsCount": 5,
    "latestNews": {
@@ -302,13 +302,13 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -12.1,
-   "last": 48.1,
-   "newsCount": 13,
+   "pct": -12.8,
+   "last": 47.7,
+   "newsCount": 12,
    "latestNews": {
-    "title": "Leopold Aschenbrenne Latest AI Portfolio: IREN (IREN) - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVF8waTU1YV9zSzlYRFpGUUp5Rmg1dElnbUNPXzRRZll4RGw4MC11aUxVSXRpYUZfV2l2QlZsS29pQXdTNlFud2hMaTFNcU9zcEI5LUdXTDJwZi15MjZ4OV9vVm9JZ0NvbHJzQjcwXzV3UjQtMTY3V1MtMGh3NGt3anh0YWhETlRLX2VBZ1dFalBVV0gxY3Q5R0Y2TzFSMmhrdDZYWkxTQQ?oc=5",
-    "time": "5:14 PM"
+    "title": "IREN Stock Falls despite Sports Deal to Lift Global Image - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTmVIRkdWZjEwZjZCWlpfUmpma3NwWFhGTjMzZ2JZTzFuWlNCb0FQU1E2eDVnUW5EVS1aWUkwUlh4TVVWeVB5c0RCRDZUQ2oyZ2p6cnlHNUpUbnhfZXF0c2xzaUlZTy05S0JmWXR1ajVBNVJwS0U2cGdRREVLLXRwWmJOWU9kblZmUnJCQTJOb2lJaFd3aGI2dFJMZFlOMWw1TkRlTlQ3eHl3QVZpOHc?oc=5",
+    "time": "12:36 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -324,8 +324,8 @@
    "section": "trading",
    "class": "equity",
    "pct": -6.5,
-   "last": 257.5,
-   "newsCount": 2,
+   "last": 257.4,
+   "newsCount": 5,
    "latestNews": {
     "title": "Nebius AI Cloud 3.6 adds AI control, tighter security and faster storage - Stock Titan",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMVZvMUxVR0p3SF9EQ2tIa05YcHRiYWNzQV9UcC1mOFp4QURzaVNYUTFHM3RpSWs0bGdrcFlMd1BENV9VVkNnekliOXlaNmRFUWZYNlE5WlU2TmZjekRVeThONEw0MGV4QVJnMUpiV0JQdl8yNFpOdDZ5a3JZb1B1UTBBMk5hX2tySXpGVnAwbWl6NHVrNDNNeWtkaEs0amdhbDlsNDdwOEw3OUMzdVFNTHRYV1paS0tFVFY3Yk1sWQ?oc=5",
@@ -348,13 +348,13 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 1.4,
-   "last": 526.9,
+   "pct": 1.2,
+   "last": 526.1,
    "newsCount": 18,
    "latestNews": {
-    "title": "Why I Continue to Prioritize AMD Stock Over Nvidia - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWFNJbThMYURNYXMzQWJ5cHlmV3Z4aWhPTm9HcENHbDJMbzN2eUt1VThnbEFlRnJ6Y05na2tsMHQySDViLXpPWm5IMlI4MHZJLVBMSWZ2YUozeWZ4dHNYclFlQzFKUjdBTFBIdGRnWTl1dXNiQ2JZNG92ZUZ4UWJLNjBXOEpVcVk1YVFuSTcyVUpER0JIalkxbzZrcTVMWnF2a0d0THRkU2J3SWVKM0xfTkU1Nml0Nm4yUlVqVlZGRmZrWHpv?oc=5",
-    "time": "12:17 PM"
+    "title": "AMD vs. Marvell Technology: Which Will Be the Next Trillion-Dollar Stock? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQTdTWHkyM3prbHR5dVlyV3d4WTlHTzVuc3BqT0ZSeE1qSUtaanZZeS01SS02LXZ6Qy1BUE40aWZYMEVyeWZLbkJXa1k5b0Y0X01DaWNDNkVRdjBIaUhZQ3kzMFY1Y3ViTGNwMHA4QzJZNTJsQkFLX24xMC11eWkzRnc5QVRMRm1jRWRLWXRYVUdxck9CVS1FZW1lMA?oc=5",
+    "time": "12:35 AM"
    },
    "latestPost": {
     "text": "Responsible AI isn't a checkpoint. It's a mindset. Kathy Pham joins Advanced Insights to discuss how organizations can build trust into AI systems from day one, and why the most successful teams bring diverse perspectives into the development process early. Watch now: https://bit.ly/4w5K55D",
@@ -368,9 +368,9 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -10.8,
-   "last": 40.4,
-   "newsCount": 4,
+   "pct": -11.2,
+   "last": 40.2,
+   "newsCount": 5,
    "latestNews": {
     "title": "Could Applied Digital (APLD) Stock Triple by 2030? - AOL.com",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWEZNWF9aS09Yc19wVDZaM1JHdTBGeHh0dEVfbFpYV09JM0RFM0lsVlJtSTZ0ejY1OGlxRnpvUF9DWnE3VFZWNkF5eDhOeEtzem1RYmw1aG1sV1ktcVRLSkYxM0pWTU1rRnhGTVdkVF9INi01UnNGVWRqWmUyaFNZTVZR?oc=5",
@@ -389,8 +389,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -8.8,
-   "last": 26.2,
+   "pct": -9.5,
+   "last": 26,
    "newsCount": 1,
    "latestNews": {
     "title": "Bitdeer Technologies (BTDR): Top Crypto and AI Play in Situational Awareness Portfolio",
@@ -410,9 +410,9 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 4.3,
-   "last": 7.6,
-   "newsCount": 2,
+   "pct": 4.6,
+   "last": 7.7,
+   "newsCount": 1,
    "latestNews": {
     "title": "ImmunityBio (IBRX) Valuation In Focus After Russell 1000 Talk Lifts Interest - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOTUVySTR2bU4zVnpabThJbnh5MDNFSHZfM0lwaWZWQmJlM2pMV1pvQnR5WnJFRXg1QVljQkZveTAxdFlGQkxGdFJseUVtUHFZTGhkeWlSbFFMcHlvQ1haTmRnNUZTak9femNSYXZOaFhSLXRKRmtfWTFTa2VZd0hpSjAtTE0wMWlhT0c0SXVLSEhVcFdKSGlNcmpEd3NQSXdXUDcxOVpyTHJWS3ZYTmJIbEZneks5VTMzVjNqWGhMSzYxWDlUU3ZZb2VRcUJvNUI2Vk5oMWx3bUdudFEz0gHiAUFVX3lxTE92aDkzRlJvME4zY2h3WjFOX3NXUzA4NVRVMzU1X1hIRXRSRkYzVlpIODRpSDB0SWs1MUJHbzFXaWY5bVFJXzlUbGlqbi1BdG05X0p1TGpBak96Q01TZVV3b055cDl3ZFlfMUcwdkcwVWpMYzJTOC1TMm40Z2NaR21HVmlJRXBZa2pXaDltanU1MTJubmlmcGV4OFIxT3ZzLW1rLTFlV1RXQmVEUkY1RVdjeXhhLUlxdFJfbkNDRUNtRWFjeUs5QjZYbzhILW9SbTlUeFNtR1NmLUdkdExNNnZialE?oc=5",
@@ -430,7 +430,7 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -5.4,
+   "pct": -5.7,
    "last": 5.8,
    "newsCount": 1,
    "latestNews": {
@@ -451,8 +451,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -7.6,
-   "last": 15.9,
+   "pct": -7.8,
+   "last": 15.8,
    "newsCount": 5,
    "latestNews": {
     "title": "CleanSpark (CLSK) Falls More Steeply Than Broader Market: What Investors Need to Know - Yahoo Finance",
@@ -476,8 +476,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -16.9,
-   "last": 11.6,
+   "pct": -17.7,
+   "last": 11.5,
    "newsCount": 1,
    "latestNews": {
     "title": "How Much Will One Bitcoin Be Worth in 2030?",
@@ -492,8 +492,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -8.3,
-   "last": 90.2,
+   "pct": -7.3,
+   "last": 91.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -504,7 +504,7 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 1.7,
+   "pct": 1.9,
    "last": 26.1,
    "newsCount": 0,
    "latestNews": null,
@@ -517,7 +517,7 @@
    "section": "macro",
    "class": "equity",
    "pct": -2.5,
-   "last": 195.1,
+   "last": 195,
    "newsCount": 18,
    "latestNews": {
     "title": "Nvidia Stock Tests Key Support Level. What’s Keeping It From Rising? - Barron's",
@@ -525,8 +525,8 @@
     "time": "4:53 PM"
    },
    "latestPost": {
-    "text": "Revolut built a transaction foundation model – accelerated by the NVIDIA full-stack platform on Nebius – to improve fraud detection, product recommendations, and other use cases in financial services. The results: 📈 2.3x better credit risk accuracy ⚡ Up to 5x higher training throughput",
-    "url": "https://nitter.net/nvidia/status/2070205383138849223#m",
+    "text": "R to @nvidia: Learn how accelerated computing is redefining infrastructure efficiency in banking and payments: https://nvda.ws/4xO4yNU",
+    "url": "https://nitter.net/nvidia/status/2070205388377448764#m",
     "time": "2:00 PM"
    },
    "latestFiling": null,
@@ -536,7 +536,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -3.2,
+   "pct": -3.5,
    "last": 1,
    "newsCount": 10,
    "latestNews": {
@@ -552,8 +552,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -7.3,
-   "last": 11.8,
+   "pct": -8,
+   "last": 11.7,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -564,9 +564,9 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -14.6,
-   "last": 81.3,
-   "newsCount": 16,
+   "pct": -14.9,
+   "last": 80.9,
+   "newsCount": 17,
    "latestNews": {
     "title": "RKLB Stock Jumps Overnight: Rocket Lab Says Electron Production Line Is ‘Pumping Out A Rocket Every 11 Days’ - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa2ZqVGdhdXY4aHpWbmlESG5lU08wa29MVV9Nd0hCYXJzSVhWdEZBTjZYUmJ0OXJSVXFCRk5JeFZkNmtiM3dscC1iRDFXTkotOGYzQWJQUXBlR09HZWpGNi1rZi1YWFVieUM0QllLQ1BQV2NlYjFTaUdobzNwZlJqYTc3MzFzVHJBdXNUeWpzaHgtVzVoNHhRMEtQRnBkZlU?oc=5",
@@ -584,13 +584,13 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -7.6,
-   "last": 107.8,
+   "pct": -7.5,
+   "last": 107.9,
    "newsCount": 18,
    "latestNews": {
-    "title": "Palantir Hits New 52-Week Low As Swoon Drags On. Is Meme Stock Luster Gone? - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeDBjWEpQd1I5ZmZ4WGt2ZktJaVpIRzB1cEJBUndGQjQ4dFpGM0NxY1MyNTZUelVDQzN5b3puZWJ5UGZzM3BkLTF5Z3BqaGFlSzBWSmJ3bzJsdndjMVp2c29rMjhFMEVPbjh0cTExVTRkR0pZNjc0N2l3bFREQm5Sb01xblRyOWVoSk1vX1ZRbEtvWTNja1NvRmQ3R3oxOWs?oc=5",
-    "time": "11:45 AM"
+    "title": "Where Will Palantir Stock Be in 5 Years? - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQlhtc0ZUeVlKNkNkckxiZU9vRjFlWGxqY0pIU2NIWXlDQVJseTZYWjZBbGtNbTUyX1d2MVJvSG5WMEZfSFcyMXJVc3Btc21JdUdpb2E0QXJKN0tUMG8ybVhYYkxZbFJ0eXViekRBOUdqcThfWTNrNFVvaDZJMTZFOE5GRGpjX1VSaUE?oc=5",
+    "time": "10:12 PM"
    },
    "latestPost": {
     "text": "R to @PalantirTech: Watch the full demo here: https://youtu.be/D5t6384lqoE",
@@ -604,13 +604,13 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -4.9,
-   "last": 355.8,
+   "pct": -4.8,
+   "last": 355.9,
    "newsCount": 18,
    "latestNews": {
-    "title": "What Does Microsoft Stock’s $223 Billion Payout Mean For Your Portfolio? - Forbes",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOODhPcDJlZUlOb2hZbTlwLVNUbmM1NHlISTlncUhHSDBZRTA0YWxMYk9ubzg0amJnSThQRk1hc2ZXNFpxZjEtNWowTlprQUc0QkJFR2s1SWl6RGp5dzB4dUtSZXRUb09YcDNOWTJXX1JaR2pvZklUX3ZsMTNnWXE1NTFOVE14cG9RSUxWTWhvODEzUzZFdFRjc0dQcU45UjNOMDlQQTkxRUplVHNYRVRlX0Rlc3dIRUFmN3BjNW5sN0t3MjZ6WjMw?oc=5",
-    "time": "9:35 AM"
+    "title": "Microsoft’s Stock Is Crippled - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5MQ2Z3UkJ0R0xCekoyZFc3TGFGa1RNZ0R1MXhmenpvdnNpbG5uYjFTT3E5RDFKLTFKMjJfalJkWVNkZlN6TVR4enFOSkFFZUdTRTNkdGlzZ1VxaVBtYUhOR255T0kzZEI2bVRodU1ZS3BhN2tDVXlxN3FWZGc?oc=5",
+    "time": "9:54 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -636,13 +636,13 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -1,
-   "last": 342.7,
+   "pct": -1.2,
+   "last": 342,
    "newsCount": 18,
    "latestNews": {
-    "title": "Here’s Why Alphabet (GOOGL) Is One of the Most Promising AI Stocks to Buy and Hold for the Next 2 Years - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaU1nU0RmS2FoREpaazlETExrSjV2emhhVWFRVWttbkRmWk1TeXlyc1ZSQlZIMUtIYzNFZUdCZU9VY2I0X3dmX2dUN0Vhc1k3aXI5UmRmS1U0akdreUIxUF9wOVZlb2ExZ0pITTM5MWdPUHlaeHJJcmN6ZXRxWVlEcEJadmpRZEJINzMzUDVtT19DNU1fanc?oc=5",
-    "time": "4:18 AM"
+    "title": "Alphabet Shares Fall After Report on Further AI Talent Departures - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zT1FCNGF5NlVCRHN6WjliQWJ3bkhNd2trd1FBUDJoNmlNT2JWRFBBWTZzWndiZnVORXR5RUpPMlpmeTFaM192ck5nbHJxc3p6dXl1dmhlQjBXUTNiX0lfTk9iTk9lejl4a3FWb2FVWW90Zk5xTkFYU3NJWQ?oc=5",
+    "time": "9:35 AM"
    },
    "latestPost": {
     "text": "R to @Google: Finally, keep up with the market on the go with the new Google Finance app for @Android. You’ll be able to access your watchlist, real-time data, a live financial news feed and the AI research tool — with more features and an iOS app coming soon. Learn more about the new Google Finance → http://goo.gle/4w9dITI",
@@ -656,8 +656,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.4,
-   "last": 4048,
+   "pct": 1.5,
+   "last": 4049.8,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold hovers around $4,000, silver holds below $60 — has the shimmer worn off the precious metal rally? - CNBC",
@@ -672,8 +672,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 2.2,
-   "last": 75.4,
+   "pct": 2.6,
+   "last": 75.7,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil Prices Fluctuate as Gulf Shipping Advances - The New York Times",
@@ -688,8 +688,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 2.2,
-   "last": 71.9,
+   "pct": 2.6,
+   "last": 72.2,
    "newsCount": 10,
    "latestNews": {
     "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow.com",
@@ -1306,6 +1306,17 @@
    "source": "",
    "text": "Why CoreWeave (CRWV), Nebius, and IREN Stocks Are Rising Today, 6/25/26 - TipRanks",
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUlQNS1kRTVVbXhFcmFrZmNWMmFpbGdjb2Y1SU9KbVlzQ0tCVEl4YWhKTS1yWGFaamlUNjdVMWtZQ3NLMlpLenRhejNPSE1JS1BlRDd5bHRGSUo2cEhWRkE5bXRVQk92aTI1Yk9WZy03ZFJ0QkpDUmhRSFYxc0tiYW9DQThRcnFRTm1GcWdSY3ZYeVRhUGhTMHBaNkg?oc=5"
+  },
+  {
+   "id": "113a66780eef",
+   "type": "news",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1782382380000,
+   "timeLabel": "6:13 AM",
+   "source": "",
+   "text": "APLD STOCK (Applied Digital Stock) APLD STOCK PREDICTION APLD STOCK Analysis APLD Stock News Today Glasgow Southside Constituency (uScMumG76u) - Mshale",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VX1lPZHl6NTE3ZkttNDdQc0ZYSmZLUzhsTExtcmlwbG8tbFJKWDBCYnp4bnBlaVRyNERVQ0N1ZHYyNVRiY2RfRTFMT2JYRUJtNDE4Nk9IUzZGYW8?oc=5"
   },
   {
    "id": "0933e0a0d3e2",
@@ -3737,12 +3748,21 @@
    "stBull": null,
    "regime": 42.9,
    "composite": 27.4
+  },
+  {
+   "t": 1782413102035,
+   "label": "Jun 25 2026 2:45 PM ET",
+   "cnn": 26,
+   "crypto": 12,
+   "stBull": null,
+   "regime": 42.9,
+   "composite": 27.4
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.1,
+  "divMax": 0.11,
   "fallbacks": 0
  }
 }
