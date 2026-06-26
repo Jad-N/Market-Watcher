@@ -1,44 +1,44 @@
 {
- "generatedAt": "Jun 26, 2026, 2:04 PM ET",
- "generatedAtMs": 1782497084326,
+ "generatedAt": "Jun 26, 2026, 2:30 PM ET",
+ "generatedAtMs": 1782498601732,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-26 14:00 ET",
-  "pricesAsOf": "Jun 26, 2026, 2:04 PM ET",
+  "pricesAsOf": "Jun 26, 2026, 2:30 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7435.75,
-     "change": 0.2,
+     "value": 7428.25,
+     "change": 0.1,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29590.25,
-     "change": -0.5,
+     "value": 29508.25,
+     "change": -0.7,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 18.84,
-     "change": -0.3,
+     "value": 18.71,
+     "change": -1,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 18.75,
-      "divergencePct": 0.48
+      "cnbcLast": 18.87,
+      "divergencePct": 0.85
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.1
+     "pct": -0.1
     },
     {
      "ticker": "QQQ",
-     "pct": 0.2
+     "pct": -0.2
     }
    ],
    "putCall": null
@@ -226,7 +226,7 @@
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 18.86 vs VIX3M 20.35"
+    "detail": "VIX 18.72 vs VIX3M 20.27"
    },
    {
     "name": "credit",
@@ -244,7 +244,7 @@
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2893 vs 20d avg 0.2822"
+    "detail": "RSP/SPY 0.2896 vs 20d avg 0.2822"
    },
    {
     "name": "skew",
@@ -259,13 +259,13 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 0.5,
-   "last": 60009.7,
+   "pct": 0,
+   "last": 59734,
    "newsCount": 10,
    "latestNews": {
-    "title": "Crypto’s ETF Boom Gets $4.5 Billion Reality Check in Brutal Week - Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVEdiSUlKT0c0LUVhVzNoN1M5M283ZEpqZFZ5aGxvYjRKUEJObzlKQU1pVVBtb1lKejhrcXFndnpZZE5zcDY3Sk1kT1Q4dTNpOXIxd3RJRWtaSjVjcnRYQllla0VINDFqdlZnZHlyX09lSW1hQV9MeGRDVlhWdDVoMWJZRXVmc0pzUU1Rc2tFdVZBdWl4dXlGNmZiU1hzX0Q5MXpaTy1GWkVBRUFfSE9SeGxlUGQ?oc=5",
-    "time": "12:47 PM"
+    "title": "Billionaire investor Jeremy Grantham says bitcoin will 'dwindle away with a whimper' - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMGFGZjhucWpMTXVwdXNOeTc5dUdTY0ttajFwZzBFLWtUUW1yaVZRZHZ2VHphZEZxeWpnYkg0Q3hEal9SM2JZT0ZYajBlUVRqX3gwbGR1OUZISTRINU91OE03c3BYOFp0MEpsd05vQW51NHNFVEhsRUlaLXNFZWZzenljOW5rSEVnUi1PUldvMkdObTV2ZWk0Y2FRUE1adDEySTNRRzh1VldaME5FSjVWTjM1V1ZxQUlvdmZZ0gHAAUFVX3lxTE9VV0VsMHFLR18ydXZ2QklLWk5Kd01ITEt2N1U0OWdMaEx3dFRoTUNNMWlVVHc5dW9HMm83WkQweTh0cXJ4TVZXU1BvVmFmOWNGY1VISG1NamxMQUJCckg2NjkxVkhwWnRGUy1NRVFJaDV3MDNmb0xkcS1TZmVqdmJHQWI0VjFIZWFiclY0Nk1jRUl2djJONkpjSHhKenowTk9Wdzdqc1RndEVOeDloeENqdEdFa3JzcmIxUVBNTERpbQ?oc=5",
+    "time": "10:10 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -275,8 +275,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -1.8,
-   "last": 25.7,
+   "pct": -3.1,
+   "last": 25.4,
    "newsCount": 4,
    "latestNews": {
     "title": "Brokers Suggest Investing in Cipher Digital Inc. (CIFR): Read This Before Placing a Bet - Yahoo Finance",
@@ -296,8 +296,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -4.3,
-   "last": 48.1,
+   "pct": -5.8,
+   "last": 47.4,
    "newsCount": 3,
    "latestNews": {
     "title": "Warriors Jersey Patch Deal With AI Firm Worth More Than $50M/Year - Sportico.com",
@@ -317,9 +317,9 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -6.9,
-   "last": 241.8,
-   "newsCount": 10,
+   "pct": -8.2,
+   "last": 238.2,
+   "newsCount": 9,
    "latestNews": {
     "title": "Nebius Group N.V. (NBIS): 10 Stocks That Could Double Over the Next 2 Years - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxON180cm1XdjJqM2pLdHlZcVBEYkdzTFBwNTVNYXlQbnAzLWdibC13aW9ncjlfdXFMelhRcnVMWE9aaDZrVzEzeVI4ZXhXS25mRDY2TndaYlotSjZ1UmtUZnNTYXh5dE00djlrZi1EX0VYdmRNMVJhbTNtbzZXSU5STW9uYVFSbjdLU2MxZnlmMA?oc=5",
@@ -342,8 +342,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -0.1,
-   "last": 519.3,
+   "pct": -0.5,
+   "last": 517.4,
    "newsCount": 18,
    "latestNews": {
     "title": "AMD Is Trading at 97 Times Forward Earnings While Nvidia Trades at 21 Times -- Someone's Valuation Model Is Wrong. Here's Who I Think It Is. - The Motley Fool",
@@ -362,8 +362,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -4.3,
-   "last": 40.2,
+   "pct": -5.5,
+   "last": 39.7,
    "newsCount": 8,
    "latestNews": {
     "title": "Has Nvidia's Exit Derailed Applied Digital's AI Ambitions - Kavout | AI",
@@ -383,8 +383,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -0.8,
-   "last": 26.8,
+   "pct": -2.1,
+   "last": 26.4,
    "newsCount": 9,
    "latestNews": {
     "title": "Corvex adds TeraWulf CFO as it scales AI infrastructure - Stock Titan",
@@ -404,9 +404,9 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 9.9,
-   "last": 8.6,
-   "newsCount": 4,
+   "pct": 9.1,
+   "last": 8.5,
+   "newsCount": 5,
    "latestNews": {
     "title": "IBRX Stock Climbs As ANKTIVA Data Spotlight Draws Traders - StocksToTrade",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE56WVhVNExiT0JzVGVsb3R5cHJ4akJKd200dmJMbkUzWVlTNnNrYTVHdWpDTEpFWHcwbndmMXRhLXRPUEFtdFlJcVFPZ0xJaFVYU3BYRnhaNXdGV3B3d3lHNnoxWHNBejBWQ0dTa2h5ZGV3SkxPX1Yw?oc=5",
@@ -420,8 +420,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -1,
-   "last": 5.8,
+   "pct": -1.9,
+   "last": 5.7,
    "newsCount": 2,
    "latestNews": {
     "title": "Top New Era Energy & Digital (NUAI) Competitors 2026 - MarketBeat",
@@ -441,8 +441,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 1,
-   "last": 16.4,
+   "pct": -0.4,
+   "last": 16.2,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -458,8 +458,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -8.8,
-   "last": 11.5,
+   "pct": -9.9,
+   "last": 11.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -470,8 +470,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 4.7,
-   "last": 96.9,
+   "pct": 5,
+   "last": 97.1,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -482,8 +482,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.6,
-   "last": 25.6,
+   "pct": -0.3,
+   "last": 25.7,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -494,8 +494,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -2.1,
-   "last": 194.8,
+   "pct": -2.5,
+   "last": 194,
    "newsCount": 18,
    "latestNews": {
     "title": "Nvidia Stock Continues Slide Amid Tech Sell-Off - Investor's Business Daily",
@@ -514,7 +514,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 0.5,
+   "pct": 0,
    "last": 1,
    "newsCount": 10,
    "latestNews": {
@@ -530,8 +530,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -5.6,
-   "last": 11.3,
+   "pct": -7.5,
+   "last": 11.1,
    "newsCount": 2,
    "latestNews": {
     "title": "TSS, Inc. Actuals & Estimates (NASDAQ:TSSI) - TradingView",
@@ -546,8 +546,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 0.3,
-   "last": 85.7,
+   "pct": 0,
+   "last": 85.5,
    "newsCount": 18,
    "latestNews": {
     "title": "Rocket Lab Jumps Late On NASA Mission News - Investor's Business Daily",
@@ -555,9 +555,9 @@
     "time": "9:38 AM"
    },
    "latestPost": {
-    "text": "LIFTOFF! Electron is on its way to space once again for @synspective🚀",
-    "url": "https://nitter.net/RocketLab/status/2070564034915807249#m",
-    "time": "1:45 PM"
+    "text": "R to @synspective: Successful SECO confirmed and nominal transfer orbit achieved for @synspective's 'Ten Owl Of Ten' mission. Payload deployment expected within the hour.",
+    "url": "https://nitter.net/RocketLab/status/2070566379963781486#m",
+    "time": "1:54 PM"
    },
    "latestFiling": null,
    "stocktwits": null
@@ -566,8 +566,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -0.2,
-   "last": 113.3,
+   "pct": -0.6,
+   "last": 112.8,
    "newsCount": 18,
    "latestNews": {
     "title": "The Strain Inside Palantir Stock - Trefis",
@@ -582,8 +582,8 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 1.6,
-   "last": 371.3,
+   "pct": 1.4,
+   "last": 370.5,
    "newsCount": 18,
    "latestNews": {
     "title": "How Low Can Microsoft Stock Go? - Trefis",
@@ -598,8 +598,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 4,
-   "last": 34,
+   "pct": 3.4,
+   "last": 33.8,
    "newsCount": 3,
    "latestNews": {
     "title": "HIMS Stock Eyes Big Monthly Win: Novo Nordisk Calls Hims & Hers One Of Its Most ‘Voluminous’ Telehealth Partners - Stocktwits",
@@ -614,8 +614,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -1,
-   "last": 341.8,
+   "pct": -1.3,
+   "last": 340.9,
    "newsCount": 18,
    "latestNews": {
     "title": "Yardeni: Here's What's Behind The June Swoon Of Google Stock - Investor's Business Daily",
@@ -631,12 +631,12 @@
    "section": "macro",
    "class": "commodity",
    "pct": 1.5,
-   "last": 4090.2,
+   "last": 4089.1,
    "newsCount": 10,
    "latestNews": {
-    "title": "Rhona O'Connell: Gold Price Drop — Why it Happened, What's Next - Investing News Network",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bek9MS1oxZUxKZTllQUxWTllrb2ZzSUd2TlMwbVp5eHA4VElLZnozMGx1cnM1WnlMekliQW1DWW1xLWZEOXNoSkpfMENEcnBVWl8zeHBHNWpVMGx6TDdvN1lHYzBEZnVsbjhxT0lFV1JJRHhFQzhz?oc=5",
-    "time": "5:07 PM"
+    "title": "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ1BXeVdPR08tTmQ4MHdZMkloUzlsNjRjSE5VVmxyeVRrdDZqbDI3Tm5VVUdfYTdZM0dOYjkzVFBuMGhJUzZEM3E0RDBkc0RTUXd2VFdMdm5uenpPXzJobUNvRklvRkt0S0pfYkZ0UWRXaWRDc09MR1pBUkVDRXN2Y2FINkVmUDBlRkZHNGhzZkNyNk5LUzZrM2VUV1pVOV9N?oc=5",
+    "time": "8:43 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -646,8 +646,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -3.3,
-   "last": 72.7,
+   "pct": -3.5,
+   "last": 72.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Brent Crude Oil Price Falls Over 5% To Below $72 Per Barrel - NDTV",
@@ -662,8 +662,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -3.5,
-   "last": 69.4,
+   "pct": -3.6,
+   "last": 69.3,
    "newsCount": 10,
    "latestNews": {
     "title": "U.S. crude oil falls below $70, resuming losses after attack on cargo ship near Oman - CNBC",
@@ -688,6 +688,28 @@
    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pa2ROMnhHR2ZfaU9KcFFIbS1saE9XU1pyZXpMcUZkbl9aem5hdEY3eDJNT05ZdG1ndGo3Z2JJUG1SdnpvZUJzYlRoVEpnTGRuV0lLSXhhcGFodW9jM19hcG1mcDBkODNKeHBFQVlVZ1g4ZmhrMS1sYQ?oc=5"
   },
   {
+   "id": "a1a1b02aedea",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782496800000,
+   "timeLabel": "2:00 PM",
+   "source": "",
+   "text": "2 Reasons to Like AMD and 1 to Stay Skeptical - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaWVxWElOd25hMWNUYm5qZmJoNkJ2UGtFYmZnUnhVVDFxd3dGTjRzTEllSW5aUXRjTDZRbTdLbm5IYnNSVHdpWWx2b05nUXF5cnJoWElEYkp6V0RuR1RXdDdmTGZNckdCNWE0UFlacGRpalpBUjBJZUh5ZElnVkpjbnhXNEhWMUtqSUZ6QU13?oc=5"
+  },
+  {
+   "id": "579262363d65",
+   "type": "post",
+   "symbol": "RKLB",
+   "section": "macro",
+   "time": 1782496440000,
+   "timeLabel": "1:54 PM",
+   "handle": "@RocketLab",
+   "text": "R to @synspective: Successful SECO confirmed and nominal transfer orbit achieved for @synspective's 'Ten Owl Of Ten' mission. Payload deployment expected wit…",
+   "url": "https://nitter.net/RocketLab/status/2070566379963781486#m"
+  },
+  {
    "id": "1af4d8d321a5",
    "type": "post",
    "symbol": "RKLB",
@@ -708,6 +730,17 @@
    "source": "",
    "text": "IBRX Stock Surges 12% On Russell 1000 Inclusion Hopes - TradingView",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQWR4Z085emgwYTlkdEo2OXdWX1pCbmVkUUEzM25hVWRsZEFJQWtVOW8xWmFrd1hVUU9ESTAtbldYTDNaSWdPT1hpSTdqOURocGJuN3V3T1pzSjhfNE5YODZOcnBEU2ptZDFjMVRkQVY3THhqNW9Fd1hnNHRKZHNtTHU3czN3NTN6bUEzUmNtUndFU3ZUSHN2SW9DYjFqTVBXU1FXZ1NEWlBBUFBnX3VZSmo5Yw?oc=5"
+  },
+  {
+   "id": "fb78ccd80086",
+   "type": "news",
+   "symbol": "NVDA",
+   "section": "macro",
+   "time": 1782495300000,
+   "timeLabel": "1:35 PM",
+   "source": "",
+   "text": "3 Great Stocks to Buy to Benefit From the Next Generation of AI Data Centers Led by Nvidia - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcGxNQTRocE9NM25PcFJ0ejJ4QmdBZTZybEZ3MmJ1N0VMc0F4aXhhX3hJUXFNdG5aUV9pSS1ROV9BMlNYZ1Z5OGJmWjF1OV94dGJSY3VhYkZMZGNkenJaaW40c0d4OUxBcjBTTGNMZDFNWV81LW9ya0t0d3pnWUlBSjJZYUtsczJsUWYxWWFvbVVZU05i?oc=5"
   },
   {
    "id": "e60bbf262e58",
@@ -851,6 +884,17 @@
    "source": "",
    "text": "AMD’s stock split history (& prospects) explained",
    "url": "https://www.thestreet.com/investing/stocks/amd-stock-splits?.tsrc=rss"
+  },
+  {
+   "id": "6b87ff819706",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1782488640000,
+   "timeLabel": "11:44 AM",
+   "source": "",
+   "text": "Can IREN's Contracted AI Capacity Support Future Revenue Growth? - The Globe and Mail",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTHplbTZDckxpeFpfRXN5UENpZDR0NXg2SjNJQnd3YnVFQlVzaTlsSDNTZDNHN0hmMldIaG5KVkxBMFFKdjVuREtYS0hXQldhTE9odTlfT1JJNTBFckNiem8xV0liTk9OVGJLalVOMlUzRFRFeTFZWTZ4RkpNSmVjRTB4bzVLRk55NnpmTy00a3pmUm9BaFV0dE9sOHVtYVg3bTc0YXlqbDFaWTVzUnpzQ0VNckNjdEc2WFd2dDVJMEZlVWhrUnlYeWdsb0RJeG5QRm5hWjROWC1JTVJ4OE00eQ?oc=5"
   },
   {
    "id": "7b96a68f411f",
@@ -3994,6 +4038,15 @@
   {
    "t": 1782497084326,
    "label": "Jun 26 2026 2:04 PM ET",
+   "cnn": 25,
+   "crypto": 13,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 35.1
+  },
+  {
+   "t": 1782498601732,
+   "label": "Jun 26 2026 2:30 PM ET",
    "cnn": 25,
    "crypto": 13,
    "stBull": null,
