@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.31pp (2y 4.09, 10y 4.4)",
-      "asOfMs": 1782345600000,
+      "asOfMs": 1782360000000,
       "status": "ok",
       "raw": {
         "spread": 0.31,
@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.31 vs 20d avg 100.14",
+      "detail": "DXY 101.35 vs 20d avg 100.14",
       "asOfMs": 1782446400000,
       "status": "ok",
       "raw": {
-        "last": 101.31,
+        "last": 101.35,
         "avg": 100.14,
-        "gap": 1.17
+        "gap": 1.21
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.72 vs VIX3M 20.29",
+      "detail": "VIX 18.68 vs VIX3M 20.27",
       "asOfMs": 1782480600000,
       "status": "ok",
       "raw": {
-        "vix": 18.72,
-        "vix3m": 20.29,
-        "diff": -1.57
+        "vix": 18.68,
+        "vix3m": 20.27,
+        "diff": -1.59
       }
     },
     "credit": {
@@ -63,13 +63,13 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 3% vs others -0.3%",
+      "detail": "defensives 5d 3% vs others -0.2%",
       "asOfMs": 1782480600000,
       "status": "ok",
       "raw": {
         "defMedPct": 3,
-        "othMedPct": -0.3,
-        "diffPct": 3.3
+        "othMedPct": -0.2,
+        "diffPct": 3.2
       }
     },
     "breadth": {
@@ -100,9 +100,9 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": 4.6,
-        "asOfMs": 1782345600000
+        "name": "DAX",
+        "pct": -1.3,
+        "asOfMs": 1782457200000
       },
       {
         "name": "Hang Seng",
@@ -110,9 +110,9 @@
         "asOfMs": 1782351000000
       },
       {
-        "name": "DAX",
-        "pct": -1.3,
-        "asOfMs": 1782457200000
+        "name": "Nikkei",
+        "pct": 4.6,
+        "asOfMs": 1782345600000
       }
     ],
     "rates": {
@@ -281,5 +281,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782494616158
+  "updatedMs": 1782495930592
 }
