@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.31pp (2y 4.09, 10y 4.4)",
-      "asOfMs": 1782360000000,
+      "asOfMs": 1782345600000,
       "status": "ok",
       "raw": {
         "spread": 0.31,
@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.33 vs 20d avg 100.14",
+      "detail": "DXY 101.31 vs 20d avg 100.14",
       "asOfMs": 1782446400000,
       "status": "ok",
       "raw": {
-        "last": 101.33,
+        "last": 101.31,
         "avg": 100.14,
-        "gap": 1.19
+        "gap": 1.17
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.95 vs VIX3M 20.42",
+      "detail": "VIX 18.72 vs VIX3M 20.29",
       "asOfMs": 1782480600000,
       "status": "ok",
       "raw": {
-        "vix": 18.95,
-        "vix3m": 20.42,
-        "diff": -1.47
+        "vix": 18.72,
+        "vix3m": 20.29,
+        "diff": -1.57
       }
     },
     "credit": {
@@ -63,25 +63,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 2.9% vs others -0.2%",
+      "detail": "defensives 5d 3% vs others -0.3%",
       "asOfMs": 1782480600000,
       "status": "ok",
       "raw": {
-        "defMedPct": 2.9,
-        "othMedPct": -0.2,
-        "diffPct": 3.1
+        "defMedPct": 3,
+        "othMedPct": -0.3,
+        "diffPct": 3.3
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2894 vs 20d avg 0.2822",
+      "detail": "RSP/SPY 0.2893 vs 20d avg 0.2822",
       "asOfMs": 1782480600000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2894,
+        "ratio": 0.2893,
         "avg": 0.2822,
-        "gap": 0.0072
+        "gap": 0.0071
       }
     },
     "skew": {
@@ -281,5 +281,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782493507680
+  "updatedMs": 1782494616158
 }
