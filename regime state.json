@@ -4,9 +4,9 @@
     "tally": "4-3",
     "drivers": [
       "dollar strong",
+      "VIX backwardated",
       "credit spreads widening",
-      "defensives leading",
-      "crash-hedging elevated"
+      "defensives leading"
     ],
     "on": 3,
     "off": 4
@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.31pp (2y 4.09, 10y 4.4)",
-      "asOfMs": 1782345600000,
+      "asOfMs": 1782360000000,
       "status": "ok",
       "raw": {
         "spread": 0.31,
@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.43 vs 20d avg 100.02",
-      "asOfMs": 1782360000000,
+      "detail": "DXY 101.17 vs 20d avg 100.13",
+      "asOfMs": 1782446400000,
       "status": "ok",
       "raw": {
-        "last": 101.43,
-        "avg": 100.02,
-        "gap": 1.41
+        "last": 101.17,
+        "avg": 100.13,
+        "gap": 1.04
       }
     },
     "vol": {
-      "state": "contango",
-      "vote": "on",
-      "detail": "VIX 18.89 vs VIX3M 20.33",
-      "asOfMs": 1782394200000,
+      "state": "backwardation",
+      "vote": "off",
+      "detail": "VIX 20.14 vs VIX3M 19.57",
+      "asOfMs": 1782457200000,
       "status": "ok",
       "raw": {
-        "vix": 18.89,
-        "vix3m": 20.33,
-        "diff": -1.44
+        "vix": 20.14,
+        "vix3m": 19.57,
+        "diff": 0.57
       }
     },
     "credit": {
@@ -85,15 +85,15 @@
       }
     },
     "skew": {
-      "state": "elevated",
-      "vote": "off",
-      "detail": "SKEW 145.3 vs 20d avg 143.1",
-      "asOfMs": 1782307800000,
+      "state": "subdued",
+      "vote": "on",
+      "detail": "SKEW 139.9 vs 20d avg 143.1",
+      "asOfMs": 1782394200000,
       "status": "ok",
       "raw": {
-        "skew": 145.3,
-        "avg": 143.07,
-        "gap": 2.23
+        "skew": 139.89,
+        "avg": 143.14,
+        "gap": -3.25
       }
     }
   },
@@ -101,28 +101,28 @@
     "overnight": [
       {
         "name": "Hang Seng",
-        "pct": 0.3,
-        "asOfMs": 1782264600000
+        "pct": -1.8,
+        "asOfMs": 1782437400000
       },
       {
         "name": "Nikkei",
-        "pct": -0.9,
-        "asOfMs": 1782259200000
+        "pct": -4.2,
+        "asOfMs": 1782432000000
       },
       {
         "name": "DAX",
-        "pct": 1,
-        "asOfMs": 1782370800000
+        "pct": -1.5,
+        "asOfMs": 1782457200000
       }
     ],
     "rates": {
       "impliedRate": 3.71,
-      "changeBp": -8.2,
-      "asOfMs": 1782360000000
+      "changeBp": -8,
+      "asOfMs": 1782446400000
     }
   },
   "stress": {
-    "vixBackwardation": false,
+    "vixBackwardation": true,
     "curveInverted": false,
     "hySpreadNew20High": false
   },
@@ -247,9 +247,24 @@
       "ts": 1782411926942,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP risk-on -> risk-off · 4-3 · drivers: dollar strong, credit spreads widening, defensives leading, crash-hedging elevated"
+    },
+    {
+      "ts": 1782479108454,
+      "kind": "REGIME",
+      "line": "REGIME vol contango -> backwardation"
+    },
+    {
+      "ts": 1782479108454,
+      "kind": "REGIME",
+      "line": "REGIME skew elevated -> subdued"
+    },
+    {
+      "ts": 1782479108454,
+      "kind": "STRESS",
+      "line": "STRESS VIX backwardation | VIX 20.14 vs VIX3M 19.57"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782419628165
+  "updatedMs": 1782479108454
 }
