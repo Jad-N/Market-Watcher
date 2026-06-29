@@ -1,33 +1,33 @@
 {
- "generatedAt": "Jun 29, 2026, 11:30 AM ET",
- "generatedAtMs": 1782747002088,
+ "generatedAt": "Jun 29, 2026, 11:55 AM ET",
+ "generatedAtMs": 1782748515572,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-29 11:00 ET",
-  "pricesAsOf": "Jun 29, 2026, 11:30 AM ET",
+  "pricesAsOf": "Jun 29, 2026, 11:55 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7457.75,
-     "change": 0.8,
+     "value": 7472.5,
+     "change": 1,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29694.5,
-     "change": 1.1,
+     "value": 29809.25,
+     "change": 1.5,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 18.24,
-     "change": -0.9,
+     "value": 18.06,
+     "change": -1.9,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 18.17,
-      "divergencePct": 0.39
+      "cnbcLast": 17.97,
+      "divergencePct": 0.5
      }
     }
    ],
@@ -38,7 +38,7 @@
     },
     {
      "ticker": "QQQ",
-     "pct": 0.1
+     "pct": 0.2
     }
    ],
    "putCall": null
@@ -220,13 +220,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.16 vs 20d avg 100.25"
+    "detail": "DXY 101.14 vs 20d avg 100.25"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 18.21 vs VIX3M 19.77"
+    "detail": "VIX 18.07 vs VIX3M 19.67"
    },
    {
     "name": "credit",
@@ -238,13 +238,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 2.7% vs others 0.1%"
+    "detail": "defensives 5d 2.6% vs others 0.2%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2877 vs 20d avg 0.2827"
+    "detail": "RSP/SPY 0.2876 vs 20d avg 0.2827"
    },
    {
     "name": "skew",
@@ -259,8 +259,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -0.3,
-   "last": 59382,
+   "pct": 0.4,
+   "last": 59774.9,
    "newsCount": 10,
    "latestNews": {
     "title": "Strategy Says It May Sell Up to $1.25 Billion of Bitcoin - Bloomberg.com",
@@ -275,8 +275,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -3.4,
-   "last": 24.8,
+   "pct": -3.1,
+   "last": 24.9,
    "newsCount": 6,
    "latestNews": {
     "title": "CIFR Stock Surges: Crypto Miner Doubles Down On AI Data Centers With New Lease - Stocktwits",
@@ -296,13 +296,13 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -5,
-   "last": 45.4,
+   "pct": -4.3,
+   "last": 45.7,
    "newsCount": 12,
    "latestNews": {
-    "title": "IREN Stock Cracks In Early Trade After $2B Private Offering – Why Is JPMorgan Not Sold On Nvidia Deal? - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYjhzTlp0MjBIUlU4UXdpczJRUjBhRWk0cjg1SmFjVkZlVzBKMDF6eUlxM1hLNjhFTEl1RkY4aU5JcDhUZUhEYTJoMktiOTR5Y2JVb3hlRER6eUcteGhNMmpKWWFjaldVR2cxUlFKOER1cVh0Ykk3TjR1LTh5TGxmTWpCc0syQjJLMWRhNXNreS1GdTl2OHlVZzZIRGpOSlQxZWlrY084MFQtU1c0eG9Z?oc=5",
-    "time": "11:17 PM"
+    "title": "Another crypto firm joins Russell 1000 - thestreet.com",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSlRvbjMtczIxUGRKNFBiVnhKcjd0T1gwSDFRSlI5bFZ5THR0b3Z6U3dtTUFxeUZ4TFpJSlZxaGtTQ0U2d21PXy1Vekl4dVB3cUZrMURkbkpQRnlsS2sxeWFBT1djWExmdFh0bmdnMkJHYTN0STVDN3ZDVDdkU3E2UGhTNHEyQQ?oc=5",
+    "time": "10:20 AM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -317,9 +317,9 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -2.5,
-   "last": 250.1,
-   "newsCount": 7,
+   "pct": -1.8,
+   "last": 252.1,
+   "newsCount": 8,
    "latestNews": {
     "title": "Nebius Stock And 2 AI Infrastructure Picks With Fast Growth And Insider Ownership - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZUtlQk1iNFVSU2tsTkw5QlNvMGZjTHpWaGJDTWhVT0xFLWJaNm01UHByNElfTUgwcm1XM1p4ZzNLMEx1ZTdmNmJUczNnOTA1NGR1RXBkanpRcXhPYjhRTEhMTVNDNWRVTTBXMTVNV20yQzE1THlrcFlNajIzR1c1Mm8wTFdCMVRVZ0c3Nkw0SkplOVYwb3kxSndiZnM0aU9ucnNtY0NHaWtJQ2hucGE2cURKY3RfYzJsbmtXb1ZhdGVLN0dDN0xfc2Jn0gHPAUFVX3lxTE1CZW5ZTUhJQTZ6LXhvZldJcmg1cE9hX0ZvaUxTQUFqVUI4TGl1dl9kSlU0Y3VBb3lHMDF6QVM3bzNVTjdjZk1wVGZackd2blA4R3d2aXR6eDBXLTMxMGVDUFdUdDZyU2NFNHRtRjZHWWZhLWFvMHFuTkJfVEJRNU1jRkVpTEVma255akZHVkZjV25OQ29pQzY1ZGRTTDRhRWhzQkllZXBTcHVId2tsdVNSNU90ZmJUdTBBenRyQkVZdHR4VV9HejgyYzFiMXNzbw?oc=5",
@@ -338,13 +338,13 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -1.9,
-   "last": 522.6,
+   "pct": -1.7,
+   "last": 523.4,
    "newsCount": 18,
    "latestNews": {
-    "title": "UBS Raises PT on Advanced Micro Devices (AMD) - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaFpWYzVkOWk3MVJtcnRwZ2xBUi0zLXFFd2lGaW9EWVFFZFJ3T0JsM3hxRUd0dDZabmtkUUdoNmJROHBLY1p4aDV2enNhNGlEdHlJalp5dDNWSW1CLWJhYjZLYUlFb2x1YUlzV3FucG5aUWJrTkJKcEJVQ3FNcFEtYmV1UFBzZXZhWHl3N0xJRGhkZmdDbllxNQ?oc=5",
-    "time": "3:52 AM"
+    "title": "Cantor Fitzgerald raises AMD stock price target to $700 on compute momentum - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONHYyWVlHQXZWMzJBNTUtQUlERzJZTlZ1aHNkSE9SUUgtVW10UGdROEdDc2JXSGdmYVFtLTc2cjRWMTVKb1VfOTFLanFSVEJaUUJXeUIzc1NjTUlOQlJyM1RNZ3dWWGVvZWlXZl9SVXBUTURHUXcwV01sZWdURmdiTFNGdEZQamd1YzlCZTVUY29wLXMwWjcwOU1lUzZEZGhaZWdmOUdPUFNLclRMdW81bFBvaUk4clN3MWFPRVRSaXhEdjg2VE5URTFBc1NlNlk?oc=5",
+    "time": "7:53 AM"
    },
    "latestPost": {
     "text": "🚀 AI is scaling fast. Is your infrastructure ready? Join AMD at Advancing AI 2026 on July 22–23 to hear how organizations across industries are turning AI innovation into real business impact. See what's next. Register now. https://www.amd.com/en/solutions/data-center/insights/how-amd-technologies-are-powering-the-next-wave-of-enterprise-transformation.html?utm_campaign=AAI26_%3CGeneral%3E&utm_source=twitter&utm_medium=social&utm_content=1782741619",
@@ -358,13 +358,13 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -10.1,
-   "last": 36.8,
-   "newsCount": 4,
+   "pct": -9.5,
+   "last": 37.1,
+   "newsCount": 5,
    "latestNews": {
-    "title": "Applied Digital Expands Credit Facility, Increases Preferred Stock Cap - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQajVYY0VlOVBrRmwyb0VmcmhZVGF0ZldVT0FqeWRNMnlqT1FKOHJHOWJDYjNEQy1EUkplcXdCZ0V1dlpsQWtjVFY1cUE3QUdRUlJDSHRsWU8zbW1HRkduYWo4SXlrS1NGRGNhcG5XTGlTajBQQW9LNHVRbzFiaFVmdEpSS3RweTFVVGVJbzF2NU1OQ1R2R2dobGpZMnZ2OHNxQ3NHeTRkcU90bTJJZGozWA?oc=5",
-    "time": "7:09 AM"
+    "title": "Applied Digital Corporation(NasdaqGS:APLD) dropped from Russell Microcap Value Benchmark Index - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQclgzbXBQZ3IwcWw3WWYySXJ6SjFiT09jMUZyVlhOMWFlWWJpaUYzc2lTT3JVdktLM3BoQm93SUZMZG5LQi1JRjYyekpzTW5aNXd1NlRadmtzSDhxM0JhbS1FcTBjSnA5SEFlTFRWenduNm9nSmVtWE9GNEhrcXJJZldxdUI0SUhLeVRWTFlabmxIcjd4M0tSbFB4WGVTck1wUDBoRFFCTzZscmlJT1h3RjdiNHd6U211WTNtZ1FQVUMzeXdfN1B0SWFkYW9YMjN5bGNJTEJMZVdsRW9Qbkdj?oc=5",
+    "time": "9:08 AM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -379,8 +379,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -4.3,
-   "last": 25,
+   "pct": -4.5,
+   "last": 24.9,
    "newsCount": 8,
    "latestNews": {
     "title": "WULF Stock Tumbles Overnight On Raised Stock Offering At 9% Discount — Retail Stays Bullish - Stocktwits",
@@ -400,7 +400,7 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 11.5,
+   "pct": 11.7,
    "last": 8.7,
    "newsCount": 6,
    "latestNews": {
@@ -416,8 +416,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -1,
-   "last": 5.8,
+   "pct": 3.8,
+   "last": 6.1,
    "newsCount": 1,
    "latestNews": {
     "title": "New Era Energy & Digital, Inc.(NasdaqGM: NUAI) added to Russell Microcap Index - marketscreener.com",
@@ -437,8 +437,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -2.5,
-   "last": 15.5,
+   "pct": -2.8,
+   "last": 15.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -449,8 +449,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -1,
-   "last": 11.3,
+   "pct": 0.6,
+   "last": 11.5,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -461,8 +461,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 2.6,
-   "last": 94.8,
+   "pct": 3.7,
+   "last": 95.8,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -473,8 +473,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.8,
-   "last": 26.1,
+   "pct": 0,
+   "last": 26.3,
    "newsCount": 1,
    "latestNews": {
     "title": "Mineralys Therapeutics (NASDAQ: MLYS) flagged sale of 104,124 shares via cashless exercise - Stock Titan",
@@ -489,8 +489,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -0.7,
-   "last": 194.3,
+   "pct": -1,
+   "last": 193.7,
    "newsCount": 18,
    "latestNews": {
     "title": "What's Going On With NVIDIA Stock Monday? - Benzinga",
@@ -509,7 +509,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -0.3,
+   "pct": 0.2,
    "last": 1,
    "newsCount": 10,
    "latestNews": {
@@ -525,8 +525,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 0,
-   "last": 11.6,
+   "pct": 0.9,
+   "last": 11.8,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -537,8 +537,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 13.8,
-   "last": 91.8,
+   "pct": 15.9,
+   "last": 93.5,
    "newsCount": 18,
    "latestNews": {
     "title": "Rocket Lab to Acquire Iridium in Historic Deal, Creating A Fully Vertically Integrated Space Powerhouse Primed for Growth - PR Newswire",
@@ -557,13 +557,13 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 8.5,
-   "last": 116.4,
+   "pct": 7.7,
+   "last": 115.5,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir Stock (PLTR) Rises on Nvidia Government AI Partnership - Barron's",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYjBtMXV4UkxXbWNWNDFuVTdWeWFGWEJXblJFSThPVTV5RGltRDFEdFBKdGQySFphMThyR19GTjdvNnY3Qko4cjlpaEtJakkyaXotdENaSGVWWkloWm9wVjJUVktOMHpqUTVnaGxYZENob05jbnFIaEFkbk5hM2tQVw?oc=5",
-    "time": "9:43 AM"
+    "time": "11:24 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -573,8 +573,8 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 5.8,
-   "last": 373.3,
+   "pct": 5,
+   "last": 370.6,
    "newsCount": 14,
    "latestNews": {
     "title": "Microsoft stock is headed for its worst month since 2000 - Yahoo Finance",
@@ -589,8 +589,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 1,
-   "last": 33,
+   "pct": 1.3,
+   "last": 33.1,
    "newsCount": 1,
    "latestNews": {
     "title": "Why Is HIMS Stock Surging More Than 11% After-Hours Today? - Stocktwits",
@@ -605,8 +605,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 2.3,
-   "last": 351.7,
+   "pct": 2.4,
+   "last": 351.9,
    "newsCount": 18,
    "latestNews": {
     "title": "Why Is Alphabet Stock (GOOGL) Up? Dow Entry and Google AI Limits on Meta. - Barron's",
@@ -622,7 +622,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": -1.5,
-   "last": 4036.4,
+   "last": 4036.9,
    "newsCount": 10,
    "latestNews": {
     "title": "Weekly Markets Monitor - Nasty surprises - World Gold Council",
@@ -637,8 +637,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.5,
-   "last": 73.7,
+   "pct": 1.6,
+   "last": 73.8,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again - CNBC",
@@ -653,8 +653,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.8,
-   "last": 70.5,
+   "pct": 2,
+   "last": 70.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Goldman Sachs Raises Q4 Brent, WTI Crude Price Forecast Amid Longer Hormuz Disruption - EnergyNow.com",
@@ -667,6 +667,17 @@
   }
  ],
  "events": [
+  {
+   "id": "a5c40b8ba083",
+   "type": "news",
+   "symbol": "CIFR",
+   "section": "trading",
+   "time": 1782747180000,
+   "timeLabel": "11:33 AM",
+   "source": "",
+   "text": "Cipher Digital Inc.(NasdaqGS: CIFR) dropped from Russell 2000 Value Benchmark - marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYVdBUkh2Ynp6ckR3NFJtVHpxWHhub0Jxb3VpTFgtTXNxVG9lWHR5RkRmYlNtSlBXRWVCZVl6TnJEZXB3TG1PcFI3MFduV05HSS0yMm92bjYycXpJb2RaOHU4Ri1zcHYzbXVhZDcwOE9JSDVvVjdSRVNYRktVcWdKZDNPTGNwX19aekpLYVpFcEZQM2ZrRW1mTlRXTldDZHdua3Z6ZGZ4ak9vLXRTaTJMcHBkM0oyU0hlLWdCY2pXb1NiZmhGRUE?oc=5"
+  },
   {
    "id": "cdf536f8ca5e",
    "type": "news",
@@ -721,6 +732,17 @@
    "source": "",
    "text": "ByteDance targets CPU mass production in H2 2027 to power AI push - SCMP",
    "url": "https://finance.yahoo.com/technology/ai/articles/bytedance-targets-cpu-mass-production-143149445.html?.tsrc=rss"
+  },
+  {
+   "id": "cc13bfeb368d",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1782742920000,
+   "timeLabel": "10:22 AM",
+   "source": "",
+   "text": "CoreWeave Collaborates With Conapto to Expand Sweden AI Cloud Capacity",
+   "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-collaborates-conapto-expand-sweden-142200890.html?.tsrc=rss"
   },
   {
    "id": "1e63c9b14193",
@@ -842,6 +864,17 @@
    "url": "https://finance.yahoo.com/technology/ai/articles/amd-amd-russell-top-50-130947933.html?.tsrc=rss"
   },
   {
+   "id": "e0e3f18961bb",
+   "type": "news",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1782738480000,
+   "timeLabel": "9:08 AM",
+   "source": "",
+   "text": "Applied Digital Corporation(NasdaqGS:APLD) dropped from Russell Microcap Value Benchmark Index - marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQclgzbXBQZ3IwcWw3WWYySXJ6SjFiT09jMUZyVlhOMWFlWWJpaUYzc2lTT3JVdktLM3BoQm93SUZMZG5LQi1JRjYyekpzTW5aNXd1NlRadmtzSDhxM0JhbS1FcTBjSnA5SEFlTFRWenduNm9nSmVtWE9GNEhrcXJJZldxdUI0SUhLeVRWTFlabmxIcjd4M0tSbFB4WGVTck1wUDBoRFFCTzZscmlJT1h3RjdiNHd6U211WTNtZ1FQVUMzeXdfN1B0SWFkYW9YMjN5bGNJTEJMZVdsRW9Qbkdj?oc=5"
+  },
+  {
    "id": "e4d8da388b28",
    "type": "news",
    "symbol": "MLYS",
@@ -952,6 +985,17 @@
    "url": "https://finance.yahoo.com/technology/ai/articles/amd-amd-commits-2-billion-102239533.html?.tsrc=rss"
   },
   {
+   "id": "15401a8547aa",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782728100000,
+   "timeLabel": "6:15 AM",
+   "source": "",
+   "text": "North Star Investment Management Corp. Sells 6,513 Shares of Advanced Micro Devices, Inc. $AMD - MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTjFQazR3UUkwdE5HN1Fxc2pLc01TNHZ5d292R0VraUtFNzdlanRpQVJWa0hGLVB6RERqd19zdXB3OS1CWHByTzJMTlB3RGI1WG9XTFhYdmU5d0F4a3JWLXFBVURRRnNVTFBZdGlQbUxiT1p6Ry1YNlFJTVZSekFoVTJNRHROcG5XZmJvenRoMjRUdDJzbXhRMHNvN0JpVndjOE0tblNldThVT0NUSDlsc3Nmb2hGeS1SX0hPblR1OTFXMEZGc293NmZVcVpOaHhYSm5GaWRTbGE5cHEtN1FmOHdKRUE?oc=5"
+  },
+  {
    "id": "36da6293cac0",
    "type": "news",
    "symbol": "IREN",
@@ -994,6 +1038,17 @@
    "source": "",
    "text": "3 Artificial Intelligence Stocks You Can Buy and Hold for the Next Decade",
    "url": "https://www.fool.com/investing/2026/06/28/3-artificial-intelligence-stocks-you-can-buy-and-h/?.tsrc=rss"
+  },
+  {
+   "id": "d87af9f3184d",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782684000000,
+   "timeLabel": "6:00 PM",
+   "source": "",
+   "text": "The Two Worlds Priced Into Advanced Micro Devices Stock - Trefis",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWkpWdUZHNHUzRzRId2lrMXo1T3NtTmVrU0pUN1BTejJRajNIc3BEM2l0bnBOc1pLNGZRa1N4NS1ULVpKcmZXcnlnZldjeFczODBsWmcyblczaGdKVVV6TkZHSGtHcVhiSHhHRnBUM19GYXN3WWpPTkZXWFJYNG03cjE0djRzSGhBV3lheVE4V2o3aUM1ZDhhZ2xfRXBhNjlCMk1sUDBOWk50OV9tWll1NlM1bnB5cjJodFpndXp6Mng4QQ?oc=5"
   },
   {
    "id": "bfc8b5384331",
@@ -2997,12 +3052,21 @@
    "stBull": null,
    "regime": 57.1,
    "composite": 34.6
+  },
+  {
+   "t": 1782748515572,
+   "label": "Jun 29 2026 11:55 AM ET",
+   "cnn": 26,
+   "crypto": 12,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 34.6
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.09,
+  "divMax": 0.08,
   "fallbacks": 0
  }
 }
