@@ -1,33 +1,33 @@
 {
- "generatedAt": "Jun 29, 2026, 12:15 PM ET",
- "generatedAtMs": 1782749701923,
+ "generatedAt": "Jun 29, 2026, 12:40 PM ET",
+ "generatedAtMs": 1782751215097,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-29 12:00 ET",
-  "pricesAsOf": "Jun 29, 2026, 12:15 PM ET",
+  "pricesAsOf": "Jun 29, 2026, 12:40 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7480,
-     "change": 1.1,
+     "value": 7474.5,
+     "change": 1,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29872.25,
+     "value": 29877.25,
      "change": 1.7,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 17.86,
-     "change": -3,
+     "value": 17.79,
+     "change": -3.4,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 17.87,
-      "divergencePct": 0.06
+      "cnbcLast": 17.89,
+      "divergencePct": 0.56
      }
     }
    ],
@@ -38,7 +38,7 @@
     },
     {
      "ticker": "QQQ",
-     "pct": 0.4
+     "pct": 0.5
     }
    ],
    "putCall": null
@@ -220,13 +220,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.11 vs 20d avg 100.25"
+    "detail": "DXY 101.12 vs 20d avg 100.25"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 17.86 vs VIX3M 19.56"
+    "detail": "VIX 17.81 vs VIX3M 19.53"
    },
    {
     "name": "credit",
@@ -238,13 +238,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 2.6% vs others 0.3%"
+    "detail": "defensives 5d 3% vs others 0.2%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2878 vs 20d avg 0.2827"
+    "detail": "RSP/SPY 0.2879 vs 20d avg 0.2828"
    },
    {
     "name": "skew",
@@ -259,13 +259,13 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 0.1,
-   "last": 59616.8,
+   "pct": 0.3,
+   "last": 59715.4,
    "newsCount": 10,
    "latestNews": {
-    "title": "Strategy’s Turnaround Plan Includes Stock Buyback, Bitcoin Sales and More Reserves - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNHo1TVU4Q19RTWxZcVdqYjFyemNoWmtaN1ZNd1FIR3d4T0Q4U0czamw3TVNzNFNGYTFYUW5iYWMzVUoxR1dUbDFaQ0ZPOEg4UmdWQ1lvekd3WG9TNXNJdGhaeWdrcGlWd0ZUdGt6djZVVk1acnpYOXNiSGZ1Z25EXzVjRnplQW5oQkY4RlBkWjBVNFZFYjJvelVzTU5HSmtmTEpWdmM0QVlwTHhPTjBMQXRPWlRadGx6OGdWM0dEa1RXRS0xaktB?oc=5",
-    "time": "10:53 AM"
+    "title": "Strategy Says It May Sell Up to $1.25 Billion of Bitcoin - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUUM4UVFyX0RMMHE4NnljdDJKT0tiVVdZcFZqemNLeXRqNUxqLUd0TGFCLXpkZXpJS0ozcWwyV3BaTDJDT1JtR2dWU1ZTZG1vbW9iWFFzMWpKYndjLWUxbGs2MG1qNm5OMjY5NlkxdDFFNEs5d0xxUXVWR0FKRWd6QjM4V2xkWTU4VXE5cWE2SG9jR0d1X3dxSndtNW0tQXJfUnpUUXQtbks5eGM?oc=5",
+    "time": "10:27 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -275,9 +275,9 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -2.8,
+   "pct": -2.6,
    "last": 25,
-   "newsCount": 6,
+   "newsCount": 5,
    "latestNews": {
     "title": "CIFR Stock Surges: Crypto Miner Doubles Down On AI Data Centers With New Lease - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLVluMURaVTBmTVRTWW1LaGtHUDIzSV8wR2RRMHduUUt3aWNuakE4SndfOUM5bmkteDFGTVVHaXNwT0VPeFA0SHkxM25vRTVXRWVyWjBLWjRQaVNINFlTaGE4ekdhXzhjR2lIMmdpYUdtRkFEN04zUDdHQS1lX1pfcGdKazB3OFpXdnJLWU9jRjl6ZUdBbVpReEFjYUh2enBKdE9vS0V0U3FZeTdWaFlJNnRqRQ?oc=5",
@@ -296,8 +296,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -3.7,
-   "last": 46,
+   "pct": -3.9,
+   "last": 45.9,
    "newsCount": 12,
    "latestNews": {
     "title": "Another crypto firm joins Russell 1000 - thestreet.com",
@@ -317,8 +317,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.4,
-   "last": 255.6,
+   "pct": -0.1,
+   "last": 256.3,
    "newsCount": 8,
    "latestNews": {
     "title": "Nebius Stock And 2 AI Infrastructure Picks With Fast Growth And Insider Ownership - simplywall.st",
@@ -338,8 +338,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -1,
-   "last": 527.3,
+   "pct": -0.4,
+   "last": 530.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Cantor Fitzgerald raises AMD stock price target to $700 on compute momentum - Investing.com",
@@ -359,8 +359,8 @@
    "section": "trading",
    "class": "equity",
    "pct": -8.8,
-   "last": 37.4,
-   "newsCount": 4,
+   "last": 37.3,
+   "newsCount": 5,
    "latestNews": {
     "title": "Applied Digital Corporation(NasdaqGS:APLD) dropped from Russell Microcap Value Benchmark Index - marketscreener.com",
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQclgzbXBQZ3IwcWw3WWYySXJ6SjFiT09jMUZyVlhOMWFlWWJpaUYzc2lTT3JVdktLM3BoQm93SUZMZG5LQi1JRjYyekpzTW5aNXd1NlRadmtzSDhxM0JhbS1FcTBjSnA5SEFlTFRWenduNm9nSmVtWE9GNEhrcXJJZldxdUI0SUhLeVRWTFlabmxIcjd4M0tSbFB4WGVTck1wUDBoRFFCTzZscmlJT1h3RjdiNHd6U211WTNtZ1FQVUMzeXdfN1B0SWFkYW9YMjN5bGNJTEJMZVdsRW9Qbkdj?oc=5",
@@ -379,9 +379,9 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -4.1,
+   "pct": -4.2,
    "last": 25,
-   "newsCount": 8,
+   "newsCount": 7,
    "latestNews": {
     "title": "WULF Stock Tumbles Overnight On Raised Stock Offering At 9% Discount — Retail Stays Bullish - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVWdYdEd6ZXY2Rko4ak8zYUZ5UEQzeWlfWmo2U1JkMjlSNE1YbmFudnNJUUtpRUR5ZkJmVHhOb0plNktMbjdSZXFvUWJvZjUyQWFiS3lPTGI4QnBSWDZLSExWS3FvbHpQSXl4WHMwbXZVRWJJQ0R4ekk2TXlaWUczdDVxOW9CaTVqZHNOVmFOcVR3X3hleUlBLXlBcjdZV2VWelhzOG9ic1JoQ2M0WnRnUjV0eFlFVnFqcEFGV2ZIeTE4UUcwSlV0NDZVMnJCR0tHVFlCQVVvVjB3ZXQ0QV9SSkozR25hVnc?oc=5",
@@ -400,8 +400,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 12.1,
-   "last": 8.7,
+   "pct": 8.7,
+   "last": 8.5,
    "newsCount": 6,
    "latestNews": {
     "title": "ImmunityBio (IBRX) Moves 11.8% Higher: Will This Strength Last? - Yahoo Finance",
@@ -416,8 +416,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 6,
-   "last": 6.2,
+   "pct": 10.1,
+   "last": 6.5,
    "newsCount": 2,
    "latestNews": {
     "title": "New Era Energy & Digital, Inc.(NasdaqGM: NUAI) added to Russell 2000 Value Benchmark - marketscreener.com",
@@ -437,8 +437,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -2.8,
-   "last": 15.4,
+   "pct": -3.5,
+   "last": 15.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -449,8 +449,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 1,
-   "last": 11.5,
+   "pct": 1.5,
+   "last": 11.6,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -461,8 +461,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 3.3,
-   "last": 95.4,
+   "pct": 3.5,
+   "last": 95.6,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -473,8 +473,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 0.5,
-   "last": 26.5,
+   "pct": -0.7,
+   "last": 26.2,
    "newsCount": 1,
    "latestNews": {
     "title": "Mineralys Therapeutics (NASDAQ: MLYS) flagged sale of 104,124 shares via cashless exercise - Stock Titan",
@@ -489,8 +489,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -1,
-   "last": 193.8,
+   "pct": -1.4,
+   "last": 193,
    "newsCount": 18,
    "latestNews": {
     "title": "What's Going On With NVIDIA Stock Monday? - Benzinga",
@@ -525,7 +525,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 1.1,
+   "pct": 1.2,
    "last": 11.8,
    "newsCount": 0,
    "latestNews": null,
@@ -537,8 +537,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 16.8,
-   "last": 94.2,
+   "pct": 17.8,
+   "last": 95.1,
    "newsCount": 18,
    "latestNews": {
     "title": "Rocket Lab to Acquire Iridium in Historic Deal, Creating A Fully Vertically Integrated Space Powerhouse Primed for Growth - PR Newswire",
@@ -557,8 +557,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 8,
-   "last": 115.8,
+   "pct": 7.7,
+   "last": 115.6,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir Stock (PLTR) Rises on Nvidia Government AI Partnership - Barron's",
@@ -573,8 +573,8 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 4.4,
-   "last": 368.4,
+   "pct": 4.3,
+   "last": 368.2,
    "newsCount": 14,
    "latestNews": {
     "title": "Microsoft stock is headed for its worst month since 2000 - Yahoo Finance",
@@ -589,7 +589,7 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 2.3,
+   "pct": 2.5,
    "last": 33.5,
    "newsCount": 1,
    "latestNews": {
@@ -605,13 +605,13 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 2.5,
-   "last": 352.4,
+   "pct": 2.1,
+   "last": 351.1,
    "newsCount": 18,
    "latestNews": {
-    "title": "Why Is Alphabet Stock (GOOGL) Up? Dow Entry and Google AI Limits on Meta. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQ0k1TXJOVVctSXA1ZWx3R1c5WDRydk84a21iSjd5M1hNQXBSajNOWlU5Snp2VWJBelpzcElZRVZoZUVzV0lHQUhsbG1RSjh1TEhnTW1zSWY3RFpYQ0JUWWlLSk5fQnRRZzhSdnBxbUM3VjBDZUFlZlFzQ0xLa1FMWkQteUZwVWVtOGgtdQ?oc=5",
-    "time": "9:50 AM"
+    "title": "Alphabet stock pops 4% on Dow debut, but the tech giant faces major AI questions - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Qc0o0SVZsMDY5RmRKQ0RmcFFiTjhqSnl5VHFRQ3dZZmNlQXp3cXNQSW41Rzl0SlBHdzkxYnl3QkZZMjBiN0htQUxFV2NhaW9DVFcxakdaSkV0dmVwbFhEX3owaHpaQl84U21ISC0ybkdCU0F3NGdSZ9IBfkFVX3lxTE9tMGUwNERJVm1pdm42NWExVGZtWHdsSUZrTjYzR1N1cEVmWk40Nm9icWNzNVMxNUI1SjN1Y0hmNUJoRkRJZ0xzTWFTUzRYZjFPYk5KZ2N6ektEMjhsazQ0M0Q4bXQwNkJtYmVBN2VuajQ1TDA3WmkxU0V3UVpXUQ?oc=5",
+    "time": "12:00 PM"
    },
    "latestPost": {
     "text": "R to @Google: For the full Q&A with @rseroter on our full-stack approach ↓ https://goo.gle/442E0uY",
@@ -626,7 +626,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": -1.4,
-   "last": 4040.6,
+   "last": 4038.5,
    "newsCount": 10,
    "latestNews": {
     "title": "Weekly Markets Monitor - Nasty surprises - World Gold Council",
@@ -641,7 +641,7 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.9,
+   "pct": 2,
    "last": 74,
    "newsCount": 10,
    "latestNews": {
@@ -657,13 +657,13 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 2.2,
+   "pct": 2.3,
    "last": 70.8,
    "newsCount": 10,
    "latestNews": {
-    "title": "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTWJRcFBwNnR2cWRJVkJQb3VRQmJiNkI3cHR6X3pGWGU3NWp0YllOaDZUdWdvZ0Z5TldETFgta2U2WUR4Nnh0VEZxQXB0TmJpRWhlM1Y2M1hBSk5PSnFwWlktUGEtNEo4djBOdUlJVklqM1VaWEoxaXRPMnRZbllLNGJaTkh4WUtERUV6MUEzUHJET3lraXNVQjRhbEtFU2150gGmAUFVX3lxTFBZcmZVZ2kzRjRkT1IzYzRMWnBBX25SSklTTk43WXV2VnRQN1k0clNnOHp3YUhIN214clJOU1BONTlOVG1TRXlEMXR3UkpiVURPb24zVjJjblpJUkw4WTVpZ3U4ZnJ6MXNYbEpNcVJPNmVVVGw3MlBJU1pybWlqN3BjbTNzVFRUV3JxQXZxaVpEXzJiQ0NxeVlTTWJ0UVZVc1hTNkdNTUE?oc=5",
-    "time": "8:00 PM"
+    "title": "Goldman Sachs Raises Q4 Brent, WTI Crude Price Forecast Amid Longer Hormuz Disruption - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQUlGQlRESnUzSGQ5b0ZOLWRBMUZTV0F3cXIwYXdFTFFkV21UeW1WT3A2VkprdnFrWlgyZ3F5ZU9kVEtHUnlVbFptS2VMbkNEVk55UXBnOVotQ0ZReENyOTIyUzlfMjVjQktaS3RUUmVfLUlhcjF0WFl6cW91ZFNvYURpZTNia0JUbU81ZUtvd2VMWXRRNnd3N0dBLVQ5MlExRHJKUGtKNk5zRnU5bFdKVEp0V1V0Zw?oc=5",
+    "time": "4:22 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -3124,6 +3124,15 @@
   {
    "t": 1782749701923,
    "label": "Jun 29 2026 12:15 PM ET",
+   "cnn": 26,
+   "crypto": 12,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 34.6
+  },
+  {
+   "t": 1782751215097,
+   "label": "Jun 29 2026 12:40 PM ET",
    "cnn": 26,
    "crypto": 12,
    "stBull": null,
