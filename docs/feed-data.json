@@ -1,33 +1,33 @@
 {
- "generatedAt": "Jun 29, 2026, 12:40 PM ET",
- "generatedAtMs": 1782751215097,
+ "generatedAt": "Jun 29, 2026, 1:00 PM ET",
+ "generatedAtMs": 1782752401738,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-06-29 12:00 ET",
-  "pricesAsOf": "Jun 29, 2026, 12:40 PM ET",
+  "asOfET": "2026-06-29 13:00 ET",
+  "pricesAsOf": "Jun 29, 2026, 1:00 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7474.5,
+     "value": 7475,
      "change": 1,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29877.25,
-     "change": 1.7,
+     "value": 29905,
+     "change": 1.8,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 17.79,
-     "change": -3.4,
+     "value": 17.91,
+     "change": -2.7,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 17.89,
-      "divergencePct": 0.56
+      "cnbcLast": 17.86,
+      "divergencePct": 0.28
      }
     }
    ],
@@ -38,7 +38,7 @@
     },
     {
      "ticker": "QQQ",
-     "pct": 0.5
+     "pct": 0.6
     }
    ],
    "putCall": null
@@ -220,13 +220,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.12 vs 20d avg 100.25"
+    "detail": "DXY 101.08 vs 20d avg 100.25"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 17.81 vs VIX3M 19.53"
+    "detail": "VIX 17.92 vs VIX3M 19.57"
    },
    {
     "name": "credit",
@@ -238,13 +238,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 3% vs others 0.2%"
+    "detail": "defensives 5d 2.8% vs others 0.2%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2879 vs 20d avg 0.2828"
+    "detail": "RSP/SPY 0.2875 vs 20d avg 0.2827"
    },
    {
     "name": "skew",
@@ -259,13 +259,13 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 0.3,
-   "last": 59715.4,
+   "pct": 0.4,
+   "last": 59777.8,
    "newsCount": 10,
    "latestNews": {
-    "title": "Strategy Says It May Sell Up to $1.25 Billion of Bitcoin - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUUM4UVFyX0RMMHE4NnljdDJKT0tiVVdZcFZqemNLeXRqNUxqLUd0TGFCLXpkZXpJS0ozcWwyV3BaTDJDT1JtR2dWU1ZTZG1vbW9iWFFzMWpKYndjLWUxbGs2MG1qNm5OMjY5NlkxdDFFNEs5d0xxUXVWR0FKRWd6QjM4V2xkWTU4VXE5cWE2SG9jR0d1X3dxSndtNW0tQXJfUnpUUXQtbks5eGM?oc=5",
-    "time": "10:27 AM"
+    "title": "Strategy Says It May Sell Up to $1.25 Billion of Bitcoin - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcDB5NHVvMFh0bmdrR0Q3MWJzUDNGSVlYWTIzdDdiN0xXWXFWV1JOemZRQldYNmVXSTVUeE9KSDByOEJ4WkNJTjhOZFRFNUVJdUo5U2tkSmpJZ19rZUdEUURGVS1QNExoRDFfOE5icVh2ZzR0YlJENmFwMWdEdHdvSS12emVWUzVrdUFGaTBhY1Q0Yk0?oc=5",
+    "time": "9:04 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -275,9 +275,9 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -2.6,
-   "last": 25,
-   "newsCount": 5,
+   "pct": -1.2,
+   "last": 25.4,
+   "newsCount": 4,
    "latestNews": {
     "title": "CIFR Stock Surges: Crypto Miner Doubles Down On AI Data Centers With New Lease - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLVluMURaVTBmTVRTWW1LaGtHUDIzSV8wR2RRMHduUUt3aWNuakE4SndfOUM5bmkteDFGTVVHaXNwT0VPeFA0SHkxM25vRTVXRWVyWjBLWjRQaVNINFlTaGE4ekdhXzhjR2lIMmdpYUdtRkFEN04zUDdHQS1lX1pfcGdKazB3OFpXdnJLWU9jRjl6ZUdBbVpReEFjYUh2enBKdE9vS0V0U3FZeTdWaFlJNnRqRQ?oc=5",
@@ -296,8 +296,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -3.9,
-   "last": 45.9,
+   "pct": -2.3,
+   "last": 46.6,
    "newsCount": 12,
    "latestNews": {
     "title": "Another crypto firm joins Russell 1000 - thestreet.com",
@@ -317,8 +317,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.1,
-   "last": 256.3,
+   "pct": 0.6,
+   "last": 258.1,
    "newsCount": 8,
    "latestNews": {
     "title": "Nebius Stock And 2 AI Infrastructure Picks With Fast Growth And Insider Ownership - simplywall.st",
@@ -338,8 +338,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -0.4,
-   "last": 530.4,
+   "pct": -0.2,
+   "last": 531.6,
    "newsCount": 18,
    "latestNews": {
     "title": "Cantor Fitzgerald raises AMD stock price target to $700 on compute momentum - Investing.com",
@@ -358,9 +358,9 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -8.8,
-   "last": 37.3,
-   "newsCount": 5,
+   "pct": -7.4,
+   "last": 37.9,
+   "newsCount": 6,
    "latestNews": {
     "title": "Applied Digital Corporation(NasdaqGS:APLD) dropped from Russell Microcap Value Benchmark Index - marketscreener.com",
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQclgzbXBQZ3IwcWw3WWYySXJ6SjFiT09jMUZyVlhOMWFlWWJpaUYzc2lTT3JVdktLM3BoQm93SUZMZG5LQi1JRjYyekpzTW5aNXd1NlRadmtzSDhxM0JhbS1FcTBjSnA5SEFlTFRWenduNm9nSmVtWE9GNEhrcXJJZldxdUI0SUhLeVRWTFlabmxIcjd4M0tSbFB4WGVTck1wUDBoRFFCTzZscmlJT1h3RjdiNHd6U211WTNtZ1FQVUMzeXdfN1B0SWFkYW9YMjN5bGNJTEJMZVdsRW9Qbkdj?oc=5",
@@ -379,9 +379,9 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -4.2,
-   "last": 25,
-   "newsCount": 7,
+   "pct": -2.7,
+   "last": 25.4,
+   "newsCount": 8,
    "latestNews": {
     "title": "WULF Stock Tumbles Overnight On Raised Stock Offering At 9% Discount — Retail Stays Bullish - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVWdYdEd6ZXY2Rko4ak8zYUZ5UEQzeWlfWmo2U1JkMjlSNE1YbmFudnNJUUtpRUR5ZkJmVHhOb0plNktMbjdSZXFvUWJvZjUyQWFiS3lPTGI4QnBSWDZLSExWS3FvbHpQSXl4WHMwbXZVRWJJQ0R4ekk2TXlaWUczdDVxOW9CaTVqZHNOVmFOcVR3X3hleUlBLXlBcjdZV2VWelhzOG9ic1JoQ2M0WnRnUjV0eFlFVnFqcEFGV2ZIeTE4UUcwSlV0NDZVMnJCR0tHVFlCQVVvVjB3ZXQ0QV9SSkozR25hVnc?oc=5",
@@ -400,7 +400,7 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 8.7,
+   "pct": 8.9,
    "last": 8.5,
    "newsCount": 6,
    "latestNews": {
@@ -416,13 +416,13 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 10.1,
-   "last": 6.5,
-   "newsCount": 2,
+   "pct": 9.6,
+   "last": 6.4,
+   "newsCount": 3,
    "latestNews": {
-    "title": "New Era Energy & Digital, Inc.(NasdaqGM: NUAI) added to Russell 2000 Value Benchmark - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWUpkaFhNXzhJVEdEemgzQmo3S0dkTDNjTl9MbmhKbGs1cjlMdEtMTjRRcFEwbXpoTDFmbWpqcnhWdHhXVndMemZoQWZPam1JazhXSUZRaDZUbC1KSHR4cDZUdktlNXZTVm1XZmZmdk8zMEJDWmo4Qzg4WEt0QkgyTFBQWDFNRy03YVFjUVFId3V2WXoxLVU5Njg1XzFJeF9hYXRkQTBDRTVxZFVrR3hwaGxOUTFuZDh4RFlqQVJ6YzVLcnFaQU1LVjJZSQ?oc=5",
-    "time": "12:02 PM"
+    "title": "New Era Energy & Digital, Inc.(NasdaqGM:NUAI) added to Russell Microcap Value Benchmark Index - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaE44cENSLXRoNEhkcEtuWDk2SWZERGNPTHZORDZEVUUyV1ZuMl9rUC1CQTMycURRTjdzNm1SZUplTnFzQUEwZ2FJVHhfMV9HblpMdHFlWngzb3FBekh2QTFCMWY2OW1jaFdQOS0tT0JFR09sOFhKTmxwX25MTFlBRVVtb3F5WW5EeHF6dGNCSFVsbklnanlCUUlOcVJKVXZyUEJ3MkdDMVdsOEZLVDg5ZHVBY1NNZm9DcF9HM1AxekxfOGJ5UW9tUXRrTzlkdDcwdDBjSXRRcXQ?oc=5",
+    "time": "12:39 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -437,8 +437,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -3.5,
-   "last": 15.3,
+   "pct": -2.7,
+   "last": 15.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -449,7 +449,7 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 1.5,
+   "pct": 1.9,
    "last": 11.6,
    "newsCount": 0,
    "latestNews": null,
@@ -461,8 +461,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 3.5,
-   "last": 95.6,
+   "pct": 3.8,
+   "last": 95.9,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -473,7 +473,7 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.7,
+   "pct": -0.4,
    "last": 26.2,
    "newsCount": 1,
    "latestNews": {
@@ -489,8 +489,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -1.4,
-   "last": 193,
+   "pct": -1,
+   "last": 193.9,
    "newsCount": 18,
    "latestNews": {
     "title": "What's Going On With NVIDIA Stock Monday? - Benzinga",
@@ -509,7 +509,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -0.2,
+   "pct": 0.1,
    "last": 1,
    "newsCount": 10,
    "latestNews": {
@@ -525,8 +525,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 1.2,
-   "last": 11.8,
+   "pct": 2.4,
+   "last": 11.9,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -537,8 +537,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 17.8,
-   "last": 95.1,
+   "pct": 19.5,
+   "last": 96.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Rocket Lab to Acquire Iridium in Historic Deal, Creating A Fully Vertically Integrated Space Powerhouse Primed for Growth - PR Newswire",
@@ -557,8 +557,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 7.7,
-   "last": 115.6,
+   "pct": 7.4,
+   "last": 115.2,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir Stock (PLTR) Rises on Nvidia Government AI Partnership - Barron's",
@@ -573,8 +573,8 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 4.3,
-   "last": 368.2,
+   "pct": 4.6,
+   "last": 369,
    "newsCount": 14,
    "latestNews": {
     "title": "Microsoft stock is headed for its worst month since 2000 - Yahoo Finance",
@@ -591,12 +591,8 @@
    "class": "equity",
    "pct": 2.5,
    "last": 33.5,
-   "newsCount": 1,
-   "latestNews": {
-    "title": "Why Is HIMS Stock Surging More Than 11% After-Hours Today? - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUTZ2WDJaQWxwbUhKYnB3cDhMdTV1RDBqQ293UFhtTUYtRXFVMnJzNm40Sl9kNFozamZ2dVl3U3V6ZEtvRzhMcHYtSjc3Q0dVWE5jMTAxbk5zRFFhVTYyT2R4SEJuNVdVLU1XdEVUQ3I3aS1WVU1CYkVNWk5mQno3TkJ5dEpLQzZoeTRsTGlwNTJSMmVMbUEtamtzcUdLT0NaLTRhMg?oc=5",
-    "time": "9:58 PM"
-   },
+   "newsCount": 0,
+   "latestNews": null,
    "latestPost": null,
    "latestFiling": null,
    "stocktwits": null
@@ -605,8 +601,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 2.1,
-   "last": 351.1,
+   "pct": 2.3,
+   "last": 351.6,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet stock pops 4% on Dow debut, but the tech giant faces major AI questions - CNBC",
@@ -626,7 +622,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": -1.4,
-   "last": 4038.5,
+   "last": 4040.5,
    "newsCount": 10,
    "latestNews": {
     "title": "Weekly Markets Monitor - Nasty surprises - World Gold Council",
@@ -641,8 +637,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 2,
-   "last": 74,
+   "pct": 2.1,
+   "last": 74.1,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil prices rise as U.S. and Iran reach deal to halt attacks, U.S. oil above $70 per barrel again - CNBC",
@@ -657,8 +653,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 2.3,
-   "last": 70.8,
+   "pct": 2.5,
+   "last": 71,
    "newsCount": 10,
    "latestNews": {
     "title": "Goldman Sachs Raises Q4 Brent, WTI Crude Price Forecast Amid Longer Hormuz Disruption - EnergyNow.com",
@@ -671,6 +667,28 @@
   }
  ],
  "events": [
+  {
+   "id": "d8f1816869bf",
+   "type": "news",
+   "symbol": "WULF",
+   "section": "trading",
+   "time": 1782751200000,
+   "timeLabel": "12:40 PM",
+   "source": "",
+   "text": "Why WULF Stock Still Has 40% Upside After Nearly 500% Surge In Past 12 Months — Here’s What Citi Says",
+   "url": "https://stocktwits.com/news-articles/markets/equity/why-wulf-stock-still-has-40-percent-upside-after-500-surge-in-past-12-months-citi-says/cZ19hjLR7LJ?.tsrc=rss"
+  },
+  {
+   "id": "264bd123d17d",
+   "type": "news",
+   "symbol": "NUAI",
+   "section": "trading",
+   "time": 1782751140000,
+   "timeLabel": "12:39 PM",
+   "source": "",
+   "text": "New Era Energy & Digital, Inc.(NasdaqGM:NUAI) added to Russell Microcap Value Benchmark Index - marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaE44cENSLXRoNEhkcEtuWDk2SWZERGNPTHZORDZEVUUyV1ZuMl9rUC1CQTMycURRTjdzNm1SZUplTnFzQUEwZ2FJVHhfMV9HblpMdHFlWngzb3FBekh2QTFCMWY2OW1jaFdQOS0tT0JFR09sOFhKTmxwX25MTFlBRVVtb3F5WW5EeHF6dGNCSFVsbklnanlCUUlOcVJKVXZyUEJ3MkdDMVdsOEZLVDg5ZHVBY1NNZm9DcF9HM1AxekxfOGJ5UW9tUXRrTzlkdDcwdDBjSXRRcXQ?oc=5"
+  },
   {
    "id": "6c1bcd645416",
    "type": "post",
@@ -725,6 +743,17 @@
    "source": "",
    "text": "New Era Energy & Digital, Inc.(NasdaqGM: NUAI) added to Russell 2000 Value Benchmark - marketscreener.com",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWUpkaFhNXzhJVEdEemgzQmo3S0dkTDNjTl9MbmhKbGs1cjlMdEtMTjRRcFEwbXpoTDFmbWpqcnhWdHhXVndMemZoQWZPam1JazhXSUZRaDZUbC1KSHR4cDZUdktlNXZTVm1XZmZmdk8zMEJDWmo4Qzg4WEt0QkgyTFBQWDFNRy03YVFjUVFId3V2WXoxLVU5Njg1XzFJeF9hYXRkQTBDRTVxZFVrR3hwaGxOUTFuZDh4RFlqQVJ6YzVLcnFaQU1LVjJZSQ?oc=5"
+  },
+  {
+   "id": "126b27bdcbca",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782747600000,
+   "timeLabel": "11:40 AM",
+   "source": "",
+   "text": "HPE vs. AMD: Which Stock Is the Better Value Option? - Yahoo Finance Singapore",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5qNDNNaWVqYzJaakxtTTcwSW5NVmJDZVhCalktQ1hXUjFqZDVZaDRlV1p0SVhyazhEN1FCS2NNbXhfbkY2b2JCeHhwdlpQSURmYUt6dElPbWJHX0pPdHBsaXZtVlRxczZ1WG43ZnFHNXVYV0p5Z2UwZklZQUU?oc=5"
   },
   {
    "id": "a5c40b8ba083",
@@ -1064,6 +1093,17 @@
    "source": "",
    "text": "This Bitcoin Miner Could Be Sitting On A $3B AI Opportunity, Says Jefferies - Stocktwits",
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORldZWVNOVDdoRXpobG9CX19FNzQ2UlN4MDZNME1RYWlUMENtT1RrRkdXSDZzSTE5ZlhGQTdSX2JNbFNMMXJ4VEdoMDJWTzlueUpTek43NE9OYUFOUWJ6OUR3N1VHbXhRS0UwN3NZWXI1YUFRdVEyVUN6blBDOWdSMWxRYkhPNm1VYkE2UGRYc2JmNXVfVDZySlI4T0hIb2FfZ01XZHRpVm1Rc2RIQXZKZWtDZEJhNzVZ?oc=5"
+  },
+  {
+   "id": "48ceb90364e3",
+   "type": "news",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1782717660000,
+   "timeLabel": "3:21 AM",
+   "source": "",
+   "text": "Applied Digital Corporation(NasdaqGS: APLD) added to Russell 1000 Value Benchmark - marketscreener.com",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMWpTTDRTYnlVcEF4UmFEWXRHdDZDbXhoOHEzeXE1TjJiU0JlcDRLcW9aVHhIeWFiOFNnQS1oN1huTzZ6WUJXOW1oOUlOSElBZXJTQ3BRVDFQM0dUNFhlNVJ0dzV6YUM2X04wT25XQm9RM0NEc2M0c0NTN2gxekU5WTRHVkgyZFhOeXFiSVRjYnJGbi10ZUp1SjUzRjJQSlFxUzBKR3lqV3NiakhsVHprMjdHUUM0QTBPSXFwYkY5UEpHUngyNS1lT2Q2dXk?oc=5"
   },
   {
    "id": "f711b51252a8",
@@ -3133,6 +3173,15 @@
   {
    "t": 1782751215097,
    "label": "Jun 29 2026 12:40 PM ET",
+   "cnn": 26,
+   "crypto": 12,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 34.6
+  },
+  {
+   "t": 1782752401738,
+   "label": "Jun 29 2026 1:00 PM ET",
    "cnn": 26,
    "crypto": 12,
    "stBull": null,
