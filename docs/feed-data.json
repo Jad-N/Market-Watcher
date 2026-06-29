@@ -1,40 +1,40 @@
 {
- "generatedAt": "Jun 29, 2026, 2:15 PM ET",
- "generatedAtMs": 1782756901724,
+ "generatedAt": "Jun 29, 2026, 2:40 PM ET",
+ "generatedAtMs": 1782758415726,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-29 14:00 ET",
-  "pricesAsOf": "Jun 29, 2026, 2:15 PM ET",
+  "pricesAsOf": "Jun 29, 2026, 2:40 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7496,
-     "change": 1.3,
+     "value": 7492.5,
+     "change": 1.2,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30013.5,
-     "change": 2.2,
+     "value": 29999.25,
+     "change": 2.1,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 17.74,
-     "change": -3.6,
+     "value": 17.69,
+     "change": -3.9,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 17.69,
-      "divergencePct": 0.28
+      "cnbcLast": 17.63,
+      "divergencePct": 0.34
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.8
+     "pct": 0.9
     },
     {
      "ticker": "QQQ",
@@ -64,11 +64,23 @@
    },
    {
     "theme": "Miners to HPC/AI",
-    "items": []
+    "items": [
+     {
+      "title": "CIFR Stock Surges: Crypto Miner Doubles Down On AI Data Centers With New Lease - Stocktwits",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLVluMURaVTBmTVRTWW1LaGtHUDIzSV8wR2RRMHduUUt3aWNuakE4SndfOUM5bmkteDFGTVVHaXNwT0VPeFA0SHkxM25vRTVXRWVyWjBLWjRQaVNINFlTaGE4ekdhXzhjR2lIMmdpYUdtRkFEN04zUDdHQS1lX1pfcGdKazB3OFpXdnJLWU9jRjl6ZUdBbVpReEFjYUh2enBKdE9vS0V0U3FZeTdWaFlJNnRqRQ?oc=5",
+      "time": null
+     }
+    ]
    },
    {
     "theme": "AI chips",
-    "items": []
+    "items": [
+     {
+      "title": "Nvidia’s AI chip sales are stalling in China. Here’s who’s gaining market share - Fast Company",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDhQaWhSVGR0SElCU3BDTlE2eEU4c3JRbWJrX2dyTi0yLWtfb2JqOGs4ek9BMEFmR285UnlZdjZ1a3hPVGRxNEIwVXBPcDI5UEFKMk01ejM2bGtHNDVBUzgtWGZlRS1MZG5FWWhZZlhMQW9vRG9kbHh6MUgwaTJQcnpiajhxQ3pIbnVJWnBfZmlSOG9NMlNYX3hJYTEyT1hSaUJ1UWdnVmh4cF9qVXk4cm93?oc=5",
+      "time": null
+     }
+    ]
    }
   ]
  },
@@ -214,13 +226,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.1 vs 20d avg 100.25"
+    "detail": "DXY 101.09 vs 20d avg 100.25"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 17.75 vs VIX3M 19.55"
+    "detail": "VIX 17.69 vs VIX3M 19.53"
    },
    {
     "name": "credit",
@@ -232,13 +244,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 2.7% vs others 0.4%"
+    "detail": "defensives 5d 2.6% vs others 0.3%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2874 vs 20d avg 0.2827"
+    "detail": "RSP/SPY 0.2872 vs 20d avg 0.2827"
    },
    {
     "name": "skew",
@@ -253,8 +265,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 1.5,
-   "last": 60433.3,
+   "pct": 1.1,
+   "last": 60170.5,
    "newsCount": 10,
    "latestNews": {
     "title": "Strategy Says It May Sell Up to $1.25 Billion of Bitcoin - Yahoo Finance",
@@ -269,13 +281,13 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -1.6,
-   "last": 25.3,
-   "newsCount": 5,
+   "pct": -2.4,
+   "last": 25.1,
+   "newsCount": 6,
    "latestNews": {
-    "title": "Cipher Digital Inc.(NasdaqGS: CIFR) dropped from Russell 2000 Value Benchmark - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYVdBUkh2Ynp6ckR3NFJtVHpxWHhub0Jxb3VpTFgtTXNxVG9lWHR5RkRmYlNtSlBXRWVCZVl6TnJEZXB3TG1PcFI3MFduV05HSS0yMm92bjYycXpJb2RaOHU4Ri1zcHYzbXVhZDcwOE9JSDVvVjdSRVNYRktVcWdKZDNPTGNwX19aekpLYVpFcEZQM2ZrRW1mTlRXTldDZHdua3Z6ZGZ4ak9vLXRTaTJMcHBkM0oyU0hlLWdCY2pXb1NiZmhGRUE?oc=5",
-    "time": "11:33 AM"
+    "title": "Cipher Digital (CIFR) Is Down 7.8% After Russell Index Reclassification Into Growth Benchmarks Has The Bull Case Changed? - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdlc3bXBlS0pxUFVMa09uY1AtRjktX0ZicU9ITmZsTDRRMjZ0dGZNZnVCMFBKVHNYbDVibzhpYjA5Tk40YnlxOHFHTUJaTEN3XzRQTlNIRXBXOE5UdC1LemNxakFfMXpSZTBwd25aYUEwWTJxZGtsbWNKWS1NaW5SeWs0eVRqNWcyaXFIRHp3UkZrNjF6QXpvOGpFR0NDWDFnTzZrWkd3TDJIcm1zVEVjd1I5Vld3cWhXQXh3dFR4TzZJaVh3aW9LLUJFN29Rd9IB0wFBVV95cUxPYUlOZndHdzctcnQzNGZIbC1UbXRWYm9wMGFQOGN3d2FPUjRsdmNBUERtRjh6ZVpqVUo4Z1YwOWpFUlZBY3BhdTNjNnF2YzlyT2hSczE0QUVtNXNFbncxdmtuejl4RmhCVGFmVFdKcDBGZU1MWFFnNG0xcExIU1dZZklOcWtFb0lQX0loSXhsRGE3Vk1pU0dzaThaNGxIaG5VdERmREExSzlBekQ0UHBQUENpRWhjb2JXSjV1T2NiQ2x3b0R5Z1dCRUtEQVJ5WndKd2Yw?oc=5",
+    "time": "2:30 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -290,8 +302,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -2.3,
-   "last": 46.7,
+   "pct": -2.7,
+   "last": 46.4,
    "newsCount": 13,
    "latestNews": {
     "title": "Iris Energy Stock (IREN) Opinions on Russell 1000 Inclusion - Quiver Quantitative",
@@ -311,13 +323,13 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 1.1,
-   "last": 259.5,
+   "pct": 1,
+   "last": 259.1,
    "newsCount": 8,
    "latestNews": {
-    "title": "Nebius Stock And 2 AI Infrastructure Picks With Fast Growth And Insider Ownership - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZUtlQk1iNFVSU2tsTkw5QlNvMGZjTHpWaGJDTWhVT0xFLWJaNm01UHByNElfTUgwcm1XM1p4ZzNLMEx1ZTdmNmJUczNnOTA1NGR1RXBkanpRcXhPYjhRTEhMTVNDNWRVTTBXMTVNV20yQzE1THlrcFlNajIzR1c1Mm8wTFdCMVRVZ0c3Nkw0SkplOVYwb3kxSndiZnM0aU9ucnNtY0NHaWtJQ2hucGE2cURKY3RfYzJsbmtXb1ZhdGVLN0dDN0xfc2Jn0gHPAUFVX3lxTE1CZW5ZTUhJQTZ6LXhvZldJcmg1cE9hX0ZvaUxTQUFqVUI4TGl1dl9kSlU0Y3VBb3lHMDF6QVM3bzNVTjdjZk1wVGZackd2blA4R3d2aXR6eDBXLTMxMGVDUFdUdDZyU2NFNHRtRjZHWWZhLWFvMHFuTkJfVEJRNU1jRkVpTEVma255akZHVkZjV25OQ29pQzY1ZGRTTDRhRWhzQkllZXBTcHVId2tsdVNSNU90ZmJUdTBBenRyQkVZdHR4VV9HejgyYzFiMXNzbw?oc=5",
-    "time": "8:22 PM"
+    "title": "What's Going On With Nebius Group Stock Monday? - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTHc5bVBXTVFtcG8zVGJreWlRY1g3VkRiLW1Lb3JyYmFIVkJ1NGlTZWE5ZGJRM19QU05HZVFEMWxXb1htbHZ6Y1Vfb0Q4UEJEVzR2alBzbmZlclpxQ3d6cjdjVWFxREZ3SXNLalU5T0VNbzBqVWJaYVBydDFUaXpEZEh5QzVqVnBrOWVOY3E4VHdpQmV3NEZ6NWM0eGFxcEtFd0JWdzdUYXltVGF5?oc=5",
+    "time": "2:13 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -336,9 +348,9 @@
    "last": 539.5,
    "newsCount": 18,
    "latestNews": {
-    "title": "What's Going On With AMD Stock Monday? - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVTdRN09wMkxWLS1XaFpHWWVzbEttZ1pBSERieWZWMzctTkh6NjNBb25tNl9uZUdHSWpsaC1vWGVtVEplbFI5ZXdybzFGeUFvcFNPX3lqa2ZpclNrdUlUYkg4c19lcjdzN0RMSVdHRlUzRXNyYVktaFNqeklNd3pONE1SMHdKVkdkS3VCQjRldzQ5ZmE4Zmc?oc=5",
-    "time": "8:41 AM"
+    "title": "AMD Stock Is Crushing Nvidia's in 2026. Will That Continue? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaUk0UVhxRl9ueGZjQ0RsSlJQWTl1ZU9RTGhiRXRuNFVXd1F0X2xEaUtnSWlORzg1VUV3eFpLdHZTRmQ0TVh3M281UFE2VVhuRERIclV3QkxLRVVDT0pzbmVJWU1WQ1U2TkFRXzlYenBRSzNnbkM4WE5ickpQNXc1UFBjVi1mY1M3SUl3Vm1UdGhiMWhlMHhZTXNNVmk?oc=5",
+    "time": "2:05 PM"
    },
    "latestPost": {
     "text": "Agentic AI isn't a single workload. It's an end-to-end workflow. As enterprises scale agents, every stage has different infrastructure needs. Learn why matching the right compute profile across the workflow can help deliver greater speed, efficiency, and scalability. Dan McNamara shares why building infrastructure around the full workflow can help enterprises scale agentic AI more efficiently. https://bit.ly/4vt9cPT",
@@ -352,13 +364,13 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -7.7,
-   "last": 37.8,
-   "newsCount": 6,
+   "pct": -8.2,
+   "last": 37.6,
+   "newsCount": 9,
    "latestNews": {
-    "title": "Applied Digital Corporation(NasdaqGS:APLD) dropped from Russell Microcap Value Benchmark Index - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQclgzbXBQZ3IwcWw3WWYySXJ6SjFiT09jMUZyVlhOMWFlWWJpaUYzc2lTT3JVdktLM3BoQm93SUZMZG5LQi1JRjYyekpzTW5aNXd1NlRadmtzSDhxM0JhbS1FcTBjSnA5SEFlTFRWenduNm9nSmVtWE9GNEhrcXJJZldxdUI0SUhLeVRWTFlabmxIcjd4M0tSbFB4WGVTck1wUDBoRFFCTzZscmlJT1h3RjdiNHd6U211WTNtZ1FQVUMzeXdfN1B0SWFkYW9YMjN5bGNJTEJMZVdsRW9Qbkdj?oc=5",
-    "time": "9:08 AM"
+    "title": "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now? - Insider Monkey",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV0xZa2IxZ3hFbU5zN05oYlRaS2ZZYnBiejF4NlNRMEM1aGJQb2tFbVFGNFVKM01pOWd2WGh4N1UxaVFub2FrYU1wb1p1VVNUakdBZWtPSlpDaEJ3enFTendCcjJSd0Qwdmx4RWxiWHM5ZHg0Qjl5cEdXdWJwVHFPeE1sSnBiWmtnWE1NeEozNjR0UFJKSnFUN2pTQ012RmRGOUdXaXRxRljSAbABQVVfeXFMT090Qy1uOFdQMkNOZ2lXX0ZRak45dFhWOUV6Z2hKVkxFaHZUMEplaG5XTHhnWXhYdDk0UUlhY3N1RTNlWFRobnMtaE4tVFpyNlFCVE5uejF5SXlMLWtOeUJqMUxqTzNyM0lnTTZkV29fSGZ1aVJTQmpNX3paTEJzSTdvYk5TQ0dsS1l1UHBRei14bHVDNjZ4aExGdXVVenFxNkF3b2ZLSUdKTHBnSjNXUDI?oc=5",
+    "time": "2:27 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -373,13 +385,13 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -3,
-   "last": 25.3,
-   "newsCount": 8,
+   "pct": -3.2,
+   "last": 25.2,
+   "newsCount": 10,
    "latestNews": {
-    "title": "WULF Stock Tumbles Overnight On Raised Stock Offering At 9% Discount — Retail Stays Bullish - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQVWdYdEd6ZXY2Rko4ak8zYUZ5UEQzeWlfWmo2U1JkMjlSNE1YbmFudnNJUUtpRUR5ZkJmVHhOb0plNktMbjdSZXFvUWJvZjUyQWFiS3lPTGI4QnBSWDZLSExWS3FvbHpQSXl4WHMwbXZVRWJJQ0R4ekk2TXlaWUczdDVxOW9CaTVqZHNOVmFOcVR3X3hleUlBLXlBcjdZV2VWelhzOG9ic1JoQ2M0WnRnUjV0eFlFVnFqcEFGV2ZIeTE4UUcwSlV0NDZVMnJCR0tHVFlCQVVvVjB3ZXQ0QV9SSkozR25hVnc?oc=5",
-    "time": "3:14 AM"
+    "title": "Is TeraWulf Inc. (WULF) A Good Stock To Buy Now? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTDQzWTJrOXgzaEZLT2V5blhacG95LTJsbkV5ckJRQ19aSi1XT3JkTkF0QmNVV1FCQW9jQldPNzZ1VnFGWVFhak9sNTgyOHc1LUdiRll6blYyVlh2TDNhU25abGpSX2lwaklzUzh2ay03RXdzRFdMb2YyVVJxU29rTzIyMU1PVnhLZ1V2OFRQNWNsNlp2OVM3Yw?oc=5",
+    "time": "2:06 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -394,7 +406,7 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 11.7,
+   "pct": 11.4,
    "last": 8.7,
    "newsCount": 5,
    "latestNews": {
@@ -410,13 +422,13 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 7.9,
+   "pct": 7.6,
    "last": 6.3,
-   "newsCount": 3,
+   "newsCount": 4,
    "latestNews": {
-    "title": "New Era Energy & Digital, Inc.(NasdaqGM:NUAI) added to Russell Microcap Value Benchmark Index - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaE44cENSLXRoNEhkcEtuWDk2SWZERGNPTHZORDZEVUUyV1ZuMl9rUC1CQTMycURRTjdzNm1SZUplTnFzQUEwZ2FJVHhfMV9HblpMdHFlWngzb3FBekh2QTFCMWY2OW1jaFdQOS0tT0JFR09sOFhKTmxwX25MTFlBRVVtb3F5WW5EeHF6dGNCSFVsbklnanlCUUlOcVJKVXZyUEJ3MkdDMVdsOEZLVDg5ZHVBY1NNZm9DcF9HM1AxekxfOGJ5UW9tUXRrTzlkdDcwdDBjSXRRcXQ?oc=5",
-    "time": "12:39 PM"
+    "title": "NUAI Stock Grinds Higher As Traders Track Volatile Setup - StocksToTrade",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR2F5V0plc0cycFF1blQwM055OXdDZ1EwOVpRNjNBWFRDNVdMQVNOMTZkUWRrU3prdXJ2dDh0TDdWY3QzWWs5ZkRPc2hFOW9UUTN1eGRaVjJscHZkNUpVdFE4NkpCUzJJQ1lmcGpfNzRFZVdGWXZuOGQ0MXMtUVdwY2R1MHFqZw?oc=5",
+    "time": "2:05 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -431,8 +443,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -2.4,
-   "last": 15.5,
+   "pct": -2.7,
+   "last": 15.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -443,8 +455,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 2.9,
-   "last": 11.7,
+   "pct": 2,
+   "last": 11.6,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -455,8 +467,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 4.9,
-   "last": 96.9,
+   "pct": 5,
+   "last": 97,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -467,8 +479,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.1,
-   "last": 26.3,
+   "pct": 0.2,
+   "last": 26.4,
    "newsCount": 1,
    "latestNews": {
     "title": "Mineralys Therapeutics (NASDAQ: MLYS) flagged sale of 104,124 shares via cashless exercise - Stock Titan",
@@ -483,8 +495,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -0.9,
-   "last": 193.9,
+   "pct": -0.8,
+   "last": 194.1,
    "newsCount": 18,
    "latestNews": {
     "title": "Is NVIDIA Corporation (NVDA) One of the Best Semiconductor Stocks to Buy According to Billionaires? - Yahoo Finance",
@@ -503,7 +515,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 1.9,
+   "pct": 1.6,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -519,8 +531,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 3.1,
-   "last": 12,
+   "pct": 3.7,
+   "last": 12.1,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -531,8 +543,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 21.7,
-   "last": 98.2,
+   "pct": 20.5,
+   "last": 97.2,
    "newsCount": 18,
    "latestNews": {
     "title": "Rocket Lab to Acquire Iridium in Historic Deal, Creating A Fully Vertically Integrated Space Powerhouse Primed for Growth - PR Newswire",
@@ -551,8 +563,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 8.7,
-   "last": 116.6,
+   "pct": 8.6,
+   "last": 116.5,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir Stock (PLTR) Rises on Nvidia Government AI Partnership - Barron's",
@@ -568,12 +580,12 @@
    "section": "macro",
    "class": "equity",
    "pct": 4.4,
-   "last": 368.2,
-   "newsCount": 16,
+   "last": 368.4,
+   "newsCount": 18,
    "latestNews": {
-    "title": "Microsoft stock is headed for its worst month since 2000 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObWVNRE40SkdPWW1sVUVJOS15dTY0czk5ekU3RS0zU0NpbTlGVzNOaGkycXJKaTl0c0FITXZsZ194R2NTbkxEV2dYdEdLeHFJRmgzQUFqOVVkckJsdmktQ2kwcEJ5ZXVib2JXTFk0S1NrVGV0T0sxRkZhdFFqSG5VbVlaSE5mc3duQ294bm5zZ1JZbzdwSkwyaHdVV3N1akpLV08wZDhsZFZyRkdTSE5rdWtONA?oc=5",
-    "time": "10:09 AM"
+    "title": "Microsoft Stock (NASDAQ:MSFT) Slips After Pulling 119 Edge Extensions - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOUhpOEJ2cThheEVaODhVY20yTk51T0tNTmlMN0U2bHdmWXpua2Z2eVpiczRaWnpOUkk4cnBNMi1DbEZmZzZ0a2xpdWYxUWQ5bElFVnhKUzY5ZC04OFJuVEFlSkxhNEdIaE5xTzYtSnBKSWUyMWFFMV9xRGk1UWRiMnFRSGtaWkxnS0pvLXNmWEdSUUlkMURKNDBTeU0?oc=5",
+    "time": "2:22 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -583,7 +595,7 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 3,
+   "pct": 2.9,
    "last": 33.7,
    "newsCount": 1,
    "latestNews": {
@@ -619,8 +631,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -1.4,
-   "last": 4038.1,
+   "pct": -1.5,
+   "last": 4036,
    "newsCount": 10,
    "latestNews": {
     "title": "Weekly Markets Monitor - Nasty surprises - World Gold Council",
@@ -666,6 +678,72 @@
  ],
  "events": [
   {
+   "id": "5fd40df12dba",
+   "type": "news",
+   "symbol": "CIFR",
+   "section": "trading",
+   "time": 1782757800000,
+   "timeLabel": "2:30 PM",
+   "source": "",
+   "text": "Cipher Digital (CIFR) Is Down 7.8% After Russell Index Reclassification Into Growth Benchmarks Has The Bull Case Changed? - simplywall.st",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdlc3bXBlS0pxUFVMa09uY1AtRjktX0ZicU9ITmZsTDRRMjZ0dGZNZnVCMFBKVHNYbDVibzhpYjA5Tk40YnlxOHFHTUJaTEN3XzRQTlNIRXBXOE5UdC1LemNxakFfMXpSZTBwd25aYUEwWTJxZGtsbWNKWS1NaW5SeWs0eVRqNWcyaXFIRHp3UkZrNjF6QXpvOGpFR0NDWDFnTzZrWkd3TDJIcm1zVEVjd1I5Vld3cWhXQXh3dFR4TzZJaVh3aW9LLUJFN29Rd9IB0wFBVV95cUxPYUlOZndHdzctcnQzNGZIbC1UbXRWYm9wMGFQOGN3d2FPUjRsdmNBUERtRjh6ZVpqVUo4Z1YwOWpFUlZBY3BhdTNjNnF2YzlyT2hSczE0QUVtNXNFbncxdmtuejl4RmhCVGFmVFdKcDBGZU1MWFFnNG0xcExIU1dZZklOcWtFb0lQX0loSXhsRGE3Vk1pU0dzaThaNGxIaG5VdERmREExSzlBekQ0UHBQUENpRWhjb2JXSjV1T2NiQ2x3b0R5Z1dCRUtEQVJ5WndKd2Yw?oc=5"
+  },
+  {
+   "id": "94bc6c76e2f5",
+   "type": "news",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1782757620000,
+   "timeLabel": "2:27 PM",
+   "source": "",
+   "text": "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now? - Insider Monkey",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV0xZa2IxZ3hFbU5zN05oYlRaS2ZZYnBiejF4NlNRMEM1aGJQb2tFbVFGNFVKM01pOWd2WGh4N1UxaVFub2FrYU1wb1p1VVNUakdBZWtPSlpDaEJ3enFTendCcjJSd0Qwdmx4RWxiWHM5ZHg0Qjl5cEdXdWJwVHFPeE1sSnBiWmtnWE1NeEozNjR0UFJKSnFUN2pTQ012RmRGOUdXaXRxRljSAbABQVVfeXFMT090Qy1uOFdQMkNOZ2lXX0ZRak45dFhWOUV6Z2hKVkxFaHZUMEplaG5XTHhnWXhYdDk0UUlhY3N1RTNlWFRobnMtaE4tVFpyNlFCVE5uejF5SXlMLWtOeUJqMUxqTzNyM0lnTTZkV29fSGZ1aVJTQmpNX3paTEJzSTdvYk5TQ0dsS1l1UHBRei14bHVDNjZ4aExGdXVVenFxNkF3b2ZLSUdKTHBnSjNXUDI?oc=5"
+  },
+  {
+   "id": "2d7ec1403de7",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1782756780000,
+   "timeLabel": "2:13 PM",
+   "source": "",
+   "text": "What's Going On With Nebius Group Stock Monday? - Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTHc5bVBXTVFtcG8zVGJreWlRY1g3VkRiLW1Lb3JyYmFIVkJ1NGlTZWE5ZGJRM19QU05HZVFEMWxXb1htbHZ6Y1Vfb0Q4UEJEVzR2alBzbmZlclpxQ3d6cjdjVWFxREZ3SXNLalU5T0VNbzBqVWJaYVBydDFUaXpEZEh5QzVqVnBrOWVOY3E4VHdpQmV3NEZ6NWM0eGFxcEtFd0JWdzdUYXltVGF5?oc=5"
+  },
+  {
+   "id": "a679c6da0abb",
+   "type": "news",
+   "symbol": "WULF",
+   "section": "trading",
+   "time": 1782756360000,
+   "timeLabel": "2:06 PM",
+   "source": "",
+   "text": "Is TeraWulf Inc. (WULF) A Good Stock To Buy Now? - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTDQzWTJrOXgzaEZLT2V5blhacG95LTJsbkV5ckJRQ19aSi1XT3JkTkF0QmNVV1FCQW9jQldPNzZ1VnFGWVFhak9sNTgyOHc1LUdiRll6blYyVlh2TDNhU25abGpSX2lwaklzUzh2ay03RXdzRFdMb2YyVVJxU29rTzIyMU1PVnhLZ1V2OFRQNWNsNlp2OVM3Yw?oc=5"
+  },
+  {
+   "id": "1dc8fbf36c7b",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782756300000,
+   "timeLabel": "2:05 PM",
+   "source": "",
+   "text": "AMD Stock Is Crushing Nvidia's in 2026. Will That Continue? - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaUk0UVhxRl9ueGZjQ0RsSlJQWTl1ZU9RTGhiRXRuNFVXd1F0X2xEaUtnSWlORzg1VUV3eFpLdHZTRmQ0TVh3M281UFE2VVhuRERIclV3QkxLRVVDT0pzbmVJWU1WQ1U2TkFRXzlYenBRSzNnbkM4WE5ickpQNXc1UFBjVi1mY1M3SUl3Vm1UdGhiMWhlMHhZTXNNVmk?oc=5"
+  },
+  {
+   "id": "f7c734408285",
+   "type": "news",
+   "symbol": "NUAI",
+   "section": "trading",
+   "time": 1782756300000,
+   "timeLabel": "2:05 PM",
+   "source": "",
+   "text": "NUAI Stock Grinds Higher As Traders Track Volatile Setup - StocksToTrade",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPR2F5V0plc0cycFF1blQwM055OXdDZ1EwOVpRNjNBWFRDNVdMQVNOMTZkUWRrU3prdXJ2dDh0TDdWY3QzWWs5ZkRPc2hFOW9UUTN1eGRaVjJscHZkNUpVdFE4NkpCUzJJQ1lmcGpfNzRFZVdGWXZuOGQ0MXMtUVdwY2R1MHFqZw?oc=5"
+  },
+  {
    "id": "8569c4a6a77d",
    "type": "post",
    "symbol": "NVDA",
@@ -688,6 +766,17 @@
    "url": "https://nitter.net/nvidia/status/2071654937335926864#m"
   },
   {
+   "id": "912384a04a19",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782755580000,
+   "timeLabel": "1:53 PM",
+   "source": "",
+   "text": "AMD stock outperforms Nvidia in 2026 amid AI competition - Crypto Briefing",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE84WW1qR210WFV0ZkQ2ejV2Q3k2cTlfeWhicGZnTk1UWkZSMkxTS1R0QXNuQko4cWNuemFkM0o3bHlOcGpJcUlxY290Uzdmb1NHakRGVTE3T0NCenNiY1puZVByV2N4aGFRd3pqMGdFcFFpZw?oc=5"
+  },
+  {
    "id": "03b3667c7c97",
    "type": "news",
    "symbol": "AMD",
@@ -697,6 +786,17 @@
    "source": "",
    "text": "AMD Stock Is Crushing Nvidia's in 2026. Will That Continue? - The Motley Fool",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZmNrRjY5UE1PV2ZRcUJhZlZxOHdmbEpWSzEyb0tlZXllRl84UnRYZXRLQW9WYlQ5a3BhQ29YV0hSd1dFbkVaR0djQlB4Q0xvYjh6TW5JVFlYYjFtTU5TaENFQXF6UVJYM2U5LW1aLUd3N3RVblVuT3JJVFVxcDY5Y3hWaGF0OEhaU0NCNGxKelJlajFXVVE?oc=5"
+  },
+  {
+   "id": "663339f18882",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782754260000,
+   "timeLabel": "1:31 PM",
+   "source": "",
+   "text": "AMD Stock Gains as a Blog Post Highlights Agentic AI Strategy - TipRanks",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTUFfVzJoVVpLRmU2cGQ0RDcybnR0cm1Fdm92YVlsNzNTOTY5RTF6QkVXR2RvakE1M0RleHZSc0NkdDdIRER4OG9NM2p2d1NTOHNPSjh5bnNZUXdvVDQwTnJqNEJ2Y3NWaDRYOU5PSWxCR1JrekQ1ckNYeEN4Y2FWRVR3aldaVHFvbW4ySktJTmhXRXVWNGc?oc=5"
   },
   {
    "id": "0a7e9a9add4e",
@@ -741,6 +841,17 @@
    "handle": "@AMD",
    "text": "Agentic AI isn't a single workload. It's an end-to-end workflow. As enterprises scale agents, every stage has different infrastructure needs. Learn why match…",
    "url": "https://nitter.net/AMD/status/2071639922126077977#m"
+  },
+  {
+   "id": "e331eaa0327b",
+   "type": "theme",
+   "symbol": null,
+   "section": "theme",
+   "theme": "AI chips",
+   "time": 1782751920000,
+   "timeLabel": "12:52 PM",
+   "text": "Nvidia’s AI chip sales are stalling in China. Here’s who’s gaining market share - Fast Company",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDhQaWhSVGR0SElCU3BDTlE2eEU4c3JRbWJrX2dyTi0yLWtfb2JqOGs4ek9BMEFmR285UnlZdjZ1a3hPVGRxNEIwVXBPcDI5UEFKMk01ejM2bGtHNDVBUzgtWGZlRS1MZG5FWWhZZlhMQW9vRG9kbHh6MUgwaTJQcnpiajhxQ3pIbnVJWnBfZmlSOG9NMlNYX3hJYTEyT1hSaUJ1UWdnVmh4cF9qVXk4cm93?oc=5"
   },
   {
    "id": "d8f1816869bf",
@@ -3309,12 +3420,21 @@
    "stBull": null,
    "regime": 57.1,
    "composite": 34.6
+  },
+  {
+   "t": 1782758415726,
+   "label": "Jun 29 2026 2:40 PM ET",
+   "cnn": 27,
+   "crypto": 12,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 34.6
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.16,
+  "divMax": 0.08,
   "fallbacks": 0
  }
 }
