@@ -1,51 +1,51 @@
 {
- "generatedAt": "Jun 30, 2026, 10:10 AM ET",
- "generatedAtMs": 1782828633462,
+ "generatedAt": "Jun 30, 2026, 10:40 AM ET",
+ "generatedAtMs": 1782830433563,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-06-30 10:00 ET",
-  "pricesAsOf": "Jun 30, 2026, 10:10 AM ET",
+  "pricesAsOf": "Jun 30, 2026, 10:40 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7523.75,
-     "change": 0.3,
+     "value": 7536,
+     "change": 0.5,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30352.25,
-     "change": 1,
+     "value": 30426.25,
+     "change": 1.2,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 17.27,
-     "change": -2.2,
+     "value": 17.09,
+     "change": -3.2,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 17.31,
-      "divergencePct": 0.23
+      "cnbcLast": 17,
+      "divergencePct": 0.53
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 2
+     "pct": 2.2
     },
     {
      "ticker": "QQQ",
-     "pct": 3.4
+     "pct": 3.7
     }
    ],
    "putCall": null
   },
   "gauges": {
    "cnn": {
-    "score": 29,
+    "score": 30,
     "rating": "fear",
     "prevClose": 27,
     "prevWeek": 27,
@@ -69,11 +69,6 @@
    {
     "theme": "AI chips",
     "items": [
-     {
-      "title": "Nvidia’s AI chip sales are stalling in China. Here’s who’s gaining market share - Fast Company",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDhQaWhSVGR0SElCU3BDTlE2eEU4c3JRbWJrX2dyTi0yLWtfb2JqOGs4ek9BMEFmR285UnlZdjZ1a3hPVGRxNEIwVXBPcDI5UEFKMk01ejM2bGtHNDVBUzgtWGZlRS1MZG5FWWhZZlhMQW9vRG9kbHh6MUgwaTJQcnpiajhxQ3pIbnVJWnBfZmlSOG9NMlNYX3hJYTEyT1hSaUJ1UWdnVmh4cF9qVXk4cm93?oc=5",
-      "time": null
-     },
      {
       "title": "Nvidia Hit by China, Huawei Getting Stronger in AI Chip Market - VOI.id",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPQlM2cXNTNlVkQmpsWE1DODVqYjB0cV95MUNZQmgtNXhrSzNWdklqeFgzV3RfOVRSazlyVmNGbFFxUm5vVnpNdFVjY9IBQkFVX3lxTE44a3lNNDNZLWJERGZXLXBudUJ3QUNDWHRIQnh0eERBZW16YWhKY1FWbndEODNzWjhsYmdaQkJ2Nm1XZw?oc=5",
@@ -230,13 +225,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.37 vs 20d avg 100.36"
+    "detail": "DXY 101.21 vs 20d avg 100.35"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 17.26 vs VIX3M 19.34"
+    "detail": "VIX 17.11 vs VIX3M 19.29"
    },
    {
     "name": "credit",
@@ -248,13 +243,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 1.1% vs others -0.2%"
+    "detail": "defensives 5d 1.3% vs others -0.1%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.286 vs 20d avg 0.2832"
+    "detail": "RSP/SPY 0.2858 vs 20d avg 0.2832"
    },
    {
     "name": "skew",
@@ -269,8 +264,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -2.2,
-   "last": 58793,
+   "pct": -2.6,
+   "last": 58579.8,
    "newsCount": 10,
    "latestNews": {
     "title": "Strategy’s Turnaround Plan Includes Stock Buyback, Bitcoin Sales and More Reserves - WSJ",
@@ -285,8 +280,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -7.3,
-   "last": 24.1,
+   "pct": -5.5,
+   "last": 24.5,
    "newsCount": 7,
    "latestNews": {
     "title": "CIFC - Corgi CIFR 2x Daily ETF Stock Price and Quote - Finviz",
@@ -306,13 +301,13 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -4.4,
-   "last": 45.1,
-   "newsCount": 9,
+   "pct": -2.4,
+   "last": 46.1,
+   "newsCount": 7,
    "latestNews": {
-    "title": "IREN Shares Gain After Joining the Russell 1000 Index (IREN) - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPV1ZGQkZSTXhudVU5WGE4d0xURHNGX1ZKWTZqSTFRMm56dWpOSl9XUzh0VmJ5RGRUTG9LTGo0MVZaRnpLS0FVWHQxUHFoN2plb1doOFN2TkZIWWJrbGI5N25CMGw0amVUTVhnN0dDdUExU3ppQ0hKTTZpWnc5d21vbkl3NUpJclA0ZmRJVjQwRW9OVHdBMkFlcjE0MFNqQQ?oc=5",
-    "time": "10:13 AM"
+    "title": "NBIS, CRWV, APLD, IREN: Why Are Neocloud Stocks Jumping Premarket? - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMmE1QTJUUWxTUHFDVGFsX3NBaDRrRVpSY1BvT1NzSGpIbHZyQVlTQVhrcE1NbnZLX21falM2VWJVU19rYmdMR3RKSk9sMmoxQU8zcWdWSDhCSFNqc0JDUUhicWZCU253WXpKVjlMX2h0Wndud0pub0Y3bjZXTE42MHQtSXF6M1J6Q2dTZnJZUVlCX08wVm1lWjI5aEIwQndiSzlvRV9NUWV0WUMxQlNMNkFmOHZqTXRhaWx2ZHdzdDdRMWs?oc=5",
+    "time": "11:01 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -327,9 +322,9 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 15.9,
-   "last": 278.4,
-   "newsCount": 5,
+   "pct": 19.7,
+   "last": 287.7,
+   "newsCount": 4,
    "latestNews": {
     "title": "Nebius: A Bigger Question Behind The Growth (NASDAQ:NBIS) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZlBhbC1nU0ZHR0w2UFR0QzFzeU5xS3p0ZHY5d3BmLXhucVNWZ2RHbFRGd0pOWUswMThvaFZqUExzNEFfZElMS3l2cUV3VWxxa3lBU1NoYmFydU44RkZTSERfVDVKMmdWRnFvYkdZc0ZUS2pmVHUtUW83WWM5VUdRdUp5dTV3aHFOVkNN?oc=5",
@@ -348,8 +343,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 6.3,
-   "last": 554.5,
+   "pct": 6.8,
+   "last": 557.3,
    "newsCount": 18,
    "latestNews": {
     "title": "AMD Stock Is Crushing Nvidia's in 2026. Will That Continue? - The Motley Fool",
@@ -368,8 +363,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -1.6,
-   "last": 38.5,
+   "pct": 0.6,
+   "last": 39.4,
    "newsCount": 13,
    "latestNews": {
     "title": "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now? - Yahoo Finance",
@@ -377,9 +372,9 @@
     "time": "2:22 PM"
    },
    "latestPost": {
-    "text": "R to @APLDdigital: Watch the full interview here: https://www.cnbc.com/video/2026/06/29/watch-cnbcas-full-interview-with-applied-digital-ceo-wes-cummins.html",
-    "url": "https://nitter.net/APLDdigital/status/2071667007259378159#m",
-    "time": "2:47 PM"
+    "text": "\"You can view it as a fundamental reset of design. We are starting from scratch.\" Construction is already underway. Then the plan changes. What happens next is exactly what you'll see in Episode 3 of Behind the Build—an inside look at how Applied Digital adapts in real time to keep building AI infrastructure at scale. Watch now: https://youtu.be/i7nJDo2fgzc?si=xvlbTXQjIB8OYruM #BehindTheBuild #AIInfrastructure #APLD $APLD",
+    "url": "https://nitter.net/APLDdigital/status/2071960698503188789#m",
+    "time": "10:15 AM"
    },
    "latestFiling": {
     "type": "financing/dilution",
@@ -393,8 +388,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -4.1,
-   "last": 24.8,
+   "pct": -1.7,
+   "last": 25.4,
    "newsCount": 6,
    "latestNews": {
     "title": "Is TeraWulf Inc. (WULF) A Good Stock To Buy Now? - Yahoo Finance",
@@ -414,7 +409,7 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 0,
+   "pct": 0.4,
    "last": 8.7,
    "newsCount": 5,
    "latestNews": {
@@ -430,8 +425,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 12,
-   "last": 6.6,
+   "pct": 13.1,
+   "last": 6.7,
    "newsCount": 4,
    "latestNews": {
     "title": "NUAI Stock Grinds Higher As Traders Track Volatile Setup - StocksToTrade",
@@ -451,8 +446,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -9.9,
-   "last": 14.7,
+   "pct": -9.1,
+   "last": 14.9,
    "newsCount": 1,
    "latestNews": {
     "title": "Cleanspark Inc (CLSK) Shares Fall 5.6% -- What GF Score of 61 Tells Investors - GuruFocus",
@@ -467,8 +462,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -3.1,
-   "last": 11,
+   "pct": -4.3,
+   "last": 10.9,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -479,8 +474,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 35.7,
-   "last": 132.3,
+   "pct": 34.4,
+   "last": 131,
    "newsCount": 14,
    "latestNews": {
     "title": "French biotech stock soars 34% after new data on experimental medicine - CNBC",
@@ -495,8 +490,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -2.1,
-   "last": 26.1,
+   "pct": -3.3,
+   "last": 25.8,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -507,8 +502,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 2.5,
-   "last": 197.3,
+   "pct": 2.7,
+   "last": 197.7,
    "newsCount": 18,
    "latestNews": {
     "title": "Nvidia stock is sagging. Here's what's behind the negative short-term trend. - Yahoo Finance",
@@ -527,7 +522,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -1.8,
+   "pct": -1.9,
    "last": 1,
    "newsCount": 10,
    "latestNews": {
@@ -555,13 +550,13 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 16.7,
-   "last": 98.7,
+   "pct": 16.2,
+   "last": 98.3,
    "newsCount": 18,
    "latestNews": {
-    "title": "Why Rocket Lab (RKLB) Stock Is Up Today - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNFFLSFRsWjNGQ3BGRzBqT1dwUS1La1V4aThuVFpHN3YwdDNPVTBIeFJqY0xYam44S3pjbWh1NHY4SXQyTU9Sb29abWhDb1NOSDlKb2pwM1hlYW5CNEgwX2drU04tWEQ5ZXBpd2xpcnlUd2h5MUpIRTBnLVg5UHRhRTE2dE1iTmV5cm5mYWJ2aTNRZXQy?oc=5",
-    "time": "6:50 PM"
+    "title": "RKLB Stock Near Record Highs – Rocket Lab Investors Are Watching More Than Just Launches This Week - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPU085dThQbFFaeUl3SG55VklTN2s5MlB2YzdTUWcyaXNSZVZEWDkyQUlFQ2w0UmpnZGJLcEN6Mmg0dEgwUk9JV29rSWFFaUExcDc0ZEZSU1VOWGdVXzZJOTZiSHB3QlpabnlOVmtGOExzYjdXVXhjY2R2cnhLejl3dFpCc0dXdHNUZHA5N2tOeVdvcGVXUTBXUlBHR2VwWG9PellIc0EtNUFJanlpMjRIakdEdlUtNDhzV3R3LUNZVjhPUFZwX1JXOWJ5anZWcmdoQ1djak81UW1abEF5QUVPeG1iZw?oc=5",
+    "time": "6:54 PM"
    },
    "latestPost": {
     "text": "R to @RocketLab: Full details and important information: https://bit.ly/3SCZVpY",
@@ -575,8 +570,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 2.4,
-   "last": 115.6,
+   "pct": 2.6,
+   "last": 115.9,
    "newsCount": 18,
    "latestNews": {
     "title": "Why Palantir Technologies (PLTR) Stock Is Trading Up Today - Yahoo Finance",
@@ -595,9 +590,9 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -0.6,
-   "last": 370.6,
-   "newsCount": 18,
+   "pct": -0.3,
+   "last": 371.8,
+   "newsCount": 17,
    "latestNews": {
     "title": "Is The Microsoft Stock Pullback A Buying Opportunity? - Trefis",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHh4aTBPYU03a1dkMGZoTzdZTlhIdEVtd1dVajFtZ0stLUtIZjFGb0w0bkN4LURENFUzT0J1NEJ0QWFaZktYWmNKMktJdHJLQ20wb2lJT1ZPdThSMTlWbXl4UzhCN0YyeXdtMy10R01TM3lYR1M1QWFOZkNhMTJuMFdMdnlRMVpkZlA3N3F2NXJWTjNkNE54dlhZY2VBb2RHVWtKX25JME9hRC0xcnAxX1lENA?oc=5",
@@ -611,8 +606,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -0.2,
-   "last": 33.9,
+   "pct": -1.1,
+   "last": 33.6,
    "newsCount": 2,
    "latestNews": {
     "title": "Hims & Hers Burns $546M In Short Bets After Novo Nordisk Deal Sends Stock Soaring To Best Day Ever - Stocktwits",
@@ -627,8 +622,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 4.5,
-   "last": 352.4,
+   "pct": 5,
+   "last": 354.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet stock pops 4% on Dow debut, but the tech giant faces major AI questions - CNBC",
@@ -647,13 +642,13 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.5,
-   "last": 4042.4,
+   "pct": 1.2,
+   "last": 4071.4,
    "newsCount": 10,
    "latestNews": {
-    "title": "'Gold is not done': Goldman Sachs predicts a rise to $4,900 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVlFNSlpaSkhpY3VOSVVZQjlEcEFKQXV6Q1ZDLTRiZllvbXdvZE9qNTVEejNjY0gxMzA0T3NuWjlsS1JMaC1QSC1EZ1RBZzhEVTlqMGl5X3NGWkxPYzdGQ290VHNvRlVFWktCUi1Yb2dYdTRQcXpoQUg2ekRnWmdienlKeGFvODNIOUNucFdJN1ZPVGxWQkRrQlRSSTNEUUpSRmptaF8xVHpfVFdNbVlHcA?oc=5",
-    "time": "10:29 AM"
+    "title": "Gold price selloff explained: Why investors are pulling back By Investing.com - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcFZXRTd6V0VFZU9VWGpyR19xU3EyOWxZNXg4TzhZRER6UkplY1k1NS1ZS2hMRjRXS05pMXlGVmNxUDBIVnFWSmx4a0IyOHpENzczUGJiaDhQZjdTTEhJRjFSNEtGVW45WmtsdXdIcVRqSWVoakYtZHVrUEhWaVd4X0RYOGVRSWp2TnpDS1c1MzNfMjNjcTQ3OUZnd29rUlJPTm1HSF90R1Q4LVhscFo3WXlZYWZldw?oc=5",
+    "time": "5:55 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -663,8 +658,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.5,
-   "last": 74.3,
+   "pct": 1.4,
+   "last": 74.2,
    "newsCount": 10,
    "latestNews": {
     "title": "The Next Oil Rally Could Be Driven by Stockpile Buying - Crude Oil Prices Today | OilPrice.com",
@@ -679,8 +674,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.2,
-   "last": 70.9,
+   "pct": 0.1,
+   "last": 70.8,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
@@ -693,6 +688,28 @@
   }
  ],
  "events": [
+  {
+   "id": "74b9b4fcf0df",
+   "type": "post",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1782828900000,
+   "timeLabel": "10:15 AM",
+   "handle": "@APLDdigital",
+   "text": "\"You can view it as a fundamental reset of design. We are starting from scratch.\" Construction is already underway. Then the plan changes. What happens next …",
+   "url": "https://nitter.net/APLDdigital/status/2071960698503188789#m"
+  },
+  {
+   "id": "32ab3839bf30",
+   "type": "news",
+   "symbol": "ABVX",
+   "section": "trading",
+   "time": 1782828180000,
+   "timeLabel": "10:03 AM",
+   "source": "",
+   "text": "ABVX Stock Jumps As Obefazimod Data Resets Bull Case - StocksToTrade",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16NmhTRUpCMzVmT1Y3dHNrNlAtSFg3UDNleEVFN2VlY05laUl0S1cxREI0MHM4aVk3YU9NQkxTX01zUkhTLW5YUGphdjdVOVhGTHM3YVVmUm9QNUp1NnI0T1BfYVVORDE2U2psTEpzdw?oc=5"
+  },
   {
    "id": "ddbf77d33992",
    "type": "news",
@@ -1011,6 +1028,17 @@
    "source": "",
    "text": "AMD Stock Gains as a Blog Post Highlights Agentic AI Strategy - TipRanks",
    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTUFfVzJoVVpLRmU2cGQ0RDcybnR0cm1Fdm92YVlsNzNTOTY5RTF6QkVXR2RvakE1M0RleHZSc0NkdDdIRER4OG9NM2p2d1NTOHNPSjh5bnNZUXdvVDQwTnJqNEJ2Y3NWaDRYOU5PSWxCR1JrekQ1ckNYeEN4Y2FWRVR3aldaVHFvbW4ySktJTmhXRXVWNGc?oc=5"
+  },
+  {
+   "id": "a469f0df2f59",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1782753600000,
+   "timeLabel": "1:20 PM",
+   "source": "",
+   "text": "Another crypto firm joins Russell 1000",
+   "url": "https://www.thestreet.com/crypto/markets/another-crypto-firm-joins-russell-1000?.tsrc=rss"
   },
   {
    "id": "0a7e9a9add4e",
@@ -3066,12 +3094,21 @@
    "stBull": null,
    "regime": 42.9,
    "composite": 28.9
+  },
+  {
+   "t": 1782830433563,
+   "label": "Jun 30 2026 10:40 AM ET",
+   "cnn": 30,
+   "crypto": 15,
+   "stBull": null,
+   "regime": 42.9,
+   "composite": 28.9
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.05,
+  "divMax": 0.08,
   "fallbacks": 0
  }
 }
