@@ -1,51 +1,51 @@
 {
- "generatedAt": "Jun 30, 2026, 9:40 AM ET",
- "generatedAtMs": 1782826833411,
+ "generatedAt": "Jun 30, 2026, 10:10 AM ET",
+ "generatedAtMs": 1782828633462,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-06-30 09:00 ET",
-  "pricesAsOf": "Jun 30, 2026, 9:40 AM ET",
+  "asOfET": "2026-06-30 10:00 ET",
+  "pricesAsOf": "Jun 30, 2026, 10:10 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7497.75,
-     "change": 0,
+     "value": 7523.75,
+     "change": 0.3,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30039,
-     "change": 0,
+     "value": 30352.25,
+     "change": 1,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 17.69,
-     "change": 0.2,
+     "value": 17.27,
+     "change": -2.2,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 17.55,
-      "divergencePct": 0.8
+      "cnbcLast": 17.31,
+      "divergencePct": 0.23
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 1.8
+     "pct": 2
     },
     {
      "ticker": "QQQ",
-     "pct": 3.1
+     "pct": 3.4
     }
    ],
    "putCall": null
   },
   "gauges": {
    "cnn": {
-    "score": 27,
+    "score": 29,
     "rating": "fear",
     "prevClose": 27,
     "prevWeek": 27,
@@ -230,31 +230,31 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.3 vs 20d avg 100.36"
+    "detail": "DXY 101.37 vs 20d avg 100.36"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 17.69 vs VIX3M 20.13"
+    "detail": "VIX 17.26 vs VIX3M 19.34"
    },
    {
     "name": "credit",
     "vote": "off",
     "state": "above 20-obs avg",
-    "detail": "HY spread 2.83pp vs 20-obs avg 2.73pp (as of 2026-06-26)"
+    "detail": "HY spread 2.8pp vs 20-obs avg 2.73pp (as of 2026-06-29)"
    },
    {
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 1% vs others -0.1%"
+    "detail": "defensives 5d 1.1% vs others -0.2%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2862 vs 20d avg 0.2833"
+    "detail": "RSP/SPY 0.286 vs 20d avg 0.2832"
    },
    {
     "name": "skew",
@@ -269,8 +269,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -2.8,
-   "last": 58436.6,
+   "pct": -2.2,
+   "last": 58793,
    "newsCount": 10,
    "latestNews": {
     "title": "Strategy’s Turnaround Plan Includes Stock Buyback, Bitcoin Sales and More Reserves - WSJ",
@@ -285,9 +285,9 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -7.2,
+   "pct": -7.3,
    "last": 24.1,
-   "newsCount": 8,
+   "newsCount": 7,
    "latestNews": {
     "title": "CIFC - Corgi CIFR 2x Daily ETF Stock Price and Quote - Finviz",
     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5XR1pRd2JHNFI0VS1rNnVOaUZEaWJSUTlDaENWdWJiMkh1UHEwOW0ySkFWU3lsQW5ZM1ZQMWVUMllZQkZpNUE?oc=5",
@@ -306,9 +306,9 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -4.5,
+   "pct": -4.4,
    "last": 45.1,
-   "newsCount": 10,
+   "newsCount": 9,
    "latestNews": {
     "title": "IREN Shares Gain After Joining the Russell 1000 Index (IREN) - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPV1ZGQkZSTXhudVU5WGE4d0xURHNGX1ZKWTZqSTFRMm56dWpOSl9XUzh0VmJ5RGRUTG9LTGo0MVZaRnpLS0FVWHQxUHFoN2plb1doOFN2TkZIWWJrbGI5N25CMGw0amVUTVhnN0dDdUExU3ppQ0hKTTZpWnc5d21vbkl3NUpJclA0ZmRJVjQwRW9OVHdBMkFlcjE0MFNqQQ?oc=5",
@@ -327,8 +327,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 12.1,
-   "last": 269.3,
+   "pct": 15.9,
+   "last": 278.4,
    "newsCount": 5,
    "latestNews": {
     "title": "Nebius: A Bigger Question Behind The Growth (NASDAQ:NBIS) - Seeking Alpha",
@@ -348,8 +348,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 6.7,
-   "last": 556.5,
+   "pct": 6.3,
+   "last": 554.5,
    "newsCount": 18,
    "latestNews": {
     "title": "AMD Stock Is Crushing Nvidia's in 2026. Will That Continue? - The Motley Fool",
@@ -368,8 +368,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -2.1,
-   "last": 38.4,
+   "pct": -1.6,
+   "last": 38.5,
    "newsCount": 13,
    "latestNews": {
     "title": "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now? - Yahoo Finance",
@@ -393,8 +393,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -5.3,
-   "last": 24.5,
+   "pct": -4.1,
+   "last": 24.8,
    "newsCount": 6,
    "latestNews": {
     "title": "Is TeraWulf Inc. (WULF) A Good Stock To Buy Now? - Yahoo Finance",
@@ -414,8 +414,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 0.9,
-   "last": 8.8,
+   "pct": 0,
+   "last": 8.7,
    "newsCount": 5,
    "latestNews": {
     "title": "IBRX Stock Eyes Best Week Since February: Founder Highlights New Anktiva-NK Cell Therapy Study - Stocktwits",
@@ -430,8 +430,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 9.5,
-   "last": 6.5,
+   "pct": 12,
+   "last": 6.6,
    "newsCount": 4,
    "latestNews": {
     "title": "NUAI Stock Grinds Higher As Traders Track Volatile Setup - StocksToTrade",
@@ -451,9 +451,9 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -9.2,
-   "last": 14.8,
-   "newsCount": 2,
+   "pct": -9.9,
+   "last": 14.7,
+   "newsCount": 1,
    "latestNews": {
     "title": "Cleanspark Inc (CLSK) Shares Fall 5.6% -- What GF Score of 61 Tells Investors - GuruFocus",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcEswWDBrUXBkajlHOUREQnlHR3NydUNKZVZsWWtrcVV1dWN0WVJQX255a0FHS2dNN2RqTkk0X25vRHVzRVpEd1lvdWhPdmlpS1RWU3dDUWRIdGVfQ3hGZjYtU3d6akFicTB3YmdMRVFoekpfck5zNmVWaHZsdWxtOFlpYldzVW11blNfZ0tSVzhMc0MtTXpsOWo3MXF4SVcwdWdiTmVXd19xTU5Pemc?oc=5",
@@ -467,8 +467,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -4.1,
-   "last": 10.9,
+   "pct": -3.1,
+   "last": 11,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -479,8 +479,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 34.5,
-   "last": 131.1,
+   "pct": 35.7,
+   "last": 132.3,
    "newsCount": 14,
    "latestNews": {
     "title": "French biotech stock soars 34% after new data on experimental medicine - CNBC",
@@ -495,8 +495,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -2.9,
-   "last": 25.9,
+   "pct": -2.1,
+   "last": 26.1,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -507,8 +507,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 2.6,
-   "last": 197.6,
+   "pct": 2.5,
+   "last": 197.3,
    "newsCount": 18,
    "latestNews": {
     "title": "Nvidia stock is sagging. Here's what's behind the negative short-term trend. - Yahoo Finance",
@@ -527,7 +527,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -2.6,
+   "pct": -1.8,
    "last": 1,
    "newsCount": 10,
    "latestNews": {
@@ -543,8 +543,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 5.5,
-   "last": 11.9,
+   "pct": 8.3,
+   "last": 12.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -555,8 +555,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 17.8,
-   "last": 99.6,
+   "pct": 16.7,
+   "last": 98.7,
    "newsCount": 18,
    "latestNews": {
     "title": "Why Rocket Lab (RKLB) Stock Is Up Today - Yahoo Finance",
@@ -575,8 +575,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 2,
-   "last": 115.2,
+   "pct": 2.4,
+   "last": 115.6,
    "newsCount": 18,
    "latestNews": {
     "title": "Why Palantir Technologies (PLTR) Stock Is Trading Up Today - Yahoo Finance",
@@ -595,13 +595,13 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -0.8,
-   "last": 370,
+   "pct": -0.6,
+   "last": 370.6,
    "newsCount": 18,
    "latestNews": {
-    "title": "Microsoft stock is headed for its worst month since 2000 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObWVNRE40SkdPWW1sVUVJOS15dTY0czk5ekU3RS0zU0NpbTlGVzNOaGkycXJKaTl0c0FITXZsZ194R2NTbkxEV2dYdEdLeHFJRmgzQUFqOVVkckJsdmktQ2kwcEJ5ZXVib2JXTFk0S1NrVGV0T0sxRkZhdFFqSG5VbVlaSE5mc3duQ294bm5zZ1JZbzdwSkwyaHdVV3N1akpLV08wZDhsZFZyRkdTSE5rdWtONA?oc=5",
-    "time": "10:09 AM"
+    "title": "Is The Microsoft Stock Pullback A Buying Opportunity? - Trefis",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMHh4aTBPYU03a1dkMGZoTzdZTlhIdEVtd1dVajFtZ0stLUtIZjFGb0w0bkN4LURENFUzT0J1NEJ0QWFaZktYWmNKMktJdHJLQ20wb2lJT1ZPdThSMTlWbXl4UzhCN0YyeXdtMy10R01TM3lYR1M1QWFOZkNhMTJuMFdMdnlRMVpkZlA3N3F2NXJWTjNkNE54dlhZY2VBb2RHVWtKX25JME9hRC0xcnAxX1lENA?oc=5",
+    "time": "2:22 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -611,13 +611,13 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -5,
-   "last": 32.2,
-   "newsCount": 1,
+   "pct": -0.2,
+   "last": 33.9,
+   "newsCount": 2,
    "latestNews": {
-    "title": "Hims & Hers Health, Inc. (HIMS) Stock Falls Amid Market Uptick: What Investors Need to Know",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/hims-hers-health-inc-hims-214504435.html?.tsrc=rss",
-    "time": "5:45 PM"
+    "title": "Hims & Hers Burns $546M In Short Bets After Novo Nordisk Deal Sends Stock Soaring To Best Day Ever - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPS2FneVlaT3FZNHc2WC1ZZDFlWGV0TVQ4Q0RfMDgxcTVmcXVfQ004b09DWUlKNGxfbnZxT2gzY1JOYk1RYnpIX1V4STlERlNmaDM4WGo5T1owekhwSldNT19odm1WYW9WMm5Gdi13YzBTcm9DWFEySnhHLW44LVRJNlMwVDZpWXQ5d0E2c1VVS2h6OWhnZGJFaGdfSkxMdk1HYmhUUnE3ekdYdC1fOU9zV2xGeUlVRUdwaFduOFJBUGtKQjMtTHFvbklTOFlJTUxIeHdPaA?oc=5",
+    "time": "6:41 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -627,8 +627,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 4.1,
-   "last": 351.2,
+   "pct": 4.5,
+   "last": 352.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet stock pops 4% on Dow debut, but the tech giant faces major AI questions - CNBC",
@@ -647,8 +647,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.4,
-   "last": 4040,
+   "pct": 0.5,
+   "last": 4042.4,
    "newsCount": 10,
    "latestNews": {
     "title": "'Gold is not done': Goldman Sachs predicts a rise to $4,900 - Yahoo Finance",
@@ -663,13 +663,13 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.7,
-   "last": 74.4,
+   "pct": 1.5,
+   "last": 74.3,
    "newsCount": 10,
    "latestNews": {
-    "title": "ING Oil Prices Have Overshot To The Downside - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbXk0M09ROUZmd2loeEpXa0pOWFhaVXp6LVMwdXdCMG5hVWNtN2xMTDQ1NkEtWGhMQjB0X0RwX2VBZkEwXzJVbjd1QUNUOE9tZHVCVVpnSHlHTUZmeHQxbHlsS3AtRk56cHk0QzdRUGpzVmo1cXFLdGF0V2MxUjBvbjluMU40TkFDczZjZE4xQzBwelRvcW5tajVTblJfMmZScEHSAacBQVVfeXFMT2RTWDlnMWdyQ2ZPZHJ5YlZCSXV1M3Y0YVRJdGlPVk1ULWRiYWx4QzBmUHhzMUJXRW1HYXVFeUROY200Skg4dmtJeXNhVV9CdUxZMk5YbkFleWlmOWZKeThKRlFGSkYzemNsOXVVbS1yaFhKWjJfbmZVaVpEN0JfcHZUSFpVXzJaaHRHcGpzdmRaTjZHZENWMGZ6UVczSDJpdFl4MmVLWEU?oc=5",
-    "time": "2:00 PM"
+    "title": "The Next Oil Rally Could Be Driven by Stockpile Buying - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcjg5YjNPcVk3c3FlRWhIR1RqRFQ2QVdpNW5oR212T3VYcTU5cEZuY0I2bGJYMVF3c2l3UVRHMUVNWm52aVl6M2RMNTUweVg3Z1F2bVZaLW5kZ19JTENEeGhmV0VBOWNZMDZpUE5tdmwwVWRLMkQxeEdVNGpMdHptd2RPLWdhWXMyelNPc1hXelVRMjI4OWNNeW1VWE5Fd9IBowFBVV95cUxNeWJBa2tlS1I3SGp0bjNGVk1RcG1RS0tCc1dEN3N1Tl9GZklwdnpKaGZTMWpDQTloU0xFUzIwUmVrb3JCY2ptVDZfckFCVUdSQlEzdmE4Tzl5LVBRTUNCamRTYkxFMlIxdW9HZEtRdG9rWW8tdDBacjNzSXBTd0ZFZzlhRnJnUjNteGg5TWI4dFIxaXBvenQ5NE8tVURFZnVOQW5r?oc=5",
+    "time": "7:00 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -679,8 +679,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.5,
-   "last": 71.1,
+   "pct": 0.2,
+   "last": 70.9,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
@@ -736,6 +736,17 @@
    "source": "",
    "text": "AMD Stock And 2 AI Semiconductor Picks For Data Center Growth - simplywall.st",
    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNUWR2aklNZEZoNTdBbGI2ZTB4Y1diV2Rtc3NGVHl4ZV83ZExkOFg0YVhobXBFOXpJWWxjclZEX0Z3MDhnbzUzNXd5S3BWbHdXMVNjTFZJTmpSd2Z3LUszX1RZLVlLbXA1MU0ydUtmNm1UQnNtMUNFNHluUDE1NC1vVHRLb2I4UjNubm9lU1YyUDBpdV9JcnVleElHY0dxOE5xclVfV2dNNmxkMnZZM0FQUlh4UXJDY3A0XzJTaGM2NmFkc1RabzdNRHpqbmtTdVpBLTJqUFIzTG5RZVZoX0c00gHkAUFVX3lxTE96RG9MVlhnLXd0QWJvTDIzb0dISG00dzdZU2hGQXp1VjhGQUhVaXQyVjY2TGpCTVlRbmd0RUVCRjRVX0JKUGg4SnE5TWROdUItS3N3SVl4VEhLdDNObDZIYTF5S1VYUk1aYTlLNm52X0t0Q0xBS3RyT1VGMW42ajJXelJCNHl6bjFoTFE3T3BCLW1QenpWSGFxdE5LN0xTVE1IRHJkSkJWVGw5VkdybF83a1hQM3drQVBHZTZnMXZfbGE0QmNYYXh0SkhvUnNtR1J4YWE1WVA4TzNVMGZGcWJlTWlVaA?oc=5"
+  },
+  {
+   "id": "c0640778220d",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782813360000,
+   "timeLabel": "5:56 AM",
+   "source": "",
+   "text": "What's Going On With AMD Stock Tuesday? - Benzinga",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORE9jSnJLTFdzeGdBLWtRM0dBNnBMYXpKWUo2aVNCU1F4Q2NVTFA5QmdONVc1YzFHejNmeWoxWXBwdXY2eVZtX0NNcjEwbXlDd0gzVUd5NDFvWVI3ZFVHajQ5QjdSWU5oUFVaeTNTakMwY1ZYOEpDT3ZNeEQtbXFmVWtHcVFrQkRFeUM2Q2ZFN2ZYSE9HQkdB?oc=5"
   },
   {
    "id": "e0e9063c96f8",
@@ -3046,12 +3057,21 @@
    "stBull": null,
    "regime": 42.9,
    "composite": 28.9
+  },
+  {
+   "t": 1782828633462,
+   "label": "Jun 30 2026 10:10 AM ET",
+   "cnn": 29,
+   "crypto": 15,
+   "stBull": null,
+   "regime": 42.9,
+   "composite": 28.9
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.31,
+  "divMax": 0.05,
   "fallbacks": 0
  }
 }
