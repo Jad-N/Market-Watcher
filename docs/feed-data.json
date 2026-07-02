@@ -1,51 +1,51 @@
 {
- "generatedAt": "Jul 2, 2026, 10:25 AM ET",
- "generatedAtMs": 1783002306575,
+ "generatedAt": "Jul 2, 2026, 10:55 AM ET",
+ "generatedAtMs": 1783004106501,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-07-02 10:00 ET",
-  "pricesAsOf": "Jul 2, 2026, 10:25 AM ET",
+  "pricesAsOf": "Jul 2, 2026, 10:55 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7590.25,
-     "change": 0.6,
+     "value": 7552,
+     "change": 0.1,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30211.25,
-     "change": 0.4,
+     "value": 29824.75,
+     "change": -0.9,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 15.92,
-     "change": -4,
+     "value": 16.17,
+     "change": -2.5,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 15.97,
-      "divergencePct": 0.31
+      "cnbcLast": 16.34,
+      "divergencePct": 1.04
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.4
+     "pct": 0
     },
     {
      "ticker": "QQQ",
-     "pct": -1.5
+     "pct": -2.4
     }
    ],
    "putCall": null
   },
   "gauges": {
    "cnn": {
-    "score": 37,
+    "score": 34,
     "rating": "fear",
     "prevClose": 32,
     "prevWeek": 24,
@@ -75,13 +75,7 @@
    },
    {
     "theme": "Miners to HPC/AI",
-    "items": [
-     {
-      "title": "MARA Holdings (MARA) Is One Of The 10 Bitcoin Miners That Are Now Data Center Companies - Yahoo Finance",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd2F2RlFqRWJyVU9tYzdPcVhseWFjT1FsWF9kTHE4OVBtOFhhb2NLNDJvS3ZTTVdUX0xOOEhORDh4dlY0aXY5Y2lad3B6YmY0QnhEdzBEM0RoczZaY3R5V2tSRW5xV2R2cE4teVRiNGROdkJUSzhieXZKS2RrTVdVVEhnM3M0V2xNcFRIYU5menlNVDlj?oc=5",
-      "time": null
-     }
-    ]
+    "items": []
    },
    {
     "theme": "AI chips",
@@ -231,13 +225,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 100.67 vs 20d avg 100.51"
+    "detail": "DXY 100.83 vs 20d avg 100.52"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 15.94 vs VIX3M 18.83"
+    "detail": "VIX 16.15 vs VIX3M 18.91"
    },
    {
     "name": "credit",
@@ -249,13 +243,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 0.4% vs others 0.3%"
+    "detail": "defensives 5d 0.6% vs others 0.1%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2864 vs 20d avg 0.2841"
+    "detail": "RSP/SPY 0.2872 vs 20d avg 0.2842"
    },
    {
     "name": "skew",
@@ -270,8 +264,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 2.7,
-   "last": 61609,
+   "pct": 2.5,
+   "last": 61521.5,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin firm advertised by Nigel Farage loses 15% of asset value - The Guardian",
@@ -286,8 +280,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -11.7,
-   "last": 21.6,
+   "pct": -14.3,
+   "last": 21,
    "newsCount": 8,
    "latestNews": {
     "title": "Can The latest Funding Round Help Cipher Digital (CIFR) Stock Surge? - Yahoo Finance",
@@ -307,8 +301,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -9.3,
-   "last": 41.5,
+   "pct": -12.6,
+   "last": 40,
    "newsCount": 15,
    "latestNews": {
     "title": "AI Data Center Stock IREN Approaches A Historically Bullish Setup - Forbes",
@@ -328,18 +322,18 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -18.3,
-   "last": 225.8,
+   "pct": -22.3,
+   "last": 214.7,
    "newsCount": 18,
    "latestNews": {
-    "title": "Nebius stock is crashing, and it has its biggest customer to blame - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWFhQbm5lWWhXZms0WW5TRHFUWVRlY3pQUzBKem1UdnRQem0wQ3ZIbUJsemJWRFI4dFRWTWF1N0hKVG55VjJ5OTdwZ1UxdkN1cW5jalFXVU5Rb0J3Q2IyUGhCeWViVUJ5UEpTVGFLLWhOWGN2YkREY2VDeW50X3RVbzE4bEI0LUd3Wk1fRWljYUV1RjJtMXV6Sm1DZzRteWtaaUF5SUVvX205alJucGNUeTE2RDB4QldXZUVPckN2MA?oc=5",
-    "time": "11:42 AM"
+    "title": "Nebius: Meta Clouds Signal Hidden AI Demand Surge (NASDAQ:NBIS) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaG8zdklXd1c5WTZPbXZJOXV4dVNrcnVxTy1vZ3lkRGljMEQ4RmJOQV92SF92ZXhkMWF1dFRUTm9adGl1cEtNa1Z3VldyTUtEMGMyQllNZVRpeHVRbk1OdU90MEFUVVBOOWlscWEydzdvdlREdlRyQVRBVjhNU21TMTM1eHdEMDhIUTlrZUJLd1Z6Y0k?oc=5",
+    "time": "3:10 PM"
    },
    "latestPost": {
-    "text": "At @PrimaMente, speed matters. Every failed experiment, delayed training, or lost week delays delivering Alzheimers prevention, treatment, or cure to patients. That’s why they turned to Nebius to speed up training cycles for their foundation models. Full story → https://nebius.com/customer-stories/prima-mente",
-    "url": "https://nitter.net/nebiusai/status/2072394812695953805#m",
-    "time": "3:00 PM"
+    "text": "The Nebius AI Discovery Awards 2026 wrapped in London last night. 647 applications, up from 257 last year. 20 winners across scientific and healthcare AI. 28 judges from NVIDIA, AstraZeneca, AbbVie, Stanford, Accel, Index Ventures, Sofinnova, Cathay Innovation, the NHS, and Clarivate evaluated 198 semifinalists across six categories. The 2.5x jump in applications in a single year reflects where healthcare AI is right now: more companies, more capital, more serious science.",
+    "url": "https://nitter.net/nebiusai/status/2072689985338114168#m",
+    "time": "10:32 AM"
    },
    "latestFiling": {
     "type": "insider",
@@ -353,8 +347,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -7.9,
-   "last": 534.9,
+   "pct": -10.7,
+   "last": 518.5,
    "newsCount": 18,
    "latestNews": {
     "title": "Intel Drops 7%, AMD Slides 5%, Taiwan Semiconductor Falls 6% as BoA Flags \"Bubble Risk\" - 24/7 Wall St.",
@@ -373,9 +367,9 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -8.5,
-   "last": 34.1,
-   "newsCount": 12,
+   "pct": -11.6,
+   "last": 33,
+   "newsCount": 13,
    "latestNews": {
     "title": "Applied Digital Stock In Shambles: Down -22% With 6-Day Losing Streak - Trefis",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWmVQMXNzQ2F3ckNNNEU0UmdKTDRiVGFkR2lyVkFyTmh6OE5fYVdJNVF4eGU1UUV3N3JWeGRwUXhKX0tVX1QxUExheVB1NVB6Yk1Ta0ZWM1BpU0hMMjVYY213MFlBdUs3RlRPYm14dG9GZDQxbkRHX2ppWHpsSUkzMGhQaVpnMGUyVUViQm1rd2xIbDQ1aHlkYjNFVk9lOHdqSWRzNGVxd2kzYjFNQlhLZmhJcTlrQmY5MmhtM0VjMnI5cVJ4OVE?oc=5",
@@ -398,8 +392,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -9.1,
-   "last": 22.5,
+   "pct": -12.5,
+   "last": 21.6,
    "newsCount": 5,
    "latestNews": {
     "title": "TeraWulf (NASDAQ: WULF) affiliate sells 137,500 CEO-linked shares - Stock Titan",
@@ -419,9 +413,9 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 8.5,
+   "pct": 8.1,
    "last": 9.5,
-   "newsCount": 6,
+   "newsCount": 7,
    "latestNews": {
     "title": "IBRX Stock In Spotlight: ImmunityBio To Unveil Fresh Anktiva And BCG Data Next Week - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONkM0dEVaZkVaOFBTTUVwN08zVGp3MEJ3QXRkZXFhcVNtRmtCWjRNUTRsYk9oR2pLNFdXR0dDN0w4VlBwWVZQcGpaNkNyX2prMHlyNHNrWWQtV19XYkVRMkxXeVJMSm1UVUdQVFBhbkJUUHVBcGtKalN6WDZMVHZoc2RsRGdtc2Z5U09OY3JjVzZmdUNOZHB5SC1mYjJtOW5zcmlUbXBVRVBlenlIYXVCZHlOMzFMNWtTM1EybFNrdWlmNGs?oc=5",
@@ -435,8 +429,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -19.4,
-   "last": 5.1,
+   "pct": -22,
+   "last": 5,
    "newsCount": 6,
    "latestNews": {
     "title": "Top New Era Energy & Digital (NUAI) Competitors 2026 - MarketBeat",
@@ -456,9 +450,9 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -6.5,
-   "last": 13.6,
-   "newsCount": 4,
+   "pct": -8.6,
+   "last": 13.3,
+   "newsCount": 2,
    "latestNews": {
     "title": "CleanSpark’s (CLSK) Data Center Pivot Brings An Outperform Rating From Wall Street - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNekh6WjZhdkt4U2FQckhSM1lsMEh6OENMTHRDWmdFQm4wWTZDRmNtY3FMa25kRUZlMDdnRTBYOUZNQjFRQ20xTzFVNWE1QTBsQnp0WU9KaVI5TlJKVzJfRkJtZjVta0Z5eWlJMnBsSm94TThQX18yUkNWaEhGSTJNZmx3NGVzRVdaUVNxbUdsTHRMU3otZWdXdDlIWEFwRnc?oc=5",
@@ -472,7 +466,7 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 21.7,
+   "pct": 22.1,
    "last": 13.3,
    "newsCount": 0,
    "latestNews": null,
@@ -484,8 +478,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 7.8,
-   "last": 143.6,
+   "pct": 8,
+   "last": 143.9,
    "newsCount": 8,
    "latestNews": {
     "title": "ABIVAX (ENXTPA:ABVX) Stock Looks Expensive Even After Strong Trial Progress - Yahoo Finance",
@@ -500,8 +494,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 1.9,
-   "last": 27.5,
+   "pct": 1.2,
+   "last": 27.3,
    "newsCount": 1,
    "latestNews": {
     "title": "Mineralys Therapeutics (MLYS) Left Key Russell Indexes, Is The Stock Still Below Fair Value? - simplywall.st",
@@ -516,8 +510,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -0.8,
-   "last": 198.5,
+   "pct": -2.2,
+   "last": 195.7,
    "newsCount": 18,
    "latestNews": {
     "title": "Nvidia: The Drawdown Is An Opportunity To Pounce (NASDAQ:NVDA) - Seeking Alpha",
@@ -536,13 +530,13 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 3.9,
+   "pct": 3.5,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
-    "title": "Ripple unlocks 1 billion XRP: Can the market absorb the fresh supply? - AMBCrypto",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRmJZUl9IMXA0RUI3dEVWMlBta3U0bk9LTDZqWUs5YS1sX0d6YjdmVnhKWTQ2bjRKbGFJZVB2ZnR4aW1tT1ZvcGx2NnVZXzBHQ1dDRE9PN19DdEZjd0hGd3JXT292amppQUZxUExQRS1xTmpqOXZpUEZpeWtRV05pdGtpSnpZOVpGYkNXYm5aTTU2ckxq0gGaAUFVX3lxTFBJb1NmdFhEbDJQV0ZaeVA1XzlVdEJLb2ozaHhCQ3VwU09QSTV4RDd3T05KNXJKRUk2MV9HWjFONEI0MWlxYXRzWU1DdVlZRmlsVDJ3MmtNMXNvN3F1S2tkOGpFZVVOVENrd2wydzFoLWVHT1pJaE9GMjI0MG5oMjdGSG13MDRoa1NwR2pYUDZLX182MnFvcl9FNVE?oc=5",
-    "time": "3:00 PM"
+    "title": "Ripple Releases Monthly 1B XRP as Price Falls Over 70% — Is $2 Possible? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcng4ajItYTEtclpLUEk5Ry1zQlBiV1FrWEx6YTJtdEEtbmI5anUyQkhkeXA5RkFSSTBxcGdmalFqUTdDSVdqQ1RzZXZRNkx2MVNIenFtUC11eXBSWnVISmo1TDBzdXU1RWNrXzVQS0UtMjZXbWFzVkdJRk1GeUptUExQeWV3NWVFUlVJTXhPRVRHMzhXMEJ3STJsWQ?oc=5",
+    "time": "7:07 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -552,8 +546,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -2.4,
-   "last": 12,
+   "pct": -6.5,
+   "last": 11.5,
    "newsCount": 2,
    "latestNews": {
     "title": "How TSS, Inc. (TSSI) Is Building a Capacity Story Around Liquid-Cooled AI Rack Integration - Insider Monkey",
@@ -568,8 +562,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 2.2,
-   "last": 103.9,
+   "pct": -1.3,
+   "last": 100.3,
    "newsCount": 18,
    "latestNews": {
     "title": "Rocket Lab Stock Offers A Different Orbit - Trefis",
@@ -588,19 +582,15 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 11.8,
-   "last": 130.4,
+   "pct": 11.1,
+   "last": 129.6,
    "newsCount": 18,
    "latestNews": {
-    "title": "Palantir Stock (PLTR) Rallies 9% as CEO Blasts OpenAI and Anthropic’s “Wealth Tax” on Tokens - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbmQ5MTU5ajVISEZPQWgyVDdEazJ4bkNtMFd0OTF5c1NMSUVYN2RXa2d1ajc4Q0puMjdhSzBGMEgxYmtWQ1FvVUlHeVl5d3J0V1I3ck1pcDE3UVp6OTN0cDMzeUZzNzEwc3pRN3F2R2M3VzBya0NIcW43aE50VXQxMjAzbnI4Z0pDSGFFY1lLV3ZxVXY1Vndra1R3SGtoN2hjWlkxd1FOZE51ZjRzYzRQSmdDX0cwTDg?oc=5",
-    "time": "3:23 PM"
+    "title": "Why Palantir Stock Is Skyrocketing Today - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcGRNWHBSVHhTVkhOUC1CMWZHbmNUbHczeEJZbUlpMEMwTTBZYUtpbUlzeGR1V3k5blV2dmliTl83c0Z1R3l6THNjam1GZl9peDF5U0JFRkJ6WDYzVlI2SHNOMERDOF9pRk16MHp6aUp3Z3pxUmQ1bDdXSjJpZmU5RndBOEtYRXVXeGhncGtpMlFRaC1KOU5BOXFpVEdqOGMxZ0QxcA?oc=5",
+    "time": "12:00 PM"
    },
-   "latestPost": {
-    "text": "Palantir CEO Alex Karp on what customers actually want, the real business of frontier labs, and the importance of open source models: “What the technical customers want is control over their compute, their models, their data stack, and their alpha. They want to know they own the means of production, and it's not being transferred to someone else.” \"Who owns the data? Are the prompts secure? Is this being transferred to you?\" \"If it was so valuable, and I can make you a billion dollars, wouldn't I say I'll make you a billion dollars and I want 30%? Why are they charging for tokens if it's so valuable?\"",
-    "url": "https://nitter.net/PalantirTech/status/2072326189079757277#m",
-    "time": "10:27 AM"
-   },
+   "latestPost": null,
    "latestFiling": null,
    "stocktwits": null
   },
@@ -609,12 +599,12 @@
    "section": "macro",
    "class": "equity",
    "pct": 4.4,
-   "last": 389.3,
+   "last": 389.5,
    "newsCount": 18,
    "latestNews": {
-    "title": "“Better Everyday Health to Consumers Globally”: Microsoft Stock (NASDAQ:MSFT) Jumps With Haleon Team-Up - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeWJpWFprTjdHV1RNM3YwbGtKMFlKVm05YThFV2lVOVhicFFhUWlMbXVFT1lSSDBHTjRxOTlUMnRGdUE5a2RBdjJWa2Vpa3dPNHdUS3FrRWtSdkdXeS0wNWtEampqSFdxVXZfWV9oRW9VRHRtXy1mMUtmN0RaN2FRTWpqZFNZNkZIVG91b3FxakNZTWV2MWVKeWs4Ry1WRE1rNEY1TkY2bmM1Qnk2b2dpTnVHZEh4RVhxRENzZ2ZYUDF6MWdRc2c?oc=5",
-    "time": "10:35 AM"
+    "title": "Microsoft's AI Discount Won't Last - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ISjJJQmhVWG1rMGpvZm9lUFRQUHl1UWxQWjBDUGZxb2pqWlo0SW9ZX0dkQUF4ckM3T2FubnFQNG5oUEtSeUlXVlhrSHRwVFlLVkt4Y2V2LVhLSGhTZGx0WG4tSFZhNnh3SWktd0NWQVBmNlltTXBKSUhyQXRSZw?oc=5",
+    "time": "4:10 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -624,8 +614,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 5,
-   "last": 36.4,
+   "pct": 6.3,
+   "last": 36.9,
    "newsCount": 9,
    "latestNews": {
     "title": "Hims & Hers Health (HIMS) Secures $400 Million Financing, Is The Upside Already Priced In? - simplywall.st",
@@ -640,8 +630,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 1.4,
-   "last": 362.3,
+   "pct": 0.9,
+   "last": 360.7,
    "newsCount": 18,
    "latestNews": {
     "title": "Alphabet Stock (GOOGL) Unfazed as South Korea Slaps Google With $546M Antitrust Fine - TipRanks",
@@ -660,8 +650,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.8,
-   "last": 4141.6,
+   "pct": 1.6,
+   "last": 4132.4,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold Price Forecast: XAU/USD finds acceptance above $4,000, but US NFP holds the key - FXStreet",
@@ -676,7 +666,7 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -1.1,
+   "pct": -1,
    "last": 70.8,
    "newsCount": 10,
    "latestNews": {
@@ -707,6 +697,50 @@
  ],
  "events": [
   {
+   "id": "05913b621af6",
+   "type": "news",
+   "symbol": "BTC",
+   "section": "crypto",
+   "time": 1783003680000,
+   "timeLabel": "10:48 AM",
+   "source": "",
+   "text": "SBI Crypto to Shut Down Mining Pool That Holds Roughly 2% of Bitcoin's Hashrate - Moomoo",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRzk5UWlxcDFfSDBCSHFyUW5UNkVGOXBRSXJvTXpQTEpFd01RRWxWT3lURFdyYjJ6Z25uVkg0WHItRkNHNFhKbXFZOHRBY19PMGk4c3A1ZmhFRnQyOC02VlNqTWNXR0lrUVRNeGdHQWMyNG9fQkJvLWpwYlFoXzZJcldhTmplbUVHRmtqUU5NM25rZ2ZtWmZ4a3ViaHo?oc=5"
+  },
+  {
+   "id": "966a04fa2c1c",
+   "type": "news",
+   "symbol": "MSFT",
+   "section": "macro",
+   "time": 1783003440000,
+   "timeLabel": "10:44 AM",
+   "source": "",
+   "text": "Microsoft Expands AI Infrastructure Reach in Asia",
+   "url": "https://finance.yahoo.com/technology/ai/articles/microsoft-expands-ai-infrastructure-reach-144409507.html?.tsrc=rss"
+  },
+  {
+   "id": "23ef67618599",
+   "type": "post",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1783002720000,
+   "timeLabel": "10:32 AM",
+   "handle": "@nebiusai",
+   "text": "The Nebius AI Discovery Awards 2026 wrapped in London last night. 647 applications, up from 257 last year. 20 winners across scientific and healthcare AI. 28…",
+   "url": "https://nitter.net/nebiusai/status/2072689985338114168#m"
+  },
+  {
+   "id": "e43df8b56826",
+   "type": "news",
+   "symbol": "PLTR",
+   "section": "macro",
+   "time": 1783002000000,
+   "timeLabel": "10:20 AM",
+   "source": "",
+   "text": "How Investors Are Reacting To NVIDIA (NVDA) Expanding Into Full‑Stack AI Infrastructure Partnerships",
+   "url": "https://finance.yahoo.com/technology/ai/articles/investors-reacting-nvidia-nvda-expanding-142052066.html?.tsrc=rss"
+  },
+  {
    "id": "87dd2b373c44",
    "type": "news",
    "symbol": "AMD",
@@ -727,6 +761,17 @@
    "source": "",
    "text": "Applied Digital Stock In Shambles: Down -22% With 6-Day Losing Streak - Trefis",
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWmVQMXNzQ2F3ckNNNEU0UmdKTDRiVGFkR2lyVkFyTmh6OE5fYVdJNVF4eGU1UUV3N3JWeGRwUXhKX0tVX1QxUExheVB1NVB6Yk1Ta0ZWM1BpU0hMMjVYY213MFlBdUs3RlRPYm14dG9GZDQxbkRHX2ppWHpsSUkzMGhQaVpnMGUyVUViQm1rd2xIbDQ1aHlkYjNFVk9lOHdqSWRzNGVxd2kzYjFNQlhLZmhJcTlrQmY5MmhtM0VjMnI5cVJ4OVE?oc=5"
+  },
+  {
+   "id": "bd3447c77a76",
+   "type": "news",
+   "symbol": "IBRX",
+   "section": "trading",
+   "time": 1782996780000,
+   "timeLabel": "8:53 AM",
+   "source": "",
+   "text": "IBRX Stock Lights Up: Retail Cheers Calls For Trump To ‘Pull The Plug’ On FDA Chief Marty Makary Amid Anktiva Row - Stocktwits",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPZ1JuLXNIYWVwcUJzOXRjaE5Rb3hLbk9qMlBYTF9PS3QzMWJpTV84Z0hZWFVRdmFDb3VfbnFrRjlIc0JSYkd4R0s3U2JPUGJXal83ZVM3bldEMU1MSmRpRk9RYXRfZE9uR0ctLUlITURGZ185RDBNOTlST1kxTnNaaGNlNjhRNHQya3RpV2IyQUUtQzdRT08yMmdxM28zUHhzZ2podVBXdFZUNUR0X3BYZmxVQ3VtcjJhX1hrZWRKUEJ4aGtZZ0dSamR5UURRUQ?oc=5"
   },
   {
    "id": "babf6f4d6249",
@@ -793,6 +838,28 @@
    "source": "",
    "text": "AI Infrastructure Valuations Suggest Cipher Mining And Hut 8 Are Deeply Undervalued, Says VanEck - Stocktwits",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYTlXWDFjTHRZQnFuQWZxczB3TEJBVzRadzFaLVJOR3lZZmhZdUtaalpJT3htTW53enRFWHNIbmZGV2FYR0xfb2prYWdUUk10eFd3YTI3X3A1eHg0U2FIdWFRcnVlTkxvVEFEQWZEa01tNU5lQ1JZMWlPX0drT3dpVHdqS1VoWkZyNEdIRWF1X1JtMHQ1cVllOGdDTWJ2dkVZMFhkbWlCalI?oc=5"
+  },
+  {
+   "id": "46cd3ded0441",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1782993840000,
+   "timeLabel": "8:04 AM",
+   "source": "",
+   "text": "AMD Price Forecast: Stock Falls 6% After Record High—Is This the Best Buy-the-Dip Opportunity? - TradingKey",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSXpZcmt2Q2ZjM1hGSGZJckp4ZWdrd2JzRXlyVGt6TVhrX2dVRFFnMkhhUFhxV0xNUzhFNmZqaXlSeThqclFWTEtYb1VxRi1zLXN4ckdnOWk1UE5OclpHdXgyXzBLNnJmUW5oaTNhbzlXcU1aZjI1V3Z3RWFta0RpeFRBemh2VVRfOVE1N09yWlRzbUREb0s5WG9FTFE4bHd6ZUVtRlM3QVNyVW9pMWMyb0p5S2o4VExMcWwzSmZ5X1JBV3Rt?oc=5"
+  },
+  {
+   "id": "ca0708da9f44",
+   "type": "news",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1782993060000,
+   "timeLabel": "7:51 AM",
+   "source": "",
+   "text": "$Applied Digital (APLD.US)$ [Hey][Hey][Hey] - Moomoo",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQM1EtUmxpVHo0Z182VVl4R3JXaldjVmpUdTdqNGpza3NpMDJvQjZtQ05kWWFVek0zbjlFSEpNNi1aTUpHU2ljOC1HMDBNYlh0RkM5YkhpMHZ2eU8xTThuNXdPM1QxZmNpTVZWZlVmM25lSjVjTTVFVGdISmRKUThmVHpRMA?oc=5"
   },
   {
    "id": "83563baeacc3",
@@ -1068,6 +1135,17 @@
    "source": "",
    "text": "AI Data Center Stock IREN Approaches A Historically Bullish Setup - Forbes",
    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPX3FleU9VTGxHczROSmFMUWFBWVJwYTJtTG9IODhzUjFwZlJhd2NPUlJyX1o3TVZoZjVNOXZqanBOMTAtcGdCRjAtMnNfVDV4eTgtMlRGNkNCZXZuVlRybzFMeW5fc3BLRHBzTXZBMHJCNWxxRWFTYXh4eTNFWFY0cGgteFgzTlZEc041ZVM4dDk0alRudHZTZlh5N0pWVjhMZDlrVmN6d1l0WTRTWW96cmVWWGJqVlJOREFvcGFqQkdNQQ?oc=5"
+  },
+  {
+   "id": "1cea3d2fce4d",
+   "type": "news",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1782933000000,
+   "timeLabel": "3:10 PM",
+   "source": "",
+   "text": "Nebius: Meta Clouds Signal Hidden AI Demand Surge (NASDAQ:NBIS) - Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaG8zdklXd1c5WTZPbXZJOXV4dVNrcnVxTy1vZ3lkRGljMEQ4RmJOQV92SF92ZXhkMWF1dFRUTm9adGl1cEtNa1Z3VldyTUtEMGMyQllNZVRpeHVRbk1OdU90MEFUVVBOOWlscWEydzdvdlREdlRyQVRBVjhNU21TMTM1eHdEMDhIUTlrZUJLd1Z6Y0k?oc=5"
   },
   {
    "id": "ea815f2ebdc3",
@@ -4307,12 +4385,21 @@
    "stBull": null,
    "regime": 42.9,
    "composite": 30.9
+  },
+  {
+   "t": 1783004106501,
+   "label": "Jul 2 2026 10:55 AM ET",
+   "cnn": 34,
+   "crypto": 19,
+   "stBull": null,
+   "regime": 42.9,
+   "composite": 30.9
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.1,
+  "divMax": 0.14,
   "fallbacks": 0
  }
 }
