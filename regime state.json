@@ -1,15 +1,15 @@
 {
   "regime": {
-    "label": "risk-on",
+    "label": "risk-off",
     "tally": "4-3",
     "drivers": [
-      "curve positive",
-      "VIX in contango",
-      "cyclicals leading",
-      "breadth broad"
+      "dollar strong",
+      "credit spreads widening",
+      "defensives leading",
+      "crash-hedging elevated"
     ],
-    "on": 4,
-    "off": 3
+    "on": 3,
+    "off": 4
   },
   "components": {
     "curve": {
@@ -27,61 +27,61 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.73 vs 20d avg 100.52",
+      "detail": "DXY 100.67 vs 20d avg 100.51",
       "asOfMs": 1782964800000,
       "status": "ok",
       "raw": {
-        "last": 100.73,
-        "avg": 100.52,
-        "gap": 0.21
+        "last": 100.67,
+        "avg": 100.51,
+        "gap": 0.15
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.99 vs VIX3M 18.87",
+      "detail": "VIX 15.94 vs VIX3M 18.83",
       "asOfMs": 1782999000000,
       "status": "ok",
       "raw": {
-        "vix": 15.99,
-        "vix3m": 18.87,
-        "diff": -2.88
+        "vix": 15.94,
+        "vix3m": 18.83,
+        "diff": -2.89
       }
     },
     "credit": {
       "state": "above 20-obs avg",
       "vote": "off",
-      "detail": "HY spread 2.75pp vs 20-obs avg 2.73pp (as of 2026-06-30)",
-      "asOfMs": 1782777600000,
+      "detail": "HY spread 2.74pp vs 20-obs avg 2.73pp (as of 2026-07-01)",
+      "asOfMs": 1782864000000,
       "status": "ok",
       "raw": {
-        "spread": 2.75,
+        "spread": 2.74,
         "avg": 2.73,
         "newHigh": false
       }
     },
     "rotation": {
-      "state": "cyclicals leading",
-      "vote": "on",
-      "detail": "defensives 5d 0.2% vs others 0.9%",
+      "state": "defensives leading",
+      "vote": "off",
+      "detail": "defensives 5d 0.4% vs others 0.3%",
       "asOfMs": 1782999000000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0.2,
-        "othMedPct": 0.9,
-        "diffPct": -0.7
+        "defMedPct": 0.4,
+        "othMedPct": 0.3,
+        "diffPct": 0
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2866 vs 20d avg 0.2841",
+      "detail": "RSP/SPY 0.2864 vs 20d avg 0.2841",
       "asOfMs": 1782999000000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2866,
+        "ratio": 0.2864,
         "avg": 0.2841,
-        "gap": 0.0025
+        "gap": 0.0023
       }
     },
     "skew": {
@@ -100,19 +100,19 @@
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": 0.8,
-        "asOfMs": 1782955800000
-      },
-      {
         "name": "Nikkei",
         "pct": -2.5,
         "asOfMs": 1782950400000
       },
       {
         "name": "DAX",
-        "pct": 2.1,
+        "pct": 2.3,
         "asOfMs": 1782975600000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": 0.8,
+        "asOfMs": 1782955800000
       }
     ],
     "rates": {
@@ -307,9 +307,19 @@
       "ts": 1782913130573,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP risk-off -> risk-on · 4-3 · drivers: curve positive, VIX in contango, cyclicals leading, breadth broad"
+    },
+    {
+      "ts": 1783002329117,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1783002329117,
+      "kind": "REGIME-FLIP",
+      "line": "REGIME-FLIP risk-on -> risk-off · 4-3 · drivers: dollar strong, credit spreads widening, defensives leading, crash-hedging elevated"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783000531251
+  "updatedMs": 1783002329684
 }
