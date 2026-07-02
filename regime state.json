@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.31pp (2y 4.17, 10y 4.48)",
-      "asOfMs": 1782864000000,
+      "asOfMs": 1782878400000,
       "status": "ok",
       "raw": {
         "spread": 0.31,
@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.39 vs 20d avg 100.46",
-      "asOfMs": 1782878400000,
+      "detail": "DXY 100.6 vs 20d avg 100.51",
+      "asOfMs": 1782964800000,
       "status": "ok",
       "raw": {
-        "last": 101.39,
-        "avg": 100.46,
-        "gap": 0.94
+        "last": 100.6,
+        "avg": 100.51,
+        "gap": 0.09
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.59 vs VIX3M 19.16",
-      "asOfMs": 1782912600000,
+      "detail": "VIX 16.03 vs VIX3M 20.13",
+      "asOfMs": 1782975600000,
       "status": "ok",
       "raw": {
-        "vix": 16.59,
-        "vix3m": 19.16,
-        "diff": -2.57
+        "vix": 16.03,
+        "vix3m": 20.13,
+        "diff": -4.1
       }
     },
     "credit": {
@@ -100,25 +100,25 @@
   "context": {
     "overnight": [
       {
-        "name": "DAX",
-        "pct": 0.2,
-        "asOfMs": 1782889200000
+        "name": "Nikkei",
+        "pct": -2.5,
+        "asOfMs": 1782950400000
       },
       {
-        "name": "Nikkei",
-        "pct": 0.9,
-        "asOfMs": 1782777600000
+        "name": "DAX",
+        "pct": 1.5,
+        "asOfMs": 1782975600000
       },
       {
         "name": "Hang Seng",
-        "pct": -0.6,
-        "asOfMs": 1782783000000
+        "pct": 0.8,
+        "asOfMs": 1782955800000
       }
     ],
     "rates": {
-      "impliedRate": 3.7,
-      "changeBp": -7.5,
-      "asOfMs": 1782878400000
+      "impliedRate": 3.68,
+      "changeBp": -4.3,
+      "asOfMs": 1782964800000
     }
   },
   "stress": {
@@ -311,5 +311,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1782942904507
+  "updatedMs": 1782996932162
 }
