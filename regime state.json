@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.88 vs 20d avg 100.53",
+      "detail": "DXY 100.86 vs 20d avg 100.52",
       "asOfMs": 1782964800000,
       "status": "ok",
       "raw": {
-        "last": 100.88,
-        "avg": 100.53,
-        "gap": 0.36
+        "last": 100.86,
+        "avg": 100.52,
+        "gap": 0.34
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.98 vs VIX3M 19.44",
+      "detail": "VIX 16.79 vs VIX3M 19.33",
       "asOfMs": 1782999000000,
       "status": "ok",
       "raw": {
-        "vix": 16.98,
-        "vix3m": 19.44,
-        "diff": -2.46
+        "vix": 16.79,
+        "vix3m": 19.33,
+        "diff": -2.54
       }
     },
     "credit": {
@@ -63,25 +63,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 0.8% vs others -0.3%",
+      "detail": "defensives 5d 1.1% vs others -0.2%",
       "asOfMs": 1782999000000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0.8,
-        "othMedPct": -0.3,
-        "diffPct": 1.1
+        "defMedPct": 1.1,
+        "othMedPct": -0.2,
+        "diffPct": 1.2
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.288 vs 20d avg 0.2842",
+      "detail": "RSP/SPY 0.2883 vs 20d avg 0.2842",
       "asOfMs": 1782999000000,
       "status": "ok",
       "raw": {
-        "ratio": 0.288,
+        "ratio": 0.2883,
         "avg": 0.2842,
-        "gap": 0.0038
+        "gap": 0.004
       }
     },
     "skew": {
@@ -100,14 +100,14 @@
   "context": {
     "overnight": [
       {
-        "name": "DAX",
-        "pct": 2.2,
-        "asOfMs": 1782975600000
-      },
-      {
         "name": "Nikkei",
         "pct": 0.6,
         "asOfMs": 1782864000000
+      },
+      {
+        "name": "DAX",
+        "pct": 2.2,
+        "asOfMs": 1782975600000
       },
       {
         "name": "Hang Seng",
@@ -321,5 +321,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783015829495
+  "updatedMs": 1783017630449
 }
