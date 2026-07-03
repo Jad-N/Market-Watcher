@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-07-02",
-  "computedMs": 1782996932222,
+  "computedET": "2026-07-03",
+  "computedMs": 1783083626080,
   "block": {
-    "asOfET": "Jul 2, 2026",
-    "asOfMs": 1782996935000,
+    "asOfET": "Jul 3, 2026",
+    "asOfMs": 1783083624000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,8 +18,8 @@
             "detail": "steady stocks holding up better",
             "status": "ok",
             "raw": {
-              "ratio": 2.0242,
-              "avg": 2.0342
+              "ratio": 1.9269,
+              "avg": 2.0244
             }
           },
           {
@@ -30,7 +30,7 @@
             "detail": "junk bonds in demand vs safe bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7338,
+              "ratio": 0.7337,
               "avg": 0.733
             }
           }
@@ -49,8 +49,8 @@
             "detail": "paying up for crash protection",
             "status": "ok",
             "raw": {
-              "skew": 154.82,
-              "avg": 144.08
+              "skew": 150.02,
+              "avg": 144.74
             }
           },
           {
@@ -64,10 +64,10 @@
               "bid": 2,
               "total": 4,
               "changes": {
-                "gold": 1.89,
-                "bonds": -1.04,
-                "yen": -1.05,
-                "dollar": -0.78
+                "gold": 1.85,
+                "bonds": -0.01,
+                "yen": -0.84,
+                "dollar": -0.08
               }
             }
           }
@@ -81,24 +81,24 @@
           {
             "key": "sectorsAbove200",
             "label": "Long-term uptrend",
-            "state": "10 of 11 sectors trending up",
+            "state": "9 of 11 sectors trending up",
             "lean": "risk-on",
             "detail": "above their 200-day trend",
             "status": "ok",
             "raw": {
-              "above": 10,
+              "above": 9,
               "total": 11
             }
           },
           {
             "key": "sectorsAbove50",
             "label": "Short-term uptrend",
-            "state": "5 of 11 sectors rising",
-            "lean": "risk-off",
+            "state": "8 of 11 sectors rising",
+            "lean": "risk-on",
             "detail": "above their 50-day trend",
             "status": "ok",
             "raw": {
-              "above": 5,
+              "above": 8,
               "total": 11
             }
           }
