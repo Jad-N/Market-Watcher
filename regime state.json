@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.35pp (2y 4.14, 10y 4.49)",
-      "asOfMs": 1782950400000,
+      "asOfMs": 1782964800000,
       "status": "ok",
       "raw": {
         "spread": 0.35,
@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.07 vs 20d avg 100.61",
+      "detail": "DXY 101.12 vs 20d avg 100.61",
       "asOfMs": 1783310400000,
       "status": "ok",
       "raw": {
-        "last": 101.07,
+        "last": 101.12,
         "avg": 100.61,
-        "gap": 0.47
+        "gap": 0.51
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.12 vs VIX3M 18.97",
+      "detail": "VIX 16.06 vs VIX3M 18.98",
       "asOfMs": 1783344600000,
       "status": "ok",
       "raw": {
-        "vix": 16.12,
-        "vix3m": 18.97,
-        "diff": -2.85
+        "vix": 16.06,
+        "vix3m": 18.98,
+        "diff": -2.92
       }
     },
     "credit": {
@@ -63,12 +63,12 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -1.4% vs others 2.2%",
+      "detail": "defensives 5d -1.4% vs others 2.1%",
       "asOfMs": 1783344600000,
       "status": "ok",
       "raw": {
         "defMedPct": -1.4,
-        "othMedPct": 2.2,
+        "othMedPct": 2.1,
         "diffPct": -3.5
       }
     },
@@ -100,6 +100,11 @@
   "context": {
     "overnight": [
       {
+        "name": "Nikkei",
+        "pct": 0,
+        "asOfMs": 1783296000000
+      },
+      {
         "name": "DAX",
         "pct": 0,
         "asOfMs": 1783321200000
@@ -108,11 +113,6 @@
         "name": "Hang Seng",
         "pct": 1.1,
         "asOfMs": 1783301400000
-      },
-      {
-        "name": "Nikkei",
-        "pct": 0,
-        "asOfMs": 1783296000000
       }
     ],
     "rates": {
@@ -331,5 +331,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783348368579
+  "updatedMs": 1783349712404
 }
