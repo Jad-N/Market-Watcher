@@ -1,44 +1,44 @@
 {
- "generatedAt": "Jul 6, 2026, 3:19 PM ET",
- "generatedAtMs": 1783365553801,
+ "generatedAt": "Jul 6, 2026, 3:39 PM ET",
+ "generatedAtMs": 1783366789066,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-07-06 15:00 ET",
-  "pricesAsOf": "Jul 6, 2026, 3:19 PM ET",
+  "pricesAsOf": "Jul 6, 2026, 3:39 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7595.5,
-     "change": 0.9,
+     "value": 7600.5,
+     "change": 1,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30001.25,
-     "change": 1.5,
+     "value": 30032.25,
+     "change": 1.6,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 15.68,
-     "change": -0.8,
+     "value": 15.62,
+     "change": -1.2,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 15.65,
-      "divergencePct": 0.19
+      "cnbcLast": 15.63,
+      "divergencePct": 0.06
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.9
+     "pct": 0.8
     },
     {
      "ticker": "QQQ",
-     "pct": -0.1
+     "pct": -0.2
     }
    ],
    "putCall": null
@@ -252,13 +252,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 100.86 vs 20d avg 100.6"
+    "detail": "DXY 100.89 vs 20d avg 100.6"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 15.68 vs VIX3M 18.77"
+    "detail": "VIX 15.62 vs VIX3M 18.75"
    },
    {
     "name": "credit",
@@ -270,13 +270,13 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d -0.8% vs others 2%"
+    "detail": "defensives 5d -0.8% vs others 1.9%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2861 vs 20d avg 0.2846"
+    "detail": "RSP/SPY 0.2859 vs 20d avg 0.2846"
    },
    {
     "name": "skew",
@@ -291,8 +291,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 0.4,
-   "last": 63785,
+   "pct": 0.3,
+   "last": 63731.4,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin rebounds after Trump says he's become 'a big crypto guy' - CNBC",
@@ -307,8 +307,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -6.6,
-   "last": 21.3,
+   "pct": -6.3,
+   "last": 21.4,
    "newsCount": 6,
    "latestNews": {
     "title": "Why Is Cipher Digital Stock Surging On Monday? - Benzinga",
@@ -328,8 +328,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": 0.4,
-   "last": 43.5,
+   "pct": 0.6,
+   "last": 43.6,
    "newsCount": 18,
    "latestNews": {
     "title": "IREN Stock Climbs 5% Overnight As Speculation Builds Over Anthropic Contract - Yahoo Finance",
@@ -349,8 +349,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -6.7,
-   "last": 213.8,
+   "pct": -6.3,
+   "last": 214.7,
    "newsCount": 12,
    "latestNews": {
     "title": "What's Going on With Nebius Group Stock Monday? - Benzinga",
@@ -374,13 +374,13 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 2.7,
-   "last": 555.5,
+   "pct": 2.8,
+   "last": 555.9,
    "newsCount": 18,
    "latestNews": {
-    "title": "AMD Stock Rises as Goldman Sees Big Earnings Coming - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVTRlRkthTlU3S1ZpSHpRdW41REc4OWZvbHBjNUgxNUxVMjBlS0xCd3dPaVlqTmhsOEM4NWpQTW9hclE4V1JqU0o3RnZBWjd2T0xfMl9CQ1BERWlldGF5TmRMbm9pZlNzb0pwMXZUdkJwblFMTkJ5WEVvVUVPaWt6R3pXcUVWdw?oc=5",
-    "time": "12:47 PM"
+    "title": "Top Analyst strongly resets AMD stock price target - Yahoo Finance Australia",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbTVraHVjcEowVHEzVDYtT2RSVWUwTE1KTEJMWDV6cTY4a0tJaTdRd2x4SS1ES2RBZkF5bzJNY0FiVTNVRENiV2k4QThYSXJCTk03NGdYX0hxTnZIcGZWUXV0bEFZR2NEby0zVlltNE1PUFZPYjJQRGlkWjJtTnl5S0dYNWpzNzA?oc=5",
+    "time": "4:33 PM"
    },
    "latestPost": {
     "text": "What helps enterprise AI scale over the long term? Choice. Flexibility. Control. Join AMD at #AdvancingAI 2026 to explore how open software is helping organizations move from AI pilots to production and build for what's next. July 22–23 | San Francisco https://bit.ly/4eKfZO1",
@@ -394,8 +394,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -5.7,
-   "last": 33.5,
+   "pct": -6,
+   "last": 33.4,
    "newsCount": 8,
    "latestNews": {
     "title": "Wall Street Still Loves Applied Digital (APLD) Stock Despite The Selloff, Here’s Why - Insider Monkey",
@@ -419,8 +419,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -6.5,
-   "last": 22.1,
+   "pct": -5.9,
+   "last": 22.2,
    "newsCount": 18,
    "latestNews": {
     "title": "TeraWulf Stock Is Up 95% This Year: Here’s Why - 24/7 Wall St.",
@@ -444,8 +444,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": -2,
-   "last": 9,
+   "pct": -1.2,
+   "last": 9.1,
    "newsCount": 6,
    "latestNews": {
     "title": "IBRX Stock Climbs Overnight: ImmunityBio Declares ‘All Systems Go’ For Dunkirk Anktiva Manufacturing Push - Stocktwits",
@@ -460,8 +460,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -6.2,
-   "last": 4.9,
+   "pct": -8.1,
+   "last": 4.8,
    "newsCount": 2,
    "latestNews": {
     "title": "New Era Energy & Digital: No Change To The Risk (NASDAQ:NUAI) - Seeking Alpha",
@@ -481,8 +481,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -1.6,
-   "last": 13.4,
+   "pct": -0.9,
+   "last": 13.5,
    "newsCount": 1,
    "latestNews": {
     "title": "CLSK Stock Draws Bullish Targets As HPC Pivot Gains Traction - StocksToTrade",
@@ -509,8 +509,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 9.7,
-   "last": 145.5,
+   "pct": 9.5,
+   "last": 145.1,
    "newsCount": 2,
    "latestNews": {
     "title": "ABVX stock eyes over six-month high as investors double down on Abivax's lead drug bet – buyout chatter builds - MSN",
@@ -525,8 +525,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 9.7,
-   "last": 29.5,
+   "pct": 10.1,
+   "last": 29.6,
    "newsCount": 1,
    "latestNews": {
     "title": "Did Index Removal, ENDO 2026 Data and a $150M Raise Just Shift Mineralys Therapeutics' (MLYS) Investment Narrative? - simplywall.st",
@@ -541,8 +541,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -0.3,
-   "last": 197,
+   "pct": -0.5,
+   "last": 196.6,
    "newsCount": 18,
    "latestNews": {
     "title": "Nvidia Stock Is Below $200 Per Share Again. Here's When It Could Hit $300. - Yahoo Finance",
@@ -561,8 +561,8 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -0.8,
-   "last": 1.1,
+   "pct": -0.4,
+   "last": 1.2,
    "newsCount": 10,
    "latestNews": {
     "title": "Ripple Just Got Its Full EU MiCA License. Is This Big for XRP? - 24/7 Wall St.",
@@ -577,7 +577,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -0.9,
+   "pct": -0.6,
    "last": 11.7,
    "newsCount": 0,
    "latestNews": null,
@@ -589,8 +589,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -6.2,
-   "last": 93.8,
+   "pct": -7.4,
+   "last": 92.6,
    "newsCount": 16,
    "latestNews": {
     "title": "Could Buying Rocket Lab Stock Today Set You Up for Life? - The Motley Fool",
@@ -605,8 +605,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 5.4,
-   "last": 132.5,
+   "pct": 5.3,
+   "last": 132.3,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir's Pullback Creates A Rare Opportunity (NASDAQ:PLTR) - Seeking Alpha",
@@ -622,7 +622,7 @@
    "section": "macro",
    "class": "equity",
    "pct": 0.5,
-   "last": 386.1,
+   "last": 386.3,
    "newsCount": 16,
    "latestNews": {
     "title": "Microsoft Stock (MSFT) Slips on Plan to Cut 3,200 Jobs and Spin Off Studios in Major Xbox Reset - TipRanks",
@@ -637,13 +637,13 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 1.9,
-   "last": 38.3,
-   "newsCount": 4,
+   "pct": 2.5,
+   "last": 38.5,
+   "newsCount": 2,
    "latestNews": {
-    "title": "HIMS Stock Eyes Breakout Week: Eight New Partners Fuel Push To Build An All-In-One Health Platform - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTmFzT1g5LXFvWnJjVGJqNUJWRHNqVTE5M09tOXJib0pSSU54dUxucGlDdGRpOFlYWEctZ2VMV09iVWdienRWTFY1Z2J1bWRoZ09ZZi1pVGRCZFo5eHg2aWRIbGNGa0dVcnNVVEJSOWRLSlB1cVItMWJaU0xrUXpnTlkwR0FjZGh0SUI2RXluNTl4cWtQd25DZ290dnMxTkdHTUJ0cVFQM0JCck5waXFZ?oc=5",
-    "time": "2:19 AM"
+    "title": "As Employers Drop Obesity Drug Coverage, Hims & Hers Could Be the Winner - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZENtbE83TGUyMWtSeDBGNkxlZ1V4bzJTYnF2V2preGtjb1hVczYwSjRFVUNMMjNJa1FaUlEwUjFVNHpLQm9vRzEwWW9nNTdrdFo5elo4MWlZTVVsWXpYdW15SmhXcnJrMGltb05xNC1oNDZiSzNpa1libU9jRGhZZFE4eDRJbTQyN1JEZ3c0OFRaQmV6d2ROOE0zYmR1QmNXZXBON01TYXBBWWhrQUVfeE5TRkdzY3RvZ0hZXw?oc=5",
+    "time": "2:22 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -653,8 +653,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 1.5,
-   "last": 366.6,
+   "pct": 1.8,
+   "last": 367.7,
    "newsCount": 12,
    "latestNews": {
     "title": "Alphabet (GOOGL) Stock May Be A Bargain On Earnings But Full On Cash Flow - simplywall.st",
@@ -669,8 +669,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.5,
-   "last": 4187.3,
+   "pct": 1.2,
+   "last": 4175.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of gold as of July 6, 2026 - Fortune",
@@ -685,8 +685,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.3,
-   "last": 72.1,
+   "pct": 0.5,
+   "last": 72.2,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of oil as of July 6, 2026 - Fortune",
@@ -701,13 +701,13 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -0.1,
-   "last": 68.6,
+   "pct": 0,
+   "last": 68.7,
    "newsCount": 10,
    "latestNews": {
-    "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
-    "time": "9:54 AM"
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "time": "10:22 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -715,6 +715,17 @@
   }
  ],
  "events": [
+  {
+   "id": "c85db9dd77e3",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1783366320000,
+   "timeLabel": "3:32 PM",
+   "source": "",
+   "text": "AMD (AMD) Stock Trades Up, Here Is Why - Yahoo! Finance Canada",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE52V0FKdjQ4dThwaGdaU0ZDaU92Qkd2U3FhMFNSRWVsTzBHMXNUQ004ZGdLVVp5YmgxNjdxMl9nZzdGRFY4TFFjQUxtWGFfWnI0Nnk3YjhwdHp4UjJsTjVQOUVJUzJxVUNMcDFINkxLcEZmUEwxN1cxeDRfTWtVdw?oc=5"
+  },
   {
    "id": "e581915253e1",
    "type": "gauge",
@@ -767,6 +778,17 @@
    "source": "",
    "text": "Stock Market Today: Dow Up, AI Stock Tests Entry; TeraWulf Cedes Key Level Despite Anthropic Deal (Live Coverage)",
    "url": "https://finance.yahoo.com/m/e4816774-35f0-3682-b37a-8d60e0419f0f/stock-market-today%3A-dow-up%2C.html?.tsrc=rss"
+  },
+  {
+   "id": "49ff0290fa42",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1783363080000,
+   "timeLabel": "2:38 PM",
+   "source": "",
+   "text": "AMD, Nvidia, Micron, Intel, Dell, O’Reilly, Rivian, and More Stocks That Explain Today’s Market - Barron's",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBuN0ZhSGNkX0tPYTE5MERrMjdWdjBseVJOd0E2THpxNTZzTDAya3RFZThmZkViaklILVJpZVJ6ZlA4eDFVaEVCTFBJeXk0NDd4TW90MnpZQnNseE9MN19TTl9qY1I?oc=5"
   },
   {
    "id": "18542e3f4bca",
@@ -4597,6 +4619,15 @@
   {
    "t": 1783365553801,
    "label": "Jul 6 2026 3:19 PM ET",
+   "cnn": 45,
+   "crypto": 24,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 40.6
+  },
+  {
+   "t": 1783366789066,
+   "label": "Jul 6 2026 3:39 PM ET",
    "cnn": 45,
    "crypto": 24,
    "stBull": null,
