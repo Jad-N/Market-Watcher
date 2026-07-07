@@ -1,51 +1,51 @@
 {
- "generatedAt": "Jul 7, 2026, 9:24 AM ET",
- "generatedAtMs": 1783430650203,
+ "generatedAt": "Jul 7, 2026, 9:45 AM ET",
+ "generatedAtMs": 1783431901865,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-07-07 09:00 ET",
-  "pricesAsOf": "Jul 7, 2026, 9:24 AM ET",
+  "pricesAsOf": "Jul 7, 2026, 9:45 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7580.25,
-     "change": -0.1,
+     "value": 7575.25,
+     "change": -0.2,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29644.75,
-     "change": -1,
+     "value": 29542.5,
+     "change": -1.3,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 15.9,
+     "value": 15.89,
      "change": 2.1,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 15.9,
-      "divergencePct": 0
+      "cnbcLast": 15.83,
+      "divergencePct": 0.38
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 0.9
+     "pct": 0.7
     },
     {
      "ticker": "QQQ",
-     "pct": 1.4
+     "pct": 0.2
     }
    ],
    "putCall": null
   },
   "gauges": {
    "cnn": {
-    "score": 45,
+    "score": 43,
     "rating": "fear",
     "prevClose": 44,
     "prevWeek": 31,
@@ -61,11 +61,6 @@
    {
     "theme": "AI data centers",
     "items": [
-     {
-      "title": "SK Telecom plans 15GW AI data center buildout in Korea ... - eeNews Europe",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPakkwVVhzV1d3YXJiMnJUUWs5WjJFYUdwOUNvS1dQbnVuMDZJNFhBRkJLdGktMmJhUmNkS2tnWGRIMU9fY245a0NTQkRHV2xIN2sySFQ2aFcxcGM2dW1ielRBQWFmMGdLeEFZMmxwUlNWbkQxQUw2OW9PNjg3MEV3MHhmWVZoUV8yMUxWRjNSRTA?oc=5",
-      "time": null
-     },
      {
       "title": "Anthropic Signs $19B Data Center Lease: WULF Surges as AI Power Crunch Deepens - Tech Times",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTE5mSGpmYjJNYmhTQThRSEJDYVVna09zTEtMLUJMZmNQTHJ1TVFhYjNoVktrNFpQQXpBdTBxS25WTGxnUFpORVJvbDBKdzVYQjhOQUhiYkJGYTM3SFp0OHhIdUJQMmhYQ3I4UC1nLUZHQmxmdlFMNkxYcDdBYnhodzZMWWdXNnNEVWxvOUNlVkx0RGh6a0xuM3QzV1VYazdqVUI0WlpONlBaeWFDS2l0dTBoX0liMnp2V2x0cVpHRmdzeHkxeWF3?oc=5",
@@ -101,11 +96,11 @@
   ]
  },
  "mood": {
-  "composite": 42.1,
+  "composite": 34.9,
   "components": [
    {
     "name": "Regime (% voters risk-on)",
-    "value": 57.1
+    "value": 42.9
    },
    {
     "name": "Crypto Fear & Greed",
@@ -220,17 +215,17 @@
   ]
  },
  "regime": {
-  "label": "risk-on",
+  "label": "risk-off",
   "tally": "4-3",
-  "on": 4,
-  "off": 3,
+  "on": 3,
+  "off": 4,
   "drivers": [
-   "curve positive",
-   "VIX in contango",
-   "cyclicals leading",
-   "breadth broad"
+   "dollar strong",
+   "credit spreads widening",
+   "defensives leading",
+   "crash-hedging elevated"
   ],
-  "score": 57.1,
+  "score": 42.9,
   "components": [
    {
     "name": "curve",
@@ -242,13 +237,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 100.93 vs 20d avg 100.64"
+    "detail": "DXY 100.9 vs 20d avg 100.64"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 15.9 vs VIX3M 19.04"
+    "detail": "VIX 15.89 vs VIX3M 19.04"
    },
    {
     "name": "credit",
@@ -258,15 +253,15 @@
    },
    {
     "name": "rotation",
-    "vote": "on",
-    "state": "cyclicals leading",
-    "detail": "defensives 5d -0.7% vs others 1.9%"
+    "vote": "off",
+    "state": "defensives leading",
+    "detail": "defensives 5d 1.5% vs others 1.1%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2862 vs 20d avg 0.2846"
+    "detail": "RSP/SPY 0.288 vs 20d avg 0.2849"
    },
    {
     "name": "skew",
@@ -282,7 +277,7 @@
    "section": "crypto",
    "class": "crypto",
    "pct": -1.4,
-   "last": 63096,
+   "last": 63102.2,
    "newsCount": 10,
    "latestNews": {
     "title": "Trump Bitcoin Reserve Faces Hurdles as Departments Seek Control - Bloomberg.com",
@@ -297,9 +292,9 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 8.4,
-   "last": 21.7,
-   "newsCount": 7,
+   "pct": 5.1,
+   "last": 21.1,
+   "newsCount": 6,
    "latestNews": {
     "title": "Why Is Cipher Digital Stock Surging On Monday? - Benzinga",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON19JTFJtTHVQellfUXVqQ1l1QU1NRkJkOUgyeWVmdVdLS3BKeTNzMm5NU2Ntb3lGZXRpWk5sNlcxam1TemZNV2hqbkJsaTlGUnFjYUxwTG0zVWFKNllqY1JtRW9FbmlrT2FqVWo2VzJTQk5JbGZFS0g4NG1ENVpyWENhMVl3ZFJCVVdPYXN2d0F2R1QwYTFSVGxB?oc=5",
@@ -318,8 +313,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": 13.1,
-   "last": 43.9,
+   "pct": 9.2,
+   "last": 42.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Why is IREN stock surging today? - Investing.com",
@@ -339,8 +334,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -1.2,
-   "last": 213,
+   "pct": -3.9,
+   "last": 207.1,
    "newsCount": 14,
    "latestNews": {
     "title": "Nebius: Why The Meta Selloff Is A Massive Misunderstanding (NASDAQ:NBIS) - Seeking Alpha",
@@ -360,8 +355,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 6.6,
-   "last": 552.1,
+   "pct": 0.3,
+   "last": 519.5,
    "newsCount": 18,
    "latestNews": {
     "title": "What You Actually Pay To Join The AMD Run - Yahoo Finance",
@@ -380,8 +375,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": 1.3,
-   "last": 33.5,
+   "pct": 0.2,
+   "last": 33.1,
    "newsCount": 6,
    "latestNews": {
     "title": "Is Applied Digital’s (APLD) 75 MW AI Expansion a Turning Point in Its Infrastructure Strategy? - simplywall.st",
@@ -405,8 +400,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 4.9,
-   "last": 22.2,
+   "pct": 1.3,
+   "last": 21.5,
    "newsCount": 18,
    "latestNews": {
     "title": "TeraWulf (WULF) Could Be 61% Undervalued On Its Anthropic Lease Shift - Yahoo Finance",
@@ -426,8 +421,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": -5.6,
-   "last": 8.9,
+   "pct": -7.1,
+   "last": 8.8,
    "newsCount": 1,
    "latestNews": {
     "title": "ImmunityBio Stock: A Long-Term Bull Case Worth Watching (NASDAQ:IBRX) - Seeking Alpha",
@@ -442,8 +437,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -0.3,
-   "last": 4.8,
+   "pct": -4.5,
+   "last": 4.6,
    "newsCount": 4,
    "latestNews": {
     "title": "New Era Energy & Digital: No Change To The Risk (NASDAQ:NUAI) - Seeking Alpha",
@@ -463,8 +458,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 7.1,
-   "last": 13.5,
+   "pct": 5,
+   "last": 13.3,
    "newsCount": 3,
    "latestNews": {
     "title": "CleanSpark adds bitcoin and lifts holdings to 13,924 in June update - Stock Titan",
@@ -483,8 +478,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 0,
-   "last": 13.1,
+   "pct": -0.5,
+   "last": 13,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -495,9 +490,9 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -0.5,
-   "last": 144,
-   "newsCount": 4,
+   "pct": -1,
+   "last": 143.2,
+   "newsCount": 3,
    "latestNews": {
     "title": "Sofinnova Crossover I cuts Abivax (ABVX) holding to 3.1% after share sales - Stock Titan",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTjNaclFvck1GZDZadnVzSkZzVGpGYVRUTTNIS1FMWWZydlY3OVZHNHN2bnA0MXMzT0VHTzRuQ2dmakdfZGxHaDdERDZHZWlVd3Rlei1HV09PaVlSOTdDWWZaNGZqSmltVlJQdHZUeFV5TEphcUZFbWZ4Qm9uaHE3VmNvN0Z6ZF9CZGQ4bGh3cDlhYXRqT195Njh6ZE1PbEh5VXBleEREVVlFaVZHcndTN1lfczdKQ2lJVkEtVw?oc=5",
@@ -511,8 +506,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 5.2,
-   "last": 29.1,
+   "pct": 7,
+   "last": 29.6,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -523,8 +518,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 0.4,
-   "last": 195.6,
+   "pct": -1.2,
+   "last": 192.5,
    "newsCount": 18,
    "latestNews": {
     "title": "NVIDIA Falls 7% in a Month: Should You Still Hold NVDA Stock or Exit? - TradingView",
@@ -559,8 +554,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 4.1,
-   "last": 11.7,
+   "pct": 3.9,
+   "last": 11.6,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -571,13 +566,13 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -7.3,
-   "last": 93.1,
+   "pct": -12,
+   "last": 88.4,
    "newsCount": 18,
    "latestNews": {
-    "title": "Rocket Lab (NASDAQ:RKLB) Stock Price Down 7.3% - Here's What Happened - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdGdCdW0zcWRsdy1tcEI3T0QxbHZqWWI0WWpaM0ZzWkJ3WDFzUlZMLThtV09jMHY3NEdMMElKNVBDUC1xdVlEcjhmTHF0bVFDU0xHVlJwLXlPMnJxV2E4cHRIMDZ3Qy1IRDdBQ2ZhNUMzcVpyM1pTQk40VGFaR01FdFJyd195dndFbGhLVTUzODdod2xKazhCNjlLeks5V05XY3B0WThaaXBFMEs1Zk9KUmNNcUJ1Zw?oc=5",
-    "time": "5:27 PM"
+    "title": "Rocket Lab Falls 7%, AST SpaceMobile Drops 5%, Intuitive Machines and SpaceX Slip 3% as Space Stocks Pull Back - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSk04NHNqZTNsTWtsQzlzbEY4RDN1aldfOTR6b3dHZE5IYnRWMldla1o3X3N4MU9WTmpaX2pLcFh2RjJaOVN4QW1DS1M4R2JBZkdFenBzOU1MQlJsYzlDdHEzblpBZUtBWS1JZldnV2RDb1VyeGxVNWRvOWFIdVBGMzRSYTUzUHJZQ19PenNldGRvX2liTHN6TThKc1ktaG5Bd3QyaHJXbFYtUGRMOUdhMzRIV2VxS1U3bmNpbktSN0dQY19GbDRoUTh1c3NES3duTENfcS1VMlZmX2R5bjZUN3VNVQ?oc=5",
+    "time": "2:23 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -587,8 +582,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 2.5,
-   "last": 132.5,
+   "pct": 3.3,
+   "last": 133.6,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir's Pullback Creates A Rare Opportunity (NASDAQ:PLTR) - Seeking Alpha",
@@ -603,9 +598,9 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -1,
-   "last": 386.7,
-   "newsCount": 10,
+   "pct": -0.1,
+   "last": 390,
+   "newsCount": 18,
    "latestNews": {
     "title": "“Earn the Right to Exist”: Microsoft Stock (NASDAQ:MSFT) Slips on Plans to Consolidate Copilot - TipRanks",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS0hXOURLTVlQeVBoa2J6dU9OY2RtSy1XRGNWNnk5d1FLX1VEX05mblEwTk5xUDlFUUdhb0Z5bmtYMVVxeTFhZWNxWnRtb01kN012M08yY0lqM0liWmtxTFE1RGxobHhRaWVMLUVpS2x5MENyS08xVE9qQldlSWllelRfTHBfN3lFUUxKOUZJQmV3aFI5UG81RVZVSU9MdGZfTXpuUEl5di10cEJCMWlWdng2YWRkWE16ZUE?oc=5",
@@ -619,9 +614,9 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": 4,
-   "last": 38.3,
-   "newsCount": 5,
+   "pct": 2.1,
+   "last": 37.6,
+   "newsCount": 6,
    "latestNews": {
     "title": "Hims & Hers Health vs. Teladoc Health: Which Healthcare Stock Is a Better Buy in 2026? - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSU5xVzd0Z3ZrSFRFY2VMOEtiSkhuWkpOQURISEhiZnhwSGlxbUtMM1dNTi1ORXVXcXdUMXQyNEtJNlJMdlI2ZUpiQjV4OG1ORlVnUEpUSUlEalBfemVrdzlaN1RCMG5vMUpJMW9QSExuQVF1U0ZkeUhhTUdxZGNJc3Nhd0FkOGNWOUxnUlFEYlJnSXdvUlVfc3J2MFpHUWN3aGpqWGZvc2ZnNTZzbkg2WVRaczhQVnlSNndPeHBHX21zNmVPYllzNGJrdmt6Ylk?oc=5",
@@ -635,13 +630,13 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": 1.8,
-   "last": 366.5,
+   "pct": 3.2,
+   "last": 371.4,
    "newsCount": 17,
    "latestNews": {
-    "title": "Alphabet Inc. (GOOGL) Is A Top AI Stock To Buy According To Billionaire Jeffrey Talpins - Insider Monkey",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVHJOVHkzY1ZNTVlseGx1MURpVzVyejRaSXdUbmUtZl81cHRuQkU3akdTNFVaYzlUZ0FuTHFVY0MyM0JTMjEwM2VGa09RSDNjRlc3S2dmTzJQdVE2S2d0R3JFbmVDQmVtREZ3N2Qxa0hqTUgwV3pRWGN6OEpaOUdDZlNuZ2JuS0dyV3pGdWdlTUZSZ19iRGhyRmVNUkZmak5TcGMxcG1kV0xSODRFejllTVREeVp6d0dRRl9GNG92QVJoZ283MTV30gHPAUFVX3lxTE5LTzRRLVU2V2J3UFhvLWZrSEVjMGJ5MW0tRVRaMUZwUDhXdjU5Q0pVWlRodFdlRDItWUhNREotZ0Z1NVY3MU9xc2tRc1N0c3lPUTNwalhPeDh0TEpOMjRLdzVrRHVyZzZBQ1g5UHhEUHF6SHRxWVBDQ0pKSFU0cEJKU2VBRUJKLVVqV21CT2VyS3FHcXk5eDlVZ20tYlhsRjFURWI1ZW9nS25pODVCd3dYcmtqMnpqd1dHYjZFSjFzcFV1OTNielRoY2dvWGMzOA?oc=5",
-    "time": "5:41 AM"
+    "title": "Alphabet Inc. (GOOGL) Is A Top AI Stock To Buy According To Billionaire Jeffrey Talpins - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUFdUS09laEVnOHd5TjV6V2VtMm1NalNqMmFhdHRVTnlEVUV3TTJTemoxWl9ySHJuNEFtM2RPNGg5UzRIUGxwZ0drajh1MmJKcDZSY2NBQW1WU3BSNzlReW1WaUI3aWpqUU0tdC1GWW92cFlnWll0eGl5MnlmODZtX09obFFUcDFLcDhUeGQwSHVLMnM?oc=5",
+    "time": "5:32 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -652,7 +647,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": 0.6,
-   "last": 4179.5,
+   "last": 4180.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Weaker demand to cap near-term gold price gains, J.P. Morgan says (GLD:NYSEARCA) - Seeking Alpha",
@@ -667,8 +662,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.3,
-   "last": 72.9,
+   "pct": 1.5,
+   "last": 73.1,
    "newsCount": 10,
    "latestNews": {
     "title": "Washington's Plan to Neutralize Iran's Hormuz Leverage - Crude Oil Prices Today | OilPrice.com",
@@ -683,8 +678,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 1.2,
-   "last": 69.4,
+   "pct": 1.5,
+   "last": 69.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
@@ -697,6 +692,28 @@
   }
  ],
  "events": [
+  {
+   "id": "4f67634e1924",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1783431300000,
+   "timeLabel": "9:35 AM",
+   "source": "",
+   "text": "Fjarde AP Fonden Fourth Swedish National Pension Fund Buys Shares of 72,500 IREN Limited $IREN - MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTGFiTDV5aEJqd3VfQkZLc1pLOWN4VmR5RGRId0EtOWZwY0o1TGlsMzBfT2NteGNSS1JsMWlUU2tvR09YS1FpMWNxSEtOTVVPOGFydmRWUFVXMjEtVWhkSW0yVDhQTnJodVZRMHlheGc5eDZjWVZVMHNnOGY2TnZQM1N0TkZhb2U1NDJpSXVrdm9BMkZhRGtkSF9XNk4zeUpuYzhvc1g1WVkyc3E2MXdERHotdTR3eFJScExKNTFUdmRScVNpVXFfMU1ua3hrWUhwZXRCS2RSUW5FaTNfWWNwd0JrSGlwYlFT?oc=5"
+  },
+  {
+   "id": "dce49feb6635",
+   "type": "news",
+   "symbol": "BRENT",
+   "section": "macro",
+   "time": 1783430880000,
+   "timeLabel": "9:28 AM",
+   "source": "",
+   "text": "Hormuz Shipping Constraints Lift Brent to $72.84, Keeping Fuel Costs Elevated for Mining Companies - Crux Investor",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYW1qU2llTnFOaDMtcTlQT3ZWaXVodFp6Ui1qTXlPOHNhTFVoMy13ZHZyTUVLZUx5TEFGTzRXVjlkX1J6MFZfV21KZkdyRDlRWmdPeUxXMkJmNm5ORm5jbnNvRHFJT20wZWM3UFRBS1A3TVprTzdlOHlKU1MySTZ2eVpLN1BEZmZQT1BtTllEX1NwZ3VicjhoYXltU1IwaTZGRURiVFg1eWRyaUdIMUE3UGdIZmlfQmFXX2sydHdKdFRVTjVTZ3F3VDRNZw?oc=5"
+  },
   {
    "id": "3dcf97827d12",
    "type": "post",
@@ -4337,12 +4354,21 @@
    "stBull": null,
    "regime": 57.1,
    "composite": 42.1
+  },
+  {
+   "t": 1783431901865,
+   "label": "Jul 7 2026 9:45 AM ET",
+   "cnn": 43,
+   "crypto": 27,
+   "stBull": null,
+   "regime": 42.9,
+   "composite": 34.9
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0,
+  "divMax": 0.13,
   "fallbacks": 0
  }
 }
