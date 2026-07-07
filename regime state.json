@@ -27,11 +27,11 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.02 vs 20d avg 100.64",
+      "detail": "DXY 101.01 vs 20d avg 100.64",
       "asOfMs": 1783396800000,
       "status": "ok",
       "raw": {
-        "last": 101.02,
+        "last": 101.01,
         "avg": 100.64,
         "gap": 0.37
       }
@@ -39,13 +39,13 @@
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.95 vs VIX3M 18.95",
+      "detail": "VIX 15.85 vs VIX3M 18.87",
       "asOfMs": 1783431000000,
       "status": "ok",
       "raw": {
-        "vix": 15.95,
-        "vix3m": 18.95,
-        "diff": -3
+        "vix": 15.85,
+        "vix3m": 18.87,
+        "diff": -3.02
       }
     },
     "credit": {
@@ -63,25 +63,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 0.5% vs others 0.3%",
+      "detail": "defensives 5d 0.5% vs others 0.4%",
       "asOfMs": 1783431000000,
       "status": "ok",
       "raw": {
         "defMedPct": 0.5,
-        "othMedPct": 0.3,
+        "othMedPct": 0.4,
         "diffPct": 0.1
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2872 vs 20d avg 0.2849",
+      "detail": "RSP/SPY 0.2871 vs 20d avg 0.2849",
       "asOfMs": 1783431000000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2872,
+        "ratio": 0.2871,
         "avg": 0.2849,
-        "gap": 0.0023
+        "gap": 0.0022
       }
     },
     "skew": {
@@ -105,14 +105,14 @@
         "asOfMs": 1783296000000
       },
       {
-        "name": "DAX",
-        "pct": -1.4,
-        "asOfMs": 1783407600000
-      },
-      {
         "name": "Hang Seng",
         "pct": 1.1,
         "asOfMs": 1783301400000
+      },
+      {
+        "name": "DAX",
+        "pct": -1.4,
+        "asOfMs": 1783407600000
       }
     ],
     "rates": {
@@ -351,5 +351,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783441826738
+  "updatedMs": 1783443013398
 }
