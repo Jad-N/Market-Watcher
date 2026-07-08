@@ -1,44 +1,44 @@
 {
- "generatedAt": "Jul 8, 2026, 11:30 AM ET",
- "generatedAtMs": 1783524602610,
+ "generatedAt": "Jul 8, 2026, 11:49 AM ET",
+ "generatedAtMs": 1783525772670,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-07-08 11:00 ET",
-  "pricesAsOf": "Jul 8, 2026, 11:30 AM ET",
+  "pricesAsOf": "Jul 8, 2026, 11:49 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7487.75,
-     "change": -0.8,
-     "invert": false
-    },
-    {
-     "name": "Nasdaq 100 (NQ)",
-     "value": 29140,
+     "value": 7482,
      "change": -0.9,
      "invert": false
     },
     {
+     "name": "Nasdaq 100 (NQ)",
+     "value": 29110,
+     "change": -1,
+     "invert": false
+    },
+    {
      "name": "VIX",
-     "value": 18.14,
-     "change": 12.5,
+     "value": 18.3,
+     "change": 13.5,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 18.46,
-      "divergencePct": 1.73
+      "cnbcLast": 18.32,
+      "divergencePct": 0.11
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": -1.5
+     "pct": -1.4
     },
     {
      "ticker": "QQQ",
-     "pct": -2.9
+     "pct": -2.8
     }
    ],
    "putCall": null
@@ -64,6 +64,11 @@
      {
       "title": "Taihan Wins Australian AI Data Center Power Contract - Let's Data Science",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONXNiM1RNOW9lOVA3MGhlYTEtclhIVlplNDhMcmhDMmhnZkVMSmg5bVFEWUlqM0E2TkgwWU5WUUU5SU5GS1JxUlFhX1ZPOC1SXzgzNGdSbHdJeC0zYVlGS1V6blZtN21QMmhuXzdsbjdZV1VkczFMcnE0Q2Vsb0JOdHc0SHhLdThzUEFDWk4xbFV2YS1mMURjeHRn?oc=5",
+      "time": null
+     },
+     {
+      "title": "Galaxy Digital delivers 133 MW to CoreWeave in Helios data center buildout - Cryptopolitan",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HbXM4ZXNVbXhlUTgyclhkdGpleDF0ZWZNdW9ydXNNeFJScEdoV19VM0RwcWEydEhsemlIazMwc2l0dkFGMG1DVmZqV1JKc19JeC1xeFQyRVpXWDB0WWdCT0tKMWVoX0Vnd3JNRElHUlVUdFJEVTRV?oc=5",
       "time": null
      }
     ]
@@ -231,13 +236,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.19 vs 20d avg 100.71"
+    "detail": "DXY 101.25 vs 20d avg 100.71"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 18.1 vs VIX3M 20.04"
+    "detail": "VIX 18.29 vs VIX3M 20.18"
    },
    {
     "name": "credit",
@@ -249,13 +254,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 2.3% vs others -0.4%"
+    "detail": "defensives 5d 2.4% vs others -0.4%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2859 vs 20d avg 0.2851"
+    "detail": "RSP/SPY 0.2858 vs 20d avg 0.2851"
    },
    {
     "name": "skew",
@@ -271,7 +276,7 @@
    "section": "crypto",
    "class": "crypto",
    "pct": -2.7,
-   "last": 61562.9,
+   "last": 61598.1,
    "newsCount": 10,
    "latestNews": {
     "title": "Live markets: Bitcoin drops to $62,000, stocks slide, oil soars as Iran ceasefire collapses - CoinDesk",
@@ -286,8 +291,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -5.5,
-   "last": 20.5,
+   "pct": -5.3,
+   "last": 20.6,
    "newsCount": 13,
    "latestNews": {
     "title": "Why Cipher Digital Inc. (CIFR) Dipped More Than Broader Market Today - Yahoo Finance",
@@ -307,7 +312,7 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -7.1,
+   "pct": -7,
    "last": 40.8,
    "newsCount": 13,
    "latestNews": {
@@ -328,8 +333,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -4.9,
-   "last": 202.6,
+   "pct": -5.4,
+   "last": 201.6,
    "newsCount": 11,
    "latestNews": {
     "title": "Nebius Group (NBIS) Gains on Massive AI Deals, Here’s What You Need to Know - Yahoo Finance",
@@ -353,8 +358,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -9.1,
-   "last": 501.9,
+   "pct": -8.8,
+   "last": 503.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Goldman Sachs resets AMD stock price target for the rest of 2026 - thestreet.com",
@@ -369,8 +374,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -9.6,
-   "last": 30.3,
+   "pct": -10.2,
+   "last": 30.1,
    "newsCount": 7,
    "latestNews": {
     "title": "Applied Digital (APLD) Shares Drop 8% Despite AI Capacity Milest - GuruFocus",
@@ -394,8 +399,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -1.2,
-   "last": 21.9,
+   "pct": -2,
+   "last": 21.8,
    "newsCount": 18,
    "latestNews": {
     "title": "Profit-Taking Drags Terawulf (WULF) Shares by 8.87% - Yahoo Finance",
@@ -419,8 +424,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": -3,
-   "last": 8.6,
+   "pct": -2.6,
+   "last": 8.7,
    "newsCount": 1,
    "latestNews": {
     "title": "IBRX Stock Price Prediction 2025-2026 | Immunitybio Inc Forecast - 24/7 Wall St.",
@@ -435,9 +440,9 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -11.2,
+   "pct": -10.8,
    "last": 4.2,
-   "newsCount": 3,
+   "newsCount": 4,
    "latestNews": {
     "title": "Top New Era Energy & Digital (NUAI) Competitors 2026 - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWVFXaXBtbHNaX21CbTFidWhvUEdiSDRzbTl1eWx1MjVPZndpbGQwZGhXTkFyZ05qc0RzdmtMQWRmVzZ5TUZ0bjJIQjI1OTZJd1B2VVV2VFU0ZVI2NnZ4LUd3djhSR1o3OGdpRk1Na3JNY092WG9MXzZIeXJORUctUQ?oc=5",
@@ -456,8 +461,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -10.8,
-   "last": 12.1,
+   "pct": -11.3,
+   "last": 12,
    "newsCount": 5,
    "latestNews": {
     "title": "CleanSpark (CLSK) Reports June Bitcoin Output, Is It Still 41% Below Fair Value? - simplywall.st",
@@ -484,8 +489,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -3.9,
-   "last": 138.4,
+   "pct": -3.7,
+   "last": 138.7,
    "newsCount": 2,
    "latestNews": {
     "title": "Abivax: Wall Street Catches Up to the Data - MarketBeat",
@@ -500,8 +505,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 2.7,
-   "last": 29.9,
+   "pct": 2,
+   "last": 29.7,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -512,8 +517,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 0.6,
-   "last": 196.7,
+   "pct": 0.9,
+   "last": 197.3,
    "newsCount": 18,
    "latestNews": {
     "title": "NVIDIA Corporation $NVDA Stock Holdings Lowered by Simmons Bank - MarketBeat",
@@ -532,13 +537,13 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -3.7,
+   "pct": -3.6,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
-    "title": "Kansas Athletics Announces Strategic Jersey Patch Partnership Featuring XRP Cryptocurrency - kuathletics.com",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNGxXUEtPNmtrYjYxeEk0RHZodmJpVm5zLVZBY3FJSzRXLXZpUkE2Mk5CN05ydHQ3SkxER0FvWmE3dmh6TTBTSm0tQnZZNVZoc3MwQTVxTHpaXzlNaHhBT0JLUUYxbjBsLWRFV2xMOGRBYnVDVHJBLXBDeURCQWQ5V2dHV3lxNTFTb25FclR6SVFUMVpVTndtNEhXcVdTamZidnp5S1JtYjhoTjZJb0FLSW5TblFZdEtOc211ekhuWkZELWYyY1VMaHdRdUxjU0ZjVjVB?oc=5",
-    "time": "8:34 AM"
+    "title": "Kansas to feature cryptocurrency as jersey patch sponsor - Sports Business Journal",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQXk4SGZoV2hud18zZ1o1TXlNR3E5NjZkS3B6eWk3aEpZY3NlQTZmbG1WQmdfNnk3LUt2ZzhTaWtsM0J5RG84cE9VUGNOcmtwNEs0VU1kYmRzV0laMk56R1JleFpNRW92X0dYN3FNcmVTMUpreXkxc1Y2WWNpVXU2WWdtTUFxRG5HeG1RNDFBcWZzQUVSVEZ0WkM3RHpEeFBidW1FUUZXSGg0anRHeDhUZGJyczBJZw?oc=5",
+    "time": "8:01 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -548,7 +553,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -6.1,
+   "pct": -6,
    "last": 11,
    "newsCount": 0,
    "latestNews": null,
@@ -560,13 +565,13 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -12.3,
-   "last": 81.6,
+   "pct": -12.6,
+   "last": 81.4,
    "newsCount": 18,
    "latestNews": {
-    "title": "Morgan Stanley reiterates Rocket Lab stock rating on Iridium deal - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWHdzWVo5MWV0UmRJOEZXODVtcThzazZjblpaSE05NEZWaVV4VmJBVjAtSzlzV0tRY3dQU2VhOG1PMjJwWVV6Z1JaQWxfQTBJOTdEaVo4YlJKYkVvc2VQZU91LVFoTmVSc0k3QmFUaXh3QnhwZld5OUtKeGVFYjVuZEJoTUM4aWNHaXFndzVtMFBtY05zRXFIWm9ON2V1dVUzbmY3bzNrWTR5ekN3QmpEMTVTTGc1RWNIT3EwYTJDNDZnMlk?oc=5",
-    "time": "6:27 AM"
+    "title": "Can Rocket Lab Stock Become the Next SpaceX-Like Success Story? - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONXNhNkk5dVBRLV9NRWJOT3FGZ0lCVkIwS0s4Tm0wcHpfa0dISmxnck9rMlk3d0FzS2I0dnl3bmF2VGMyNk9HR3dSVDMtVzdCTWNMZFpRdThIX0V6aVFNS3NDa1J0Wm9fR2FfMlNZQnlGT21TZ0wwekVNbmQ2MEQ0U1dFZHkxM3hNalBnNE5oQjFxcnZ2TzNCXzdwQVBhMExtQ1ZRbHdXNGNydw?oc=5",
+    "time": "9:10 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -577,7 +582,7 @@
    "section": "macro",
    "class": "equity",
    "pct": -3.1,
-   "last": 128.5,
+   "last": 128.4,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir Stock Is Now Too Cheap to Ignore - Morningstar",
@@ -596,13 +601,13 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -1.2,
-   "last": 382.1,
-   "newsCount": 13,
+   "pct": -1.1,
+   "last": 382.4,
+   "newsCount": 12,
    "latestNews": {
-    "title": "Microsoft Stock (NASDAQ:MSFT) Ticks up with Microsoft Execution Containers - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzZUYTczNE5TOWxWQllaZnpJdXBCYUFDYzkyV1pRYVhCZm4xMXh0SU5lZzFSYTEtR1VlQkRoLVh2S083WWdQTTE3N0FIWU9FVTFwaE9DMmk3Ni00UXYwdEJ3a0hoaldsenJab0tjUnZwY1gxdC05akF0a05ZbXJpR2VpU0pPYWI3ZWE3TDNVS2FuNkh5N190OWdWVmxjU0RGU1FR?oc=5",
-    "time": "1:42 PM"
+    "title": "Price Prediction: Microsoft Stock Will Hit $500 on This Date - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTlB6b1RMLVdoM3FzaGdfZGlWMXVUeXUwdmVaWm9COHhyY1NVUmZFeU9IbGUtUmF3QjlrWWh3bG54YWVHYmNMaFlZZlRjTWo0cDhXRldoM2JXUTN2Q2dpdnRGY09zandmbmFmR09BeHMyR1hQcWtwOXhIYkNOSTZDQkVTWEhPS2tjZ0x5bVczQk8xai1pWGtGYl9jeWZtaDMzQXZj?oc=5",
+    "time": "12:30 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -612,8 +617,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -9.9,
-   "last": 34.5,
+   "pct": -10.3,
+   "last": 34.3,
    "newsCount": 4,
    "latestNews": {
     "title": "Hims & Hers Health: The Market Still Doesn't Get It - Seeking Alpha",
@@ -628,8 +633,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -1.5,
-   "last": 361.1,
+   "pct": -1.7,
+   "last": 360.4,
    "newsCount": 16,
    "latestNews": {
     "title": "The Cloud Backlog That Changed Everything For Google Stock - Trefis",
@@ -644,13 +649,13 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.5,
-   "last": 4042.6,
+   "pct": -2.6,
+   "last": 4039.5,
    "newsCount": 10,
    "latestNews": {
-    "title": "Gold Price Today: 4,121-4,129 Support Zone Keeps the Recovery Attempt Alive - investingLive",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeTk1LTJTMVB3WHFxdDczMU9weUFjRlpPdmVSUGFCdjR2eElBZlNWTEVjaDBicm51OXhqYmhkaERMQXJrLVJoSldiMTBZME14UHdOdWFhbWg0UnhpUzY5c01NUDFTSGVhQU5DaU1uVFVWSlJ0TUdZU1BnQmpZQUNMeVRzd3g5R0Y3MXVIWkRQNE1uSHIxd1FVMEVkWHQzeUc4ZmRFUWFrblVJZzhoZjNkMFprY2xRcFZNdmJnYg?oc=5",
-    "time": "1:56 AM"
+    "title": "Gold drifts lower after Trump says deal with Iran 'over' - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1hzdnRhSUFjNm5yb3RRTUlITEtOd1NMOFJJNlc0VVczR0s1S295WjY5b0YyaEhIMjZxZWEtdk5WUjlPcC05dUtFaThpNGo3QVl4REZiMzIxZ252bHE4a2VRRjFUYXlfR3Myb0Y3aUlSVnplSEp5eW9YQjBvNXU1UmwySVFjaXhuXzNLMFBXNE5Rdk5IcWxqUXJZR3FvNGRjc2p2b3hoa2x3U2ZvOE5XYU1n?oc=5",
+    "time": "9:38 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -660,8 +665,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 7.6,
-   "last": 79.8,
+   "pct": 8.1,
+   "last": 80.2,
    "newsCount": 10,
    "latestNews": {
     "title": "The Next Oil Price Spike Could Come Sooner Than Traders Think - Crude Oil Prices Today | OilPrice.com",
@@ -676,8 +681,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 7.2,
-   "last": 75.5,
+   "pct": 7.5,
+   "last": 75.8,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil surges almost 6% after Trump says ceasefire with Iran is over - CNBC",
@@ -810,6 +815,28 @@
    "source": "",
    "text": "WULF Stock Soars After Morgan Stanley Price Target Hike Suggests 242% Upside - Stocktwits",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeUJmQVdiSGJGRWxTMnBoNGh6c0pQWG5wRC0wQmtDc2lySkl6bDZkRE8wU0gyWjVBNkMyU21jNTRDdGxiajZMV2RocDhsMWFsUkxVbjVDckJIbmRXcm9ycFFOQ2RSZHFMQ0FFWjlWVkRCU0JBcHh1VHJ2dHoydnhubVVaU29YODRVQVF0YWFCaGdrQVlWc1l1TjFzWFpBZFN3RE5kTnR5RkI0ZGw1Qi1ZX3VKU285a1Q2T0lQcXpwRFdxeDJybFJPaGdwcnJtZV9SNU1ndw?oc=5"
+  },
+  {
+   "id": "d9861855c067",
+   "type": "news",
+   "symbol": "WULF",
+   "section": "trading",
+   "time": 1783520460000,
+   "timeLabel": "10:21 AM",
+   "source": "",
+   "text": "WULF Stock Soars After Morgan Stanley Price Target Hike Suggests 242% Upside – RIOT Fails to Follow Amid Market Selloff",
+   "url": "https://stocktwits.com/news-articles/markets/cryptocurrency/wulf-stock-soars-after-morgan-stanley-price-target-hike-242-upside/cZmVtfjR7Nq?.tsrc=rss"
+  },
+  {
+   "id": "2d56be56168b",
+   "type": "news",
+   "symbol": "NUAI",
+   "section": "trading",
+   "time": 1783520280000,
+   "timeLabel": "10:18 AM",
+   "source": "",
+   "text": "New Era Energy & Digital: A Speculative Buy On The AI Power Bottleneck (NASDAQ:NUAI) - Seeking Alpha",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbFF2Q1BZaWRnR1hieVI5V1V2aWppcnRMX0JRUU1VN3MzN0dfaC1qZVotX1ltUHF4a0dLZHFuWG5BSkZvM201Tkk4VXdKamhrU202WDNWaHlGSnNlUFhzWVF1aVdOTnNvcXRoblhpbHBWTmRna2xZUGwxY2dOcUN4SXVtTFlHR3M2SW1WYjZqVGhlNExwMkRtXzhSUUVxaVNpSnZQWHRpZXR3ckJvY2luYWNB?oc=5"
   },
   {
    "id": "7daa496c7e5a",
@@ -975,6 +1002,17 @@
    "source": "",
    "text": "APLD STOCK (Applied Digital Stock) APLD STOCK PREDICTION APLD STOCK Analysis APLD Stock News Today World Cup Fixtures (GZJTuPGQXw) - Mshale",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyMEllNmhlRGNQREVNUUwzdnhsUEgyX1JyZzRpR3FERG81RkF2TFprMkgzeExWWm00TjAtZlgxOTdZTWVKNS1jRzd5ZUNnSlJrOFAtUS0yTHJ1V3ozZS1WSQ?oc=5"
+  },
+  {
+   "id": "7cc73e75233f",
+   "type": "news",
+   "symbol": "BTC",
+   "section": "crypto",
+   "time": 1783481460000,
+   "timeLabel": "11:31 PM",
+   "source": "",
+   "text": "Crossville bitcoin mining center draws noise complaints, city eyes moratorium on future data centers - WVLT",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOa1FKZzBaMmpMRVRYbVFrUHo4aGZUUjZjUzV0TnZoeWVXNXQ3WkVTcVMtUnZNT2Zpalp6WFhTZlJwNUNWQnlaMHZ0aU0xTnVxb1FmXzcxdEwtVWk1UW5xdlF3MnFtY2ZTWlNfSjBfcll5QW8xenRTcFptYlFkS2p3ZkYwWXJhT0xhUGdqV0NzdXdQQjA4Mnl3MS1vUGlSZmt6SVd2QTFsZGlZeDE5WkVpWXBVd2FkNnpVRUthRHpHTzA5OHY2eFpN?oc=5"
   },
   {
    "id": "dec8a382b6ce",
@@ -5858,6 +5896,15 @@
   {
    "t": 1783524602610,
    "label": "Jul 8 2026 11:30 AM ET",
+   "cnn": 40,
+   "crypto": 20,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 38.6
+  },
+  {
+   "t": 1783525772670,
+   "label": "Jul 8 2026 11:49 AM ET",
    "cnn": 40,
    "crypto": 20,
    "stBull": null,
