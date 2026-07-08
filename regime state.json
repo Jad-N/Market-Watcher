@@ -27,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.99 vs 20d avg 100.7",
+      "detail": "DXY 101.01 vs 20d avg 100.7",
       "asOfMs": 1783483200000,
       "status": "ok",
       "raw": {
-        "last": 100.99,
+        "last": 101.01,
         "avg": 100.7,
-        "gap": 0.29
+        "gap": 0.31
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.79 vs VIX3M 19.4",
+      "detail": "VIX 16.9 vs VIX3M 19.46",
       "asOfMs": 1783517400000,
       "status": "ok",
       "raw": {
-        "vix": 16.79,
-        "vix3m": 19.4,
-        "diff": -2.61
+        "vix": 16.9,
+        "vix3m": 19.46,
+        "diff": -2.56
       }
     },
     "credit": {
@@ -105,14 +105,14 @@
         "asOfMs": 1783387800000
       },
       {
-        "name": "Nikkei",
-        "pct": -2.1,
-        "asOfMs": 1783382400000
-      },
-      {
         "name": "DAX",
         "pct": -2.2,
         "asOfMs": 1783494000000
+      },
+      {
+        "name": "Nikkei",
+        "pct": -2.1,
+        "asOfMs": 1783382400000
       }
     ],
     "rates": {
@@ -431,5 +431,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783541730457
+  "updatedMs": 1783542896832
 }
