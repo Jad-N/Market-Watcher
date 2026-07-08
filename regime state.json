@@ -1,16 +1,15 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "5-2",
+    "tally": "4-3",
     "drivers": [
       "curve positive",
       "VIX in contango",
       "credit spreads tight",
-      "cyclicals leading",
       "breadth broad"
     ],
-    "on": 5,
-    "off": 2
+    "on": 4,
+    "off": 3
   },
   "components": {
     "curve": {
@@ -28,25 +27,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.2 vs 20d avg 100.71",
+      "detail": "DXY 101.18 vs 20d avg 100.71",
       "asOfMs": 1783483200000,
       "status": "ok",
       "raw": {
-        "last": 101.2,
+        "last": 101.18,
         "avg": 100.71,
-        "gap": 0.5
+        "gap": 0.47
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 17.59 vs VIX3M 19.04",
+      "detail": "VIX 17.36 vs VIX3M 19.04",
       "asOfMs": 1783494000000,
       "status": "ok",
       "raw": {
-        "vix": 17.59,
+        "vix": 17.36,
         "vix3m": 19.04,
-        "diff": -1.45
+        "diff": -1.68
       }
     },
     "credit": {
@@ -62,27 +61,27 @@
       }
     },
     "rotation": {
-      "state": "cyclicals leading",
-      "vote": "on",
-      "detail": "defensives 5d 0.6% vs others 1%",
-      "asOfMs": 1783431000000,
+      "state": "defensives leading",
+      "vote": "off",
+      "detail": "defensives 5d 1.7% vs others 0.5%",
+      "asOfMs": 1783517400000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0.6,
-        "othMedPct": 1,
-        "diffPct": -0.4
+        "defMedPct": 1.7,
+        "othMedPct": 0.5,
+        "diffPct": 1.2
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2872 vs 20d avg 0.2849",
-      "asOfMs": 1783431000000,
+      "detail": "RSP/SPY 0.2864 vs 20d avg 0.2852",
+      "asOfMs": 1783517400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2872,
-        "avg": 0.2849,
-        "gap": 0.0023
+        "ratio": 0.2864,
+        "avg": 0.2852,
+        "gap": 0.0013
       }
     },
     "skew": {
@@ -102,7 +101,7 @@
     "overnight": [
       {
         "name": "DAX",
-        "pct": -1.8,
+        "pct": -1.7,
         "asOfMs": 1783494000000
       },
       {
@@ -353,9 +352,14 @@
       "ts": 1783444525562,
       "kind": "REGIME",
       "line": "REGIME rotation defensives leading -> cyclicals leading"
+    },
+    {
+      "ts": 1783517700876,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783516528703
+  "updatedMs": 1783517701330
 }
