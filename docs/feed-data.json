@@ -1,44 +1,44 @@
 {
- "generatedAt": "Jul 8, 2026, 3:34 PM ET",
- "generatedAtMs": 1783539272324,
+ "generatedAt": "Jul 8, 2026, 3:55 PM ET",
+ "generatedAtMs": 1783540541705,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-07-08 15:00 ET",
-  "pricesAsOf": "Jul 8, 2026, 3:34 PM ET",
+  "pricesAsOf": "Jul 8, 2026, 3:55 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7524.25,
+     "value": 7523.25,
      "change": -0.4,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29407.25,
-     "change": 0.1,
+     "value": 29405.75,
+     "change": 0,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 16.88,
-     "change": 4.6,
+     "value": 16.83,
+     "change": 4.3,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 16.86,
-      "divergencePct": 0.12
+      "cnbcLast": 16.67,
+      "divergencePct": 0.96
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": -0.9
+     "pct": -0.7
     },
     {
      "ticker": "QQQ",
-     "pct": -1.8
+     "pct": -1.6
     }
    ],
    "putCall": null
@@ -214,19 +214,19 @@
     "name": "curve",
     "vote": "on",
     "state": "normal",
-    "detail": "10y-2y 0.36pp (2y 4.19, 10y 4.55)"
+    "detail": "10y-2y 0.35pp (2y 4.21, 10y 4.56)"
    },
    {
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 100.96 vs 20d avg 100.7"
+    "detail": "DXY 100.98 vs 20d avg 100.7"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 16.89 vs VIX3M 19.37"
+    "detail": "VIX 16.85 vs VIX3M 19.33"
    },
    {
     "name": "credit",
@@ -238,13 +238,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 1.8% vs others -0.4%"
+    "detail": "defensives 5d 1.7% vs others -0.5%"
    },
    {
     "name": "breadth",
     "vote": "off",
     "state": "below 20d avg",
-    "detail": "RSP/SPY 0.2847 vs 20d avg 0.2851"
+    "detail": "RSP/SPY 0.2845 vs 20d avg 0.2851"
    },
    {
     "name": "skew",
@@ -260,7 +260,7 @@
    "section": "crypto",
    "class": "crypto",
    "pct": -1.8,
-   "last": 62181.4,
+   "last": 62160.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Live markets: Bitcoin drops to $62,000, stocks slide, oil soars as Iran ceasefire collapses - CoinDesk",
@@ -275,8 +275,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -0.6,
-   "last": 21.6,
+   "pct": -0.3,
+   "last": 21.7,
    "newsCount": 12,
    "latestNews": {
     "title": "Why Cipher Digital Inc. (CIFR) Dipped More Than Broader Market Today - Yahoo Finance",
@@ -296,13 +296,13 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -3,
-   "last": 42.6,
+   "pct": -2.5,
+   "last": 42.8,
    "newsCount": 12,
    "latestNews": {
-    "title": "Why IREN (IREN) Stock Is Up Today - Quiver Quantitative",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4zR2tUWXprZngzbVU1S2tCOUVqMWQxZmlJVUg2cjg3cDdqS1pBc3JpZmsxb3J5WnlDY1VwbVJ4LWlCLTY2YjNFdUtUVHFGNlpOOVJlNHNyYnFEbU5tTEhib1FBTTdjTElVX1V3a04wWGVFNFhRR054cDZ3?oc=5",
-    "time": "2:35 PM"
+    "title": "IREN Limited (IREN) Co-founders Score US$788M Pay Packet Amid AI Bonanza - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOURodUQtZDA2dW9aeEdNZlVSOWwwd2lRT0xMQVc0UXRPbHNmSnE0RzRKaWFNcU5ZSEFUcFo3eGVZenltR0V5TVAyLThMcVBMTm45M0xpb1QwdmgwTmtRZ0VKM1VuYTg5cklIbG9RU29PcDNLVEJ3dDlKdWkyakpqS3M4OVZpSWNLZnNDMUtEUFl6RS1VeG9XMQ?oc=5",
+    "time": "3:20 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -317,9 +317,9 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 0.4,
-   "last": 214,
-   "newsCount": 8,
+   "pct": 1.6,
+   "last": 216.5,
+   "newsCount": 7,
    "latestNews": {
     "title": "Nebius Group (NBIS) Gains on Massive AI Deals, Here’s What You Need to Know - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORklxcVJyT0pHb044YWhPZDMzcmhvSktUZ0k0RkVDeGFCQV9hYk8zVGhwNm9IMDlNTzlXUW1aQ3dVYk9NZEtvcTg5MnBPbHRsOXZwazItUmNxZHJVZURLbXpMc3I2VDV5VWNpVEtKdGRUTEczVlVVRk9mZlFYc2xkOWRmVGlWYWFlUGRESDVtaEFBbV9EOXdUQlNXUQ?oc=5",
@@ -342,13 +342,13 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -6.6,
-   "last": 515.5,
+   "pct": -6.3,
+   "last": 517.1,
    "newsCount": 18,
    "latestNews": {
-    "title": "Bull vs Bear case of Advanced Micro Devices, Inc. (AMD) - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOU0tiTHNkN2RKZ01NTmhETVgzekhwNThtUUYtRTVMVVFOaEdUN2lld1haNUpERXlwZFpJTG45SDRjcHczOFV3dWxXaXZtMEZVa1hzLXZmRlB0SDJWOEw2UjZfeWg3clRpdmYydWllazdRU0FPbG10aXk0emJTclNfajJCdGllRWxkVXVHSXBGaElnZFpYQVE?oc=5",
-    "time": "2:48 PM"
+    "title": "AMD Stock Dips as Rival Nvidia (NVDA) Gains Another Customer for Its Vera AI CPUs - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVEc0TnFRdWdCbTdJUkNCT1ktTUlVM0dQNWg5ZWt2eEQxdzFqb2p6ZUM5LUdudkE2Sk9Qc0NSNUhsUktiellPMzhsSGstWXRvZzNPMllhZ09WRHEtcnpUQWtUQnFzeVk2d0VLbHRZcUIyVU8xNXRVVGRZVTl5UmpndGN3Q2xsVUZvQU1ZS1pWZ01qZ1hyYUhJVF9JWVE4S2EzTDkzcWRUNEQ4Ymt4dGc?oc=5",
+    "time": "1:15 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -358,8 +358,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -7,
-   "last": 31.1,
+   "pct": -6.3,
+   "last": 31.4,
    "newsCount": 6,
    "latestNews": {
     "title": "Applied Digital (APLD) Shares Drop 8% Despite AI Capacity Milest - GuruFocus",
@@ -383,8 +383,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 1.8,
-   "last": 22.6,
+   "pct": 2.5,
+   "last": 22.8,
    "newsCount": 16,
    "latestNews": {
     "title": "TeraWulf Rises 12%, IREN Climbs 7% as AI-Infrastructure Stocks Bounce Back - 24/7 Wall St.",
@@ -408,8 +408,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": -2.7,
-   "last": 8.7,
+   "pct": -1.6,
+   "last": 8.8,
    "newsCount": 1,
    "latestNews": {
     "title": "IBRX Stock Price Prediction 2025-2026 | Immunitybio Inc Forecast - 24/7 Wall St.",
@@ -424,7 +424,7 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -8.9,
+   "pct": -9.1,
    "last": 4.3,
    "newsCount": 5,
    "latestNews": {
@@ -445,8 +445,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -9.5,
-   "last": 12.2,
+   "pct": -8,
+   "last": 12.4,
    "newsCount": 4,
    "latestNews": {
     "title": "CleanSpark (CLSK) Reports June Bitcoin Output, Is It Still 41% Below Fair Value? - simplywall.st",
@@ -461,8 +461,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -4.9,
-   "last": 12.5,
+   "pct": -5.1,
+   "last": 12.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -473,8 +473,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -4.5,
-   "last": 137.5,
+   "pct": -3.7,
+   "last": 138.7,
    "newsCount": 1,
    "latestNews": {
     "title": "3 Soaring Stocks That May Have More Upside Ahead",
@@ -489,8 +489,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 3.8,
-   "last": 30.2,
+   "pct": 4.6,
+   "last": 30.5,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -521,7 +521,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -2,
+   "pct": -1.9,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -537,8 +537,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -2.9,
-   "last": 11.3,
+   "pct": -2.3,
+   "last": 11.4,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -549,13 +549,13 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -11,
-   "last": 82.9,
+   "pct": -10.5,
+   "last": 83.3,
    "newsCount": 18,
    "latestNews": {
-    "title": "What's Going on With Rocket Lab Stock Wednesday? - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTm1oNFVHaUVSaWxsU2tHR2VEM1ZPdk5Wa0NrOUpqaTFYR2FMakFmU2VzeEo3ejNQZG05c3B5QTMybURGMEotanFfS3h0alNmenNUWmhtYmVScGdMNUJqZ3JvOGZGM0cwbUVjYW01MWcyYlVYWUlWVHVqeTVEVVlVVWo5cU1Hb2gwejVDbWNxZlFVT2dmNDVtaXVQZTd2ZkVMclcyRlkwR1B4WUlEUkE?oc=5",
-    "time": "7:36 AM"
+    "title": "Better Space Stock to Buy Before 2026 Runs Out: SpaceX vs. Rocket Lab - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNW45VjdmZTVTMzJaamktYlgyYTNabFNOWEQxRnRSSUxBWFdUb19RLUJxeDNBeUNreFhjQmg2cFNnaTZiUDVnSmhXaklHWTlmamxTSkgyMmtWZTNVZU02SWU2eTVLNzBOMjJmVU9qanVLbFFFWUM3Wi1OVEhRSklGbG8zS1BDWHZ3Y29v?oc=5",
+    "time": "3:35 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -565,9 +565,9 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -0.6,
-   "last": 131.8,
-   "newsCount": 10,
+   "pct": -0.5,
+   "last": 131.9,
+   "newsCount": 18,
    "latestNews": {
     "title": "Palantir Stock Is Now Too Cheap to Ignore - Morningstar",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNDFMRzFscE9FNHVxYlh2YURaM1o1akM0d3V4Mjh5WkJKQWxCTW40WUlrQ1BtelEtd18wRno3eU9iZVlhNFlWZHBmYVIzN3Rjcjl1cGUtR01UWWoxY01ZMVJzMXp2M2I0cl9ENmtlSHBGYXRZaTFTaTJOVTYzQVRGRUlrWDRYalI2ZEE?oc=5",
@@ -581,8 +581,8 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": -0.9,
-   "last": 383.2,
+   "pct": -1,
+   "last": 383.1,
    "newsCount": 12,
    "latestNews": {
     "title": "Microsoft Stock (NASDAQ:MSFT) Slips After Hacker Arrest Proves Microsoft Can Trace Individual Users - TipRanks",
@@ -597,9 +597,9 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -5.6,
-   "last": 36.1,
-   "newsCount": 3,
+   "pct": -5.5,
+   "last": 36.2,
+   "newsCount": 4,
    "latestNews": {
     "title": "Hims & Hers Health: The Market Still Doesn't Get It - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcnlPbTR2VHlIS3Y2RWJHajhneDJCZjZ5TmRiVmxMUzV6aUc3ejgtOEJFMDNoUnJ4TG05djBFdlg3R1RzV1d1UUtTOGFJVTh5Q3NCYVMtSW5GRmIyUHlYWE9JVGdCbEp0aWpMdHJfT0ZES3ZrTEhRVlhVQkhLanpwTWlrQV82emp2TnRaVXAzSDdfbDlqT2MxeXVqeHFsX2s?oc=5",
@@ -613,8 +613,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -1.9,
-   "last": 359.4,
+   "pct": -1.1,
+   "last": 362.3,
    "newsCount": 16,
    "latestNews": {
     "title": "The Cloud Backlog That Changed Everything For Google Stock - Trefis",
@@ -629,13 +629,13 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -1.2,
-   "last": 4097,
+   "pct": -1.3,
+   "last": 4091.1,
    "newsCount": 10,
    "latestNews": {
-    "title": "Gold Price Today: 4,121-4,129 Support Zone Keeps the Recovery Attempt Alive - investingLive",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeTk1LTJTMVB3WHFxdDczMU9weUFjRlpPdmVSUGFCdjR2eElBZlNWTEVjaDBicm51OXhqYmhkaERMQXJrLVJoSldiMTBZME14UHdOdWFhbWg0UnhpUzY5c01NUDFTSGVhQU5DaU1uVFVWSlJ0TUdZU1BnQmpZQUNMeVRzd3g5R0Y3MXVIWkRQNE1uSHIxd1FVMEVkWHQzeUc4ZmRFUWFrblVJZzhoZjNkMFprY2xRcFZNdmJnYg?oc=5",
-    "time": "1:56 AM"
+    "title": "Gold drifts lower after Trump says deal with Iran 'over' - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1hzdnRhSUFjNm5yb3RRTUlITEtOd1NMOFJJNlc0VVczR0s1S295WjY5b0YyaEhIMjZxZWEtdk5WUjlPcC05dUtFaThpNGo3QVl4REZiMzIxZ252bHE4a2VRRjFUYXlfR3Myb0Y3aUlSVnplSEp5eW9YQjBvNXU1UmwySVFjaXhuXzNLMFBXNE5Rdk5IcWxqUXJZR3FvNGRjc2p2b3hoa2x3U2ZvOE5XYU1n?oc=5",
+    "time": "9:28 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -645,8 +645,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 5.2,
-   "last": 78.1,
+   "pct": 6.1,
+   "last": 78.7,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil surges as US strikes Iran, reversing return to pre-war prices - Al Jazeera",
@@ -661,8 +661,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 4.5,
-   "last": 73.6,
+   "pct": 5.3,
+   "last": 74.2,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil prices jump more than 4% after Trump threatens to bomb Iran and reimpose naval blockade - CNBC",
@@ -685,6 +685,17 @@
    "source": "",
    "text": "IREN Limited (IREN) Co-founders Score US$788M Pay Packet Amid AI Bonanza - Insider Monkey",
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZWdzS1dIaHJBNnAzYk8yQnZWNXl6N0JvUzJlbmh3emRDVGh3ZGxONjZJZnVjNXlHUGJBaUswcmE1VnctV3V5d3lnbkZRVG9hZXZYZ0lxaTRvRFBoUW1tLXFDT1h2OTVKTTYzckdqSjFlX1gxZVBSbmtmSWF0LXVLaUdJdzhSdnZvQkU0RzNpVnpPVFJNTE0yRTZfQzNfb3JmR01ENFY4eEJudzVJYnBHTF9hY9IBuwFBVV95cUxOYzJEWkpTMWxvRjVYVmQ4blFJOUJvVjlnNFFsUktYdjluY1AyNmh3ckZhRDYwSWh5NzdzRzR3LXppV2pXTVI0OEVNeXNNUl9NU2NxeEJHQ0ZmZU5JVmEyc0UwS3V2RGRfckkwN0VRUDNERm5nQUZ3WmdlSE5Dc2M4VmdUdmVPZmdYQzRqSmhRYnRFUkxPWjZqZkwxbFk2MUlBMlh5RlkxaDBXeGxCUlREeUF4Mk1oVmVTcGRj?oc=5"
+  },
+  {
+   "id": "710bc7a7b1ce",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1783538400000,
+   "timeLabel": "3:20 PM",
+   "source": "",
+   "text": "IREN Limited (IREN) Co-founders Score US$788M Pay Packet Amid AI Bonanza - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOURodUQtZDA2dW9aeEdNZlVSOWwwd2lRT0xMQVc0UXRPbHNmSnE0RzRKaWFNcU5ZSEFUcFo3eGVZenltR0V5TVAyLThMcVBMTm45M0xpb1QwdmgwTmtRZ0VKM1VuYTg5cklIbG9RU29PcDNLVEJ3dDlKdWkyakpqS3M4OVZpSWNLZnNDMUtEUFl6RS1VeG9XMQ?oc=5"
   },
   {
    "id": "2c5b295ae0a5",
@@ -1191,6 +1202,17 @@
    "timeLabel": "3:27 AM",
    "text": "Taihan Wins Australian AI Data Center Power Contract - Let's Data Science",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONXNiM1RNOW9lOVA3MGhlYTEtclhIVlplNDhMcmhDMmhnZkVMSmg5bVFEWUlqM0E2TkgwWU5WUUU5SU5GS1JxUlFhX1ZPOC1SXzgzNGdSbHdJeC0zYVlGS1V6blZtN21QMmhuXzdsbjdZV1VkczFMcnE0Q2Vsb0JOdHc0SHhLdThzUEFDWk4xbFV2YS1mMURjeHRn?oc=5"
+  },
+  {
+   "id": "c01c065dda5c",
+   "type": "news",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1783490820000,
+   "timeLabel": "2:07 AM",
+   "source": "",
+   "text": "Applied Digital Stock (APLD) To EXPLODE +120% On This AI NEWS! Paul Goldschmidt (x4WTVxqtWz) - Mshale",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZeDMtM3BmMHlyZUdTc1VYbDZNYUVtQm82UF9CSFF0c0dOaU5OS3pCVU1sSC1ZTEdnTHo5QllLVjBKQzJabDd4M0w4VFoyeElFa3R3LTFpQllnT00?oc=5"
   },
   {
    "id": "43afe307d423",
@@ -6270,6 +6292,15 @@
   {
    "t": 1783539272324,
    "label": "Jul 8 2026 3:34 PM ET",
+   "cnn": 42,
+   "crypto": 20,
+   "stBull": null,
+   "regime": 42.9,
+   "composite": 31.4
+  },
+  {
+   "t": 1783540541705,
+   "label": "Jul 8 2026 3:55 PM ET",
    "cnn": 42,
    "crypto": 20,
    "stBull": null,

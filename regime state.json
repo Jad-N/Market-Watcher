@@ -15,36 +15,36 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.36pp (2y 4.19, 10y 4.55)",
-      "asOfMs": 1783396800000,
+      "detail": "10y-2y 0.35pp (2y 4.21, 10y 4.56)",
+      "asOfMs": 1783468800000,
       "status": "ok",
       "raw": {
-        "spread": 0.36,
-        "y2": 4.19,
-        "y10": 4.55
+        "spread": 0.35,
+        "y2": 4.21,
+        "y10": 4.56
       }
     },
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.96 vs 20d avg 100.7",
+      "detail": "DXY 100.98 vs 20d avg 100.7",
       "asOfMs": 1783483200000,
       "status": "ok",
       "raw": {
-        "last": 100.96,
+        "last": 100.98,
         "avg": 100.7,
-        "gap": 0.27
+        "gap": 0.29
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.89 vs VIX3M 19.37",
+      "detail": "VIX 16.85 vs VIX3M 19.33",
       "asOfMs": 1783517400000,
       "status": "ok",
       "raw": {
-        "vix": 16.89,
-        "vix3m": 19.37,
+        "vix": 16.85,
+        "vix3m": 19.33,
         "diff": -2.48
       }
     },
@@ -63,25 +63,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 1.8% vs others -0.4%",
+      "detail": "defensives 5d 1.7% vs others -0.5%",
       "asOfMs": 1783517400000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.8,
-        "othMedPct": -0.4,
+        "defMedPct": 1.7,
+        "othMedPct": -0.5,
         "diffPct": 2.2
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2847 vs 20d avg 0.2851",
+      "detail": "RSP/SPY 0.2845 vs 20d avg 0.2851",
       "asOfMs": 1783517400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2847,
+        "ratio": 0.2845,
         "avg": 0.2851,
-        "gap": -0.0003
+        "gap": -0.0005
       }
     },
     "skew": {
@@ -105,14 +105,14 @@
         "asOfMs": 1783387800000
       },
       {
-        "name": "DAX",
-        "pct": -2.2,
-        "asOfMs": 1783494000000
-      },
-      {
         "name": "Nikkei",
         "pct": -2.1,
         "asOfMs": 1783382400000
+      },
+      {
+        "name": "DAX",
+        "pct": -2.2,
+        "asOfMs": 1783494000000
       }
     ],
     "rates": {
@@ -431,5 +431,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783539296181
+  "updatedMs": 1783540562362
 }
