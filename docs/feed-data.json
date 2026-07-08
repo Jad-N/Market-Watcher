@@ -1,44 +1,44 @@
 {
- "generatedAt": "Jul 8, 2026, 11:49 AM ET",
- "generatedAtMs": 1783525772670,
+ "generatedAt": "Jul 8, 2026, 12:15 PM ET",
+ "generatedAtMs": 1783527302044,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-07-08 11:00 ET",
-  "pricesAsOf": "Jul 8, 2026, 11:49 AM ET",
+  "asOfET": "2026-07-08 12:00 ET",
+  "pricesAsOf": "Jul 8, 2026, 12:15 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7482,
-     "change": -0.9,
+     "value": 7488,
+     "change": -0.8,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29110,
-     "change": -1,
+     "value": 29143,
+     "change": -0.8,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 18.3,
-     "change": 13.5,
+     "value": 18.24,
+     "change": 13.1,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 18.32,
-      "divergencePct": 0.11
+      "cnbcLast": 17.78,
+      "divergencePct": 2.59
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": -1.4
+     "pct": -1.2
     },
     {
      "ticker": "QQQ",
-     "pct": -2.8
+     "pct": -2.4
     }
    ],
    "putCall": null
@@ -64,11 +64,6 @@
      {
       "title": "Taihan Wins Australian AI Data Center Power Contract - Let's Data Science",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONXNiM1RNOW9lOVA3MGhlYTEtclhIVlplNDhMcmhDMmhnZkVMSmg5bVFEWUlqM0E2TkgwWU5WUUU5SU5GS1JxUlFhX1ZPOC1SXzgzNGdSbHdJeC0zYVlGS1V6blZtN21QMmhuXzdsbjdZV1VkczFMcnE0Q2Vsb0JOdHc0SHhLdThzUEFDWk4xbFV2YS1mMURjeHRn?oc=5",
-      "time": null
-     },
-     {
-      "title": "Galaxy Digital delivers 133 MW to CoreWeave in Helios data center buildout - Cryptopolitan",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1HbXM4ZXNVbXhlUTgyclhkdGpleDF0ZWZNdW9ydXNNeFJScEdoV19VM0RwcWEydEhsemlIazMwc2l0dkFGMG1DVmZqV1JKc19JeC1xeFQyRVpXWDB0WWdCT0tKMWVoX0Vnd3JNRElHUlVUdFJEVTRV?oc=5",
       "time": null
      }
     ]
@@ -236,13 +231,13 @@
     "name": "dollar",
     "vote": "off",
     "state": "above 20d avg",
-    "detail": "DXY 101.25 vs 20d avg 100.71"
+    "detail": "DXY 101.23 vs 20d avg 100.71"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 18.29 vs VIX3M 20.18"
+    "detail": "VIX 18.23 vs VIX3M 20.15"
    },
    {
     "name": "credit",
@@ -254,13 +249,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 2.4% vs others -0.4%"
+    "detail": "defensives 5d 2.3% vs others -0.4%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2858 vs 20d avg 0.2851"
+    "detail": "RSP/SPY 0.2854 vs 20d avg 0.2851"
    },
    {
     "name": "skew",
@@ -275,8 +270,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": -2.7,
-   "last": 61598.1,
+   "pct": -2.4,
+   "last": 61767.2,
    "newsCount": 10,
    "latestNews": {
     "title": "Live markets: Bitcoin drops to $62,000, stocks slide, oil soars as Iran ceasefire collapses - CoinDesk",
@@ -291,8 +286,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -5.3,
-   "last": 20.6,
+   "pct": -4.7,
+   "last": 20.7,
    "newsCount": 13,
    "latestNews": {
     "title": "Why Cipher Digital Inc. (CIFR) Dipped More Than Broader Market Today - Yahoo Finance",
@@ -312,9 +307,9 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -7,
-   "last": 40.8,
-   "newsCount": 13,
+   "pct": -6.9,
+   "last": 40.9,
+   "newsCount": 12,
    "latestNews": {
     "title": "IREN: Meta Compute Closes The Neocloud Window (NASDAQ:IREN) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd2pOT1N0dWNXaWJ1a0E3aGJTOXlTT1daQmFZNGlhZFFyMGhaRnpjMTJpNzdwNjJSU1lHOWxON1JwWFJVamViU0JnR040MmVPWWgyT29iRzBhcnpkSjByNmpjOFlUNmd0VnoxY01PZ056RExGSTVvU21QY0x5MEVjWGRnYTdIUGNJUFBOVVdB?oc=5",
@@ -333,9 +328,9 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": -5.4,
-   "last": 201.6,
-   "newsCount": 11,
+   "pct": -4.9,
+   "last": 202.6,
+   "newsCount": 8,
    "latestNews": {
     "title": "Nebius Group (NBIS) Gains on Massive AI Deals, Here’s What You Need to Know - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxORklxcVJyT0pHb044YWhPZDMzcmhvSktUZ0k0RkVDeGFCQV9hYk8zVGhwNm9IMDlNTzlXUW1aQ3dVYk9NZEtvcTg5MnBPbHRsOXZwazItUmNxZHJVZURLbXpMc3I2VDV5VWNpVEtKdGRUTEczVlVVRk9mZlFYc2xkOWRmVGlWYWFlUGRESDVtaEFBbV9EOXdUQlNXUQ?oc=5",
@@ -349,8 +344,8 @@
    "latestFiling": {
     "type": "insider",
     "label": "Insider transaction",
-    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000080/xslF345X06/form4.xml",
-    "time": "11:56 AM"
+    "url": "https://www.sec.gov/Archives/edgar/data/1513845/000151384526000082/xslF345X06/form3.xml",
+    "time": "8:11 AM"
    },
    "stocktwits": null
   },
@@ -358,8 +353,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -8.8,
-   "last": 503.4,
+   "pct": -7.9,
+   "last": 508.3,
    "newsCount": 18,
    "latestNews": {
     "title": "Goldman Sachs resets AMD stock price target for the rest of 2026 - thestreet.com",
@@ -374,8 +369,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -10.2,
-   "last": 30.1,
+   "pct": -9.6,
+   "last": 30.3,
    "newsCount": 7,
    "latestNews": {
     "title": "Applied Digital (APLD) Shares Drop 8% Despite AI Capacity Milest - GuruFocus",
@@ -399,8 +394,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -2,
-   "last": 21.8,
+   "pct": -2.1,
+   "last": 21.7,
    "newsCount": 18,
    "latestNews": {
     "title": "Profit-Taking Drags Terawulf (WULF) Shares by 8.87% - Yahoo Finance",
@@ -408,9 +403,9 @@
     "time": "9:37 PM"
    },
    "latestPost": {
-    "text": "R to @TeraWulfInc: Watch it live 👇 https://www.foxbusiness.com/video/5640669329001",
-    "url": "https://nitter.net/TeraWulfInc/status/2074877010493555066#m",
-    "time": "11:23 AM"
+    "text": "Why sell our majority interest Abernathy? Opportunity cost.   Paul Prager joined Bloomberg to explain how TeraWulf’s Abernathy transaction reflects disciplined capital allocation: redeploying capital into scalable AI infrastructure opportunities where we control the site, the power, and the customer relationship. For $WULF, control matters. So does return on capital.",
+    "url": "https://nitter.net/TeraWulfInc/status/2074888291283779778#m",
+    "time": "12:08 PM"
    },
    "latestFiling": {
     "type": "deal/capacity",
@@ -424,7 +419,7 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": -2.6,
+   "pct": -2.1,
    "last": 8.7,
    "newsCount": 1,
    "latestNews": {
@@ -440,8 +435,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -10.8,
-   "last": 4.2,
+   "pct": -10.6,
+   "last": 4.3,
    "newsCount": 4,
    "latestNews": {
     "title": "Top New Era Energy & Digital (NUAI) Competitors 2026 - MarketBeat",
@@ -461,8 +456,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -11.3,
-   "last": 12,
+   "pct": -10.4,
+   "last": 12.1,
    "newsCount": 5,
    "latestNews": {
     "title": "CleanSpark (CLSK) Reports June Bitcoin Output, Is It Still 41% Below Fair Value? - simplywall.st",
@@ -477,8 +472,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": -7.9,
-   "last": 12.1,
+   "pct": -6.6,
+   "last": 12.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -489,8 +484,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": -3.7,
-   "last": 138.7,
+   "pct": -3.4,
+   "last": 139,
    "newsCount": 2,
    "latestNews": {
     "title": "Abivax: Wall Street Catches Up to the Data - MarketBeat",
@@ -505,8 +500,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": 2,
-   "last": 29.7,
+   "pct": 2.3,
+   "last": 29.8,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -517,8 +512,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 0.9,
-   "last": 197.3,
+   "pct": 1.6,
+   "last": 198.8,
    "newsCount": 18,
    "latestNews": {
     "title": "NVIDIA Corporation $NVDA Stock Holdings Lowered by Simmons Bank - MarketBeat",
@@ -537,7 +532,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -3.6,
+   "pct": -3.1,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -553,8 +548,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -6,
-   "last": 11,
+   "pct": -4.9,
+   "last": 11.1,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -565,13 +560,13 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -12.6,
-   "last": 81.4,
+   "pct": -11.7,
+   "last": 82.2,
    "newsCount": 18,
    "latestNews": {
-    "title": "Can Rocket Lab Stock Become the Next SpaceX-Like Success Story? - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONXNhNkk5dVBRLV9NRWJOT3FGZ0lCVkIwS0s4Tm0wcHpfa0dISmxnck9rMlk3d0FzS2I0dnl3bmF2VGMyNk9HR3dSVDMtVzdCTWNMZFpRdThIX0V6aVFNS3NDa1J0Wm9fR2FfMlNZQnlGT21TZ0wwekVNbmQ2MEQ0U1dFZHkxM3hNalBnNE5oQjFxcnZ2TzNCXzdwQVBhMExtQ1ZRbHdXNGNydw?oc=5",
-    "time": "9:10 AM"
+    "title": "Morgan Stanley reiterates Rocket Lab stock rating on Iridium deal - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWHdzWVo5MWV0UmRJOEZXODVtcThzazZjblpaSE05NEZWaVV4VmJBVjAtSzlzV0tRY3dQU2VhOG1PMjJwWVV6Z1JaQWxfQTBJOTdEaVo4YlJKYkVvc2VQZU91LVFoTmVSc0k3QmFUaXh3QnhwZld5OUtKeGVFYjVuZEJoTUM4aWNHaXFndzVtMFBtY05zRXFIWm9ON2V1dVUzbmY3bzNrWTR5ekN3QmpEMTVTTGc1RWNIT3EwYTJDNDZnMlk?oc=5",
+    "time": "6:27 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -581,8 +576,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -3.1,
-   "last": 128.4,
+   "pct": -2.6,
+   "last": 129.1,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir Stock Is Now Too Cheap to Ignore - Morningstar",
@@ -602,12 +597,12 @@
    "section": "macro",
    "class": "equity",
    "pct": -1.1,
-   "last": 382.4,
-   "newsCount": 12,
+   "last": 382.6,
+   "newsCount": 13,
    "latestNews": {
-    "title": "Price Prediction: Microsoft Stock Will Hit $500 on This Date - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTlB6b1RMLVdoM3FzaGdfZGlWMXVUeXUwdmVaWm9COHhyY1NVUmZFeU9IbGUtUmF3QjlrWWh3bG54YWVHYmNMaFlZZlRjTWo0cDhXRldoM2JXUTN2Q2dpdnRGY09zandmbmFmR09BeHMyR1hQcWtwOXhIYkNOSTZDQkVTWEhPS2tjZ0x5bVczQk8xai1pWGtGYl9jeWZtaDMzQXZj?oc=5",
-    "time": "12:30 PM"
+    "title": "Microsoft Stock (NASDAQ:MSFT) Ticks up with Microsoft Execution Containers - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSzZUYTczNE5TOWxWQllaZnpJdXBCYUFDYzkyV1pRYVhCZm4xMXh0SU5lZzFSYTEtR1VlQkRoLVh2S083WWdQTTE3N0FIWU9FVTFwaE9DMmk3Ni00UXYwdEJ3a0hoaldsenJab0tjUnZwY1gxdC05akF0a05ZbXJpR2VpU0pPYWI3ZWE3TDNVS2FuNkh5N190OWdWVmxjU0RGU1FR?oc=5",
+    "time": "1:42 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -617,8 +612,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -10.3,
-   "last": 34.3,
+   "pct": -8.9,
+   "last": 34.9,
    "newsCount": 4,
    "latestNews": {
     "title": "Hims & Hers Health: The Market Still Doesn't Get It - Seeking Alpha",
@@ -633,8 +628,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -1.7,
-   "last": 360.4,
+   "pct": -1.5,
+   "last": 360.9,
    "newsCount": 16,
    "latestNews": {
     "title": "The Cloud Backlog That Changed Everything For Google Stock - Trefis",
@@ -649,13 +644,13 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.6,
-   "last": 4039.5,
+   "pct": -2.4,
+   "last": 4046.4,
    "newsCount": 10,
    "latestNews": {
-    "title": "Gold drifts lower after Trump says deal with Iran 'over' - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPS1hzdnRhSUFjNm5yb3RRTUlITEtOd1NMOFJJNlc0VVczR0s1S295WjY5b0YyaEhIMjZxZWEtdk5WUjlPcC05dUtFaThpNGo3QVl4REZiMzIxZ252bHE4a2VRRjFUYXlfR3Myb0Y3aUlSVnplSEp5eW9YQjBvNXU1UmwySVFjaXhuXzNLMFBXNE5Rdk5IcWxqUXJZR3FvNGRjc2p2b3hoa2x3U2ZvOE5XYU1n?oc=5",
-    "time": "9:38 AM"
+    "title": "Gold Price Today: 4,121-4,129 Support Zone Keeps the Recovery Attempt Alive - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeTk1LTJTMVB3WHFxdDczMU9weUFjRlpPdmVSUGFCdjR2eElBZlNWTEVjaDBicm51OXhqYmhkaERMQXJrLVJoSldiMTBZME14UHdOdWFhbWg0UnhpUzY5c01NUDFTSGVhQU5DaU1uVFVWSlJ0TUdZU1BnQmpZQUNMeVRzd3g5R0Y3MXVIWkRQNE1uSHIxd1FVMEVkWHQzeUc4ZmRFUWFrblVJZzhoZjNkMFprY2xRcFZNdmJnYg?oc=5",
+    "time": "1:56 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -665,8 +660,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 8.1,
-   "last": 80.2,
+   "pct": 7.9,
+   "last": 80,
    "newsCount": 10,
    "latestNews": {
     "title": "The Next Oil Price Spike Could Come Sooner Than Traders Think - Crude Oil Prices Today | OilPrice.com",
@@ -682,12 +677,12 @@
    "section": "macro",
    "class": "commodity",
    "pct": 7.5,
-   "last": 75.8,
+   "last": 75.7,
    "newsCount": 10,
    "latestNews": {
-    "title": "Oil surges almost 6% after Trump says ceasefire with Iran is over - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jeDRpOERtcVZVVzR6d2gyVzdlRzZwV0dnV25fcTBFTXNkUkJpV0ZJbG4xMUNPUTUteTFMakRJdC1ZX1I1LTBMOEw0MHBqUzdJbUt3dFJMRUw2MnBEUFdmTDJmLU1sdU1uczJxNjluZXhLaWJSXzhKZ1RYSG7SAYIBQVVfeXFMTThTc201Q3RfZWVMYUtkX21SaEJRWFhsNHBOWTE2WDZ5UEVFMHdrSURjYWtjckRhSDBZTEZPY1ctUUtwUy1QRUxrM1RHQlQyWXhsY0NBbEZjcXRZeDhKS0VRN0llU3MyOFhMNlBIazk5RHVtbVBjSmpCVEVjUmhfZG54dw?oc=5",
-    "time": "8:26 PM"
+    "title": "Crude Jumps As U.S. Revokes Iran Authorization to Sell Oil - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNUjl4NDc4bklhSWlraDJvUms3c3pxeHdGZ3hoZFNtRUU4T0tVT1BXX1pUZ2lwbjNVREVvcXVVOUFFRENsMl9lYlVXa3pTdXNYOV82bmZCNXlUQWZ4WHBSZE5ZTV9aSzBUV1M5cUZJano0TW8tTnFEQ2dUYkQ5YzB6amhLMXdlaXZQSTdnY2k4SjlzSW1admpjWU16OUdqMUhKVDVMQTE4bGRrRVpQWm5BSThkMnlyRFFXRjBMZy1pX1ZXN3htc3NsemxzYjhrLUJUT0NHN05TXzJtVGNq?oc=5",
+    "time": "3:37 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -695,6 +690,17 @@
   }
  ],
  "events": [
+  {
+   "id": "8fe7a11122ba",
+   "type": "post",
+   "symbol": "WULF",
+   "section": "trading",
+   "time": 1783526880000,
+   "timeLabel": "12:08 PM",
+   "handle": "@TeraWulfInc",
+   "text": "Why sell our majority interest Abernathy? Opportunity cost. Paul Prager joined Bloomberg to explain how TeraWulf’s Abernathy transaction reflects disciplin…",
+   "url": "https://nitter.net/TeraWulfInc/status/2074888291283779778#m"
+  },
   {
    "id": "afdf503d961f",
    "type": "post",
@@ -5905,6 +5911,15 @@
   {
    "t": 1783525772670,
    "label": "Jul 8 2026 11:49 AM ET",
+   "cnn": 40,
+   "crypto": 20,
+   "stBull": null,
+   "regime": 57.1,
+   "composite": 38.6
+  },
+  {
+   "t": 1783527302044,
+   "label": "Jul 8 2026 12:15 PM ET",
    "cnn": 40,
    "crypto": 20,
    "stBull": null,
