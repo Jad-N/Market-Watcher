@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.35pp (2y 4.21, 10y 4.56)",
-      "asOfMs": 1783483200000,
+      "asOfMs": 1783468800000,
       "status": "ok",
       "raw": {
         "spread": 0.35,
@@ -27,13 +27,13 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.07 vs 20d avg 100.7",
+      "detail": "DXY 101.04 vs 20d avg 100.7",
       "asOfMs": 1783483200000,
       "status": "ok",
       "raw": {
-        "last": 101.07,
+        "last": 101.04,
         "avg": 100.7,
-        "gap": 0.37
+        "gap": 0.34
       }
     },
     "vol": {
@@ -87,13 +87,13 @@
     "skew": {
       "state": "elevated",
       "vote": "off",
-      "detail": "SKEW 145.7 vs 20d avg 144.6",
-      "asOfMs": 1783431000000,
+      "detail": "SKEW 149.8 vs 20d avg 144.8",
+      "asOfMs": 1783517400000,
       "status": "ok",
       "raw": {
-        "skew": 145.74,
-        "avg": 144.58,
-        "gap": 1.16
+        "skew": 149.79,
+        "avg": 144.82,
+        "gap": 4.97
       }
     }
   },
@@ -116,8 +116,8 @@
       }
     ],
     "rates": {
-      "impliedRate": 3.71,
-      "changeBp": -7.3,
+      "impliedRate": 3.7,
+      "changeBp": -6.7,
       "asOfMs": 1783483200000
     }
   },
@@ -431,5 +431,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783544698297
+  "updatedMs": 1783545515799
 }
