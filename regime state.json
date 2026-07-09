@@ -1,15 +1,15 @@
 {
   "regime": {
-    "label": "risk-off",
+    "label": "risk-on",
     "tally": "4-3",
     "drivers": [
-      "dollar strong",
-      "defensives leading",
-      "breadth narrow",
-      "crash-hedging elevated"
+      "curve positive",
+      "VIX in contango",
+      "credit spreads tight",
+      "crash-hedging subdued"
     ],
-    "on": 3,
-    "off": 4
+    "on": 4,
+    "off": 3
   },
   "components": {
     "curve": {
@@ -27,13 +27,13 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.94 vs 20d avg 100.75",
+      "detail": "DXY 100.93 vs 20d avg 100.75",
       "asOfMs": 1783569600000,
       "status": "ok",
       "raw": {
-        "last": 100.94,
+        "last": 100.93,
         "avg": 100.75,
-        "gap": 0.19
+        "gap": 0.18
       }
     },
     "vol": {
@@ -85,20 +85,25 @@
       }
     },
     "skew": {
-      "state": "elevated",
-      "vote": "off",
-      "detail": "SKEW 149.8 vs 20d avg 144.8",
-      "asOfMs": 1783517400000,
+      "state": "subdued",
+      "vote": "on",
+      "detail": "SKEW 144.7 vs 20d avg 145",
+      "asOfMs": 1783603800000,
       "status": "ok",
       "raw": {
-        "skew": 149.79,
-        "avg": 144.82,
-        "gap": 4.97
+        "skew": 144.67,
+        "avg": 144.95,
+        "gap": -0.28
       }
     }
   },
   "context": {
     "overnight": [
+      {
+        "name": "Nikkei",
+        "pct": -2.1,
+        "asOfMs": 1783468800000
+      },
       {
         "name": "DAX",
         "pct": 0.9,
@@ -108,11 +113,6 @@
         "name": "Hang Seng",
         "pct": 3,
         "asOfMs": 1783474200000
-      },
-      {
-        "name": "Nikkei",
-        "pct": -2.1,
-        "asOfMs": 1783468800000
       }
     ],
     "rates": {
@@ -447,9 +447,19 @@
       "ts": 1783617358966,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP risk-on -> risk-off · 4-3 · drivers: dollar strong, defensives leading, breadth narrow, crash-hedging elevated"
+    },
+    {
+      "ts": 1783631757663,
+      "kind": "REGIME",
+      "line": "REGIME skew elevated -> subdued"
+    },
+    {
+      "ts": 1783631757663,
+      "kind": "REGIME-FLIP",
+      "line": "REGIME-FLIP risk-off -> risk-on · 4-3 · drivers: curve positive, VIX in contango, credit spreads tight, crash-hedging subdued"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783629957265
+  "updatedMs": 1783631758345
 }
