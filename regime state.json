@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.35pp (2y 4.21, 10y 4.56)",
-      "asOfMs": 1783483200000,
+      "asOfMs": 1783468800000,
       "status": "ok",
       "raw": {
         "spread": 0.35,
@@ -27,13 +27,13 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.89 vs 20d avg 100.75",
+      "detail": "DXY 100.88 vs 20d avg 100.75",
       "asOfMs": 1783569600000,
       "status": "ok",
       "raw": {
-        "last": 100.89,
+        "last": 100.88,
         "avg": 100.75,
-        "gap": 0.14
+        "gap": 0.13
       }
     },
     "vol": {
@@ -100,9 +100,9 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": -2.1,
-        "asOfMs": 1783468800000
+        "name": "Hang Seng",
+        "pct": 3,
+        "asOfMs": 1783474200000
       },
       {
         "name": "DAX",
@@ -110,9 +110,9 @@
         "asOfMs": 1783580400000
       },
       {
-        "name": "Hang Seng",
-        "pct": 3,
-        "asOfMs": 1783474200000
+        "name": "Nikkei",
+        "pct": -2.1,
+        "asOfMs": 1783468800000
       }
     ],
     "rates": {
@@ -451,5 +451,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783620957501
+  "updatedMs": 1783621217142
 }
