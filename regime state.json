@@ -16,7 +16,7 @@
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.35pp (2y 4.21, 10y 4.56)",
-      "asOfMs": 1783483200000,
+      "asOfMs": 1783468800000,
       "status": "ok",
       "raw": {
         "spread": 0.35,
@@ -39,13 +39,13 @@
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.92 vs VIX3M 19.03",
+      "detail": "VIX 15.78 vs VIX3M 18.94",
       "asOfMs": 1783603800000,
       "status": "ok",
       "raw": {
-        "vix": 15.92,
-        "vix3m": 19.03,
-        "diff": -3.11
+        "vix": 15.78,
+        "vix3m": 18.94,
+        "diff": -3.16
       }
     },
     "credit": {
@@ -63,25 +63,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 0.7% vs others 0.1%",
+      "detail": "defensives 5d 0.8% vs others 0%",
       "asOfMs": 1783603800000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0.7,
-        "othMedPct": 0.1,
-        "diffPct": 0.7
+        "defMedPct": 0.8,
+        "othMedPct": 0,
+        "diffPct": 0.8
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2842 vs 20d avg 0.2851",
+      "detail": "RSP/SPY 0.2841 vs 20d avg 0.2851",
       "asOfMs": 1783603800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2842,
+        "ratio": 0.2841,
         "avg": 0.2851,
-        "gap": -0.0008
+        "gap": -0.001
       }
     },
     "skew": {
@@ -100,14 +100,14 @@
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": 3,
-        "asOfMs": 1783474200000
-      },
-      {
         "name": "Nikkei",
         "pct": -2.1,
         "asOfMs": 1783468800000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": 3,
+        "asOfMs": 1783474200000
       },
       {
         "name": "DAX",
@@ -451,5 +451,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783626357949
+  "updatedMs": 1783628012834
 }
