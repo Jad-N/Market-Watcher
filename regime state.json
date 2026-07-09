@@ -27,24 +27,24 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.87 vs 20d avg 100.75",
+      "detail": "DXY 100.89 vs 20d avg 100.75",
       "asOfMs": 1783569600000,
       "status": "ok",
       "raw": {
-        "last": 100.87,
+        "last": 100.89,
         "avg": 100.75,
-        "gap": 0.12
+        "gap": 0.14
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.02 vs VIX3M 19.04",
+      "detail": "VIX 16.01 vs VIX3M 19.03",
       "asOfMs": 1783603800000,
       "status": "ok",
       "raw": {
-        "vix": 16.02,
-        "vix3m": 19.04,
+        "vix": 16.01,
+        "vix3m": 19.03,
         "diff": -3.02
       }
     },
@@ -63,25 +63,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 1.1% vs others 0.1%",
+      "detail": "defensives 5d 1% vs others 0.1%",
       "asOfMs": 1783603800000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.1,
+        "defMedPct": 1,
         "othMedPct": 0.1,
-        "diffPct": 1
+        "diffPct": 0.9
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2848 vs 20d avg 0.2851",
+      "detail": "RSP/SPY 0.2847 vs 20d avg 0.2851",
       "asOfMs": 1783603800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2848,
+        "ratio": 0.2847,
         "avg": 0.2851,
-        "gap": -0.0003
+        "gap": -0.0004
       }
     },
     "skew": {
@@ -117,7 +117,7 @@
     ],
     "rates": {
       "impliedRate": 3.63,
-      "changeBp": 0.5,
+      "changeBp": 0.7,
       "asOfMs": 1783569600000
     }
   },
@@ -451,5 +451,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783619157661
+  "updatedMs": 1783620957501
 }
