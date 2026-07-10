@@ -1,33 +1,33 @@
 {
- "generatedAt": "Jul 10, 2026, 3:06 PM ET",
- "generatedAtMs": 1783710389233,
+ "generatedAt": "Jul 10, 2026, 3:30 PM ET",
+ "generatedAtMs": 1783711801917,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-07-10 15:00 ET",
-  "pricesAsOf": "Jul 10, 2026, 3:06 PM ET",
+  "pricesAsOf": "Jul 10, 2026, 3:30 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7620,
-     "change": 0.4,
+     "value": 7623.5,
+     "change": 0.5,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30044,
+     "value": 30050,
      "change": 0.4,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 15.27,
-     "change": -3.6,
+     "value": 15.23,
+     "change": -3.9,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 15.25,
-      "divergencePct": 0.13
+      "cnbcLast": 15.24,
+      "divergencePct": 0.07
      }
     }
    ],
@@ -38,7 +38,7 @@
     },
     {
      "ticker": "QQQ",
-     "pct": 2.1
+     "pct": 2
     }
    ],
    "putCall": null
@@ -221,7 +221,7 @@
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 15.28 vs VIX3M 18.69"
+    "detail": "VIX 15.23 vs VIX3M 18.67"
    },
    {
     "name": "credit",
@@ -233,7 +233,7 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d -1% vs others 0.2%"
+    "detail": "defensives 5d -1.1% vs others 0.2%"
    },
    {
     "name": "breadth",
@@ -254,13 +254,13 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 1.1,
-   "last": 63868.4,
+   "pct": 1,
+   "last": 63818,
    "newsCount": 10,
    "latestNews": {
-    "title": "Bitcoin (BTC) price forecast: Here's how high prices could bounce as MACD flips bullish - CoinDesk",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWkZfTEtIMnpEWXJyWUJDTHZWdm9MWG1sdTIzaEhXTFRFRjhkYjFRSHg3N1FOVV9TWmkxWmVkanhFemdkSWNCR0J5bm1EbjdQZTRFa2R1VDVEeHlIY0RkVkdwUTFJNjIxSUxWZklXbTR6UmI3YWVLX0pJbmx1Vjk0UUFaWWlkb1FQbk5jNTNFX19lVTRGSjN4V1dDZlRFdnRRSUw4MHQ2Q0FHNTZkMDkzVVAtQ3lZNGZDOGtXVTBSRnhCZkdDSVpacDJn?oc=5",
-    "time": "2:49 AM"
+    "title": "Bitcoin's $60,000-$70,000 range becomes third most traded range in history - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUEMzMlp6emF5dTB0OW1MdUdrdlMzSk00VndwU3ZDcVc5RU44M2FaRzFDMktpcmJ0X2trTlRfM2JsSlppSEVXMndacnJISmhnU1dRMDhPTW0wcUhLd0J6d1VuZzZsVkNZU3ZIdjVWOV9qTjRsMHAxc2I3OUJlQUozTU1kaEdZZ0tMRVRhZWY1YVJfeUMyV191QU4xT3hLc0xWT2NLUFRiSkI5R2RQZmIwMENDNEU1OHhNNFd3Znd1bzQ?oc=5",
+    "time": "5:20 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -270,8 +270,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 2.2,
-   "last": 22.3,
+   "pct": -4.9,
+   "last": 22.1,
    "newsCount": 7,
    "latestNews": {
     "title": "KEEL Vs WULF Vs HUT Vs CIFR: Which Former Bitcoin Miner Is The Better AI Infra Play? - TradingView",
@@ -291,8 +291,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -2.8,
-   "last": 41.8,
+   "pct": -3.3,
+   "last": 41.6,
    "newsCount": 6,
    "latestNews": {
     "title": "IREN Stock Forecast: Meta Is Now a Compute Competitor; $42 in a Descending Channel - TradingKey",
@@ -312,8 +312,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 2.8,
-   "last": 222.5,
+   "pct": 2.1,
+   "last": 221.1,
    "newsCount": 4,
    "latestNews": {
     "title": "HB Wealth Management LLC Makes New Investment in Nebius Group N.V. $NBIS - MarketBeat",
@@ -321,9 +321,9 @@
     "time": "3:47 AM"
    },
    "latestPost": {
-    "text": "Nebius CTO Danila Shtan joined @PatrickAkil_ Beyond Coding Podcast to discuss the reality of #AgenticAI, why production software still needs experienced engineers, and how #AI is reshaping the role of the modern builder. Watch the full podcast: https://www.youtube.com/watch?v=zTenuG5b4Eo",
-    "url": "https://nitter.net/nebiusai/status/2075611005736849889#m",
-    "time": "12:00 PM"
+    "text": "We’re back with more data center ASMR. If the sound of a connector clicking perfectly into place gives you the tingles, you’re in for a treat. Fresh tracks every Friday through July. http://youtube.com/watch?v=pPg5kEldMpc&feature=youtu.be",
+    "url": "https://nitter.net/nebiusai/status/2075656347132068054#m",
+    "time": "3:00 PM"
    },
    "latestFiling": {
     "type": "insider",
@@ -337,8 +337,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 7.3,
-   "last": 555.4,
+   "pct": 7,
+   "last": 553.6,
    "newsCount": 18,
    "latestNews": {
     "title": "Cathie Wood’s ARK sells AMD stock, adds to Meta Platforms position - Investing.com",
@@ -357,8 +357,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": 0,
-   "last": 31.4,
+   "pct": -0.7,
+   "last": 31.2,
    "newsCount": 6,
    "latestNews": {
     "title": "APLD Stock Surges To Over 2-Month High – Retail Expects Stock To Double By Year-End - Stocktwits",
@@ -382,8 +382,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -3.4,
-   "last": 22.1,
+   "pct": -4,
+   "last": 21.9,
    "newsCount": 11,
    "latestNews": {
     "title": "TeraWulf (WULF) Stock Looks Fully Valued Following Its 499% Three Year Run - simplywall.st",
@@ -407,9 +407,9 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": -7.1,
+   "pct": -7.3,
    "last": 8.2,
-   "newsCount": 6,
+   "newsCount": 5,
    "latestNews": {
     "title": "Can IBRX Stock Keep Its Pulse? Institutional Investors Buy In, Retail Hopes For Big Q2 Surprise - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdFExMjlpNTdyLUhydUhzaWlXeUNCMlc5Ty00d3Vkc2VNZUFudlVBS0J1eEFCU2VQdDE3LU9TQ2lzT2VQTXZLRTJTN21mXzdfNm9ZeDZGLUMtS3Z0VmlUbDB5OFhrWnBrSU9vTS1NbTNBMm9IZ19fOXBOeTZ0Wk5RQlBLU3JyT0pnUEV5aWNBbGM2aTFKSnBTS1AxM0lhN1RSTjhHWkFxWlM2TTF6OEN4b1B2RkVuSkZfLTJ5czk1QnRIOXFUbzJqQjZvYWZtSmgyMllobE5LbmFjX1hDaWJmNWxZTzJtMmct?oc=5",
@@ -423,7 +423,7 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -0.6,
+   "pct": -0.5,
    "last": 4.3,
    "newsCount": 4,
    "latestNews": {
@@ -444,7 +444,7 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 4.3,
+   "pct": 3.8,
    "last": 12.9,
    "newsCount": 5,
    "latestNews": {
@@ -460,7 +460,7 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 0.2,
+   "pct": 0,
    "last": 12.4,
    "newsCount": 1,
    "latestNews": {
@@ -476,8 +476,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 0.7,
-   "last": 139.5,
+   "pct": 0.3,
+   "last": 139,
    "newsCount": 3,
    "latestNews": {
     "title": "ABIVAX Société Anonyme (ENXTPA:ABVX) Could Be 44% Undervalued As UC Data Lands - simplywall.st",
@@ -492,8 +492,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -7,
-   "last": 28.3,
+   "pct": -7.5,
+   "last": 28.1,
    "newsCount": 2,
    "latestNews": {
     "title": "Mineralys Therapeutics (MLYS) Following Russell Index Removal Still Looks Cheap On Fair Value - simplywall.st",
@@ -508,9 +508,9 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 3.2,
-   "last": 210.6,
-   "newsCount": 9,
+   "pct": 2.9,
+   "last": 210,
+   "newsCount": 18,
    "latestNews": {
     "title": "If I Could Only Buy 1 Artificial Intelligence (AI) Stock, This Would Be It - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWUlocGtQQUlPNVRua2QtVWtEQTlwWXZuc2R6eUo0Wi04Y2p6dE5jTDBNcEFackhPYjhOODF3WWhybFdyTndXMGpKWlJQN01VNllDZHY4OEVEZ25mSFpIMWYybnhWd0NZb0Z2Y2dIbDViNFREdTNtY3ZmS0hTUkpvUXM0bGgyekxkVEtNOXA5ZU5Lb0xoMVVWTw?oc=5",
@@ -528,7 +528,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 0.6,
+   "pct": 0.7,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -544,7 +544,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 1.5,
+   "pct": 1.2,
    "last": 11.5,
    "newsCount": 2,
    "latestNews": {
@@ -560,8 +560,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -2,
-   "last": 81.7,
+   "pct": -2.6,
+   "last": 81.2,
    "newsCount": 13,
    "latestNews": {
     "title": "3 Space Economy Stocks to Buy in July - 24/7 Wall St.",
@@ -576,8 +576,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -4.3,
-   "last": 126.5,
+   "pct": -4.1,
+   "last": 126.8,
    "newsCount": 14,
    "latestNews": {
     "title": "Palantir Stock Is Down 36% From Its All-Time High. Time to Buy? - The Motley Fool",
@@ -593,7 +593,7 @@
    "section": "macro",
    "class": "equity",
    "pct": 0.5,
-   "last": 385.3,
+   "last": 385.1,
    "newsCount": 14,
    "latestNews": {
     "title": "‘Here is What is Changing’: Microsoft Stock (NASDAQ:MSFT) Notches Up as Nadella Reveals How to Gain Trust - TipRanks",
@@ -608,9 +608,9 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -5.5,
-   "last": 34.1,
-   "newsCount": 4,
+   "pct": -4.1,
+   "last": 34.6,
+   "newsCount": 2,
    "latestNews": {
     "title": "Hims & Hers Health Stock (HIMS) Opinions on Recent Technical Breakouts and Growth Prospects - Quiver Quantitative",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaGlyVDZteEYtWTByZU5VSEZNd3IwTzgtNzRJYVI2ZEY4UnZod2pSYkw0c2xyTURRUjU3RkoxV0d5TVhIalBKZ2xZRVpEdXkwSzRwQmlzTnlMOHgyN3VoUm8zZDFxdlJaMnFJb2FocDNrUUR4Vk45QnNFc1dtN19pMGh1by10UHNKS19HS3dPMDJ1MG9QNmNuM0NZRmhIUnlsdm9EVDMzdkU0alJxYVhHWV8wOXhmZVhHTEl4QlludEdYWmJxLWxYTmpB?oc=5",
@@ -624,8 +624,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -1.8,
-   "last": 355.6,
+   "pct": -1.5,
+   "last": 356.5,
    "newsCount": 18,
    "latestNews": {
     "title": "What Alphabet Stock Was Telling You Before It Doubled - Trefis",
@@ -645,7 +645,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": -0.5,
-   "last": 4109.8,
+   "last": 4111.4,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil Shock Revives Rate-Hike Fears as Gold Tests $4,000 Support - Gold Price",
@@ -660,8 +660,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -0.3,
-   "last": 76.1,
+   "pct": -0.2,
+   "last": 76.2,
    "newsCount": 10,
    "latestNews": {
     "title": "Current price of oil as of July 10, 2026 - Fortune",
@@ -676,7 +676,7 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -0.7,
+   "pct": -0.6,
    "last": 71.6,
    "newsCount": 10,
    "latestNews": {
@@ -690,6 +690,28 @@
   }
  ],
  "events": [
+  {
+   "id": "ccc3d8cbb965",
+   "type": "news",
+   "symbol": "MSFT",
+   "section": "macro",
+   "time": 1783710540000,
+   "timeLabel": "3:09 PM",
+   "source": "",
+   "text": "Top Wall Street Analyst Says AI Spending Is Delivering Real Returns: “When We Build a Data Center, It’s Already Pre-Sold”",
+   "url": "https://247wallst.com/investing/2026/07/10/top-wall-street-analyst-says-ai-spending-is-delivering-real-returns-when-we-build-a-data-center-its-already-pre-sold/?.tsrc=rss"
+  },
+  {
+   "id": "a0b82e7f55f4",
+   "type": "post",
+   "symbol": "NBIS",
+   "section": "trading",
+   "time": 1783710000000,
+   "timeLabel": "3:00 PM",
+   "handle": "@nebiusai",
+   "text": "We’re back with more data center ASMR. If the sound of a connector clicking perfectly into place gives you the tingles, you’re in for a treat. Fresh tracks e…",
+   "url": "https://nitter.net/nebiusai/status/2075656347132068054#m"
+  },
   {
    "id": "5406424c8bff",
    "type": "news",
@@ -6142,12 +6164,21 @@
    "stBull": null,
    "regime": 71.4,
    "composite": 47.2
+  },
+  {
+   "t": 1783711801917,
+   "label": "Jul 10 2026 3:30 PM ET",
+   "cnn": 49,
+   "crypto": 23,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 47.2
   }
  ],
  "degraded": [],
  "sourceQuality": {
-  "crossChecked": 19,
-  "divMax": 0.12,
-  "fallbacks": 0
+  "crossChecked": 18,
+  "divMax": 0.08,
+  "fallbacks": 1
  }
 }
