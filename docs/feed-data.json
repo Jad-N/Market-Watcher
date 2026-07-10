@@ -1,51 +1,51 @@
 {
- "generatedAt": "Jul 10, 2026, 11:33 AM ET",
- "generatedAtMs": 1783697630978,
+ "generatedAt": "Jul 10, 2026, 11:41 AM ET",
+ "generatedAtMs": 1783698099792,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-07-10 11:00 ET",
-  "pricesAsOf": "Jul 10, 2026, 11:33 AM ET",
+  "pricesAsOf": "Jul 10, 2026, 11:41 AM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7603.25,
+     "value": 7601.75,
      "change": 0.2,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29946.5,
-     "change": 0,
+     "value": 29966,
+     "change": 0.1,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 15.47,
-     "change": -2.3,
+     "value": 15.43,
+     "change": -2.6,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 15.52,
-      "divergencePct": 0.32
+      "cnbcLast": 15.58,
+      "divergencePct": 0.96
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": 1
+     "pct": 0.9
     },
     {
      "ticker": "QQQ",
-     "pct": 1.8
+     "pct": 1.4
     }
    ],
    "putCall": null
   },
   "gauges": {
    "cnn": {
-    "score": 47,
+    "score": 48,
     "rating": "neutral",
     "prevClose": 47,
     "prevWeek": 32,
@@ -232,7 +232,7 @@
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 15.46 vs VIX3M 18.87"
+    "detail": "VIX 15.43 vs VIX3M 18.85"
    },
    {
     "name": "credit",
@@ -244,13 +244,13 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d -1.2% vs others 0.2%"
+    "detail": "defensives 5d -1.1% vs others 0.1%"
    },
    {
     "name": "breadth",
     "vote": "off",
     "state": "below 20d avg",
-    "detail": "RSP/SPY 0.2845 vs 20d avg 0.2851"
+    "detail": "RSP/SPY 0.2846 vs 20d avg 0.2851"
    },
    {
     "name": "skew",
@@ -265,8 +265,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 1.3,
-   "last": 64044,
+   "pct": 1.2,
+   "last": 63933,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin (BTC) price forecast: Here's how high prices could bounce as MACD flips bullish - CoinDesk",
@@ -281,8 +281,8 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 2.3,
-   "last": 22.4,
+   "pct": 1.2,
+   "last": 22.1,
    "newsCount": 11,
    "latestNews": {
     "title": "KEEL Vs WULF Vs HUT Vs CIFR: Which Former Bitcoin Miner Is The Better AI Infra Play? - TradingView",
@@ -302,9 +302,9 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -5,
-   "last": 40.9,
-   "newsCount": 10,
+   "pct": -5.9,
+   "last": 40.5,
+   "newsCount": 11,
    "latestNews": {
     "title": "IREN (IREN) Stock Looks Fully Valued On Its Very Large 3 Year Run - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM0dZN01GdFZXTUJxS3BNWGlYNXlkZ0J0dENBVjU1TnppbklUbktqdDhnUGpIYnJVcUs1WU1iMnVTY2RjRnZTWkxJVVBObno5U2VEejN5NlRwYW1HbXBQYzlGT2NQZENVWlU3d0ZlV2s0Z2pRY21NNF82WHM4bk8yUF9ZVTEtY2V3Uk1BLTl0MGI5bTFvakln?oc=5",
@@ -323,13 +323,13 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 0.7,
-   "last": 217.9,
+   "pct": -0.5,
+   "last": 215.4,
    "newsCount": 6,
    "latestNews": {
-    "title": "HB Wealth Management LLC Makes New Investment in Nebius Group N.V. $NBIS - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWDBTU2VQelZQMXo3Y0dlVmE3ZnBwS3ZDOWV1SzdvS2VMWlhKVHYyR1dlQXVvNm81WkZheWJRS09LQ3I0OENtZHJUa1BsUnZDQ2s0U0xPVkxWWG11SUZhS01lTUs0ZkpPdUZvMDJhUEUtS0doeS1qMDlBODAyLW1OREZUSWFudTRvM3FFQlZDOXFITmxzLWV1ZWNzeDN0VXQtQ2t5QU9UTHNhNjYxZHVFblh1SC1GMUtTQjRaY2RZeEhVT1pvWndCaU53?oc=5",
-    "time": "3:47 AM"
+    "title": "Nebius Group (NASDAQ: NBIS) Stock Price Dip Looks Attractive After Meta Cloud Fears Spark Selloff - foreignpolicyjournal.com",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdFNWUGhELWFnYnNxZUt3bTN0OEw2UG8xTldleEE0ek42SUNCdzgtNnhUNk5mR1o2STFWT0luQkNTd1BGQkFHZkM1YXI0MElSS0YyclhMcDREa2tSQ25haXlsbXZQcnlmSFMxT2NBQU9sanBuY241ZHVZUE9tOGtPUlRzdi0wMndqQ01ycmtxelg4c2xLRlMzMDZGMDVhQVpRLU5sRjZxYWEyV1FkclJBWUJIZXIxSGdvbERIT0tLVzNoaE03YzhVaFQ2alktR2dyX1FPZmw1Y3d3aWc?oc=5",
+    "time": "11:44 AM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -344,8 +344,8 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 6.7,
-   "last": 552,
+   "pct": 5.9,
+   "last": 547.9,
    "newsCount": 18,
    "latestNews": {
     "title": "CPU Competition Gearing Up to Cool AMD’s Massive Run - Barron's",
@@ -360,8 +360,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -0.7,
-   "last": 31.2,
+   "pct": -1.6,
+   "last": 30.9,
    "newsCount": 3,
    "latestNews": {
     "title": "APLD Stock Surges To Over 2-Month High – Retail Expects Stock To Double By Year-End - Stocktwits",
@@ -381,9 +381,9 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -3.1,
-   "last": 22.1,
-   "newsCount": 15,
+   "pct": -4.2,
+   "last": 21.9,
+   "newsCount": 14,
    "latestNews": {
     "title": "TeraWulf (WULF) Lands $3.5 Billion Loan To Build Out Its AI Data Centers - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWmIyckwzeTQzUTY5c0JkZVQ5YWVENm1RbVQ1dVcyTVBNQ1RlV2FhNVRxdlF2QmpPN2dYZFlJY2MxbTUtODFWT3FadDdVYjNPTjdob1FLcWhVWEJRMTNhcjlZbnp6T3BLT0ZVQWk2cGppa0xGdzFiS0dVZk1uVnBzdG1jMEotNk9CWVFmbjhLS3g?oc=5",
@@ -406,8 +406,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": -7.3,
-   "last": 8.2,
+   "pct": -8.2,
+   "last": 8.1,
    "newsCount": 2,
    "latestNews": {
     "title": "Can IBRX Stock Keep Its Pulse? Institutional Investors Buy In, Retail Hopes For Big Q2 Surprise - TradingView",
@@ -422,7 +422,7 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -3.1,
+   "pct": -3.9,
    "last": 4.2,
    "newsCount": 4,
    "latestNews": {
@@ -443,8 +443,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 2.6,
-   "last": 12.7,
+   "pct": 1.6,
+   "last": 12.6,
    "newsCount": 6,
    "latestNews": {
     "title": "Cleanspark Inc (CLSK) Stock Up 4.0% but GF Value Says Overvalued -- GF Score: 64/100 - GuruFocus",
@@ -459,8 +459,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 1.5,
-   "last": 12.6,
+   "pct": 1,
+   "last": 12.5,
    "newsCount": 1,
    "latestNews": {
     "title": "52% of Investors Bought STRC and SATA Below $100 Par, Survey Finds",
@@ -475,8 +475,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 1.1,
-   "last": 140,
+   "pct": 1,
+   "last": 139.9,
    "newsCount": 3,
    "latestNews": {
     "title": "ABIVAX Société Anonyme (ENXTPA:ABVX) Could Be 44% Undervalued As UC Data Lands - simplywall.st",
@@ -491,8 +491,8 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -8,
-   "last": 28,
+   "pct": -8.2,
+   "last": 27.9,
    "newsCount": 2,
    "latestNews": {
     "title": "Mineralys Therapeutics (MLYS) Following Russell Index Removal Still Looks Cheap On Fair Value - simplywall.st",
@@ -508,7 +508,7 @@
    "section": "macro",
    "class": "equity",
    "pct": 2.2,
-   "last": 208.6,
+   "last": 208.7,
    "newsCount": 18,
    "latestNews": {
     "title": "The Real Price of NVIDIA Stock Is Three Years Away - Trefis",
@@ -527,7 +527,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 0.8,
+   "pct": 0.7,
    "last": 1.1,
    "newsCount": 10,
    "latestNews": {
@@ -543,8 +543,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": 2,
-   "last": 11.6,
+   "pct": 1.5,
+   "last": 11.5,
    "newsCount": 2,
    "latestNews": {
     "title": "TSS Inc. (TSSI) Stock Price | Live Quotes & Charts | NASDAQ - timothysykes.com",
@@ -559,8 +559,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": -3.4,
-   "last": 80.5,
+   "pct": -4,
+   "last": 80,
    "newsCount": 16,
    "latestNews": {
     "title": "Rocket Lab’s Stock Drop Comes With a Bullish Twist - MarketBeat",
@@ -575,8 +575,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -4.4,
-   "last": 126.5,
+   "pct": -4.6,
+   "last": 126.1,
    "newsCount": 18,
    "latestNews": {
     "title": "Palantir (PLTR) Lands First Latin America Commercial Customer With GNP And Rackspace - Yahoo Finance",
@@ -591,8 +591,8 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 0.1,
-   "last": 383.6,
+   "pct": 0.2,
+   "last": 383.9,
    "newsCount": 13,
    "latestNews": {
     "title": "Microsoft Stock (NASDAQ:MSFT) Slips As Microsoft Study on AI in Switzerland Drops - TipRanks",
@@ -607,8 +607,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -6,
-   "last": 33.9,
+   "pct": -6.6,
+   "last": 33.7,
    "newsCount": 3,
    "latestNews": {
     "title": "Hims & Hers Health Stock (HIMS) Opinions on Recent Technical Breakouts and Growth Prospects - Quiver Quantitative",
@@ -623,8 +623,8 @@
    "ticker": "GOOGL",
    "section": "macro",
    "class": "equity",
-   "pct": -2.1,
-   "last": 354.3,
+   "pct": -2.2,
+   "last": 353.9,
    "newsCount": 16,
    "latestNews": {
     "title": "What Alphabet Stock Was Telling You Before It Doubled - Trefis",
@@ -643,8 +643,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": -0.4,
-   "last": 4115.6,
+   "pct": -0.5,
+   "last": 4111.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Why is gold price holding firm during U.S.-Iran tension? - KITCO",
@@ -659,8 +659,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -0.8,
-   "last": 75.7,
+   "pct": -0.6,
+   "last": 75.8,
    "newsCount": 10,
    "latestNews": {
     "title": "The Coming Power War That Will Define the AI Era - Crude Oil Prices Today | OilPrice.com",
@@ -675,7 +675,7 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -1.2,
+   "pct": -1,
    "last": 71.3,
    "newsCount": 10,
    "latestNews": {
@@ -5697,6 +5697,15 @@
    "t": 1783697630978,
    "label": "Jul 10 2026 11:33 AM ET",
    "cnn": 47,
+   "crypto": 23,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 47.2
+  },
+  {
+   "t": 1783698099792,
+   "label": "Jul 10 2026 11:41 AM ET",
+   "cnn": 48,
    "crypto": 23,
    "stBull": null,
    "regime": 71.4,
