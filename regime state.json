@@ -28,25 +28,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.9 vs 20d avg 100.8",
+      "detail": "DXY 100.91 vs 20d avg 100.8",
       "asOfMs": 1783656000000,
       "status": "ok",
       "raw": {
-        "last": 100.9,
+        "last": 100.91,
         "avg": 100.8,
-        "gap": 0.1
+        "gap": 0.11
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.57 vs VIX3M 18.86",
+      "detail": "VIX 15.57 vs VIX3M 18.91",
       "asOfMs": 1783690200000,
       "status": "ok",
       "raw": {
         "vix": 15.57,
-        "vix3m": 18.86,
-        "diff": -3.29
+        "vix3m": 18.91,
+        "diff": -3.34
       }
     },
     "credit": {
@@ -64,25 +64,25 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -1.4% vs others 0.2%",
+      "detail": "defensives 5d -1.2% vs others 0.2%",
       "asOfMs": 1783690200000,
       "status": "ok",
       "raw": {
-        "defMedPct": -1.4,
+        "defMedPct": -1.2,
         "othMedPct": 0.2,
-        "diffPct": -1.6
+        "diffPct": -1.4
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2847 vs 20d avg 0.2851",
+      "detail": "RSP/SPY 0.2849 vs 20d avg 0.2851",
       "asOfMs": 1783690200000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2847,
+        "ratio": 0.2849,
         "avg": 0.2851,
-        "gap": -0.0004
+        "gap": -0.0002
       }
     },
     "skew": {
@@ -101,24 +101,24 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": 1.2,
-        "asOfMs": 1783641600000
-      },
-      {
         "name": "DAX",
-        "pct": 0,
+        "pct": -0.1,
         "asOfMs": 1783666800000
       },
       {
         "name": "Hang Seng",
         "pct": 0.6,
         "asOfMs": 1783647000000
+      },
+      {
+        "name": "Nikkei",
+        "pct": 1.2,
+        "asOfMs": 1783641600000
       }
     ],
     "rates": {
       "impliedRate": 3.63,
-      "changeBp": 0.3,
+      "changeBp": 0,
       "asOfMs": 1783656000000
     }
   },
@@ -467,5 +467,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783692256146
+  "updatedMs": 1783693827000
 }
