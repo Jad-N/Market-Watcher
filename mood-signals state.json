@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-07-09",
-  "computedMs": 1783602058495,
+  "computedET": "2026-07-10",
+  "computedMs": 1783688431289,
   "block": {
-    "asOfET": "Jul 9, 2026",
-    "asOfMs": 1783602058000,
+    "asOfET": "Jul 10, 2026",
+    "asOfMs": 1783688429000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,8 +18,8 @@
             "detail": "steady stocks holding up better",
             "status": "ok",
             "raw": {
-              "ratio": 1.9185,
-              "avg": 2.0108
+              "ratio": 1.9819,
+              "avg": 2.0115
             }
           },
           {
@@ -30,8 +30,8 @@
             "detail": "junk bonds in demand vs safe bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7399,
-              "avg": 0.7335
+              "ratio": 0.7404,
+              "avg": 0.7338
             }
           }
         ]
@@ -44,29 +44,29 @@
           {
             "key": "crashInsurance",
             "label": "Crash-insurance demand",
-            "state": "Bracing for a drop",
-            "lean": "risk-off",
-            "detail": "paying up for crash protection",
+            "state": "Little crash worry",
+            "lean": "risk-on",
+            "detail": "low demand for crash protection",
             "status": "ok",
             "raw": {
-              "skew": 149.79,
-              "avg": 144.82
+              "skew": 144.67,
+              "avg": 144.95
             }
           },
           {
             "key": "safeHaven",
             "label": "Safe-haven scorecard",
-            "state": "1 of 4 safe havens bid",
+            "state": "2 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "gold rising",
+            "detail": "bonds, yen rising",
             "status": "ok",
             "raw": {
-              "bid": 1,
+              "bid": 2,
               "total": 4,
               "changes": {
-                "gold": 1.31,
-                "bonds": -0.22,
-                "yen": 0.04,
+                "gold": -0.48,
+                "bonds": 0.15,
+                "yen": -0.45,
                 "dollar": -0.06
               }
             }
@@ -93,12 +93,12 @@
           {
             "key": "sectorsAbove50",
             "label": "Short-term uptrend",
-            "state": "6 of 11 sectors rising",
-            "lean": "risk-on",
+            "state": "5 of 11 sectors rising",
+            "lean": "risk-off",
             "detail": "above their 50-day trend",
             "status": "ok",
             "raw": {
-              "above": 6,
+              "above": 5,
               "total": 11
             }
           }
