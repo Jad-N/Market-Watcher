@@ -1,22 +1,23 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "4-3",
+    "tally": "5-2",
     "drivers": [
       "curve positive",
       "VIX in contango",
       "credit spreads tight",
+      "cyclicals leading",
       "crash-hedging subdued"
     ],
-    "on": 4,
-    "off": 3
+    "on": 5,
+    "off": 2
   },
   "components": {
     "curve": {
       "state": "normal",
       "vote": "on",
       "detail": "10y-2y 0.38pp (2y 4.16, 10y 4.54)",
-      "asOfMs": 1783555200000,
+      "asOfMs": 1783569600000,
       "status": "ok",
       "raw": {
         "spread": 0.38,
@@ -27,25 +28,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.9 vs 20d avg 100.8",
+      "detail": "DXY 100.92 vs 20d avg 100.8",
       "asOfMs": 1783656000000,
       "status": "ok",
       "raw": {
-        "last": 100.9,
+        "last": 100.92,
         "avg": 100.8,
-        "gap": 0.1
+        "gap": 0.12
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.76 vs VIX3M 19.04",
+      "detail": "VIX 15.73 vs VIX3M 19.04",
       "asOfMs": 1783666800000,
       "status": "ok",
       "raw": {
-        "vix": 15.76,
+        "vix": 15.73,
         "vix3m": 19.04,
-        "diff": -3.28
+        "diff": -3.31
       }
     },
     "credit": {
@@ -61,27 +62,27 @@
       }
     },
     "rotation": {
-      "state": "defensives leading",
-      "vote": "off",
-      "detail": "defensives 5d 0.8% vs others 0%",
-      "asOfMs": 1783603800000,
+      "state": "cyclicals leading",
+      "vote": "on",
+      "detail": "defensives 5d -1.4% vs others 0.4%",
+      "asOfMs": 1783690200000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0.8,
-        "othMedPct": 0,
-        "diffPct": 0.8
+        "defMedPct": -1.4,
+        "othMedPct": 0.4,
+        "diffPct": -1.7
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.284 vs 20d avg 0.2851",
-      "asOfMs": 1783603800000,
+      "detail": "RSP/SPY 0.285 vs 20d avg 0.2851",
+      "asOfMs": 1783690200000,
       "status": "ok",
       "raw": {
-        "ratio": 0.284,
+        "ratio": 0.285,
         "avg": 0.2851,
-        "gap": -0.0011
+        "gap": -0.0001
       }
     },
     "skew": {
@@ -111,7 +112,7 @@
       },
       {
         "name": "DAX",
-        "pct": 0,
+        "pct": 0.1,
         "asOfMs": 1783666800000
       }
     ],
@@ -457,9 +458,14 @@
       "ts": 1783631757663,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP risk-off -> risk-on · 4-3 · drivers: curve positive, VIX in contango, credit spreads tight, crash-hedging subdued"
+    },
+    {
+      "ts": 1783691126700,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783689463874
+  "updatedMs": 1783691127522
 }
