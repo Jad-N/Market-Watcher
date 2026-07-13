@@ -1,16 +1,15 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "5-2",
+    "tally": "4-3",
     "drivers": [
       "curve positive",
       "VIX in contango",
       "credit spreads tight",
-      "breadth broad",
-      "crash-hedging subdued"
+      "breadth broad"
     ],
-    "on": 5,
-    "off": 2
+    "on": 4,
+    "off": 3
   },
   "components": {
     "curve": {
@@ -28,13 +27,13 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.31 vs 20d avg 100.88",
+      "detail": "DXY 101.27 vs 20d avg 100.87",
       "asOfMs": 1783915200000,
       "status": "ok",
       "raw": {
-        "last": 101.31,
-        "avg": 100.88,
-        "gap": 0.43
+        "last": 101.27,
+        "avg": 100.87,
+        "gap": 0.4
       }
     },
     "vol": {
@@ -86,25 +85,20 @@
       }
     },
     "skew": {
-      "state": "subdued",
-      "vote": "on",
-      "detail": "SKEW 144.3 vs 20d avg 145",
-      "asOfMs": 1783690200000,
+      "state": "elevated",
+      "vote": "off",
+      "detail": "SKEW 145.7 vs 20d avg 145.1",
+      "asOfMs": 1783949400000,
       "status": "ok",
       "raw": {
-        "skew": 144.27,
-        "avg": 145.01,
-        "gap": -0.74
+        "skew": 145.69,
+        "avg": 145.15,
+        "gap": 0.54
       }
     }
   },
   "context": {
     "overnight": [
-      {
-        "name": "DAX",
-        "pct": 0.2,
-        "asOfMs": 1783926000000
-      },
       {
         "name": "Nikkei",
         "pct": 1.2,
@@ -114,11 +108,16 @@
         "name": "Hang Seng",
         "pct": 0.6,
         "asOfMs": 1783647000000
+      },
+      {
+        "name": "DAX",
+        "pct": 0.2,
+        "asOfMs": 1783926000000
       }
     ],
     "rates": {
-      "impliedRate": 3.73,
-      "changeBp": -10,
+      "impliedRate": 3.74,
+      "changeBp": -10.5,
       "asOfMs": 1783915200000
     }
   },
@@ -483,9 +482,14 @@
       "ts": 1783958800637,
       "kind": "REGIME",
       "line": "REGIME breadth below 20d avg -> above 20d avg"
+    },
+    {
+      "ts": 1783978822647,
+      "kind": "REGIME",
+      "line": "REGIME skew subdued -> elevated"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1783975530576
+  "updatedMs": 1783978823273
 }
