@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-07-13",
-  "computedMs": 1783947360216,
+  "computedET": "2026-07-14",
+  "computedMs": 1784031605053,
   "block": {
-    "asOfET": "Jul 13, 2026",
-    "asOfMs": 1783947360000,
+    "asOfET": "Jul 14, 2026",
+    "asOfMs": 1784031604000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,8 +18,8 @@
             "detail": "steady stocks holding up better",
             "status": "ok",
             "raw": {
-              "ratio": 1.9706,
-              "avg": 2.0155
+              "ratio": 1.9067,
+              "avg": 2.0116
             }
           },
           {
@@ -30,8 +30,8 @@
             "detail": "junk bonds in demand vs safe bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7418,
-              "avg": 0.7342
+              "ratio": 0.7435,
+              "avg": 0.7347
             }
           }
         ]
@@ -44,13 +44,13 @@
           {
             "key": "crashInsurance",
             "label": "Crash-insurance demand",
-            "state": "Little crash worry",
-            "lean": "risk-on",
-            "detail": "low demand for crash protection",
+            "state": "Bracing for a drop",
+            "lean": "risk-off",
+            "detail": "paying up for crash protection",
             "status": "ok",
             "raw": {
-              "skew": 144.27,
-              "avg": 145.01
+              "skew": 145.69,
+              "avg": 145.15
             }
           },
           {
@@ -58,16 +58,16 @@
             "label": "Safe-haven scorecard",
             "state": "1 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "yen rising",
+            "detail": "gold rising",
             "status": "ok",
             "raw": {
               "bid": 1,
               "total": 4,
               "changes": {
-                "gold": -0.8,
-                "bonds": -0.02,
-                "yen": -0.14,
-                "dollar": -0.03
+                "gold": 0.91,
+                "bonds": -0.59,
+                "yen": 0.21,
+                "dollar": -0.22
               }
             }
           }
