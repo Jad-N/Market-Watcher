@@ -1,17 +1,15 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "6-1",
+    "tally": "4-3",
     "drivers": [
       "curve positive",
-      "dollar soft",
       "VIX in contango",
       "credit spreads tight",
-      "cyclicals leading",
-      "crash-hedging subdued"
+      "breadth broad"
     ],
-    "on": 6,
-    "off": 1
+    "on": 4,
+    "off": 3
   },
   "components": {
     "curve": {
@@ -27,27 +25,27 @@
       }
     },
     "dollar": {
-      "state": "below 20d avg",
-      "vote": "on",
-      "detail": "DXY 100.92 vs 20d avg 100.93",
-      "asOfMs": 1784001600000,
+      "state": "above 20d avg",
+      "vote": "off",
+      "detail": "DXY 101.02 vs 20d avg 100.94",
+      "asOfMs": 1784088000000,
       "status": "ok",
       "raw": {
-        "last": 100.92,
-        "avg": 100.93,
-        "gap": -0.01
+        "last": 101.02,
+        "avg": 100.94,
+        "gap": 0.08
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 16.5 vs VIX3M 19.3",
-      "asOfMs": 1784035800000,
+      "detail": "VIX 16.42 vs VIX3M 18.57",
+      "asOfMs": 1784098800000,
       "status": "ok",
       "raw": {
-        "vix": 16.5,
-        "vix3m": 19.3,
-        "diff": -2.8
+        "vix": 16.42,
+        "vix3m": 18.57,
+        "diff": -2.15
       }
     },
     "credit": {
@@ -63,64 +61,64 @@
       }
     },
     "rotation": {
-      "state": "cyclicals leading",
-      "vote": "on",
-      "detail": "defensives 5d -1.7% vs others -0.3%",
+      "state": "defensives leading",
+      "vote": "off",
+      "detail": "defensives 5d 0.6% vs others -1.1%",
       "asOfMs": 1784035800000,
       "status": "ok",
       "raw": {
-        "defMedPct": -1.7,
-        "othMedPct": -0.3,
-        "diffPct": -1.4
+        "defMedPct": 0.6,
+        "othMedPct": -1.1,
+        "diffPct": 1.7
       }
     },
     "breadth": {
-      "state": "below 20d avg",
-      "vote": "off",
-      "detail": "RSP/SPY 0.2839 vs 20d avg 0.2851",
-      "asOfMs": 1784035800000,
+      "state": "above 20d avg",
+      "vote": "on",
+      "detail": "RSP/SPY 0.286 vs 20d avg 0.2851",
+      "asOfMs": 1783949400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2839,
+        "ratio": 0.286,
         "avg": 0.2851,
-        "gap": -0.0011
+        "gap": 0.0008
       }
     },
     "skew": {
-      "state": "subdued",
-      "vote": "on",
-      "detail": "SKEW 145.1 vs 20d avg 145.3",
-      "asOfMs": 1784035800000,
+      "state": "elevated",
+      "vote": "off",
+      "detail": "SKEW 145.7 vs 20d avg 145.1",
+      "asOfMs": 1783949400000,
       "status": "ok",
       "raw": {
-        "skew": 145.13,
-        "avg": 145.27,
-        "gap": -0.14
+        "skew": 145.69,
+        "avg": 145.15,
+        "gap": 0.54
       }
     }
   },
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": 0.2,
-        "asOfMs": 1783906200000
+        "name": "Nikkei",
+        "pct": 2.2,
+        "asOfMs": 1784073600000
       },
       {
-        "name": "Nikkei",
-        "pct": -1.9,
-        "asOfMs": 1783900800000
+        "name": "Hang Seng",
+        "pct": 1.9,
+        "asOfMs": 1784079000000
       },
       {
         "name": "DAX",
-        "pct": 0.1,
-        "asOfMs": 1784012400000
+        "pct": -0.5,
+        "asOfMs": 1784098800000
       }
     ],
     "rates": {
       "impliedRate": 3.67,
-      "changeBp": -3.3,
-      "asOfMs": 1784001600000
+      "changeBp": -3.7,
+      "asOfMs": 1784088000000
     }
   },
   "stress": {
@@ -519,9 +517,29 @@
       "ts": 1784065369215,
       "kind": "REGIME",
       "line": "REGIME skew elevated -> subdued"
+    },
+    {
+      "ts": 1784118071568,
+      "kind": "REGIME",
+      "line": "REGIME dollar below 20d avg -> above 20d avg"
+    },
+    {
+      "ts": 1784118071568,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1784118071568,
+      "kind": "REGIME",
+      "line": "REGIME breadth below 20d avg -> above 20d avg"
+    },
+    {
+      "ts": 1784118071568,
+      "kind": "REGIME",
+      "line": "REGIME skew subdued -> elevated"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1784065369594
+  "updatedMs": 1784118071568
 }
