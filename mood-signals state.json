@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-07-16",
-  "computedMs": 1784204781521,
+  "computedET": "2026-07-17",
+  "computedMs": 1784290645185,
   "block": {
-    "asOfET": "Jul 16, 2026",
-    "asOfMs": 1784204779000,
+    "asOfET": "Jul 17, 2026",
+    "asOfMs": 1784290644000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,8 +18,8 @@
             "detail": "steady stocks holding up better",
             "status": "ok",
             "raw": {
-              "ratio": 1.9437,
-              "avg": 2.0024
+              "ratio": 1.8576,
+              "avg": 1.9933
             }
           },
           {
@@ -30,8 +30,8 @@
             "detail": "junk bonds in demand vs safe bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7419,
-              "avg": 0.7356
+              "ratio": 0.7423,
+              "avg": 0.736
             }
           }
         ]
@@ -49,8 +49,8 @@
             "detail": "paying up for crash protection",
             "status": "ok",
             "raw": {
-              "skew": 148.51,
-              "avg": 145.48
+              "skew": 145.72,
+              "avg": 145.64
             }
           },
           {
@@ -58,15 +58,15 @@
             "label": "Safe-haven scorecard",
             "state": "2 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "bonds, dollar rising",
+            "detail": "gold, dollar rising",
             "status": "ok",
             "raw": {
               "bid": 2,
               "total": 4,
               "changes": {
-                "gold": -0.54,
-                "bonds": 0.19,
-                "yen": 0.01,
+                "gold": 0.19,
+                "bonds": -0.04,
+                "yen": 0.18,
                 "dollar": 0.06
               }
             }
@@ -93,12 +93,12 @@
           {
             "key": "sectorsAbove50",
             "label": "Short-term uptrend",
-            "state": "6 of 11 sectors rising",
+            "state": "9 of 11 sectors rising",
             "lean": "risk-on",
             "detail": "above their 50-day trend",
             "status": "ok",
             "raw": {
-              "above": 6,
+              "above": 9,
               "total": 11
             }
           }
