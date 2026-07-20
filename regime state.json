@@ -6,7 +6,7 @@
       "curve positive",
       "dollar soft",
       "VIX in contango",
-      "credit spreads tight",
+      "cyclicals leading",
       "breadth broad"
     ],
     "on": 5,
@@ -28,61 +28,61 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 100.87 vs 20d avg 101.07",
+      "detail": "DXY 101 vs 20d avg 101.08",
       "asOfMs": 1784520000000,
       "status": "ok",
       "raw": {
-        "last": 100.87,
-        "avg": 101.07,
-        "gap": -0.2
+        "last": 101,
+        "avg": 101.08,
+        "gap": -0.07
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.21 vs VIX3M 20.54",
-      "asOfMs": 1784530800000,
+      "detail": "VIX 18.42 vs VIX3M 20.21",
+      "asOfMs": 1784554200000,
       "status": "ok",
       "raw": {
-        "vix": 18.21,
-        "vix3m": 20.54,
-        "diff": -2.33
+        "vix": 18.42,
+        "vix3m": 20.21,
+        "diff": -1.79
       }
     },
     "credit": {
-      "state": "below 20-obs avg",
-      "vote": "on",
-      "detail": "HY spread 2.71pp vs 20-obs avg 2.72pp (as of 2026-07-16)",
-      "asOfMs": 1784160000000,
+      "state": "above 20-obs avg",
+      "vote": "off",
+      "detail": "HY spread 2.73pp vs 20-obs avg 2.73pp (as of 2026-07-17)",
+      "asOfMs": 1784246400000,
       "status": "ok",
       "raw": {
-        "spread": 2.71,
-        "avg": 2.72,
+        "spread": 2.73,
+        "avg": 2.73,
         "newHigh": false
       }
     },
     "rotation": {
-      "state": "defensives leading",
-      "vote": "off",
-      "detail": "defensives 5d 0.2% vs others -0.8%",
-      "asOfMs": 1784295000000,
+      "state": "cyclicals leading",
+      "vote": "on",
+      "detail": "defensives 5d -0.6% vs others -0.4%",
+      "asOfMs": 1784554200000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0.2,
-        "othMedPct": -0.8,
-        "diffPct": 1
+        "defMedPct": -0.6,
+        "othMedPct": -0.4,
+        "diffPct": -0.2
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2871 vs 20d avg 0.2855",
-      "asOfMs": 1784295000000,
+      "detail": "RSP/SPY 0.2859 vs 20d avg 0.2857",
+      "asOfMs": 1784554200000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2871,
-        "avg": 0.2855,
-        "gap": 0.0016
+        "ratio": 0.2859,
+        "avg": 0.2857,
+        "gap": 0.0001
       }
     },
     "skew": {
@@ -583,9 +583,19 @@
       "ts": 1784297325507,
       "kind": "REGIME",
       "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1784560921103,
+      "kind": "REGIME",
+      "line": "REGIME credit below 20-obs avg -> above 20-obs avg"
+    },
+    {
+      "ts": 1784560921103,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1784553118485
+  "updatedMs": 1784560921885
 }
