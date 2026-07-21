@@ -15,23 +15,23 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.39pp (2y 4.21, 10y 4.6)",
-      "asOfMs": 1784505600000,
+      "detail": "10y-2y 0.37pp (2y 4.26, 10y 4.63)",
+      "asOfMs": 1784592000000,
       "status": "ok",
       "raw": {
-        "spread": 0.39,
-        "y2": 4.21,
-        "y10": 4.6
+        "spread": 0.37,
+        "y2": 4.26,
+        "y10": 4.63
       }
     },
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.19 vs 20d avg 101.08",
+      "detail": "DXY 101.18 vs 20d avg 101.08",
       "asOfMs": 1784606400000,
       "status": "ok",
       "raw": {
-        "last": 101.19,
+        "last": 101.18,
         "avg": 101.08,
         "gap": 0.1
       }
@@ -39,13 +39,13 @@
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 17.08 vs VIX3M 19.58",
+      "detail": "VIX 17.02 vs VIX3M 19.58",
       "asOfMs": 1784640600000,
       "status": "ok",
       "raw": {
-        "vix": 17.08,
+        "vix": 17.02,
         "vix3m": 19.58,
-        "diff": -2.5
+        "diff": -2.56
       }
     },
     "credit": {
@@ -63,12 +63,12 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 0.9% vs others -0.8%",
+      "detail": "defensives 5d 0.8% vs others -0.9%",
       "asOfMs": 1784640600000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0.9,
-        "othMedPct": -0.8,
+        "defMedPct": 0.8,
+        "othMedPct": -0.9,
         "diffPct": 1.7
       }
     },
@@ -621,5 +621,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1784660337232
+  "updatedMs": 1784665360206
 }
