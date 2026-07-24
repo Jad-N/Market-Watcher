@@ -1,15 +1,16 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "4-3",
+    "tally": "5-2",
     "drivers": [
       "curve positive",
       "VIX in contango",
+      "cyclicals leading",
       "breadth broad",
       "crash-hedging subdued"
     ],
-    "on": 4,
-    "off": 3
+    "on": 5,
+    "off": 2
   },
   "components": {
     "curve": {
@@ -27,25 +28,25 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.33 vs 20d avg 101.06",
+      "detail": "DXY 101.46 vs 20d avg 101.06",
       "asOfMs": 1784865600000,
       "status": "ok",
       "raw": {
-        "last": 101.33,
+        "last": 101.46,
         "avg": 101.06,
-        "gap": 0.27
+        "gap": 0.39
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 17.63 vs VIX3M 20.01",
+      "detail": "VIX 18.2 vs VIX3M 20.31",
       "asOfMs": 1784899800000,
       "status": "ok",
       "raw": {
-        "vix": 17.63,
-        "vix3m": 20.01,
-        "diff": -2.38
+        "vix": 18.2,
+        "vix3m": 20.31,
+        "diff": -2.11
       }
     },
     "credit": {
@@ -61,15 +62,15 @@
       }
     },
     "rotation": {
-      "state": "defensives leading",
-      "vote": "off",
-      "detail": "defensives 5d 1.1% vs others 1%",
+      "state": "cyclicals leading",
+      "vote": "on",
+      "detail": "defensives 5d 1% vs others 1%",
       "asOfMs": 1784899800000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.1,
+        "defMedPct": 1,
         "othMedPct": 1,
-        "diffPct": 0.1
+        "diffPct": -0.1
       }
     },
     "breadth": {
@@ -105,19 +106,19 @@
         "asOfMs": 1784876400000
       },
       {
+        "name": "Hang Seng",
+        "pct": 1.3,
+        "asOfMs": 1784770200000
+      },
+      {
         "name": "Nikkei",
         "pct": 0.5,
         "asOfMs": 1784764800000
-      },
-      {
-        "name": "Hang Seng",
-        "pct": -1,
-        "asOfMs": 1784856600000
       }
     ],
     "rates": {
       "impliedRate": 3.71,
-      "changeBp": -7,
+      "changeBp": -8,
       "asOfMs": 1784865600000
     }
   },
@@ -637,9 +638,14 @@
       "ts": 1784902959640,
       "kind": "REGIME",
       "line": "REGIME credit below 20-obs avg -> above 20-obs avg"
+    },
+    {
+      "ts": 1784913825789,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1784908357832
+  "updatedMs": 1784913826641
 }
