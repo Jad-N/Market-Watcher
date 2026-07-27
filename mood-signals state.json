@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-07-24",
-  "computedMs": 1784895875675,
+  "computedET": "2026-07-27",
+  "computedMs": 1785159769562,
   "block": {
-    "asOfET": "Jul 24, 2026",
-    "asOfMs": 1784895874000,
+    "asOfET": "Jul 27, 2026",
+    "asOfMs": 1785159768000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,8 +18,8 @@
             "detail": "steady stocks holding up better",
             "status": "ok",
             "raw": {
-              "ratio": 1.8778,
-              "avg": 1.9438
+              "ratio": 1.8443,
+              "avg": 1.933
             }
           },
           {
@@ -30,8 +30,8 @@
             "detail": "junk bonds in demand vs safe bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7456,
-              "avg": 0.7388
+              "ratio": 0.7447,
+              "avg": 0.7396
             }
           }
         ]
@@ -56,17 +56,17 @@
           {
             "key": "safeHaven",
             "label": "Safe-haven scorecard",
-            "state": "1 of 4 safe havens bid",
+            "state": "3 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "gold rising",
+            "detail": "gold, bonds, yen rising",
             "status": "ok",
             "raw": {
-              "bid": 1,
+              "bid": 3,
               "total": 4,
               "changes": {
-                "gold": 0.31,
-                "bonds": -0.32,
-                "yen": 0.45,
+                "gold": 0.29,
+                "bonds": 0.72,
+                "yen": -0.08,
                 "dollar": -0.01
               }
             }
@@ -93,12 +93,12 @@
           {
             "key": "sectorsAbove50",
             "label": "Short-term uptrend",
-            "state": "6 of 11 sectors rising",
+            "state": "8 of 11 sectors rising",
             "lean": "risk-on",
             "detail": "above their 50-day trend",
             "status": "ok",
             "raw": {
-              "above": 6,
+              "above": 8,
               "total": 11
             }
           }
