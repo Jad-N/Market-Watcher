@@ -27,61 +27,61 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.54 vs 20d avg 101.07",
+      "detail": "DXY 101.35 vs 20d avg 101.07",
       "asOfMs": 1785211200000,
       "status": "ok",
       "raw": {
-        "last": 101.54,
+        "last": 101.35,
         "avg": 101.07,
-        "gap": 0.46
+        "gap": 0.29
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 18.66 vs VIX3M 20.54",
-      "asOfMs": 1785222000000,
+      "detail": "VIX 18.37 vs VIX3M 20.02",
+      "asOfMs": 1785245400000,
       "status": "ok",
       "raw": {
-        "vix": 18.66,
-        "vix3m": 20.54,
-        "diff": -1.88
+        "vix": 18.37,
+        "vix3m": 20.02,
+        "diff": -1.65
       }
     },
     "credit": {
       "state": "above 20-obs avg",
       "vote": "off",
-      "detail": "HY spread 2.79pp vs 20-obs avg 2.72pp (as of 2026-07-24)",
-      "asOfMs": 1784851200000,
+      "detail": "HY spread 2.81pp vs 20-obs avg 2.72pp (as of 2026-07-27)",
+      "asOfMs": 1785110400000,
       "status": "ok",
       "raw": {
-        "spread": 2.79,
+        "spread": 2.81,
         "avg": 2.72,
-        "newHigh": false
+        "newHigh": true
       }
     },
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 1.6% vs others 0.7%",
-      "asOfMs": 1785159000000,
+      "detail": "defensives 5d 3.7% vs others 0.6%",
+      "asOfMs": 1785245400000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.6,
-        "othMedPct": 0.7,
-        "diffPct": 0.9
+        "defMedPct": 3.7,
+        "othMedPct": 0.6,
+        "diffPct": 3.1
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2911 vs 20d avg 0.2861",
-      "asOfMs": 1785159000000,
+      "detail": "RSP/SPY 0.2939 vs 20d avg 0.2864",
+      "asOfMs": 1785245400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2911,
-        "avg": 0.2861,
-        "gap": 0.0051
+        "ratio": 0.2939,
+        "avg": 0.2864,
+        "gap": 0.0075
       }
     },
     "skew": {
@@ -100,31 +100,31 @@
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": 0.4,
-        "asOfMs": 1785202200000
-      },
-      {
         "name": "Nikkei",
-        "pct": -4,
-        "asOfMs": 1785196800000
+        "pct": -2.2,
+        "asOfMs": 1785110400000
       },
       {
         "name": "DAX",
-        "pct": 0,
+        "pct": 0.3,
         "asOfMs": 1785222000000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": 0.4,
+        "asOfMs": 1785202200000
       }
     ],
     "rates": {
-      "impliedRate": 3.71,
-      "changeBp": -7,
+      "impliedRate": 3.7,
+      "changeBp": -6.5,
       "asOfMs": 1785211200000
     }
   },
   "stress": {
     "vixBackwardation": false,
     "curveInverted": false,
-    "hySpreadNew20High": false
+    "hySpreadNew20High": true
   },
   "macroSeen": [],
   "changeLog": [
@@ -707,9 +707,14 @@
       "ts": 1785243507947,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP risk-off -> risk-on · 4-3 · drivers: curve positive, VIX in contango, breadth broad, crash-hedging subdued"
+    },
+    {
+      "ts": 1785252473369,
+      "kind": "STRESS",
+      "line": "STRESS HY spread 20-obs high | HY spread 2.81pp vs 20-obs avg 2.72pp (as of 2026-07-27)"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1785243507947
+  "updatedMs": 1785252473851
 }
