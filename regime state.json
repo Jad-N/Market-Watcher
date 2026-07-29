@@ -1,15 +1,16 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "4-3",
+    "tally": "5-2",
     "drivers": [
       "curve positive",
+      "dollar soft",
       "VIX in contango",
       "breadth broad",
       "crash-hedging subdued"
     ],
-    "on": 4,
-    "off": 3
+    "on": 5,
+    "off": 2
   },
   "components": {
     "curve": {
@@ -25,27 +26,27 @@
       }
     },
     "dollar": {
-      "state": "above 20d avg",
-      "vote": "off",
-      "detail": "DXY 101.36 vs 20d avg 101.08",
+      "state": "below 20d avg",
+      "vote": "on",
+      "detail": "DXY 100.89 vs 20d avg 101.07",
       "asOfMs": 1785297600000,
       "status": "ok",
       "raw": {
-        "last": 101.36,
-        "avg": 101.08,
-        "gap": 0.28
+        "last": 100.89,
+        "avg": 101.07,
+        "gap": -0.18
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 19.54 vs VIX3M 20.59",
+      "detail": "VIX 18.85 vs VIX3M 20.3",
       "asOfMs": 1785331800000,
       "status": "ok",
       "raw": {
-        "vix": 19.54,
-        "vix3m": 20.59,
-        "diff": -1.05
+        "vix": 18.85,
+        "vix3m": 20.3,
+        "diff": -1.45
       }
     },
     "credit": {
@@ -63,12 +64,12 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 3.7% vs others 0.1%",
+      "detail": "defensives 5d 3.3% vs others -0.3%",
       "asOfMs": 1785331800000,
       "status": "ok",
       "raw": {
-        "defMedPct": 3.7,
-        "othMedPct": 0.1,
+        "defMedPct": 3.3,
+        "othMedPct": -0.3,
         "diffPct": 3.6
       }
     },
@@ -81,7 +82,7 @@
       "raw": {
         "ratio": 0.2947,
         "avg": 0.2869,
-        "gap": 0.0079
+        "gap": 0.0078
       }
     },
     "skew": {
@@ -116,8 +117,8 @@
       }
     ],
     "rates": {
-      "impliedRate": 3.7,
-      "changeBp": -6.7,
+      "impliedRate": 3.64,
+      "changeBp": -0.3,
       "asOfMs": 1785297600000
     }
   },
@@ -712,9 +713,14 @@
       "ts": 1785252473369,
       "kind": "STRESS",
       "line": "STRESS HY spread 20-obs high | HY spread 2.81pp vs 20-obs avg 2.72pp (as of 2026-07-27)"
+    },
+    {
+      "ts": 1785353789988,
+      "kind": "REGIME",
+      "line": "REGIME dollar above 20d avg -> below 20d avg"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1785347872157
+  "updatedMs": 1785353790336
 }
