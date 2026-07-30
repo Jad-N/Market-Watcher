@@ -28,35 +28,35 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 100.63 vs 20d avg 101.03",
+      "detail": "DXY 100.14 vs 20d avg 101",
       "asOfMs": 1785384000000,
       "status": "ok",
       "raw": {
-        "last": 100.63,
-        "avg": 101.03,
-        "gap": -0.4
+        "last": 100.14,
+        "avg": 101,
+        "gap": -0.87
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 19.09 vs VIX3M 20.54",
-      "asOfMs": 1785394800000,
+      "detail": "VIX 18.39 vs VIX3M 20.19",
+      "asOfMs": 1785418200000,
       "status": "ok",
       "raw": {
-        "vix": 19.09,
-        "vix3m": 20.54,
-        "diff": -1.45
+        "vix": 18.39,
+        "vix3m": 20.19,
+        "diff": -1.8
       }
     },
     "credit": {
       "state": "above 20-obs avg",
       "vote": "off",
-      "detail": "HY spread 2.84pp vs 20-obs avg 2.73pp (as of 2026-07-28)",
-      "asOfMs": 1785196800000,
+      "detail": "HY spread 2.87pp vs 20-obs avg 2.73pp (as of 2026-07-29)",
+      "asOfMs": 1785283200000,
       "status": "ok",
       "raw": {
-        "spread": 2.84,
+        "spread": 2.87,
         "avg": 2.73,
         "newHigh": true
       }
@@ -64,25 +64,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 3.5% vs others -0.3%",
-      "asOfMs": 1785331800000,
+      "detail": "defensives 5d 0.5% vs others 0.4%",
+      "asOfMs": 1785418200000,
       "status": "ok",
       "raw": {
-        "defMedPct": 3.5,
-        "othMedPct": -0.3,
-        "diffPct": 3.9
+        "defMedPct": 0.5,
+        "othMedPct": 0.4,
+        "diffPct": 0.1
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2957 vs 20d avg 0.2869",
-      "asOfMs": 1785331800000,
+      "detail": "RSP/SPY 0.2898 vs 20d avg 0.2871",
+      "asOfMs": 1785418200000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2957,
-        "avg": 0.2869,
-        "gap": 0.0088
+        "ratio": 0.2898,
+        "avg": 0.2871,
+        "gap": 0.0027
       }
     },
     "skew": {
@@ -107,7 +107,7 @@
       },
       {
         "name": "DAX",
-        "pct": 0.2,
+        "pct": 0.7,
         "asOfMs": 1785394800000
       },
       {
@@ -722,5 +722,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1785415826040
+  "updatedMs": 1785423544658
 }
