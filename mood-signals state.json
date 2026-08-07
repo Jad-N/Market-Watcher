@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-08-06",
-  "computedMs": 1786021263629,
+  "computedET": "2026-08-07",
+  "computedMs": 1786103488726,
   "block": {
-    "asOfET": "Aug 6, 2026",
-    "asOfMs": 1786021263000,
+    "asOfET": "Aug 7, 2026",
+    "asOfMs": 1786103488000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,8 +18,8 @@
             "detail": "racy stocks beating steady ones lately",
             "status": "ok",
             "raw": {
-              "ratio": 1.9445,
-              "avg": 1.8803
+              "ratio": 1.9091,
+              "avg": 1.8767
             }
           },
           {
@@ -30,8 +30,8 @@
             "detail": "junk bonds in demand vs safe bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.745,
-              "avg": 0.7443
+              "ratio": 0.7471,
+              "avg": 0.7446
             }
           }
         ]
@@ -49,25 +49,25 @@
             "detail": "low demand for crash protection",
             "status": "ok",
             "raw": {
-              "skew": 133.32,
-              "avg": 143.62
+              "skew": 134.73,
+              "avg": 143.12
             }
           },
           {
             "key": "safeHaven",
             "label": "Safe-haven scorecard",
-            "state": "3 of 4 safe havens bid",
+            "state": "1 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "gold, bonds, dollar rising",
+            "detail": "gold rising",
             "status": "ok",
             "raw": {
-              "bid": 3,
+              "bid": 1,
               "total": 4,
               "changes": {
-                "gold": 1.62,
-                "bonds": 0.22,
-                "yen": 0.11,
-                "dollar": 0.1
+                "gold": 3.33,
+                "bonds": -0.58,
+                "yen": 0.46,
+                "dollar": -0.08
               }
             }
           }
