@@ -16,13 +16,13 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.48pp (2y 4.22, 10y 4.7)",
-      "asOfMs": 1786406400000,
+      "detail": "10y-2y 0.48pp (2y 4.2, 10y 4.68)",
+      "asOfMs": 1786492800000,
       "status": "ok",
       "raw": {
         "spread": 0.48,
-        "y2": 4.22,
-        "y10": 4.7
+        "y2": 4.2,
+        "y10": 4.68
       }
     },
     "dollar": {
@@ -34,19 +34,19 @@
       "raw": {
         "last": 100,
         "avg": 100.5,
-        "gap": -0.5
+        "gap": -0.49
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 14.44 vs VIX3M 18.45",
-      "asOfMs": 1786563166000,
+      "detail": "VIX 14.49 vs VIX3M 18.49",
+      "asOfMs": 1786541400000,
       "status": "ok",
       "raw": {
-        "vix": 14.44,
-        "vix3m": 18.45,
-        "diff": -4.01
+        "vix": 14.49,
+        "vix3m": 18.49,
+        "diff": -4
       }
     },
     "credit": {
@@ -64,37 +64,37 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 0.2% vs others -0.1%",
+      "detail": "defensives 5d 0.4% vs others -0.2%",
       "asOfMs": 1786541400000,
       "status": "ok",
       "raw": {
-        "defMedPct": 0.2,
-        "othMedPct": -0.1,
-        "diffPct": 0.3
+        "defMedPct": 0.4,
+        "othMedPct": -0.2,
+        "diffPct": 0.6
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2863 vs 20d avg 0.2873",
+      "detail": "RSP/SPY 0.2862 vs 20d avg 0.2874",
       "asOfMs": 1786541400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2863,
-        "avg": 0.2873,
-        "gap": -0.001
+        "ratio": 0.2862,
+        "avg": 0.2874,
+        "gap": -0.0012
       }
     },
     "skew": {
       "state": "subdued",
       "vote": "on",
-      "detail": "SKEW 135.6 vs 20d avg 141.2",
+      "detail": "SKEW 135.6 vs 20d avg 141.6",
       "asOfMs": 1786455000000,
       "status": "ok",
       "raw": {
         "skew": 135.59,
-        "avg": 141.23,
-        "gap": -5.64
+        "avg": 141.63,
+        "gap": -6.04
       }
     }
   },
@@ -118,7 +118,7 @@
     ],
     "rates": {
       "impliedRate": 3.74,
-      "changeBp": -10.7,
+      "changeBp": -10.3,
       "asOfMs": 1786507200000
     }
   },
@@ -747,5 +747,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1786564071493
+  "updatedMs": 1786566450407
 }
