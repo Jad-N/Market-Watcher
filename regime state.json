@@ -41,7 +41,7 @@
       "state": "contango",
       "vote": "on",
       "detail": "VIX 14.25 vs VIX3M 18.46",
-      "asOfMs": 1786738501000,
+      "asOfMs": 1786714200000,
       "status": "ok",
       "raw": {
         "vix": 14.25,
@@ -101,11 +101,6 @@
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": -0.2,
-        "asOfMs": 1786584600000
-      },
-      {
         "name": "DAX",
         "pct": 0.5,
         "asOfMs": 1786690800000
@@ -114,6 +109,11 @@
         "name": "Nikkei",
         "pct": 1.2,
         "asOfMs": 1786579200000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": -0.2,
+        "asOfMs": 1786584600000
       }
     ],
     "rates": {
@@ -747,5 +747,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1786743310161
+  "updatedMs": 1786744714723
 }
