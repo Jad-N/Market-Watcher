@@ -1,40 +1,40 @@
 {
- "generatedAt": "Aug 17, 2026, 11:42 AM ET",
- "generatedAtMs": 1786981360776,
+ "generatedAt": "Aug 17, 2026, 12:00 PM ET",
+ "generatedAtMs": 1786982439433,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-08-17 11:00 ET",
-  "pricesAsOf": "Aug 17, 2026, 11:42 AM ET",
+  "asOfET": "2026-08-17 12:00 ET",
+  "pricesAsOf": "Aug 17, 2026, 12:00 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7795.5,
-     "change": -0.1,
+     "value": 7791.75,
+     "change": -0.2,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 30252.75,
-     "change": 0.4,
+     "value": 30225,
+     "change": 0.3,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 14.94,
-     "change": 4.8,
+     "value": 15.06,
+     "change": 5.7,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 15.05,
-      "divergencePct": 0.73
+      "cnbcLast": 15.02,
+      "divergencePct": 0.27
      }
     }
    ],
    "benchmarks": [
     {
      "ticker": "SPY",
-     "pct": -0.4
+     "pct": -0.3
     },
     {
      "ticker": "QQQ",
@@ -45,7 +45,7 @@
   },
   "gauges": {
    "cnn": {
-    "score": 63,
+    "score": 62,
     "rating": "greed",
     "prevClose": 65,
     "prevWeek": 65,
@@ -228,13 +228,13 @@
     "name": "dollar",
     "vote": "on",
     "state": "below 20d avg",
-    "detail": "DXY 99.52 vs 20d avg 100.33"
+    "detail": "DXY 99.5 vs 20d avg 100.33"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 14.94 vs VIX3M 18.85"
+    "detail": "VIX 15.05 vs VIX3M 18.89"
    },
    {
     "name": "credit",
@@ -246,13 +246,13 @@
     "name": "rotation",
     "vote": "on",
     "state": "cyclicals leading",
-    "detail": "defensives 5d -0.2% vs others 0.4%"
+    "detail": "defensives 5d -0.3% vs others 0.5%"
    },
    {
     "name": "breadth",
     "vote": "off",
     "state": "below 20d avg",
-    "detail": "RSP/SPY 0.2855 vs 20d avg 0.2873"
+    "detail": "RSP/SPY 0.2854 vs 20d avg 0.2873"
    },
    {
     "name": "skew",
@@ -267,8 +267,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 2,
-   "last": 64053.7,
+   "pct": 2.1,
+   "last": 64128.9,
    "newsCount": 10,
    "latestNews": {
     "title": "Live updates: Bitcoin remains trapped in tight range as big AI compute deals continue to roll in - CoinDesk",
@@ -283,9 +283,9 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": 9.3,
-   "last": 18.2,
-   "newsCount": 1,
+   "pct": 10.9,
+   "last": 18.4,
+   "newsCount": 2,
    "latestNews": {
     "title": "Cipher Digital (CIFR) Could Be 46% Undervalued After Weak Q2 Earnings - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOWo3TENiWUJmVVpWMlJrelBpaVpMQUJkTTRoVnYtaUcwSGV1LWNsWVZfMjZoM09EazlIZklJWjZfcDJBalhPYVJ5Z2VUQnNxY2RBQ2NkSW5iWXBiNnpDVXR0UmdUYUN0N3RtT0Q4ZWtrWDNpOW93cGRCblFXZTU2THNLNndmSGNRbFRrLXM3N3B2bWR6bW4zYlUtaS03ZGxCcTQyTzlhS2t1bHRWQjhQS0stSWFadGd4cHRsODRTZDRNb3NJd1BTb05kZ2c2d9IB0wFBVV95cUxQcFFZcDkwR25VTUdvV2Q1NmtXUkhrblBZSmdHZUpDaVViZFlrZ1FtWmZkcG8zNXM1ZWNjNXBjOUJocDhJLThDV2M0S05weTY1c0k4V0h6SUhCOGs0RWo5OWs2aWRnSEl0WXFNU010NjhJTXc0ZXVCa01VSlU2NFdST3l5OGxMS2NQYVRHZHJqWTliT0ZOM0t1SnB1MVI5SXlhWXdNRGVobzJyRmxmYWtQZS1XcENXaGNXV056R0Vjdl9HUUc2V25JRzhJeW1GOWZrOXlZ?oc=5",
@@ -304,8 +304,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": 1.2,
-   "last": 45.3,
+   "pct": 2.9,
+   "last": 46,
    "newsCount": 11,
    "latestNews": {
     "title": "2 Major Catalysts Are Lifting IREN Stock. How to Play It Here. - Yahoo Finance",
@@ -325,8 +325,8 @@
    "ticker": "NBIS",
    "section": "trading",
    "class": "equity",
-   "pct": 7.6,
-   "last": 274.5,
+   "pct": 9.7,
+   "last": 279.8,
    "newsCount": 18,
    "latestNews": {
     "title": "ChatGPT Disagrees With Michael Burry Over Nebius (NBIS) - Yahoo Finance",
@@ -346,11 +346,11 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": 6.4,
-   "last": 513.8,
+   "pct": 6.3,
+   "last": 513.3,
    "newsCount": 18,
    "latestNews": {
-    "title": "A $210 Billion Reason to Buy AMD Stock Here - Barchart.com",
+    "title": "A $210 Billion Reason to Buy AMD Stock Here - barchart.com",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdEZvRk5OZjdWMlRYRnlleTl0YkY3dE5nNXd0SUdHcDJLcTNtZGNjSEFKOE5tRXYxZ2tlcFlEMDhQRVpwaEtLSjZMLVVJYktPQXlHU0RGTzQ3Q0pVRXRxNHpIVmE5VnBpQjU5QzR4ZmExblhXU1plYjhSVWYyMENRWGNPNXI5Z3drZXFPdjJaNA?oc=5",
     "time": "12:15 PM"
    },
@@ -366,8 +366,8 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": 0.9,
-   "last": 30.9,
+   "pct": 2.1,
+   "last": 31.3,
    "newsCount": 4,
    "latestNews": {
     "title": "Applied Digital Stock (APLD) Opinions on AI Infrastructure Expansion - Quiver Quantitative",
@@ -387,8 +387,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": 7,
-   "last": 17.5,
+   "pct": 8,
+   "last": 17.6,
    "newsCount": 1,
    "latestNews": {
     "title": "Discover TeraWulf And 2 Other Growth Stocks With Significant Insider Ownership - simplywall.st",
@@ -408,8 +408,8 @@
    "ticker": "IBRX",
    "section": "trading",
    "class": "equity",
-   "pct": 1.9,
-   "last": 7.8,
+   "pct": 3.4,
+   "last": 7.9,
    "newsCount": 1,
    "latestNews": {
     "title": "Goldman Sachs Builds $75M Bet Across CAPR, SLS And IBRX As Major Catalysts Loom",
@@ -424,8 +424,8 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": 7.8,
-   "last": 5.4,
+   "pct": 9.6,
+   "last": 5.5,
    "newsCount": 1,
    "latestNews": {
     "title": "New Era secures key permits for Texas Critical Data Centers, sees capacity rising",
@@ -445,8 +445,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": 4.7,
-   "last": 12.1,
+   "pct": 6.7,
+   "last": 12.3,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -462,8 +462,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 1.8,
-   "last": 12.8,
+   "pct": 3.6,
+   "last": 13,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -474,8 +474,8 @@
    "ticker": "ABVX",
    "section": "trading",
    "class": "equity",
-   "pct": 0.8,
-   "last": 122.4,
+   "pct": 1.4,
+   "last": 123.1,
    "newsCount": 0,
    "latestNews": null,
    "latestPost": null,
@@ -486,7 +486,7 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.5,
+   "pct": -0.4,
    "last": 26,
    "newsCount": 0,
    "latestNews": null,
@@ -498,8 +498,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": 0.7,
-   "last": 227,
+   "pct": 1,
+   "last": 227.7,
    "newsCount": 18,
    "latestNews": {
     "title": "History Says This Is What Will Happen to Nvidia Stock After Aug. 26 - The Motley Fool",
@@ -534,8 +534,8 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -21.9,
-   "last": 9.3,
+   "pct": -21.1,
+   "last": 9.4,
    "newsCount": 2,
    "latestNews": {
     "title": "TSS management has two August conference dates—where? - Stock Titan",
@@ -550,8 +550,8 @@
    "ticker": "RKLB",
    "section": "macro",
    "class": "equity",
-   "pct": 3.8,
-   "last": 83.2,
+   "pct": 4.3,
+   "last": 83.5,
    "newsCount": 18,
    "latestNews": {
     "title": "What's Going On With Rocket Lab Stock Monday? - Benzinga",
@@ -566,8 +566,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": -1.8,
-   "last": 175.8,
+   "pct": -1.9,
+   "last": 175.6,
    "newsCount": 7,
    "latestNews": {
     "title": "Where Will Palantir Stock Be in 2030? - The Motley Fool",
@@ -583,7 +583,7 @@
    "section": "macro",
    "class": "equity",
    "pct": -2.4,
-   "last": 484.8,
+   "last": 485,
    "newsCount": 12,
    "latestNews": {
     "title": "Can Microsoft Stock Benefit From Expanding Microsoft 365 Seats? - The Globe and Mail",
@@ -600,7 +600,7 @@
    "class": "equity",
    "pct": -1.8,
    "last": 28.3,
-   "newsCount": 3,
+   "newsCount": 4,
    "latestNews": {
     "title": "5 Revealing Analyst Questions From Hims & Hers Health’s Q2 Earnings Call",
     "link": "https://finance.yahoo.com/healthcare/articles/5-revealing-analyst-questions-hims-063820034.html?.tsrc=rss",
@@ -630,8 +630,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.9,
-   "last": 4479,
+   "pct": 1,
+   "last": 4481.2,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold, silver rise as softer data cuts Fed-hike odds - Kitco AM Report - KITCO",
@@ -646,11 +646,11 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.4,
-   "last": 88.9,
+   "pct": 0.7,
+   "last": 89.1,
    "newsCount": 10,
    "latestNews": {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - litefinance.org",
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "time": "6:10 AM"
    },
@@ -662,13 +662,13 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.3,
-   "last": 82.7,
+   "pct": 0.5,
+   "last": 82.8,
    "newsCount": 10,
    "latestNews": {
-    "title": "MCL1! price outlook: Micro WTI Crude Oil Futures holds above 0.786 support arc. Potential rebound toward $93 - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOekl5MnNzYWd5S01ZeVdNRGZqT2dBVTVPVzdCSmZaQ1J1dXFaQzVfdmI5VXNTSnRDVnRvb0djejQyWTg4aUpqb2VMOHJBSzJON19TQkpZTzdrb2dmNExUajhiSFBfREhkRGVhSWpKQUQ5dy01OXNzTUFUdGJZY1JITHBRWWlTNVZFRWwyR2dmZUxnLXItUlkwYXI5dC1VSzFKcElvM3phNzlCazJocjlYc1A0NzAwRkl4QVdqaVZVTG5namI5Ny03VVZUTG80YWF0OHpDbkpKdGJMc2QzOFVNYjNjRmY?oc=5",
-    "time": "7:14 PM"
+    "title": "US-Iran deadlock pushes WTI above $82 - Financial Mirror",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcUU2eWdzRWtwTDdVOFluczNDazRtQzRYeFJkelh4LTFLYTUxT0FncTFsbGxpMmRoSnBfelpiaTh2d1RvbXM5cFFyb0pXNDFiclBfYTBrUWJ5T3VaQVdONHhJejk3cEs0emowVm5QZFNwWnJOTUxiMVlmOTJZTGJJNW9Hc0dPQlU?oc=5",
+    "time": "7:29 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -676,6 +676,17 @@
   }
  ],
  "events": [
+  {
+   "id": "a5114de48ad9",
+   "type": "news",
+   "symbol": "CIFR",
+   "section": "trading",
+   "time": 1786981440000,
+   "timeLabel": "11:44 AM",
+   "source": "",
+   "text": "HIVE Digital Technologies Soars 11% on $350M GPU Cloud Contract, Cipher Mining Ticks Up",
+   "url": "https://247wallst.com/investing/2026/08/17/hive-digital-technologies-soars-11-on-350m-gpu-cloud-contract-cipher-mining-ticks-up/?.tsrc=rss"
+  },
   {
    "id": "9d787de19f8f",
    "type": "news",
@@ -2086,15 +2097,6 @@
   }
  ],
  "timeline": [
-  {
-   "t": 1782753915258,
-   "label": "Jun 29 2026 1:25 PM ET",
-   "cnn": 27,
-   "crypto": 12,
-   "stBull": null,
-   "regime": 57.1,
-   "composite": 34.6
-  },
   {
    "t": 1782754170178,
    "label": "Jun 29 2026 1:29 PM ET",
@@ -5685,12 +5687,21 @@
    "stBull": null,
    "regime": 85.7,
    "composite": 58.4
+  },
+  {
+   "t": 1786982439433,
+   "label": "Aug 17 2026 12:00 PM ET",
+   "cnn": 62,
+   "crypto": 31,
+   "stBull": null,
+   "regime": 85.7,
+   "composite": 58.4
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.11,
+  "divMax": 0.09,
   "fallbacks": 0
  }
 }
