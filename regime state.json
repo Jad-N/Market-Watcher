@@ -34,7 +34,7 @@
       "raw": {
         "last": 99.59,
         "avg": 100.33,
-        "gap": -0.74
+        "gap": -0.75
       }
     },
     "vol": {
@@ -101,6 +101,11 @@
   "context": {
     "overnight": [
       {
+        "name": "Hang Seng",
+        "pct": -1.1,
+        "asOfMs": 1786671000000
+      },
+      {
         "name": "DAX",
         "pct": -0.4,
         "asOfMs": 1786950000000
@@ -109,16 +114,11 @@
         "name": "Nikkei",
         "pct": 0.6,
         "asOfMs": 1786665600000
-      },
-      {
-        "name": "Hang Seng",
-        "pct": -1.1,
-        "asOfMs": 1786671000000
       }
     ],
     "rates": {
-      "impliedRate": 3.73,
-      "changeBp": -9.8,
+      "impliedRate": 3.72,
+      "changeBp": -9.2,
       "asOfMs": 1786939200000
     }
   },
@@ -753,9 +753,19 @@
       "ts": 1786998933600,
       "kind": "REGIME",
       "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1787000537496,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
+    },
+    {
+      "ts": 1787000538358,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1786998934171
+  "updatedMs": 1787000538358
 }
