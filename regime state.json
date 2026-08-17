@@ -1,16 +1,15 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "5-2",
+    "tally": "4-3",
     "drivers": [
       "curve positive",
       "dollar soft",
       "VIX in contango",
-      "credit spreads tight",
-      "crash-hedging subdued"
+      "credit spreads tight"
     ],
-    "on": 5,
-    "off": 2
+    "on": 4,
+    "off": 3
   },
   "components": {
     "curve": {
@@ -28,11 +27,11 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.59 vs 20d avg 100.33",
+      "detail": "DXY 99.58 vs 20d avg 100.33",
       "asOfMs": 1786939200000,
       "status": "ok",
       "raw": {
-        "last": 99.59,
+        "last": 99.58,
         "avg": 100.33,
         "gap": -0.75
       }
@@ -86,25 +85,20 @@
       }
     },
     "skew": {
-      "state": "subdued",
-      "vote": "on",
-      "detail": "SKEW 138.4 vs 20d avg 140",
-      "asOfMs": 1786714200000,
+      "state": "elevated",
+      "vote": "off",
+      "detail": "SKEW 142.9 vs 20d avg 139.9",
+      "asOfMs": 1786973400000,
       "status": "ok",
       "raw": {
-        "skew": 138.36,
-        "avg": 140.02,
-        "gap": -1.66
+        "skew": 142.91,
+        "avg": 139.86,
+        "gap": 3.05
       }
     }
   },
   "context": {
     "overnight": [
-      {
-        "name": "Hang Seng",
-        "pct": -1.1,
-        "asOfMs": 1786671000000
-      },
       {
         "name": "DAX",
         "pct": -0.4,
@@ -114,6 +108,11 @@
         "name": "Nikkei",
         "pct": 0.6,
         "asOfMs": 1786665600000
+      },
+      {
+        "name": "Hang Seng",
+        "pct": -1.1,
+        "asOfMs": 1786671000000
       }
     ],
     "rates": {
@@ -763,9 +762,14 @@
       "ts": 1787000538358,
       "kind": "REGIME",
       "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1787002508816,
+      "kind": "REGIME",
+      "line": "REGIME skew subdued -> elevated"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787000538358
+  "updatedMs": 1787002510018
 }
