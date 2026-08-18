@@ -27,24 +27,24 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.62 vs 20d avg 100.26",
+      "detail": "DXY 99.64 vs 20d avg 100.26",
       "asOfMs": 1787025600000,
       "status": "ok",
       "raw": {
-        "last": 99.62,
+        "last": 99.64,
         "avg": 100.26,
-        "gap": -0.64
+        "gap": -0.62
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.71 vs VIX3M 19.23",
+      "detail": "VIX 15.65 vs VIX3M 19.17",
       "asOfMs": 1787059800000,
       "status": "ok",
       "raw": {
-        "vix": 15.71,
-        "vix3m": 19.23,
+        "vix": 15.65,
+        "vix3m": 19.17,
         "diff": -3.52
       }
     },
@@ -63,13 +63,13 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 1.4% vs others -0.4%",
+      "detail": "defensives 5d 1.4% vs others -0.1%",
       "asOfMs": 1787059800000,
       "status": "ok",
       "raw": {
         "defMedPct": 1.4,
-        "othMedPct": -0.4,
-        "diffPct": 1.8
+        "othMedPct": -0.1,
+        "diffPct": 1.6
       }
     },
     "breadth": {
@@ -87,13 +87,13 @@
     "skew": {
       "state": "elevated",
       "vote": "off",
-      "detail": "SKEW 142.9 vs 20d avg 139.9",
+      "detail": "SKEW 142.9 vs 20d avg 139.7",
       "asOfMs": 1786973400000,
       "status": "ok",
       "raw": {
         "skew": 142.91,
-        "avg": 139.86,
-        "gap": 3.05
+        "avg": 139.66,
+        "gap": 3.25
       }
     }
   },
@@ -105,14 +105,14 @@
         "asOfMs": 1786930200000
       },
       {
-        "name": "DAX",
-        "pct": -0.8,
-        "asOfMs": 1787036400000
-      },
-      {
         "name": "Nikkei",
         "pct": 0.7,
         "asOfMs": 1786924800000
+      },
+      {
+        "name": "DAX",
+        "pct": -0.8,
+        "asOfMs": 1787036400000
       }
     ],
     "rates": {
@@ -787,9 +787,19 @@
       "ts": 1787068964845,
       "kind": "REGIME",
       "line": "REGIME breadth above 20d avg -> below 20d avg"
+    },
+    {
+      "ts": 1787073279466,
+      "kind": "REGIME",
+      "line": "REGIME breadth below 20d avg -> above 20d avg"
+    },
+    {
+      "ts": 1787073280081,
+      "kind": "REGIME",
+      "line": "REGIME breadth above 20d avg -> below 20d avg"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787071489811
+  "updatedMs": 1787073280081
 }
