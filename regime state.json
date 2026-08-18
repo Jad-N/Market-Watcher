@@ -1,17 +1,16 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "6-1",
+    "tally": "5-2",
     "drivers": [
       "curve positive",
       "dollar soft",
       "VIX in contango",
       "credit spreads tight",
-      "breadth broad",
-      "crash-hedging subdued"
+      "breadth broad"
     ],
-    "on": 6,
-    "off": 1
+    "on": 5,
+    "off": 2
   },
   "components": {
     "curve": {
@@ -29,25 +28,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.56 vs 20d avg 100.35",
+      "detail": "DXY 99.63 vs 20d avg 100.26",
       "asOfMs": 1787025600000,
       "status": "ok",
       "raw": {
-        "last": 99.56,
-        "avg": 100.35,
-        "gap": -0.79
+        "last": 99.63,
+        "avg": 100.26,
+        "gap": -0.63
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.66 vs VIX3M 19.21",
+      "detail": "VIX 15.88 vs VIX3M 19.29",
       "asOfMs": 1787059800000,
       "status": "ok",
       "raw": {
-        "vix": 15.66,
-        "vix3m": 19.21,
-        "diff": -3.55
+        "vix": 15.88,
+        "vix3m": 19.29,
+        "diff": -3.41
       }
     },
     "credit": {
@@ -65,56 +64,56 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d 1.4% vs others -0.3%",
+      "detail": "defensives 5d 1.5% vs others -0.6%",
       "asOfMs": 1787059800000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.4,
-        "othMedPct": -0.3,
-        "diffPct": 1.7
+        "defMedPct": 1.5,
+        "othMedPct": -0.6,
+        "diffPct": 2.1
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.288 vs 20d avg 0.2873",
+      "detail": "RSP/SPY 0.2876 vs 20d avg 0.2875",
       "asOfMs": 1787059800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.288,
-        "avg": 0.2873,
-        "gap": 0.0007
+        "ratio": 0.2876,
+        "avg": 0.2875,
+        "gap": 0
       }
     },
     "skew": {
-      "state": "subdued",
-      "vote": "on",
-      "detail": "SKEW 138.4 vs 20d avg 139.9",
-      "asOfMs": 1786714200000,
+      "state": "elevated",
+      "vote": "off",
+      "detail": "SKEW 142.9 vs 20d avg 139.9",
+      "asOfMs": 1786973400000,
       "status": "ok",
       "raw": {
-        "skew": 138.36,
-        "avg": 139.94,
-        "gap": -1.58
+        "skew": 142.91,
+        "avg": 139.86,
+        "gap": 3.05
       }
     }
   },
   "context": {
     "overnight": [
       {
+        "name": "Hang Seng",
+        "pct": 0.1,
+        "asOfMs": 1787016600000
+      },
+      {
         "name": "Nikkei",
-        "pct": -1.8,
-        "asOfMs": 1787011200000
+        "pct": 0.7,
+        "asOfMs": 1786924800000
       },
       {
         "name": "DAX",
-        "pct": -1,
+        "pct": -0.8,
         "asOfMs": 1787036400000
-      },
-      {
-        "name": "Hang Seng",
-        "pct": 1.4,
-        "asOfMs": 1787016600000
       }
     ],
     "rates": {
@@ -779,9 +778,14 @@
       "ts": 1787061073648,
       "kind": "REGIME",
       "line": "REGIME breadth below 20d avg -> above 20d avg"
+    },
+    {
+      "ts": 1787067598945,
+      "kind": "REGIME",
+      "line": "REGIME skew subdued -> elevated"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787065175471
+  "updatedMs": 1787067600247
 }
