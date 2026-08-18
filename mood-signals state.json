@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-08-17",
-  "computedMs": 1786966410551,
+  "computedET": "2026-08-18",
+  "computedMs": 1787052804842,
   "block": {
-    "asOfET": "Aug 17, 2026",
-    "asOfMs": 1786966409000,
+    "asOfET": "Aug 18, 2026",
+    "asOfMs": 1787052803000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -19,7 +19,7 @@
             "status": "ok",
             "raw": {
               "ratio": 1.9852,
-              "avg": 1.8921
+              "avg": 1.8924
             }
           },
           {
@@ -31,7 +31,7 @@
             "status": "ok",
             "raw": {
               "ratio": 0.7511,
-              "avg": 0.746
+              "avg": 0.7468
             }
           }
         ]
@@ -50,24 +50,24 @@
             "status": "ok",
             "raw": {
               "skew": 138.36,
-              "avg": 139.94
+              "avg": 140.02
             }
           },
           {
             "key": "safeHaven",
             "label": "Safe-haven scorecard",
-            "state": "2 of 4 safe havens bid",
+            "state": "1 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "gold, yen rising",
+            "detail": "gold rising",
             "status": "ok",
             "raw": {
-              "bid": 2,
+              "bid": 1,
               "total": 4,
               "changes": {
-                "gold": 1.81,
+                "gold": 0.7,
                 "bonds": -0.67,
-                "yen": -0.12,
-                "dollar": -0.18
+                "yen": 0.32,
+                "dollar": -0.01
               }
             }
           }
