@@ -1,33 +1,33 @@
 {
- "generatedAt": "Aug 20, 2026, 4:12 PM ET",
- "generatedAtMs": 1787256762402,
+ "generatedAt": "Aug 20, 2026, 4:48 PM ET",
+ "generatedAtMs": 1787258909788,
  "marketOpen": true,
  "snapshot": {
   "asOfET": "2026-08-20 16:00 ET",
-  "pricesAsOf": "Aug 20, 2026, 4:12 PM ET",
+  "pricesAsOf": "Aug 20, 2026, 4:48 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7666.5,
+     "value": 7667,
      "change": -0.8,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29316.25,
+     "value": 29307.5,
      "change": -0.7,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 16.05,
-     "change": 7.8,
+     "value": 16.01,
+     "change": 7.5,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 15.99,
-      "divergencePct": 0.38
+      "cnbcLast": 16.01,
+      "divergencePct": 0
      }
     }
    ],
@@ -45,7 +45,7 @@
   },
   "gauges": {
    "cnn": {
-    "score": 53,
+    "score": 52,
     "rating": "neutral",
     "prevClose": 56,
     "prevWeek": 67,
@@ -227,7 +227,7 @@
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 16.05 vs VIX3M 19.08"
+    "detail": "VIX 16.01 vs VIX3M 19.06"
    },
    {
     "name": "credit",
@@ -245,7 +245,7 @@
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2888 vs 20d avg 0.2875"
+    "detail": "RSP/SPY 0.2889 vs 20d avg 0.2875"
    },
    {
     "name": "skew",
@@ -260,8 +260,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 5,
-   "last": 72702.9,
+   "pct": 5.1,
+   "last": 72774.5,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin surges 12% in two days as Trump, crypto execs lead last ditch effort for Clarity Act - CNBC",
@@ -299,11 +299,11 @@
    "class": "equity",
    "pct": 1.4,
    "last": 42.6,
-   "newsCount": 12,
+   "newsCount": 14,
    "latestNews": {
-    "title": "What Does IREN (NasdaqGS:IREN) Leading In AI Revenue Efficiency Mean For Investors? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTVJjWHN4cWRiSW5rM19DR0dXU0YzeW1oNVpWVTF2UHhYVkdGUW12NDd0MFYxV0FvUGxEQXNXLS1LZGk4Q0dOelVkZGdUc1RTekN6S3lVbEdybXg0UWdZRWNDYllhc29tRzNYbndOZXdiQndYMVhhVGhrQkVIeXhPZFFyZ01fbEVVV1JlbU00eWJXM0hJQUd0eDRNeVo?oc=5",
-    "time": "3:09 PM"
+    "title": "IREN (IREN) Stock Looks Pricey Even After Its AI Pivot - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbTZxRDJUQTFDUHdKQU9EUjJHX3BWeUFSRUhSRXRZMUl3RU1SdjRYMXdaQXJ1REFIZGQ3cGhBdmRMdEJ4UmpzTTdXb0poVEg5am9wakNUNkdCdGNvQXhVTm80TXlSNnM5dzNGTDJXM3V6Z016U3BueE5paUJYb2Y1M2o3dnJ0cWR0UG5IcGxjOEtrWl9ZVVQ3Mw?oc=5",
+    "time": "4:11 PM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -320,7 +320,7 @@
    "class": "equity",
    "pct": -11.4,
    "last": 220.1,
-   "newsCount": 18,
+   "newsCount": 16,
    "latestNews": {
     "title": "Nebius: The Market Is Arguing About The Wrong Number - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONEl6TzQ2TWU5WEJueHJ3OVFqVlluWjl2OG1vUlRMUnRYbUNtbTYyam8yY1FGOEZ1RU04bnVLQ1JtTjZMX3hOdXNoUTdIZFcwWklFZUoxejQyTllsNWJ0LXBpVXVoMEhBOXpJcklISnVTUWx4bm02TjZHazFrVXRseFlOZU9MVWhNZEV4WWZfNXZjZ3VxYXc?oc=5",
@@ -343,9 +343,9 @@
    "last": 469.5,
    "newsCount": 18,
    "latestNews": {
-    "title": "AMD and Intel Shares Plummet, What You Need To Know - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxON2s1aDdWMGxGTTR0ZkJQMndqcWVhSzlWY0pha2NnbGJJeC16ZVJwOUNTdnJ2MWM5R3ZLYnE3anIyNWR0N3d0WE9zYjJzMmRuclpCb1ljVC1yNWZPaDhScXN4RXlqVzI3OUFROUl2RG5OallSX0tZallOOHV6LVhMQ3dka1g4VkJpWXg5Vl9LNzdvdkxJeXRwUFZn?oc=5",
-    "time": "7:34 PM"
+    "title": "Great News for Nvidia Stock, AMD Stock, Micron Stock, and Broadcom Stock Investors - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQekFMb29jcThVdHFhb3YxMHpaWmVOZ29EY0tPOEVNempFdW5HU29VeFhtWGtiY1hmbjdTOVRuaEVFSnVjdWtTYmxVV3dUUzAxT1JVT3UwMHVxeWNkU0hfNkJhSWxfdGFESlI5RlZrb1FHNEhWWi1IcmxUOE5VOTlfb2hlWUR5MVlSU291ZXNlOEhwOTROc0loQQ?oc=5",
+    "time": "11:21 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -378,7 +378,7 @@
    "class": "equity",
    "pct": 5.3,
    "last": 16.5,
-   "newsCount": 4,
+   "newsCount": 5,
    "latestNews": {
     "title": "TeraWulf's 3-Gigawatt AI Infrastructure Ambition Wins Over Analyst Who Sees More Than 25% Upside - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSFA1dnB6ZWhSNERTeHJKcW5MVHpyM2F0ZmdLTXNqZjdkbmtUWWFlVFJQa3AtWGQwTGZQaVREY3pVcmFiZWo0N2tSVzBpUVkyUU1zNjhlV21YV09PVWRiS18xRHc2R3FFNDFBMmFDRHFPUmw4LS01SWUxR2VDdi01WHd6SXpoTkowVkQxeTR6SlRvdldlYXhiMzM4blRrQ25mQktwR2h3NHFaTFZCMV93QkRBWTVaZFBybGc?oc=5",
@@ -503,13 +503,13 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": 11.9,
+   "pct": 12.9,
    "last": 1.2,
    "newsCount": 10,
    "latestNews": {
-    "title": "Where Will XRP (Ripple) Be in 5 Years? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNR1QydVI2NW1Ub1ZPS2RwTzdFTDF4V2w3Z1Rxc2I1RWk2QTQ0MHF6dVlmR3ZUVHRsMG1reDlhaVlvZTNMUWxwT2ZzWXpmNG1VSkVPMmpQRjc1bnZaNWM4ZVB5cTE0clRFVF84WWpqSDZLX1JwUVZqYUd4UXpGNUNfRUJZc0NMVXhOeE1tMGQtTzV4cFk?oc=5",
-    "time": "8:33 AM"
+    "title": "Why Is XRP (Ripple) Up 24.9% Today? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdjFSRzI0TFFiQ0RvcjNaRWthVkYxb3ptSGlfUk1ZRlVHRnpjVllhVzR0NTdoMXRycVdtUWtyMjlmajBqUzBhTHZHT1VpbFlMcmVPT2E0Q0JjbUcxYmFuOXVBTUV1NmFmYzZxVVB6Q3JHeWhsUWxKdE1JdG5NLTJRUXJjOFlZLTVfLWpjMA?oc=5",
+    "time": "2:39 PM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -555,9 +555,9 @@
    "last": 174,
    "newsCount": 13,
    "latestNews": {
-    "title": "Is Palantir Stock About to Breakout? - Zacks Investment Research",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUHRnemN1emdrVkFiV2RTZHVkV0dCdkp5SWpONXJxLUU0R3FhQVM2NVkzWFdkenpVSVpOb1liaXZVM185ck1iZTZHTVNSYzZvOUJyOUxmSFNRWnA5Qi1pX3l5X1JaOEQ5UnQtdFh6TDVsdTN4dHBkMndTZUJnQk1vMi13?oc=5",
-    "time": "12:23 PM"
+    "title": "Prediction: This Will Be Palantir's Stock Price at the End of 2026 - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNc1JzMnJ5RkdlT0RrZmRqUWJmcGdXdFlSbUMwemRVczZCS015bkFkYVgwV29YTmxQT295eG1VaUo4UGVjLTB4QlZya2RRcEZYUHlsTXVpLXIzdUdQT0VxaTBKb1BMc0RoNGNEZTBzRUk3bnFZUk5HbXVJV0RNSWhnQXN2S1dVVUVoem1sZmhZSjQyeXc2eGFYNQ?oc=5",
+    "time": "7:20 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -607,7 +607,11 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMW5OMmIwWUg3ZDdTalVJTWtXZjFDeUpvbEJUUUtQdjlXQzFMeHpjZ1ZxU2F3WG5zeFktdnpCTC1NVlcxc3lzeVV5MkRxR1NZM3dWWGNOeGZrQm16UlR2MS1FME1nTWo3ZkZ5NW9qNk50Y0xHNTc1NlBiOVBIRS1DMnhUUVJjMWxNTWJ2cGFpMXhrdDhBQ2NmT0p2QzJReWN5M3VGYXhicw?oc=5",
     "time": "2:55 PM"
    },
-   "latestPost": null,
+   "latestPost": {
+    "text": "We’re rolling out new features to help you tailor Search, Discover, and Google News to your interests. You’ll be able to: 📰 Quickly add a site as a Preferred Source, so you can find it more easily in Top Stories, AI Overviews, and AI Mode. 🔎 Customize your Discover feed in the Google app in your own words, so you see more of the topics you care about. 🎧 Curate your daily audio briefings in the Google News app on Android to your favorite topics.",
+    "url": "https://nitter.net/Google/status/2090529357483610587#m",
+    "time": "4:00 PM"
+   },
    "latestFiling": null,
    "stocktwits": null
   },
@@ -615,8 +619,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 2.1,
-   "last": 4582.6,
+   "pct": 1.9,
+   "last": 4574.6,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold price headed 10 times higher, and that is \"inevitable,\" Thomas Kaplan says - KITCO",
@@ -632,7 +636,7 @@
    "section": "macro",
    "class": "commodity",
    "pct": 2,
-   "last": 93.5,
+   "last": 93.4,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil prices rise 2% after Treasury Secretary says U.S. will collapse Iran with economic pressure - CNBC",
@@ -647,8 +651,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": 0.9,
-   "last": 86.6,
+   "pct": 0.7,
+   "last": 86.5,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil prices rise 2% after Treasury Secretary says U.S. will collapse Iran with economic pressure - CNBC",
@@ -662,6 +666,72 @@
  ],
  "events": [
   {
+   "id": "23c8a3e38872",
+   "type": "news",
+   "symbol": "WULF",
+   "section": "trading",
+   "time": 1787258760000,
+   "timeLabel": "4:46 PM",
+   "source": "",
+   "text": "Stock Traders Purchase Large Volume of Put Options on TeraWulf (NASDAQ:WULF) - MarketBeat",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSGNRNFBjeGlkVF9SZm5Ody1WM0pVN0V3R3NaR1JYSlJPSWpPTU43WS1zTFRCV1pEbGw1bmgyUEFpSG5jZTJuZ0Q3N2hBSzRnelJMOHJjcVM5bTA0MHpSRVFzQ2w3bG1fNlF0a1BuRldvWklXR2p6TEdNT2VHYWJjTldVVHhDZ3oxTEoza3ctRjBDb2dHZlUtQi1jVzdQekVKLVpicjY0b3kwZGh5NGlvUmJZcnFOS2Nmb256VkJwVVgxSmVtR0E?oc=5"
+  },
+  {
+   "id": "b5371d05e929",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1787257920000,
+   "timeLabel": "4:32 PM",
+   "source": "",
+   "text": "IREN Just Passed Its Biggest AI Test as Microsoft and Nvidia Bet Billions - Barchart.com",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR2FqOWV4eF9zenFSLUpXNk4wbXhhUDZTS2paSmhjY3ZuWTNfbUxVMkVDV3EyT2FSM1NqTVNrQVJFQm5FOEphQU5VNmRFdzFVd3Z1YjRhYzNDQWRXYlJhWlFwZXhtNHdkTzNLV2QtT2o1RmRDbXhPZkswZUdFNEFSc2M4b1pJbFFFZW5YaEQ1cjRRdnNXNUNEVHcwOEVMekZkQWpWQlRGZmlVU3gzSk1xaUJTc2R6SzZ6?oc=5"
+  },
+  {
+   "id": "5e29cd69135f",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1787257140000,
+   "timeLabel": "4:19 PM",
+   "source": "",
+   "text": "Advanced Micro Devices (AMD) GC Ava Hahn sells 2,993 shares - Stock Titan",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONTMzeV9BYmEta0xPNG44ODFPUzZLdHpza24xaUZQbk95TWM2Z3BRbkhXQzNsdUtHdDUtSlJwQmVPelJzeWpBMG0xZVhfb29sM1U4X2toU1NfMEdCdXVpZXpxcDlYZFJWaDd3d2F4ZnUxTWRBOWtwdWhBYTZ5VloyQnBZdFBBR1NXMFNNNjVPbW54UkJrLS1UcDF3dVdpdGw4ZkVaTUY5TmtUY0ptMVI0d1VPUmFPUlY2RUNn?oc=5"
+  },
+  {
+   "id": "76c89f18b0b0",
+   "type": "news",
+   "symbol": "IREN",
+   "section": "trading",
+   "time": 1787256660000,
+   "timeLabel": "4:11 PM",
+   "source": "",
+   "text": "IREN (IREN) Stock Looks Pricey Even After Its AI Pivot - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbTZxRDJUQTFDUHdKQU9EUjJHX3BWeUFSRUhSRXRZMUl3RU1SdjRYMXdaQXJ1REFIZGQ3cGhBdmRMdEJ4UmpzTTdXb0poVEg5am9wakNUNkdCdGNvQXhVTm80TXlSNnM5dzNGTDJXM3V6Z016U3BueE5paUJYb2Y1M2o3dnJ0cWR0UG5IcGxjOEtrWl9ZVVQ3Mw?oc=5"
+  },
+  {
+   "id": "c2316fc2cf43",
+   "type": "post",
+   "symbol": "GOOGL",
+   "section": "macro",
+   "time": 1787256000000,
+   "timeLabel": "4:00 PM",
+   "handle": "@Google",
+   "text": "We’re rolling out new features to help you tailor Search, Discover, and Google News to your interests. You’ll be able to: 📰 Quickly add a site as a Preferre…",
+   "url": "https://nitter.net/Google/status/2090529357483610587#m"
+  },
+  {
+   "id": "07deb2d3f33c",
+   "type": "post",
+   "symbol": "GOOGL",
+   "section": "macro",
+   "time": 1787256000000,
+   "timeLabel": "4:00 PM",
+   "handle": "@Google",
+   "text": "R to @Google: Explore more ways to customize the content you see to your personal interests ↓ https://goo.gle/4gbHRww",
+   "url": "https://nitter.net/Google/status/2090529358825857519#m"
+  },
+  {
    "id": "3571d08b9090",
    "type": "theme",
    "symbol": null,
@@ -671,6 +741,17 @@
    "timeLabel": "3:36 PM",
    "text": "Nvidia And 3 AI Infrastructure Stocks For Data Center Buildout - simplywall.st",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUS15c21FN3VUUjA1ZjVMZDBkVmFNLU9sdElITjdOenkwelFqaHFjUzBQd2Z0aU5tX3IyeXhfR040eHY4WU01ZVg2SW40OGVZTm1WYmFhUElKNG40ZHA0bVRrTUxqYkZ4aXNWa1RQbkNydmJnck40YlNuSnNPdHBCSGExX1FLVkVSVjVjc1V5a0ZwYmtCaDNaTlhjUzlMa0tPeXZoMkMta0g4VDRsSzVSSVhuQ293SDkzcXMwRXFMamVrbHlyZDJlb9IBzgFBVV95cUxOelBFeFZDTThqaEtSWk1ld1NNa0VMREZvM28xT0VMdmpfNG5iWllVMXBJRVozTEJWTmZMMVpxU0tOS1lCTmVIVzViUDZmUTBPMmx1NGRWcERPT2FJNVNDa2JOZ01teklrVnQ0WTVXSXdqWnFEcUJscUx2d1NOQVNQYkxNeW00cDBhNFJEQnRERGpBdVB1a3NueXRNOGJZVldaSzZ6dnNZUWdoUW1aelI3WTRENFBCX3hTbm54dkxLdGdZVnBRX1JObU9EUkN6dw?oc=5"
+  },
+  {
+   "id": "31608843dcf3",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1787254380000,
+   "timeLabel": "3:33 PM",
+   "source": "",
+   "text": "Cathie Wood Sends Fresh Warning on AMD Stock - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaHF2Q2p1aVFjaE9uR1BSb3FSUGdISWwzNThUekhHMlRpRXNVX3lEY1NSTk1SY19JaGtXamRrTjVVLVJQU3ZDZlVENDNLanRFNlQyVEFXTGZHQVhEMjZOdHVWVnBncjlOTFY4OV9iQlNfZzFiblpRRjFQZmJnaWZubUNIc3dNRWZHRGptdUdYWWwtaUUtVS1hWGp3aWlmbE5QYzI5NEJCOA?oc=5"
   },
   {
    "id": "4d780b7455ca",
@@ -1200,6 +1281,17 @@
    "source": "",
    "text": "Nebius vs. Super Micro: Which AI Infrastructure Stock is a Better Buy? - The Globe and Mail",
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWjFyLVYzSTNici04YmpKVkZVZkZuZndrS2ZhZ2FHWTlMYUo2VjJ5VUFlQ2pIMW5UZW9EdWtfR1FENGNZQkFjWGwxVEFLOHg4TXdFQUpCRUlXZlBFMHBSYnliSXdPMS1WeklIUXBDMDMwenV0bG4xRktIdm9JcnBpTENNUU13aFV3TVhheGRjZFBqQU81eXVCTUp6SnVpZGx1X0VhejUzWTVBM3FLWjVWQ1ZzS2NqTVd1LTVKVEVuTmw2emdPWU44bnNGLVZOdFZaRGszSzR5aUlOUTMxMHhUY0lsQTNDYlk?oc=5"
+  },
+  {
+   "id": "d70409ad1a80",
+   "type": "news",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1787235060000,
+   "timeLabel": "10:11 AM",
+   "source": "",
+   "text": "Tiger Global Added to Its Position in Intel in Q2",
+   "url": "https://www.barchart.com/story/news/3951714/tiger-global-added-to-its-position-in-intel-in-q2?.tsrc=rss"
   },
   {
    "id": "1c39a071b506",
@@ -3718,15 +3810,6 @@
   }
  ],
  "timeline": [
-  {
-   "t": 1783090802041,
-   "label": "Jul 3 2026 11:00 AM ET",
-   "cnn": 32,
-   "crypto": 21,
-   "stBull": null,
-   "regime": 42.9,
-   "composite": 31.9
-  },
   {
    "t": 1783091953578,
    "label": "Jul 3 2026 11:19 AM ET",
@@ -7313,6 +7396,15 @@
    "t": 1787256762402,
    "label": "Aug 20 2026 4:12 PM ET",
    "cnn": 53,
+   "crypto": 62,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 66.7
+  },
+  {
+   "t": 1787258909788,
+   "label": "Aug 20 2026 4:48 PM ET",
+   "cnn": 52,
    "crypto": 62,
    "stBull": null,
    "regime": 71.4,
