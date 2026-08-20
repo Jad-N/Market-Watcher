@@ -28,11 +28,11 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 98.86 vs 20d avg 100.1",
+      "detail": "DXY 98.87 vs 20d avg 100.1",
       "asOfMs": 1787198400000,
       "status": "ok",
       "raw": {
-        "last": 98.86,
+        "last": 98.87,
         "avg": 100.1,
         "gap": -1.23
       }
@@ -88,13 +88,13 @@
     "skew": {
       "state": "elevated",
       "vote": "off",
-      "detail": "SKEW 142.9 vs 20d avg 139.3",
-      "asOfMs": 1787146200000,
+      "detail": "SKEW 143.2 vs 20d avg 139.2",
+      "asOfMs": 1787232600000,
       "status": "ok",
       "raw": {
-        "skew": 142.93,
-        "avg": 139.34,
-        "gap": 3.59
+        "skew": 143.23,
+        "avg": 139.2,
+        "gap": 4.03
       }
     }
   },
@@ -106,14 +106,14 @@
         "asOfMs": 1787209200000
       },
       {
-        "name": "Nikkei",
-        "pct": -3.2,
-        "asOfMs": 1787097600000
-      },
-      {
         "name": "Hang Seng",
         "pct": 0.1,
         "asOfMs": 1787103000000
+      },
+      {
+        "name": "Nikkei",
+        "pct": -3.2,
+        "asOfMs": 1787097600000
       }
     ],
     "rates": {
@@ -827,5 +827,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787260496704
+  "updatedMs": 1787262544243
 }
