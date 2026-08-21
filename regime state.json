@@ -28,35 +28,35 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 98.79 vs 20d avg 99.88",
+      "detail": "DXY 98.87 vs 20d avg 99.89",
       "asOfMs": 1787284800000,
       "status": "ok",
       "raw": {
-        "last": 98.79,
-        "avg": 99.88,
-        "gap": -1.1
+        "last": 98.87,
+        "avg": 99.89,
+        "gap": -1.02
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.48 vs VIX3M 18.71",
-      "asOfMs": 1787319556000,
+      "detail": "VIX 15.39 vs VIX3M 18.62",
+      "asOfMs": 1787319000000,
       "status": "ok",
       "raw": {
-        "vix": 15.48,
-        "vix3m": 18.71,
+        "vix": 15.39,
+        "vix3m": 18.62,
         "diff": -3.23
       }
     },
     "credit": {
       "state": "below 20-obs avg",
       "vote": "on",
-      "detail": "HY spread 2.73pp vs 20-obs avg 2.76pp (as of 2026-08-19)",
-      "asOfMs": 1787097600000,
+      "detail": "HY spread 2.75pp vs 20-obs avg 2.76pp (as of 2026-08-20)",
+      "asOfMs": 1787184000000,
       "status": "ok",
       "raw": {
-        "spread": 2.73,
+        "spread": 2.75,
         "avg": 2.76,
         "newHigh": false
       }
@@ -64,13 +64,13 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d -0.6% vs others -1%",
+      "detail": "defensives 5d -0.4% vs others -0.9%",
       "asOfMs": 1787319000000,
       "status": "ok",
       "raw": {
-        "defMedPct": -0.6,
-        "othMedPct": -1,
-        "diffPct": 0.5
+        "defMedPct": -0.4,
+        "othMedPct": -0.9,
+        "diffPct": 0.6
       }
     },
     "breadth": {
@@ -101,11 +101,6 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": -0.3,
-        "asOfMs": 1787270400000
-      },
-      {
         "name": "Hang Seng",
         "pct": 1.2,
         "asOfMs": 1787275800000
@@ -114,11 +109,16 @@
         "name": "DAX",
         "pct": 0.6,
         "asOfMs": 1787295600000
+      },
+      {
+        "name": "Nikkei",
+        "pct": -0.3,
+        "asOfMs": 1787270400000
       }
     ],
     "rates": {
-      "impliedRate": 3.73,
-      "changeBp": -10,
+      "impliedRate": 3.74,
+      "changeBp": -10.5,
       "asOfMs": 1787284800000
     }
   },
@@ -827,5 +827,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787320472208
+  "updatedMs": 1787323457460
 }
