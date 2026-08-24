@@ -28,25 +28,25 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 98.99 vs 20d avg 99.76",
+      "detail": "DXY 99.04 vs 20d avg 99.76",
       "asOfMs": 1787544000000,
       "status": "ok",
       "raw": {
-        "last": 98.99,
+        "last": 99.04,
         "avg": 99.76,
-        "gap": -0.77
+        "gap": -0.72
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.69 vs VIX3M 18.45",
-      "asOfMs": 1787578200000,
+      "detail": "VIX 15.73 vs VIX3M 18.5",
+      "asOfMs": 1787592226000,
       "status": "ok",
       "raw": {
-        "vix": 15.69,
-        "vix3m": 18.45,
-        "diff": -2.76
+        "vix": 15.73,
+        "vix3m": 18.5,
+        "diff": -2.77
       }
     },
     "credit": {
@@ -76,13 +76,13 @@
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2897 vs 20d avg 0.2877",
+      "detail": "RSP/SPY 0.29 vs 20d avg 0.2877",
       "asOfMs": 1787578200000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2897,
+        "ratio": 0.29,
         "avg": 0.2877,
-        "gap": 0.002
+        "gap": 0.0022
       }
     },
     "skew": {
@@ -101,9 +101,9 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": -0.3,
-        "asOfMs": 1787270400000
+        "name": "Hang Seng",
+        "pct": 1.2,
+        "asOfMs": 1787275800000
       },
       {
         "name": "DAX",
@@ -111,14 +111,14 @@
         "asOfMs": 1787554800000
       },
       {
-        "name": "Hang Seng",
-        "pct": 1.2,
-        "asOfMs": 1787275800000
+        "name": "Nikkei",
+        "pct": -0.3,
+        "asOfMs": 1787270400000
       }
     ],
     "rates": {
-      "impliedRate": 3.75,
-      "changeBp": -11.5,
+      "impliedRate": 3.74,
+      "changeBp": -11,
       "asOfMs": 1787544000000
     }
   },
@@ -827,5 +827,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787590846609
+  "updatedMs": 1787593139446
 }
