@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-08-21",
-  "computedMs": 1787311994968,
+  "computedET": "2026-08-24",
+  "computedMs": 1787571404650,
   "block": {
-    "asOfET": "Aug 21, 2026",
-    "asOfMs": 1787311993000,
+    "asOfET": "Aug 24, 2026",
+    "asOfMs": 1787571404000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,8 +18,8 @@
             "detail": "racy stocks beating steady ones lately",
             "status": "ok",
             "raw": {
-              "ratio": 1.9352,
-              "avg": 1.9064
+              "ratio": 1.972,
+              "avg": 1.9136
             }
           },
           {
@@ -30,8 +30,8 @@
             "detail": "junk bonds in demand vs safe bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7501,
-              "avg": 0.748
+              "ratio": 0.7516,
+              "avg": 0.7483
             }
           }
         ]
@@ -49,25 +49,25 @@
             "detail": "paying up for crash protection",
             "status": "ok",
             "raw": {
-              "skew": 143.23,
-              "avg": 138.96
+              "skew": 143.9,
+              "avg": 138.79
             }
           },
           {
             "key": "safeHaven",
             "label": "Safe-haven scorecard",
-            "state": "1 of 4 safe havens bid",
+            "state": "2 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "gold rising",
+            "detail": "gold, dollar rising",
             "status": "ok",
             "raw": {
-              "bid": 1,
+              "bid": 2,
               "total": 4,
               "changes": {
-                "gold": 3.06,
-                "bonds": -0.82,
-                "yen": 0.23,
-                "dollar": -0.26
+                "gold": 1.63,
+                "bonds": -0.35,
+                "yen": 0.13,
+                "dollar": 0.18
               }
             }
           }
@@ -81,12 +81,12 @@
           {
             "key": "sectorsAbove200",
             "label": "Long-term uptrend",
-            "state": "8 of 11 sectors trending up",
+            "state": "9 of 11 sectors trending up",
             "lean": "risk-on",
             "detail": "above their 200-day trend",
             "status": "ok",
             "raw": {
-              "above": 8,
+              "above": 9,
               "total": 11
             }
           },
