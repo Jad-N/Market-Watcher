@@ -1,33 +1,33 @@
 {
- "generatedAt": "Aug 24, 2026, 11:48 AM ET",
- "generatedAtMs": 1787586485010,
+ "generatedAt": "Aug 24, 2026, 12:18 PM ET",
+ "generatedAtMs": 1787588333496,
  "marketOpen": true,
  "snapshot": {
-  "asOfET": "2026-08-24 11:00 ET",
-  "pricesAsOf": "Aug 24, 2026, 11:48 AM ET",
+  "asOfET": "2026-08-24 12:00 ET",
+  "pricesAsOf": "Aug 24, 2026, 12:18 PM ET",
   "marketState": {
    "futures": [
     {
      "name": "S&P 500 (ES)",
-     "value": 7674,
-     "change": -0.2,
+     "value": 7680.25,
+     "change": -0.1,
      "invert": false
     },
     {
      "name": "Nasdaq 100 (NQ)",
-     "value": 29151,
-     "change": -0.8,
+     "value": 29169.25,
+     "change": -0.7,
      "invert": false
     },
     {
      "name": "VIX",
-     "value": 15.78,
-     "change": 4.3,
+     "value": 15.66,
+     "change": 3.5,
      "invert": true,
      "crossCheck": {
       "source": "cnbc",
-      "cnbcLast": 15.74,
-      "divergencePct": 0.25
+      "cnbcLast": 15.66,
+      "divergencePct": 0
      }
     }
    ],
@@ -226,13 +226,13 @@
     "name": "dollar",
     "vote": "on",
     "state": "below 20d avg",
-    "detail": "DXY 98.94 vs 20d avg 99.76"
+    "detail": "DXY 98.98 vs 20d avg 99.76"
    },
    {
     "name": "vol",
     "vote": "on",
     "state": "contango",
-    "detail": "VIX 15.78 vs VIX3M 18.53"
+    "detail": "VIX 15.65 vs VIX3M 18.43"
    },
    {
     "name": "credit",
@@ -244,13 +244,13 @@
     "name": "rotation",
     "vote": "off",
     "state": "defensives leading",
-    "detail": "defensives 5d 3% vs others 0.7%"
+    "detail": "defensives 5d 3.1% vs others 0.9%"
    },
    {
     "name": "breadth",
     "vote": "on",
     "state": "above 20d avg",
-    "detail": "RSP/SPY 0.2898 vs 20d avg 0.2877"
+    "detail": "RSP/SPY 0.2899 vs 20d avg 0.2877"
    },
    {
     "name": "skew",
@@ -265,8 +265,8 @@
    "ticker": "BTC",
    "section": "crypto",
    "class": "crypto",
-   "pct": 2.1,
-   "last": 79419.1,
+   "pct": 2.7,
+   "last": 79819.3,
    "newsCount": 10,
    "latestNews": {
     "title": "Bitcoin’s Rally Leans on Fears That Fiscal Strains Are Mounting - Yahoo Finance",
@@ -281,7 +281,7 @@
    "ticker": "CIFR",
    "section": "trading",
    "class": "equity",
-   "pct": -9.9,
+   "pct": -9.8,
    "last": 15.5,
    "newsCount": 1,
    "latestNews": {
@@ -302,8 +302,8 @@
    "ticker": "IREN",
    "section": "trading",
    "class": "equity",
-   "pct": -3.8,
-   "last": 41,
+   "pct": -4,
+   "last": 40.9,
    "newsCount": 5,
    "latestNews": {
     "title": "IREN Stock Gears Up for a Pivotal Week as Earnings Meet a Bitcoin Rally - Benzinga",
@@ -324,7 +324,7 @@
    "section": "trading",
    "class": "equity",
    "pct": -4.7,
-   "last": 209.8,
+   "last": 209.7,
    "newsCount": 9,
    "latestNews": {
     "title": "Nebius Stock Forecast: How Did NBIS Secure $44B in Contracts and What's Next? - TradingKey",
@@ -344,13 +344,13 @@
    "ticker": "AMD",
    "section": "trading",
    "class": "equity",
-   "pct": -1.4,
-   "last": 462.9,
+   "pct": -1.9,
+   "last": 460.5,
    "newsCount": 18,
    "latestNews": {
-    "title": "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027 - Currently.com",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ1B0a3NqT1lIbEswVEZtUFMtLWNDSElBb3gxbEFGM2RkbjZ1eXFCZUV4U3N3T3FPQ1hKRkdCdnBzX2FtOXJWWnJLcjRyTUtCMGs4NkFiWXNCUDVfYXlVYnBoMVRCaGJ6dkk0NDBUa25PazltRDBmX21TLW42Y1FBa1pldTZDaFpJVTdoSkN5Y04xMW9jTGlLZnhvM1dBSDg?oc=5",
-    "time": "2:05 AM"
+    "title": "Beyond Nvidia, AMD, and Broadcom: Why This Chip Stock Will Emerge as the Biggest Winner of the AI Semiconductor Boom - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTWJhbHpIQ1k4UF96ZTgwQnR1dkpLelRhWWphRWQtMlhjNnFhamZ1aVhVOEo5SS0yNEgza2taMWhDZmVJbHJ5dWRuWk9ZVm1PS2JIRngzS29GWmJIbGxqeVM2VkpoUTBxZkdRQUUzaUdEd3ByOVlOUmVXbXZTOXRQb1ZYX0M0XzhMOVBxa0hfeHljbEduS0hxMA?oc=5",
+    "time": "6:15 AM"
    },
    "latestPost": null,
    "latestFiling": null,
@@ -360,13 +360,13 @@
    "ticker": "APLD",
    "section": "trading",
    "class": "equity",
-   "pct": -4.5,
-   "last": 27.4,
-   "newsCount": 2,
+   "pct": -4.6,
+   "last": 27.3,
+   "newsCount": 3,
    "latestNews": {
-    "title": "Applied Digital (APLD) Prediction: Is A Short Squeeze Imminent? Kiki Rice (IYHDcwW4kR) - Mshale",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5DeDJ3Q0VnRWpMUmZJdFFHR2RyaUFnS1RMM1doWll1eGRWMkhQYndwOWxiWWlGUWQ5c3ZMUThUdU5ITGNJajFfcHlPTUtZcFVTdy1Ja1FlUUxfelE?oc=5",
-    "time": "12:29 PM"
+    "title": "Can APLD's Power Advantage Strengthen Its AI Edge Over WULF & CRWV? - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc0ZTYzVmQzRzajZqUXUxN3h0TnJHZkdKSU14QWNRR1JWRFprMzdTZWEwZF85SEhoNlo4V3JWeXN2eW4wWWVTV3lvUmNqSHZLQWw0OGJvSUtUUzl2YTVXbDBTMmJuYUhCeWRPcGJnV2p1aFZxQ09QR2I1WlMxYmtzMUZXZGlmTWRPTDNBVUhXZ25Qb0NoZm45aWRnT0ZiT2J0OEN4bThldTBOZFMtN2FzaHc2Y1AwWXhxd0ZxLQ?oc=5",
+    "time": "10:38 AM"
    },
    "latestPost": null,
    "latestFiling": {
@@ -381,8 +381,8 @@
    "ticker": "WULF",
    "section": "trading",
    "class": "equity",
-   "pct": -3,
-   "last": 16,
+   "pct": -3.1,
+   "last": 15.9,
    "newsCount": 8,
    "latestNews": {
     "title": "Why is Terawulf stock gaining today? - Investing.com",
@@ -418,7 +418,7 @@
    "ticker": "NUAI",
    "section": "trading",
    "class": "equity",
-   "pct": -13.6,
+   "pct": -14.6,
    "last": 4.8,
    "newsCount": 1,
    "latestNews": {
@@ -439,8 +439,8 @@
    "ticker": "CLSK",
    "section": "trading",
    "class": "equity",
-   "pct": -1.9,
-   "last": 12.4,
+   "pct": -2.2,
+   "last": 12.3,
    "newsCount": 1,
    "latestNews": {
     "title": "CleanSpark unveils $6.6 billion AI lease, representing 214% of market value, as shares slide despite Bitcoin surge - TechStock²",
@@ -460,8 +460,8 @@
    "ticker": "ASST",
    "section": "trading",
    "class": "equity",
-   "pct": 23.4,
-   "last": 19.9,
+   "pct": 24.7,
+   "last": 20.1,
    "newsCount": 3,
    "latestNews": {
     "title": "Strive Jumps 5% as CEO Declares the Bitcoin Bear Market Over, Strategy and Bitmine Rise 3%",
@@ -492,7 +492,7 @@
    "ticker": "MLYS",
    "section": "trading",
    "class": "equity",
-   "pct": -0.1,
+   "pct": -0.3,
    "last": 25.7,
    "newsCount": 1,
    "latestNews": {
@@ -508,8 +508,8 @@
    "ticker": "NVDA",
    "section": "macro",
    "class": "equity",
-   "pct": -2.9,
-   "last": 210.7,
+   "pct": -2.8,
+   "last": 210.8,
    "newsCount": 18,
    "latestNews": {
     "title": "Going Into Earnings, Is Nvidia Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
@@ -524,7 +524,7 @@
    "ticker": "XRP",
    "section": "macro",
    "class": "crypto",
-   "pct": -1.3,
+   "pct": -0.2,
    "last": 1.5,
    "newsCount": 10,
    "latestNews": {
@@ -540,7 +540,7 @@
    "ticker": "TSSI",
    "section": "macro",
    "class": "equity",
-   "pct": -2.8,
+   "pct": -3,
    "last": 8.5,
    "newsCount": 1,
    "latestNews": {
@@ -572,8 +572,8 @@
    "ticker": "PLTR",
    "section": "macro",
    "class": "equity",
-   "pct": 1.9,
-   "last": 177.2,
+   "pct": 2,
+   "last": 177.5,
    "newsCount": 12,
    "latestNews": {
     "title": "Trump’s Accounts Bought Palantir Stock in June. Is PLTR Still a Buy After a 46% Rally? - TipRanks",
@@ -588,12 +588,12 @@
    "ticker": "MSFT",
    "section": "macro",
    "class": "equity",
-   "pct": 1.7,
-   "last": 489.2,
+   "pct": 1.6,
+   "last": 489,
    "newsCount": 9,
    "latestNews": {
     "title": "Microsoft Stock’s Upside Now Runs Through Its Data Center Build - Trefis",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRWhPekhvUENxWlNXZ1VJeHZWcGVRLXI4RVVBN2tUM3ROZFZIeURWbC1TcU9hU1hLenItME93c1pWdVhCOGMwR28zREcyVnVOb1YyS3RXR25rdHVzZ1h3RFJ0N3plTFdxTFBMLUhEaE9NYVg0OHNvNW1zTnVteDc2bDZrZS1DcWw2bzZFYU93T09sWlVveDBHeWxLTUxqVG9neG5uV0dFUHlEOXhDbDZqQ0dzZmFkczE1MnNYaHhSMjg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV3dlelBsNXBYT3JFYkd5eWs3Rm1yN040QWFmS1hTN2R3SVYyODlCcjZkdGdORjVoWHpEMG01c1hmdmgtX2RveTVGcm5rTEdCa0oyejkySXB6anByc0k0OEZHUzkwSmtXZVltUTliOUNXSFZGUzFWYzdFOXpBYlZXUmU4UW5rRDM2SjFCWEM4dlN1SnlHbzZKOU50bnlyQ181WVp1TXB4NjNQMXp4V3lESFQ0cW9mVXVSZnhVZm5qUQ?oc=5",
     "time": "11:31 AM"
    },
    "latestPost": null,
@@ -604,8 +604,8 @@
    "ticker": "HIMS",
    "section": "macro",
    "class": "equity",
-   "pct": -2.4,
-   "last": 31.1,
+   "pct": -2.7,
+   "last": 31,
    "newsCount": 3,
    "latestNews": {
     "title": "Why is Hims & Hers Health stock crashing over 10% today? - Investing.com",
@@ -621,7 +621,7 @@
    "section": "macro",
    "class": "equity",
    "pct": 3.1,
-   "last": 351.2,
+   "last": 351.1,
    "newsCount": 12,
    "latestNews": {
     "title": "Here’s How Much You Would Have Made Owning Alphabet Stock In The Last 15 Years - Benzinga",
@@ -636,8 +636,8 @@
    "ticker": "GOLD",
    "section": "macro",
    "class": "commodity",
-   "pct": 1,
-   "last": 4727.7,
+   "pct": 0.7,
+   "last": 4712.7,
    "newsCount": 10,
    "latestNews": {
     "title": "Gold rallies after Treasury buyback plan lowers long yields, India silver imports rebound under new regime – Heraeus - KITCO",
@@ -652,8 +652,8 @@
    "ticker": "BRENT",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.4,
-   "last": 92.1,
+   "pct": -2.1,
+   "last": 92.4,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran - CNBC",
@@ -668,8 +668,8 @@
    "ticker": "USOIL",
    "section": "macro",
    "class": "commodity",
-   "pct": -2.8,
-   "last": 84.6,
+   "pct": -2.4,
+   "last": 84.9,
    "newsCount": 10,
    "latestNews": {
     "title": "Oil prices fall as investors await 'toughest' U.S. sanctions on Iran - CNBC",
@@ -747,6 +747,17 @@
    "source": "",
    "text": "Can APLD's Power Advantage Strengthen Its AI Edge Over WULF & CRWV?",
    "url": "https://finance.yahoo.com/technology/ai/articles/aplds-power-advantage-strengthen-ai-143800584.html?.tsrc=rss"
+  },
+  {
+   "id": "d65aa7c68b58",
+   "type": "news",
+   "symbol": "APLD",
+   "section": "trading",
+   "time": 1787582280000,
+   "timeLabel": "10:38 AM",
+   "source": "",
+   "text": "Can APLD's Power Advantage Strengthen Its AI Edge Over WULF & CRWV? - TradingView",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc0ZTYzVmQzRzajZqUXUxN3h0TnJHZkdKSU14QWNRR1JWRFprMzdTZWEwZF85SEhoNlo4V3JWeXN2eW4wWWVTV3lvUmNqSHZLQWw0OGJvSUtUUzl2YTVXbDBTMmJuYUhCeWRPcGJnV2p1aFZxQ09QR2I1WlMxYmtzMUZXZGlmTWRPTDNBVUhXZ25Qb0NoZm45aWRnT0ZiT2J0OEN4bThldTBOZFMtN2FzaHc2Y1AwWXhxd0ZxLQ?oc=5"
   },
   {
    "id": "ae20dd55e8c8",
@@ -901,6 +912,17 @@
    "source": "",
    "text": "AMD Stock Gets Stunning Price Target From Wall Street - GuruFocus",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZFktZFhMRUIxdWRoUERvME1hYzMzZ1A0MjA2ZGg3NmNBMGQyTi1SMzctZnVzUzRDLUQ1dk1INXF4X2laME5pcU4yNjZmMnJ2R0hUMkFRbmFjRWcybklSTllmV3JCUWNiMF94SE9ua244dW03cW5jVmZ4ekxENzRYNFBlTGJIVUVMaUppY20xb3ZqYm9PbXJB?oc=5"
+  },
+  {
+   "id": "3a4afd43112c",
+   "type": "news",
+   "symbol": "AMD",
+   "section": "trading",
+   "time": 1787553900000,
+   "timeLabel": "2:45 AM",
+   "source": "",
+   "text": "Billionaire Investor Stanley Druckenmiller Sold Broadcom, Intel, and Micron and Bought Another Chip Stock That Expects to Double Data Center Sales in 2027 - The Motley Fool",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQenpXWjRic1I5cEE3Sm9sXzZONktIVjBjM3lGMF9KUkhtX1NkUW1fcjNsRlZzMlExQ2lMZ2pNekZSbll2OWJxZFBwa3dCbUVOR1IxQ1FqV0htb24tSGVBaS1tM3JqRXZ6V2Fic1hURkdLeTFyTS0xcUloREMtN2FKWHVjMjEwSTdvT1NRM08xNEYtdmMtX0wwMg?oc=5"
   },
   {
    "id": "15e4ddaa3b81",
@@ -1694,15 +1716,6 @@
   }
  ],
  "timeline": [
-  {
-   "t": 1783352388018,
-   "label": "Jul 6 2026 11:39 AM ET",
-   "cnn": 45,
-   "crypto": 24,
-   "stBull": null,
-   "regime": 57.1,
-   "composite": 40.6
-  },
   {
    "t": 1783353602045,
    "label": "Jul 6 2026 12:00 PM ET",
@@ -5293,12 +5306,21 @@
    "stBull": null,
    "regime": 71.4,
    "composite": 72.2
+  },
+  {
+   "t": 1787588333496,
+   "label": "Aug 24 2026 12:18 PM ET",
+   "cnn": 56,
+   "crypto": 73,
+   "stBull": null,
+   "regime": 71.4,
+   "composite": 72.2
   }
  ],
  "degraded": [],
  "sourceQuality": {
   "crossChecked": 19,
-  "divMax": 0.13,
+  "divMax": 0.11,
   "fallbacks": 0
  }
 }
