@@ -28,13 +28,13 @@
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 98.91 vs 20d avg 99.64",
+      "detail": "DXY 98.89 vs 20d avg 99.64",
       "asOfMs": 1787630400000,
       "status": "ok",
       "raw": {
-        "last": 98.91,
+        "last": 98.89,
         "avg": 99.64,
-        "gap": -0.72
+        "gap": -0.74
       }
     },
     "vol": {
@@ -88,13 +88,13 @@
     "skew": {
       "state": "elevated",
       "vote": "off",
-      "detail": "SKEW 145.6 vs 20d avg 138.7",
-      "asOfMs": 1787578200000,
+      "detail": "SKEW 143.3 vs 20d avg 138.8",
+      "asOfMs": 1787664600000,
       "status": "ok",
       "raw": {
-        "skew": 145.64,
-        "avg": 138.74,
-        "gap": 6.9
+        "skew": 143.27,
+        "avg": 138.76,
+        "gap": 4.51
       }
     }
   },
@@ -106,14 +106,14 @@
         "asOfMs": 1787535000000
       },
       {
-        "name": "DAX",
-        "pct": 0.6,
-        "asOfMs": 1787641200000
-      },
-      {
         "name": "Nikkei",
         "pct": -0.7,
         "asOfMs": 1787529600000
+      },
+      {
+        "name": "DAX",
+        "pct": 0.6,
+        "asOfMs": 1787641200000
       }
     ],
     "rates": {
@@ -847,5 +847,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787692422670
+  "updatedMs": 1787694531971
 }
