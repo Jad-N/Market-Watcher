@@ -35,19 +35,19 @@
       "raw": {
         "last": 98.96,
         "avg": 99.64,
-        "gap": -0.67
+        "gap": -0.68
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.55 vs VIX3M 18.3",
-      "asOfMs": 1787674366000,
+      "detail": "VIX 15.49 vs VIX3M 18.29",
+      "asOfMs": 1787676751000,
       "status": "ok",
       "raw": {
-        "vix": 15.55,
-        "vix3m": 18.3,
-        "diff": -2.75
+        "vix": 15.49,
+        "vix3m": 18.29,
+        "diff": -2.8
       }
     },
     "credit": {
@@ -65,23 +65,23 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d 1% vs others 1%",
+      "detail": "defensives 5d 0.9% vs others 1.1%",
       "asOfMs": 1787664600000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1,
-        "othMedPct": 1,
-        "diffPct": -0.1
+        "defMedPct": 0.9,
+        "othMedPct": 1.1,
+        "diffPct": -0.2
       }
     },
     "breadth": {
       "state": "above 20d avg",
       "vote": "on",
-      "detail": "RSP/SPY 0.2895 vs 20d avg 0.2875",
+      "detail": "RSP/SPY 0.2896 vs 20d avg 0.2875",
       "asOfMs": 1787664600000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2895,
+        "ratio": 0.2896,
         "avg": 0.2875,
         "gap": 0.002
       }
@@ -102,9 +102,9 @@
   "context": {
     "overnight": [
       {
-        "name": "Hang Seng",
-        "pct": -1.9,
-        "asOfMs": 1787535000000
+        "name": "DAX",
+        "pct": 0.6,
+        "asOfMs": 1787641200000
       },
       {
         "name": "Nikkei",
@@ -112,9 +112,9 @@
         "asOfMs": 1787529600000
       },
       {
-        "name": "DAX",
-        "pct": 0.6,
-        "asOfMs": 1787641200000
+        "name": "Hang Seng",
+        "pct": -1.9,
+        "asOfMs": 1787535000000
       }
     ],
     "rates": {
@@ -833,5 +833,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787675279855
+  "updatedMs": 1787677654909
 }
