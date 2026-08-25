@@ -1,16 +1,17 @@
 {
   "regime": {
     "label": "risk-on",
-    "tally": "5-2",
+    "tally": "6-1",
     "drivers": [
       "curve positive",
       "dollar soft",
       "VIX in contango",
       "credit spreads tight",
+      "cyclicals leading",
       "breadth broad"
     ],
-    "on": 5,
-    "off": 2
+    "on": 6,
+    "off": 1
   },
   "components": {
     "curve": {
@@ -34,19 +35,19 @@
       "raw": {
         "last": 98.92,
         "avg": 99.64,
-        "gap": -0.72
+        "gap": -0.71
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.56 vs VIX3M 18.29",
-      "asOfMs": 1787680996000,
+      "detail": "VIX 15.46 vs VIX3M 18.24",
+      "asOfMs": 1787683786000,
       "status": "ok",
       "raw": {
-        "vix": 15.56,
-        "vix3m": 18.29,
-        "diff": -2.73
+        "vix": 15.46,
+        "vix3m": 18.24,
+        "diff": -2.78
       }
     },
     "credit": {
@@ -62,15 +63,15 @@
       }
     },
     "rotation": {
-      "state": "defensives leading",
-      "vote": "off",
-      "detail": "defensives 5d 1.2% vs others 1.1%",
+      "state": "cyclicals leading",
+      "vote": "on",
+      "detail": "defensives 5d 1.1% vs others 1.1%",
       "asOfMs": 1787664600000,
       "status": "ok",
       "raw": {
-        "defMedPct": 1.2,
+        "defMedPct": 1.1,
         "othMedPct": 1.1,
-        "diffPct": 0.1
+        "diffPct": 0
       }
     },
     "breadth": {
@@ -82,7 +83,7 @@
       "raw": {
         "ratio": 0.2899,
         "avg": 0.2876,
-        "gap": 0.0024
+        "gap": 0.0023
       }
     },
     "skew": {
@@ -101,11 +102,6 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": -0.7,
-        "asOfMs": 1787529600000
-      },
-      {
         "name": "Hang Seng",
         "pct": -1.9,
         "asOfMs": 1787535000000
@@ -114,6 +110,11 @@
         "name": "DAX",
         "pct": 0.6,
         "asOfMs": 1787641200000
+      },
+      {
+        "name": "Nikkei",
+        "pct": -0.7,
+        "asOfMs": 1787529600000
       }
     ],
     "rates": {
@@ -833,9 +834,14 @@
       "ts": 1787679882612,
       "kind": "REGIME",
       "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1787684701331,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1787681900685
+  "updatedMs": 1787684701944
 }
