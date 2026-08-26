@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-08-25",
-  "computedMs": 1787657752504,
+  "computedET": "2026-08-26",
+  "computedMs": 1787744232504,
   "block": {
-    "asOfET": "Aug 25, 2026",
-    "asOfMs": 1787657752000,
+    "asOfET": "Aug 26, 2026",
+    "asOfMs": 1787744231000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -13,25 +13,25 @@
           {
             "key": "racyVsSteady",
             "label": "Racy vs steady stocks",
-            "state": "Favoring safety",
-            "lean": "risk-off",
-            "detail": "steady stocks holding up better",
+            "state": "Reaching for risk",
+            "lean": "risk-on",
+            "detail": "racy stocks beating steady ones lately",
             "status": "ok",
             "raw": {
-              "ratio": 1.9159,
-              "avg": 1.9179
+              "ratio": 1.9566,
+              "avg": 1.9266
             }
           },
           {
             "key": "junkDemand",
             "label": "Junk-bond demand",
-            "state": "Lending freely to risky firms",
-            "lean": "risk-on",
-            "detail": "junk bonds in demand vs safe bonds",
+            "state": "Backing away from risky debt",
+            "lean": "risk-off",
+            "detail": "money rotating to safer bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7506,
-              "avg": 0.7486
+              "ratio": 0.7479,
+              "avg": 0.7488
             }
           }
         ]
@@ -49,25 +49,25 @@
             "detail": "paying up for crash protection",
             "status": "ok",
             "raw": {
-              "skew": 145.64,
-              "avg": 138.74
+              "skew": 143.27,
+              "avg": 138.76
             }
           },
           {
             "key": "safeHaven",
             "label": "Safe-haven scorecard",
-            "state": "3 of 4 safe havens bid",
-            "lean": "neutral",
-            "detail": "gold, bonds, dollar rising",
+            "state": "4 of 4 safe havens bid",
+            "lean": "risk-off",
+            "detail": "gold, bonds, yen, dollar rising — flight to safety",
             "status": "ok",
             "raw": {
-              "bid": 3,
+              "bid": 4,
               "total": 4,
               "changes": {
-                "gold": 1.21,
-                "bonds": 0.62,
-                "yen": 0.24,
-                "dollar": 0.04
+                "gold": 0.79,
+                "bonds": 1.1,
+                "yen": -0.01,
+                "dollar": 0.12
               }
             }
           }
