@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-08-28",
-  "computedMs": 1787952065076,
+  "computedET": "2026-08-31",
+  "computedMs": 1788199115467,
   "block": {
-    "asOfET": "Aug 28, 2026",
-    "asOfMs": 1787950787000,
+    "asOfET": "Aug 31, 2026",
+    "asOfMs": 1788199115000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,8 +18,8 @@
             "detail": "steady stocks holding up better",
             "status": "ok",
             "raw": {
-              "ratio": 1.9475,
-              "avg": 1.9515
+              "ratio": 1.952,
+              "avg": 1.955
             }
           },
           {
@@ -30,8 +30,8 @@
             "detail": "junk bonds in demand vs safe bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7498,
-              "avg": 0.7491
+              "ratio": 0.7513,
+              "avg": 0.7493
             }
           }
         ]
@@ -58,16 +58,16 @@
             "label": "Safe-haven scorecard",
             "state": "1 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "dollar rising",
+            "detail": "gold rising",
             "status": "ok",
             "raw": {
               "bid": 1,
               "total": 4,
               "changes": {
-                "gold": -2.29,
-                "bonds": -0.3,
-                "yen": 0.45,
-                "dollar": 0.52
+                "gold": 0.23,
+                "bonds": -0.65,
+                "yen": 0.23,
+                "dollar": -0.3
               }
             }
           }
@@ -81,12 +81,12 @@
           {
             "key": "sectorsAbove200",
             "label": "Long-term uptrend",
-            "state": "9 of 11 sectors trending up",
+            "state": "8 of 11 sectors trending up",
             "lean": "risk-on",
             "detail": "above their 200-day trend",
             "status": "ok",
             "raw": {
-              "above": 9,
+              "above": 8,
               "total": 11
             }
           },
