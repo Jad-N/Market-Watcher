@@ -15,37 +15,37 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.39pp (2y 4.56, 10y 4.95)",
-      "asOfMs": 1788998400000,
+      "detail": "10y-2y 0.33pp (2y 4.63, 10y 4.96)",
+      "asOfMs": 1789084800000,
       "status": "ok",
       "raw": {
-        "spread": 0.39,
-        "y2": 4.56,
-        "y10": 4.95
+        "spread": 0.33,
+        "y2": 4.63,
+        "y10": 4.96
       }
     },
     "dollar": {
       "state": "below 20d avg",
       "vote": "on",
-      "detail": "DXY 99.1 vs 20d avg 99.2",
+      "detail": "DXY 99.09 vs 20d avg 99.2",
       "asOfMs": 1789099200000,
       "status": "ok",
       "raw": {
-        "last": 99.1,
+        "last": 99.09,
         "avg": 99.2,
-        "gap": -0.1
+        "gap": -0.11
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.61 vs VIX3M 18.55",
+      "detail": "VIX 15.84 vs VIX3M 18.6",
       "asOfMs": 1789133400000,
       "status": "ok",
       "raw": {
-        "vix": 15.61,
-        "vix3m": 18.55,
-        "diff": -2.94
+        "vix": 15.84,
+        "vix3m": 18.6,
+        "diff": -2.76
       }
     },
     "credit": {
@@ -63,25 +63,25 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -2% vs others -1.4%",
+      "detail": "defensives 5d -2.2% vs others -1.6%",
       "asOfMs": 1789133400000,
       "status": "ok",
       "raw": {
-        "defMedPct": -2,
-        "othMedPct": -1.4,
-        "diffPct": -0.7
+        "defMedPct": -2.2,
+        "othMedPct": -1.6,
+        "diffPct": -0.6
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.281 vs 20d avg 0.2862",
+      "detail": "RSP/SPY 0.2811 vs 20d avg 0.2862",
       "asOfMs": 1789133400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.281,
+        "ratio": 0.2811,
         "avg": 0.2862,
-        "gap": -0.0052
+        "gap": -0.005
       }
     },
     "skew": {
@@ -951,5 +951,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1789150952028
+  "updatedMs": 1789160779591
 }
