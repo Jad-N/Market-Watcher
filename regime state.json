@@ -40,13 +40,13 @@
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 17.8 vs VIX3M 19.73",
-      "asOfMs": 1789479000000,
+      "detail": "VIX 17.52 vs VIX3M 19.51",
+      "asOfMs": 1789498516000,
       "status": "ok",
       "raw": {
-        "vix": 17.8,
-        "vix3m": 19.73,
-        "diff": -1.93
+        "vix": 17.52,
+        "vix3m": 19.51,
+        "diff": -1.99
       }
     },
     "credit": {
@@ -64,25 +64,25 @@
     "rotation": {
       "state": "defensives leading",
       "vote": "off",
-      "detail": "defensives 5d -0.1% vs others -1.9%",
+      "detail": "defensives 5d -0.1% vs others -2.1%",
       "asOfMs": 1789479000000,
       "status": "ok",
       "raw": {
         "defMedPct": -0.1,
-        "othMedPct": -1.9,
-        "diffPct": 1.7
+        "othMedPct": -2.1,
+        "diffPct": 2
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2825 vs 20d avg 0.2858",
+      "detail": "RSP/SPY 0.2829 vs 20d avg 0.2858",
       "asOfMs": 1789479000000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2825,
+        "ratio": 0.2829,
         "avg": 0.2858,
-        "gap": -0.0033
+        "gap": -0.003
       }
     },
     "skew": {
@@ -106,19 +106,19 @@
         "asOfMs": 1789344000000
       },
       {
+        "name": "Hang Seng",
+        "pct": 0.5,
+        "asOfMs": 1789349400000
+      },
+      {
         "name": "DAX",
         "pct": -0.2,
         "asOfMs": 1789455600000
-      },
-      {
-        "name": "Hang Seng",
-        "pct": -1,
-        "asOfMs": 1789435800000
       }
     ],
     "rates": {
-      "impliedRate": 3.98,
-      "changeBp": -24,
+      "impliedRate": 3.88,
+      "changeBp": -13.5,
       "asOfMs": 1789444800000
     }
   },
@@ -977,5 +977,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1789486306825
+  "updatedMs": 1789499428870
 }
