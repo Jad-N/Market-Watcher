@@ -5,8 +5,8 @@
     "drivers": [
       "dollar strong",
       "credit spreads widening",
-      "defensives leading",
-      "breadth narrow"
+      "breadth narrow",
+      "crash-hedging elevated"
     ],
     "on": 3,
     "off": 4
@@ -27,98 +27,98 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 100.21 vs 20d avg 99.36",
-      "asOfMs": 1789704000000,
+      "detail": "DXY 100.39 vs 20d avg 99.44",
+      "asOfMs": 1789963200000,
       "status": "ok",
       "raw": {
-        "last": 100.21,
-        "avg": 99.36,
-        "gap": 0.85
+        "last": 100.39,
+        "avg": 99.44,
+        "gap": 0.95
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 14.81 vs VIX3M 18.24",
-      "asOfMs": 1789738200000,
+      "detail": "VIX 15.09 vs VIX3M 18.16",
+      "asOfMs": 1789997400000,
       "status": "ok",
       "raw": {
-        "vix": 14.81,
-        "vix3m": 18.24,
-        "diff": -3.43
+        "vix": 15.09,
+        "vix3m": 18.16,
+        "diff": -3.07
       }
     },
     "credit": {
       "state": "above 20-obs avg",
       "vote": "off",
-      "detail": "HY spread 2.7pp vs 20-obs avg 2.68pp (as of 2026-09-17)",
-      "asOfMs": 1789603200000,
+      "detail": "HY spread 2.68pp vs 20-obs avg 2.68pp (as of 2026-09-18)",
+      "asOfMs": 1789689600000,
       "status": "ok",
       "raw": {
-        "spread": 2.7,
+        "spread": 2.68,
         "avg": 2.68,
         "newHigh": false
       }
     },
     "rotation": {
-      "state": "defensives leading",
-      "vote": "off",
-      "detail": "defensives 5d -0.7% vs others -1.6%",
-      "asOfMs": 1789738200000,
+      "state": "cyclicals leading",
+      "vote": "on",
+      "detail": "defensives 5d -2.2% vs others -0.9%",
+      "asOfMs": 1789997400000,
       "status": "ok",
       "raw": {
-        "defMedPct": -0.7,
-        "othMedPct": -1.6,
-        "diffPct": 1
+        "defMedPct": -2.2,
+        "othMedPct": -0.9,
+        "diffPct": -1.3
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2787 vs 20d avg 0.2846",
-      "asOfMs": 1789738200000,
+      "detail": "RSP/SPY 0.2758 vs 20d avg 0.2839",
+      "asOfMs": 1789997400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2787,
-        "avg": 0.2846,
-        "gap": -0.0059
+        "ratio": 0.2758,
+        "avg": 0.2839,
+        "gap": -0.0081
       }
     },
     "skew": {
-      "state": "subdued",
-      "vote": "on",
-      "detail": "SKEW 145.7 vs 20d avg 147.3",
-      "asOfMs": 1789651800000,
+      "state": "elevated",
+      "vote": "off",
+      "detail": "SKEW 148.1 vs 20d avg 147.6",
+      "asOfMs": 1789738200000,
       "status": "ok",
       "raw": {
-        "skew": 145.7,
-        "avg": 147.34,
-        "gap": -1.64
+        "skew": 148.1,
+        "avg": 147.59,
+        "gap": 0.51
       }
     }
   },
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": 0.3,
-        "asOfMs": 1789603200000
+        "name": "Hang Seng",
+        "pct": 0.6,
+        "asOfMs": 1789695000000
       },
       {
         "name": "DAX",
-        "pct": -1.6,
-        "asOfMs": 1789714800000
+        "pct": 1.1,
+        "asOfMs": 1789974000000
       },
       {
-        "name": "Hang Seng",
-        "pct": -0.4,
-        "asOfMs": 1789608600000
+        "name": "Nikkei",
+        "pct": 1.4,
+        "asOfMs": 1789689600000
       }
     ],
     "rates": {
-      "impliedRate": 3.75,
-      "changeBp": 0,
-      "asOfMs": 1789704000000
+      "impliedRate": 3.89,
+      "changeBp": -14.7,
+      "asOfMs": 1789963200000
     }
   },
   "stress": {
@@ -987,9 +987,19 @@
       "ts": 1789659051179,
       "kind": "STRESS-CLEAR",
       "line": "STRESS-CLEAR hySpreadNew20High"
+    },
+    {
+      "ts": 1790009879070,
+      "kind": "REGIME",
+      "line": "REGIME rotation defensives leading -> cyclicals leading"
+    },
+    {
+      "ts": 1790009879070,
+      "kind": "REGIME",
+      "line": "REGIME skew subdued -> elevated"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1789765279002
+  "updatedMs": 1790009879070
 }
