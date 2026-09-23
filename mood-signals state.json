@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-09-22",
-  "computedMs": 1790090949803,
+  "computedET": "2026-09-23",
+  "computedMs": 1790177067443,
   "block": {
-    "asOfET": "Sep 22, 2026",
-    "asOfMs": 1790090949000,
+    "asOfET": "Sep 23, 2026",
+    "asOfMs": 1790177066000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,20 +18,20 @@
             "detail": "racy stocks beating steady ones lately",
             "status": "ok",
             "raw": {
-              "ratio": 2.1144,
-              "avg": 1.9821
+              "ratio": 2.1269,
+              "avg": 1.9828
             }
           },
           {
             "key": "junkDemand",
             "label": "Junk-bond demand",
-            "state": "Backing away from risky debt",
-            "lean": "risk-off",
-            "detail": "money rotating to safer bonds",
+            "state": "Lending freely to risky firms",
+            "lean": "risk-on",
+            "detail": "junk bonds in demand vs safe bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7493,
-              "avg": 0.7504
+              "ratio": 0.7519,
+              "avg": 0.7506
             }
           }
         ]
@@ -64,10 +64,10 @@
               "bid": 1,
               "total": 4,
               "changes": {
-                "gold": -0.19,
-                "bonds": -0.15,
-                "yen": 0.21,
-                "dollar": 0.16
+                "gold": -1.01,
+                "bonds": -1.35,
+                "yen": 0.59,
+                "dollar": 0.57
               }
             }
           }
