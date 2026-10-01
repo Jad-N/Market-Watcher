@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-09-30",
-  "computedMs": 1790786816957,
+  "computedET": "2026-10-01",
+  "computedMs": 1790875228862,
   "block": {
-    "asOfET": "Sep 30, 2026",
-    "asOfMs": 1790786815000,
+    "asOfET": "Oct 1, 2026",
+    "asOfMs": 1790875227000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,8 +18,8 @@
             "detail": "racy stocks beating steady ones lately",
             "status": "ok",
             "raw": {
-              "ratio": 2.1259,
-              "avg": 2.0351
+              "ratio": 2.1633,
+              "avg": 2.0472
             }
           },
           {
@@ -30,8 +30,8 @@
             "detail": "junk bonds in demand vs safe bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7571,
-              "avg": 0.752
+              "ratio": 0.7528,
+              "avg": 0.7521
             }
           }
         ]
@@ -49,8 +49,8 @@
             "detail": "low demand for crash protection",
             "status": "ok",
             "raw": {
-              "skew": 144.58,
-              "avg": 147.43
+              "skew": 141.92,
+              "avg": 147.06
             }
           },
           {
@@ -58,16 +58,16 @@
             "label": "Safe-haven scorecard",
             "state": "3 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "gold, yen, dollar rising",
+            "detail": "gold, bonds, dollar rising",
             "status": "ok",
             "raw": {
               "bid": 3,
               "total": 4,
               "changes": {
-                "gold": 0.15,
-                "bonds": -0.65,
-                "yen": -0.05,
-                "dollar": 0.06
+                "gold": 0.36,
+                "bonds": 0.22,
+                "yen": 0.18,
+                "dollar": 0.68
               }
             }
           }
@@ -93,12 +93,12 @@
           {
             "key": "sectorsAbove50",
             "label": "Short-term uptrend",
-            "state": "4 of 11 sectors rising",
+            "state": "2 of 11 sectors rising",
             "lean": "risk-off",
             "detail": "above their 50-day trend",
             "status": "ok",
             "raw": {
-              "above": 4,
+              "above": 2,
               "total": 11
             }
           }
