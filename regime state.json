@@ -15,37 +15,37 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.47pp (2y 4.84, 10y 5.31)",
-      "asOfMs": 1791158400000,
+      "detail": "10y-2y 0.48pp (2y 4.79, 10y 5.27)",
+      "asOfMs": 1791244800000,
       "status": "ok",
       "raw": {
-        "spread": 0.47,
-        "y2": 4.84,
-        "y10": 5.31
+        "spread": 0.48,
+        "y2": 4.79,
+        "y10": 5.27
       }
     },
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.88 vs 20d avg 100.67",
+      "detail": "DXY 101.86 vs 20d avg 100.67",
       "asOfMs": 1791259200000,
       "status": "ok",
       "raw": {
-        "last": 101.88,
+        "last": 101.86,
         "avg": 100.67,
-        "gap": 1.22
+        "gap": 1.19
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.06 vs VIX3M 17.64",
+      "detail": "VIX 15.01 vs VIX3M 17.64",
       "asOfMs": 1791293400000,
       "status": "ok",
       "raw": {
-        "vix": 15.06,
+        "vix": 15.01,
         "vix3m": 17.64,
-        "diff": -2.58
+        "diff": -2.63
       }
     },
     "credit": {
@@ -63,37 +63,37 @@
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -0.2% vs others 1.7%",
+      "detail": "defensives 5d -0.1% vs others 1.4%",
       "asOfMs": 1791293400000,
       "status": "ok",
       "raw": {
-        "defMedPct": -0.2,
-        "othMedPct": 1.7,
-        "diffPct": -1.9
+        "defMedPct": -0.1,
+        "othMedPct": 1.4,
+        "diffPct": -1.4
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2724 vs 20d avg 0.2767",
+      "detail": "RSP/SPY 0.2725 vs 20d avg 0.2767",
       "asOfMs": 1791293400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2724,
+        "ratio": 0.2725,
         "avg": 0.2767,
-        "gap": -0.0043
+        "gap": -0.0042
       }
     },
     "skew": {
       "state": "subdued",
       "vote": "on",
-      "detail": "SKEW 143 vs 20d avg 146.3",
-      "asOfMs": 1791207000000,
+      "detail": "SKEW 141.2 vs 20d avg 145.9",
+      "asOfMs": 1791293400000,
       "status": "ok",
       "raw": {
-        "skew": 143.04,
-        "avg": 146.28,
-        "gap": -3.24
+        "skew": 141.21,
+        "avg": 145.9,
+        "gap": -4.69
       }
     }
   },
@@ -117,7 +117,7 @@
     ],
     "rates": {
       "impliedRate": 3.93,
-      "changeBp": -4,
+      "changeBp": -4.5,
       "asOfMs": 1791259200000
     }
   },
@@ -1041,5 +1041,5 @@
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1791306521099
+  "updatedMs": 1791322635276
 }
