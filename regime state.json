@@ -15,116 +15,116 @@
     "curve": {
       "state": "normal",
       "vote": "on",
-      "detail": "10y-2y 0.45pp (2y 4.83, 10y 5.28)",
-      "asOfMs": 1790899200000,
+      "detail": "10y-2y 0.47pp (2y 4.84, 10y 5.31)",
+      "asOfMs": 1791158400000,
       "status": "ok",
       "raw": {
-        "spread": 0.45,
-        "y2": 4.83,
-        "y10": 5.28
+        "spread": 0.47,
+        "y2": 4.84,
+        "y10": 5.31
       }
     },
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.94 vs 20d avg 100.36",
-      "asOfMs": 1790913600000,
+      "detail": "DXY 101.88 vs 20d avg 100.67",
+      "asOfMs": 1791259200000,
       "status": "ok",
       "raw": {
-        "last": 101.94,
-        "avg": 100.36,
-        "gap": 1.57
+        "last": 101.88,
+        "avg": 100.67,
+        "gap": 1.22
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.31 vs VIX3M 18.01",
-      "asOfMs": 1790947800000,
+      "detail": "VIX 15.06 vs VIX3M 17.64",
+      "asOfMs": 1791293400000,
       "status": "ok",
       "raw": {
-        "vix": 15.31,
-        "vix3m": 18.01,
-        "diff": -2.7
+        "vix": 15.06,
+        "vix3m": 17.64,
+        "diff": -2.58
       }
     },
     "credit": {
       "state": "above 20-obs avg",
       "vote": "off",
-      "detail": "HY spread 3.24pp vs 20-obs avg 2.79pp (as of 2026-10-01)",
-      "asOfMs": 1790812800000,
+      "detail": "HY spread 3.12pp vs 20-obs avg 2.84pp (as of 2026-10-05)",
+      "asOfMs": 1791158400000,
       "status": "ok",
       "raw": {
-        "spread": 3.24,
-        "avg": 2.79,
-        "newHigh": true
+        "spread": 3.12,
+        "avg": 2.84,
+        "newHigh": false
       }
     },
     "rotation": {
       "state": "cyclicals leading",
       "vote": "on",
-      "detail": "defensives 5d -1.9% vs others -1.1%",
-      "asOfMs": 1790947800000,
+      "detail": "defensives 5d -0.2% vs others 1.7%",
+      "asOfMs": 1791293400000,
       "status": "ok",
       "raw": {
-        "defMedPct": -1.9,
-        "othMedPct": -1.1,
-        "diffPct": -0.7
+        "defMedPct": -0.2,
+        "othMedPct": 1.7,
+        "diffPct": -1.9
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2725 vs 20d avg 0.2778",
-      "asOfMs": 1790947800000,
+      "detail": "RSP/SPY 0.2724 vs 20d avg 0.2767",
+      "asOfMs": 1791293400000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2725,
-        "avg": 0.2778,
-        "gap": -0.0053
+        "ratio": 0.2724,
+        "avg": 0.2767,
+        "gap": -0.0043
       }
     },
     "skew": {
       "state": "subdued",
       "vote": "on",
-      "detail": "SKEW 142.8 vs 20d avg 147",
-      "asOfMs": 1790861400000,
+      "detail": "SKEW 143 vs 20d avg 146.3",
+      "asOfMs": 1791207000000,
       "status": "ok",
       "raw": {
-        "skew": 142.77,
-        "avg": 146.99,
-        "gap": -4.22
+        "skew": 143.04,
+        "avg": 146.28,
+        "gap": -3.24
       }
     }
   },
   "context": {
     "overnight": [
       {
-        "name": "DAX",
-        "pct": 1.2,
-        "asOfMs": 1790924400000
+        "name": "Nikkei",
+        "pct": 2.4,
+        "asOfMs": 1791158400000
       },
       {
-        "name": "Nikkei",
-        "pct": 3.3,
-        "asOfMs": 1790812800000
+        "name": "DAX",
+        "pct": 0.8,
+        "asOfMs": 1791270000000
       },
       {
         "name": "Hang Seng",
-        "pct": 0.4,
-        "asOfMs": 1790731800000
+        "pct": 0.3,
+        "asOfMs": 1791163800000
       }
     ],
     "rates": {
       "impliedRate": 3.93,
-      "changeBp": -4.5,
-      "asOfMs": 1790913600000
+      "changeBp": -4,
+      "asOfMs": 1791259200000
     }
   },
   "stress": {
     "vixBackwardation": false,
     "curveInverted": false,
-    "hySpreadNew20High": true
+    "hySpreadNew20High": false
   },
   "macroSeen": [],
   "changeLog": [
@@ -1032,9 +1032,14 @@
       "ts": 1790891584261,
       "kind": "REGIME-FLIP",
       "line": "REGIME-FLIP risk-off -> risk-on · 4-3 · drivers: curve positive, VIX in contango, cyclicals leading, crash-hedging subdued"
+    },
+    {
+      "ts": 1791306521099,
+      "kind": "STRESS-CLEAR",
+      "line": "STRESS-CLEAR hySpreadNew20High"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1790974730055
+  "updatedMs": 1791306521099
 }
