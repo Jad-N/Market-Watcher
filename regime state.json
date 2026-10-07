@@ -1,15 +1,15 @@
 {
   "regime": {
-    "label": "risk-on",
+    "label": "risk-off",
     "tally": "4-3",
     "drivers": [
-      "curve positive",
-      "VIX in contango",
-      "cyclicals leading",
-      "crash-hedging subdued"
+      "dollar strong",
+      "credit spreads widening",
+      "defensives leading",
+      "breadth narrow"
     ],
-    "on": 4,
-    "off": 3
+    "on": 3,
+    "off": 4
   },
   "components": {
     "curve": {
@@ -27,61 +27,61 @@
     "dollar": {
       "state": "above 20d avg",
       "vote": "off",
-      "detail": "DXY 101.86 vs 20d avg 100.67",
-      "asOfMs": 1791259200000,
+      "detail": "DXY 102.26 vs 20d avg 100.84",
+      "asOfMs": 1791345600000,
       "status": "ok",
       "raw": {
-        "last": 101.86,
-        "avg": 100.67,
-        "gap": 1.19
+        "last": 102.26,
+        "avg": 100.84,
+        "gap": 1.42
       }
     },
     "vol": {
       "state": "contango",
       "vote": "on",
-      "detail": "VIX 15.01 vs VIX3M 17.64",
-      "asOfMs": 1791293400000,
+      "detail": "VIX 15.14 vs VIX3M 17.73",
+      "asOfMs": 1791379800000,
       "status": "ok",
       "raw": {
-        "vix": 15.01,
-        "vix3m": 17.64,
-        "diff": -2.63
+        "vix": 15.14,
+        "vix3m": 17.73,
+        "diff": -2.59
       }
     },
     "credit": {
       "state": "above 20-obs avg",
       "vote": "off",
-      "detail": "HY spread 3.12pp vs 20-obs avg 2.84pp (as of 2026-10-05)",
-      "asOfMs": 1791158400000,
+      "detail": "HY spread 3.03pp vs 20-obs avg 2.86pp (as of 2026-10-06)",
+      "asOfMs": 1791244800000,
       "status": "ok",
       "raw": {
-        "spread": 3.12,
-        "avg": 2.84,
+        "spread": 3.03,
+        "avg": 2.86,
         "newHigh": false
       }
     },
     "rotation": {
-      "state": "cyclicals leading",
-      "vote": "on",
-      "detail": "defensives 5d -0.1% vs others 1.4%",
-      "asOfMs": 1791293400000,
+      "state": "defensives leading",
+      "vote": "off",
+      "detail": "defensives 5d 1.7% vs others 0.9%",
+      "asOfMs": 1791379800000,
       "status": "ok",
       "raw": {
-        "defMedPct": -0.1,
-        "othMedPct": 1.4,
-        "diffPct": -1.4
+        "defMedPct": 1.7,
+        "othMedPct": 0.9,
+        "diffPct": 0.9
       }
     },
     "breadth": {
       "state": "below 20d avg",
       "vote": "off",
-      "detail": "RSP/SPY 0.2725 vs 20d avg 0.2767",
-      "asOfMs": 1791293400000,
+      "detail": "RSP/SPY 0.2715 vs 20d avg 0.2762",
+      "asOfMs": 1791379800000,
       "status": "ok",
       "raw": {
-        "ratio": 0.2725,
-        "avg": 0.2767,
-        "gap": -0.0042
+        "ratio": 0.2715,
+        "avg": 0.2762,
+        "gap": -0.0047
       }
     },
     "skew": {
@@ -100,25 +100,25 @@
   "context": {
     "overnight": [
       {
-        "name": "Nikkei",
-        "pct": 2.4,
-        "asOfMs": 1791158400000
+        "name": "DAX",
+        "pct": -1.4,
+        "asOfMs": 1791356400000
       },
       {
-        "name": "DAX",
-        "pct": 0.8,
-        "asOfMs": 1791270000000
+        "name": "Nikkei",
+        "pct": 1.1,
+        "asOfMs": 1791244800000
       },
       {
         "name": "Hang Seng",
-        "pct": 0.3,
-        "asOfMs": 1791163800000
+        "pct": 1,
+        "asOfMs": 1791250200000
       }
     ],
     "rates": {
       "impliedRate": 3.93,
       "changeBp": -4.5,
-      "asOfMs": 1791259200000
+      "asOfMs": 1791345600000
     }
   },
   "stress": {
@@ -1037,9 +1037,19 @@
       "ts": 1791306521099,
       "kind": "STRESS-CLEAR",
       "line": "STRESS-CLEAR hySpreadNew20High"
+    },
+    {
+      "ts": 1791395152135,
+      "kind": "REGIME",
+      "line": "REGIME rotation cyclicals leading -> defensives leading"
+    },
+    {
+      "ts": 1791395152135,
+      "kind": "REGIME-FLIP",
+      "line": "REGIME-FLIP risk-on -> risk-off · 4-3 · drivers: dollar strong, credit spreads widening, defensives leading, breadth narrow"
     }
   ],
   "lastDigestMs": 1781235171800,
   "primed": true,
-  "updatedMs": 1791322635276
+  "updatedMs": 1791395152135
 }
