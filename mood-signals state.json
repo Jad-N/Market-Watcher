@@ -1,9 +1,9 @@
 {
-  "computedET": "2026-10-14",
-  "computedMs": 1791992839469,
+  "computedET": "2026-10-15",
+  "computedMs": 1792078417048,
   "block": {
-    "asOfET": "Oct 14, 2026",
-    "asOfMs": 1791992839000,
+    "asOfET": "Oct 15, 2026",
+    "asOfMs": 1792078416000,
     "groups": [
       {
         "key": "riskAppetite",
@@ -18,8 +18,8 @@
             "detail": "steady stocks holding up better",
             "status": "ok",
             "raw": {
-              "ratio": 1.9885,
-              "avg": 2.1159
+              "ratio": 1.9344,
+              "avg": 2.112
             }
           },
           {
@@ -30,8 +30,8 @@
             "detail": "money rotating to safer bonds",
             "status": "ok",
             "raw": {
-              "ratio": 0.7499,
-              "avg": 0.7532
+              "ratio": 0.745,
+              "avg": 0.753
             }
           }
         ]
@@ -49,25 +49,25 @@
             "detail": "paying up for crash protection",
             "status": "ok",
             "raw": {
-              "skew": 154.74,
-              "avg": 146.18
+              "skew": 157.3,
+              "avg": 146.75
             }
           },
           {
             "key": "safeHaven",
             "label": "Safe-haven scorecard",
-            "state": "1 of 4 safe havens bid",
+            "state": "3 of 4 safe havens bid",
             "lean": "neutral",
-            "detail": "dollar rising",
+            "detail": "gold, bonds, yen rising",
             "status": "ok",
             "raw": {
-              "bid": 1,
+              "bid": 3,
               "total": 4,
               "changes": {
-                "gold": -1.66,
-                "bonds": -0.01,
-                "yen": 0.12,
-                "dollar": 0.69
+                "gold": 1.75,
+                "bonds": 1.5,
+                "yen": -0.12,
+                "dollar": -0.39
               }
             }
           }
